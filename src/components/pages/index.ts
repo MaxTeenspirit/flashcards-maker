@@ -1,0 +1,3 @@
+export {default as Home} from './Home';
+export {default as Decks} from './Decks';
+export {default as Learn} from './Learn';
