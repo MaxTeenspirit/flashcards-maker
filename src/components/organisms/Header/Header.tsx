@@ -1,35 +1,91 @@
-import {useState} from 'react';
-import {Box, Flex, Link, useMediaQuery} from '@chakra-ui/react';
+import {useState, useEffect} from 'react';
+import {Box, Flex, Link, HStack, IconButton, useMediaQuery} from '@chakra-ui/react';
 import {HamburgerIcon} from '@chakra-ui/icons';
 
-import {IconCTA} from '@atoms';
+import {Icon, NavLink, IconCTA} from '@atoms';
 import {MobileMenu} from '@molecules';
 
 const Header = () => {
 	const [isMobile] = useMediaQuery('(max-width: 768px)');
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [isScrolled, setIsScrolled] = useState(false);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			if (window.scrollY > 50) {
+				setIsScrolled(true);
+			} else {
+				setIsScrolled(false);
+			}
+		};
+
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
 
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
 
 	return (
-		<Flex as="header" align="center" justify="space-between" padding="1rem" borderBottom="1px solid #ccc">
+		<Flex
+			as="header"
+			align="center"
+			justify="space-between"
+			padding={['1rem', '1rem 3rem']}
+			borderBottom="1px solid #ccc"
+			height={isScrolled ? ['70px', '90px', '120px'] : ['80px', '110px', '130px']}
+			color="#E0E0E0"
+			bg="#20293C"
+			position="sticky"
+			top="0"
+			transition="height 0.2s ease-in-out, padding 0.3s ease-in-out"
+		>
 			<Box>
-				{isMobile && <IconCTA iconComponent={<HamburgerIcon />} label="Menu" toggle={toggleMenu} />}
-				<Link href="/">Home</Link>
+				<Link as={NavLink} to="/">
+					<Icon
+						src="logo-100.png"
+						srcSet="logo-100.png 50w, logo-140.png 70w, logo-200.png 100w"
+						sizes="(max-width: 425px) 50px, (max-width: 768px) 70px, 100px"
+						boxSize={isScrolled ? ['30px', '40px', '70px'] : ['50px', '70px', '100px']}
+						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
+					/>
+				</Link>
 			</Box>
+			{isMobile && (
+				<IconButton
+					variant="unstiled"
+					aria-label="Menu"
+					icon={
+						<HamburgerIcon
+							color="#E0E0E0"
+							boxSize={isScrolled ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
+							transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
+						/>
+					}
+					mr={2}
+					onClick={toggleMenu}
+				/>
+			)}
 
 			{!isMobile && (
-				<Box>
-					<Link href="/about">About</Link>
-					<Link href="/services" ml={4}>
-						Services
+				<HStack>
+					<Link as={NavLink} to="/learn">
+						<IconCTA text="Learn" condition={isScrolled} iconName={'learn'} />
 					</Link>
-					<Link href="/contact" ml={4}>
-						Contact
+					<Link as={NavLink} to="/allCards">
+						<IconCTA margin="0 1rem" text="All Cards" condition={isScrolled} iconName={'all'} />
 					</Link>
-				</Box>
+					<Link as={NavLink} to="/decks">
+						<IconCTA text="Decks" condition={isScrolled} iconName={'piles'} />
+					</Link>
+					<Link as={NavLink} to="/create">
+						<IconCTA margin="0 0 0 1rem" text="Create" condition={isScrolled} iconName={'add'} />
+					</Link>
+				</HStack>
 			)}
 
 			<MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu}></MobileMenu>

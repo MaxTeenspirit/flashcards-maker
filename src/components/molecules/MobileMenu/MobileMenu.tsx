@@ -14,7 +14,7 @@ import {IMobileMenu} from './IMobileMenu.ts';
 
 const MobileMenu = ({isOpen, toggleMenu}: IMobileMenu) => {
 	return (
-		<Drawer isOpen={isOpen} placement="left" onClose={toggleMenu}>
+		<Drawer isOpen={isOpen} placement="right" onClose={toggleMenu}>
 			<DrawerOverlay />
 			<DrawerContent>
 				<DrawerCloseButton />

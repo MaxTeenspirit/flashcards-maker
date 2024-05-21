@@ -1,7 +1,6 @@
-import {ReactElement} from 'react';
-
 export interface IIconCTA {
-	iconComponent: ReactElement;
-	label: string;
-	toggle: () => void;
+	condition?: boolean;
+	text: string;
+	iconName: string;
+	margin?: string;
 }
