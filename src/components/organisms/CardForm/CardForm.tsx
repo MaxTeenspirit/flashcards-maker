@@ -1,8 +1,10 @@
+import {useEffect} from 'react';
 import {useForm} from 'react-hook-form';
 import {useSelector, useDispatch} from 'react-redux';
-import {Box, Button, FormControl, FormLabel, Input, Select, Stack, useToast} from '@chakra-ui/react';
+import {Box, Button, FormControl, FormLabel, Input, Select, Stack, Checkbox, useToast} from '@chakra-ui/react';
 
 import {RootState} from '@redux';
+import {capitalizeWord} from '@helpers';
 import {ICard} from '@redux-types';
 import {addCard, addCardToDeck} from '@slices';
 import {InputWrapper} from '@molecules';
@@ -13,16 +15,22 @@ const CardForm = ({isEditing}: ICardForm) => {
 	const dispatch = useDispatch();
 	const toast = useToast();
 
-	const {register, handleSubmit, watch, reset} = useForm<ICard>();
+	const {register, handleSubmit, watch, reset, setValue} = useForm<ICard>();
 
 	const {decks} = useSelector((state: RootState) => state.decks);
 
 	const wordType = watch('wordType');
 
+	useEffect(() => {
+		setValue('plural', '=');
+	}, [setValue]);
+
 	const onSubmit = (data: ICard) => {
 		const id = crypto.randomUUID();
 
-		dispatch(addCard({...data, id}));
+		const newCard = {...data, id, word: capitalizeWord(data?.word)};
+
+		dispatch(addCard(newCard));
 		dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
 
 		toast({
@@ -72,7 +80,16 @@ const CardForm = ({isEditing}: ICardForm) => {
 							</Select>
 						</FormControl>
 					)}
+
+					{wordType === 'verb' && (
+						<FormControl isRequired={false}>
+							<Box display="flex" alignItems="center" justifyContent="center">
+								<Checkbox {...register('isStrong', {required: false})}>Is strong</Checkbox>
+							</Box>
+						</FormControl>
+					)}
 				</InputWrapper>
+
 				<FormControl isRequired>
 					<FormLabel>Word</FormLabel>
 					<Input {...register('word', {required: true})} />
@@ -89,18 +106,17 @@ const CardForm = ({isEditing}: ICardForm) => {
 					<FormLabel>Translation</FormLabel>
 					<Input {...register('translation', {required: true})} />
 				</FormControl>
-				<InputWrapper>
-					<FormControl isRequired>
-						<FormLabel>Deck</FormLabel>
-						<Select {...register('deck', {required: true})}>
-							{decks.map((deck) => (
-								<option key={deck.id} value={deck.id}>
-									{deck.name}
-								</option>
-							))}
-						</Select>
-					</FormControl>
-				</InputWrapper>
+
+				<FormControl isRequired>
+					<FormLabel>Deck</FormLabel>
+					<Select {...register('deck', {required: true})}>
+						{decks.map((deck) => (
+							<option key={deck.id} value={deck.id}>
+								{deck.name}
+							</option>
+						))}
+					</Select>
+				</FormControl>
 
 				<Button type="submit" mt={6}>
 					Add Card

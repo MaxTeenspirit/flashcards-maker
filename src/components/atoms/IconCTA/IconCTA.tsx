@@ -33,6 +33,7 @@ const IconCTA = ({text, condition, iconName, margin}: IIconCTA) => {
 				transform={condition ? 'translate(0, -20px)' : 'translate(0, 0)'}
 				textAlign="center"
 				transition="transform 0.2s ease-in-out, opacity 0.2s ease-in-out"
+				color="#E0E0E0"
 			>
 				{text}
 			</Text>

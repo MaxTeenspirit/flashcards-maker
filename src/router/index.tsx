@@ -1,6 +1,6 @@
 import {createBrowserRouter, createRoutesFromElements, Route} from 'react-router-dom';
 
-import {Home, Decks, Learn, Create} from '@pages';
+import {Home, Decks, Learn, Create, AllCards} from '@pages';
 import App from '../App';
 
 export const router = createBrowserRouter(
@@ -10,7 +10,7 @@ export const router = createBrowserRouter(
 			<Route path="/decks" element={<Decks />} />
 			<Route path="/decks/:deckId" element={<Decks />} />
 			<Route path="/learn" element={<Learn />} />
-			<Route path="/allCards" element={<Learn />} />
+			<Route path="/allCards" element={<AllCards />} />
 			<Route path="/create" element={<Create />} />
 		</Route>,
 	),

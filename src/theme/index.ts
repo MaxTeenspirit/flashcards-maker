@@ -1,4 +1,4 @@
-import {extendTheme, textDecoration} from '@chakra-ui/react';
+import {extendTheme} from '@chakra-ui/react';
 
 const inputsVariants = {
 	outline: {
@@ -18,6 +18,19 @@ const components = {
 			color: '#20293C',
 			paddingBottom: ['1rem', '2rem', '3rem'],
 			textAlign: 'center',
+		},
+		sizes: {
+			h2: {
+				fontSize: ['1rem', '1.5rem', '2rem'],
+			},
+			h4: {
+				paddingBottom: '0',
+			},
+		},
+	},
+	Text: {
+		baseStyle: {
+			color: '#6F6F6F',
 		},
 	},
 	Input: {

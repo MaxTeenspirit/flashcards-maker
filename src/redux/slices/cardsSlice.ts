@@ -16,12 +16,15 @@ export const cardsSlice = createSlice({
 		addCard: (state, {payload}) => {
 			state.cards = [...state.cards, payload];
 		},
+		deleteCard: (state, {payload}) => {
+			state.cards = state.cards.filter((card) => card.id !== payload.id);
+		},
 		deleteAllCards: (state) => {
 			state.cards = initialState.cards;
 		},
 	},
 });
 
-export const {getAllCards, addCard, deleteAllCards} = cardsSlice.actions;
+export const {getAllCards, addCard, deleteAllCards, deleteCard} = cardsSlice.actions;
 
 export default cardsSlice.reducer;

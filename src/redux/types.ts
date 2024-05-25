@@ -6,6 +6,7 @@ export interface ICard {
 	translation: string;
 	plural?: string;
 	deck: string;
+	isStrong?: boolean;
 }
 
 export interface ICardInitialState {
