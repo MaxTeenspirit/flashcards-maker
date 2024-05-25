@@ -7,10 +7,11 @@ import {RouterProvider} from 'react-router-dom';
 
 import {persistor, store} from './redux/store';
 import {router} from './router';
+import theme from './theme';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<ChakraProvider>
+		<ChakraProvider theme={theme}>
 			<Provider store={store}>
 				<PersistGate loading={null} persistor={persistor}>
 					<RouterProvider router={router} />

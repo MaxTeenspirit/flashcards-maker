@@ -4,9 +4,11 @@ import {persistReducer, persistStore} from 'redux-persist';
 import storage from 'redux-persist-indexeddb-storage';
 
 import cardsReducer from './slices/cardsSlice';
+import decksReducer from './slices/deckSlice';
 
 const rootReducer = combineReducers({
 	cards: cardsReducer,
+	decks: decksReducer,
 });
 
 const persistConfig = {
@@ -27,3 +29,4 @@ export const store = configureStore({
 });
 
 export const persistor = persistStore(store);
+export type RootState = ReturnType<typeof store.getState>;

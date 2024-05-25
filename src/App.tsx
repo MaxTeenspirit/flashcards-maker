@@ -2,7 +2,7 @@ import {useEffect} from 'react';
 import {Outlet, useLocation} from 'react-router-dom';
 import {Box} from '@chakra-ui/react';
 
-import {Header} from '@organisms';
+import {Wrapper, Header} from '@organisms';
 
 function App() {
 	const {pathname} = useLocation();
@@ -12,11 +12,11 @@ function App() {
 	}, [pathname]);
 
 	return (
-		<Box position="relative" minHeight="200vh" bg="#CFD8DC">
+		<Box position="relative" minHeight="100vh" bg="#CFD8DC">
 			<Header />
-			<main>
+			<Wrapper>
 				<Outlet />
-			</main>
+			</Wrapper>
 		</Box>
 	);
 }

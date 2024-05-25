@@ -1,8 +1,8 @@
 import {createSlice} from '@reduxjs/toolkit';
 
-import {IInitialState} from '../types';
+import {ICardInitialState} from '../types';
 
-const initialState: IInitialState = {
+const initialState: ICardInitialState = {
 	cards: [],
 };
 

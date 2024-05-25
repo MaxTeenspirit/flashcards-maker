@@ -1,12 +1,23 @@
 export interface ICard {
 	id?: string;
-	single: string;
-	plural: string;
+	article?: string;
+	wordType: string;
+	word: string;
 	translation: string;
-	timesShowed: number;
-	isNew: boolean;
+	plural?: string;
+	deck: string;
 }
 
-export interface IInitialState {
+export interface ICardInitialState {
 	cards: ICard[];
+}
+
+export interface IDeck {
+	id?: string;
+	name: string;
+	cards: string[];
+}
+
+export interface IDeckInitialState {
+	decks: IDeck[];
 }

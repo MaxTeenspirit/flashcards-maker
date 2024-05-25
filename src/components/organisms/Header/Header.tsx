@@ -12,7 +12,7 @@ const Header = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > 50) {
+			if (window.scrollY > 20) {
 				setIsScrolled(true);
 			} else {
 				setIsScrolled(false);
@@ -40,7 +40,9 @@ const Header = () => {
 			height={isScrolled ? ['70px', '90px', '120px'] : ['80px', '110px', '130px']}
 			color="#E0E0E0"
 			bg="#20293C"
-			position="sticky"
+			position="fixed"
+			width="100%"
+			zIndex={9}
 			top="0"
 			transition="height 0.2s ease-in-out, padding 0.3s ease-in-out"
 		>

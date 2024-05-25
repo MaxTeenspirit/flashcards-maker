@@ -27,7 +27,9 @@
 			"@molecules": ["components/molecules"],
 			"@organisms": ["components/organisms"],
 			"@pages": ["components/pages"],
-			"@slices": ["redux/slices"]
+			"@redux": ["redux/store.ts"],
+			"@redux-types": ["redux/types.ts"],
+			"@slices": ["redux/slices/index.ts"]
 		}
 	},
 	"include": ["src"],
