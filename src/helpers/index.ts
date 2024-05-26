@@ -32,3 +32,18 @@ export const chooseBackgroundColor = (card: ICard) => {
 
 	return 'white';
 };
+
+export const getRandomSubset = <T>(arr: T[], num: number): T[] => {
+	if (arr.length <= num) {
+		return arr;
+	}
+
+	const arrayCopy = [...arr];
+
+	for (let i = arrayCopy.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[arrayCopy[i], arrayCopy[j]] = [arrayCopy[j], arrayCopy[i]];
+	}
+
+	return arrayCopy.slice(0, num);
+};

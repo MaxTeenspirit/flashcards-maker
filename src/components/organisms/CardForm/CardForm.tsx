@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import {useEffect, memo} from 'react';
 import {useForm} from 'react-hook-form';
 import {useSelector, useDispatch} from 'react-redux';
 import {Box, Button, FormControl, FormLabel, Input, Select, Stack, Checkbox, useToast} from '@chakra-ui/react';
@@ -11,7 +11,7 @@ import {InputWrapper} from '@molecules';
 
 import {ICardForm} from './ICardForm.ts';
 
-const CardForm = ({isEditing}: ICardForm) => {
+const CardForm = memo(({isEditing}: ICardForm) => {
 	const dispatch = useDispatch();
 	const toast = useToast();
 
@@ -124,6 +124,6 @@ const CardForm = ({isEditing}: ICardForm) => {
 			</Stack>
 		</Box>
 	);
-};
+});
 
 export default CardForm;

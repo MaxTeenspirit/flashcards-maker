@@ -54,7 +54,9 @@ const AllCards = () => {
 					</GridItem>
 				))}
 			</Grid>
-			<Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
+			{cards?.length > itemsPerPage ? (
+				<Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
+			) : null}
 		</Box>
 	);
 };

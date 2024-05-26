@@ -12,6 +12,7 @@ export const router = createBrowserRouter(
 			<Route path="/learn" element={<Learn />} />
 			<Route path="/allCards" element={<AllCards />} />
 			<Route path="/create" element={<Create />} />
+			<Route path="/create/:deck" element={<Create />} />
 		</Route>,
 	),
 );

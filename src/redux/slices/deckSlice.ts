@@ -10,9 +10,6 @@ export const deckSlice = createSlice({
 	name: 'decks',
 	initialState,
 	reducers: {
-		getAllDecks: (state) => {
-			return state;
-		},
 		addDeck: (state, {payload}) => {
 			state.decks = [...state.decks, payload];
 		},
@@ -30,6 +27,6 @@ export const deckSlice = createSlice({
 	},
 });
 
-export const {getAllDecks, addDeck, addCardToDeck, deleteDeck} = deckSlice.actions;
+export const {addDeck, addCardToDeck, deleteDeck} = deckSlice.actions;
 
 export default deckSlice.reducer;
