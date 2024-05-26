@@ -25,6 +25,7 @@ const components = {
 			},
 			h4: {
 				paddingBottom: '0',
+				fontSize: ['1.1rem', '1.2rem', '1.5rem'],
 			},
 		},
 	},
@@ -48,6 +49,9 @@ const components = {
 				backgroundColor: '#FDAC04',
 				color: '#20293C',
 				_hover: {color: '#20293C', bg: '#66C4F7'},
+			},
+			outline: {
+				background: '#FAFAFA',
 			},
 		},
 	},

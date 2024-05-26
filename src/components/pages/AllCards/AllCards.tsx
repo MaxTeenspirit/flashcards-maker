@@ -1,14 +1,24 @@
+import {useState} from 'react';
 import {Box, Heading, Link, Grid, GridItem} from '@chakra-ui/react';
 import {useSelector} from 'react-redux';
 
 import {RootState} from '@redux';
-import {NavLink} from '@atoms';
+import {NavLink, Pagination} from '@atoms';
 import {Card} from '@molecules';
 
 const AllCards = () => {
 	const {cards} = useSelector((state: RootState) => state.cards);
+	const [currentPage, setCurrentPage] = useState(1);
 
 	const isNoCards = !cards || !cards.length;
+	const itemsPerPage = 6;
+	const totalPages = Math.ceil(cards.length / itemsPerPage);
+	const startIndex = (currentPage - 1) * itemsPerPage;
+	const currentCards = cards.slice(startIndex, startIndex + itemsPerPage);
+
+	const handlePageChange = (page: number) => {
+		setCurrentPage(page);
+	};
 
 	if (isNoCards) {
 		return (
@@ -28,6 +38,7 @@ const AllCards = () => {
 			<Heading as="h1">All Cards</Heading>
 
 			<Grid
+				mb="2rem"
 				templateColumns={{
 					base: 'repeat(1, 1fr)',
 					sm: 'repeat(1, 1fr)',
@@ -37,12 +48,13 @@ const AllCards = () => {
 				}}
 				gap={6}
 			>
-				{cards.map((card) => (
+				{currentCards.map((card) => (
 					<GridItem key={card?.id || card?.word}>
 						<Card card={card} />
 					</GridItem>
 				))}
 			</Grid>
+			<Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
 		</Box>
 	);
 };

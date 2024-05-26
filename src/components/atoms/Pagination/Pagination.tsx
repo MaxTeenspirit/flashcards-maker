@@ -1,0 +1,87 @@
+import {Button, Flex, IconButton} from '@chakra-ui/react';
+import {ChevronLeftIcon, ChevronRightIcon} from '@chakra-ui/icons';
+
+import {IPagination} from './IPagination.ts';
+
+const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
+	const visiblePages = [];
+	const totalVisiblePages = 5;
+	let startPage = Math.max(1, currentPage - Math.floor(totalVisiblePages / 2));
+	let endPage = Math.min(totalPages, startPage + totalVisiblePages - 1);
+
+	if (totalPages <= totalVisiblePages) {
+		startPage = 1;
+		endPage = totalPages;
+	} else {
+		if (currentPage <= Math.ceil(totalVisiblePages / 2)) {
+			endPage = totalVisiblePages;
+		} else if (currentPage >= totalPages - Math.floor(totalVisiblePages / 2)) {
+			startPage = totalPages - totalVisiblePages + 1;
+		}
+	}
+
+	for (let i = startPage; i <= endPage; i++) {
+		visiblePages.push(i);
+	}
+
+	const isFirstPage = currentPage === 1;
+	const isLastPage = currentPage === totalPages;
+
+	const handlePageChange = (page: number) => {
+		if (page >= 1 && page <= totalPages) {
+			onPageChange(page);
+		}
+	};
+
+	return (
+		<Flex justify="center" align="center">
+			<IconButton
+				icon={<ChevronLeftIcon />}
+				variant="ghost"
+				onClick={() => handlePageChange(currentPage - 1)}
+				disabled={isFirstPage}
+				aria-label="Previous Page"
+				mr={2}
+			/>
+			{startPage > 1 && (
+				<>
+					<Button variant="ghost" onClick={() => handlePageChange(1)}>
+						1
+					</Button>
+					<Button variant="unstyled" disabled>
+						...
+					</Button>
+				</>
+			)}
+			{visiblePages.map((page) => (
+				<Button
+					key={page}
+					variant={page === currentPage ? 'outline' : 'ghost'}
+					onClick={() => handlePageChange(page)}
+				>
+					{page}
+				</Button>
+			))}
+			{endPage < totalPages && (
+				<>
+					<Button variant="unstyled" disabled>
+						...
+					</Button>
+					<Button variant="ghost" onClick={() => handlePageChange(totalPages)}>
+						{totalPages}
+					</Button>
+				</>
+			)}
+			<IconButton
+				icon={<ChevronRightIcon />}
+				onClick={() => handlePageChange(currentPage + 1)}
+				disabled={isLastPage}
+				aria-label="Next Page"
+				variant="ghost"
+				ml={2}
+			/>
+		</Flex>
+	);
+};
+
+export default Pagination;

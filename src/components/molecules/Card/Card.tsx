@@ -1,4 +1,4 @@
-import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text} from '@chakra-ui/react';
+import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery} from '@chakra-ui/react';
 import {useDispatch} from 'react-redux';
 
 import {chooseBackgroundColor} from '@helpers';
@@ -10,6 +10,7 @@ import {ICardProps} from './ICard';
 
 const Card = ({card}: ICardProps) => {
 	const dispatch = useDispatch();
+	const [isMobile] = useMediaQuery('(max-width: 425px)');
 
 	const handleDeleteCard = () => {
 		dispatch(deleteCard({id: card.id}));
@@ -20,13 +21,13 @@ const Card = ({card}: ICardProps) => {
 			<CardHeader
 				p={card?.wordType === 'adjective' ? '0.5rem 1rem 2.3rem 1rem' : '0.5rem 1rem 0rem 1rem'}
 				fontSize={['2rem', '1.2rem']}
-				whiteSpace="nowrap"
+				whiteSpace={isMobile ? '' : 'nowrap'}
 			>
 				<Flex width="100%" alignItems="center" justifyContent="space-between">
-					<Heading size="h4">
+					<Heading textAlign="left" size="h4">
 						{card?.wordType === 'noun' ? card.article + ' ' : ''}
 						{card.word} -{' '}
-						<Text as="span" textAlign="start">
+						<Text textAlign="left" as="span">
 							{card.translation}
 						</Text>
 					</Heading>
@@ -36,13 +37,13 @@ const Card = ({card}: ICardProps) => {
 				</Flex>
 			</CardHeader>
 			{card?.wordType === 'noun' && card?.plural ? (
-				<CardBody p="0rem 1rem 0.5rem 1rem" fontSize={['2rem', '1.2rem']}>
-					<Text textAlign="start">{`die ${card.plural}`}</Text>
+				<CardBody p="0rem 1rem 0.5rem 1rem" fontSize={['1.1rem', '1.2rem']}>
+					<Text textAlign="left">{`die ${card.plural}`}</Text>
 				</CardBody>
 			) : null}
 			{card?.wordType === 'verb' ? (
-				<CardBody p="0rem 1rem 0.5rem 1rem" fontSize={['1.5rem', '1rem']}>
-					<Text pb="0.3rem" textAlign="start">
+				<CardBody p="0rem 1rem 0.5rem 1rem" fontSize={['1.1rem', '1rem']}>
+					<Text textAlign="left" pb="0.3rem">
 						{card?.isStrong ? 'сильний' : 'слабкий'}
 					</Text>
 				</CardBody>
