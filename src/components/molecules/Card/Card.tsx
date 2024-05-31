@@ -5,6 +5,7 @@ import {chooseBackgroundColor} from '@helpers';
 import {deleteCard} from '@slices';
 
 import CardMenu from '../CardMenu';
+import Modal from '../Modal';
 
 import {ICardProps} from './ICard';
 
@@ -32,7 +33,16 @@ const Card = ({card}: ICardProps) => {
 						</Text>
 					</Heading>
 					<CardMenu>
-						<CardMenu.Item onClick={handleDeleteCard}>Delete</CardMenu.Item>
+						<Modal
+							text={{
+								message: `Ви впевнені, що хочете видалити картку ${card.word}?`,
+								title: `Видалити ${card.word}?`,
+								cancel: 'Відміна',
+								approve: 'Видалити',
+							}}
+							onApprove={handleDeleteCard}
+							trigger={<CardMenu.Item>Видалити</CardMenu.Item>}
+						/>
 					</CardMenu>
 				</Flex>
 			</CardHeader>

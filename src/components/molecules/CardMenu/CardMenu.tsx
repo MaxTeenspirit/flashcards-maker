@@ -6,7 +6,7 @@ import {ICardMenu} from './ICardMenu.ts';
 const CardMenu = ({children}: ICardMenu) => {
 	return (
 		<Menu>
-			<MenuButton as={IconButton} icon={<BsThreeDotsVertical />} variant="ghost" aria-label="See menu" />
+			<MenuButton as={IconButton} icon={<BsThreeDotsVertical />} variant="ghost" aria-label="Дивитись меню" />
 			<MenuList>{children}</MenuList>
 		</Menu>
 	);

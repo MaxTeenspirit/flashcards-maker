@@ -22,8 +22,8 @@ const DeckForm = memo(({isEditing}: IDeckForm) => {
 		dispatch(addDeck(newDeck));
 
 		toast({
-			title: `Deck ${data.name} is added`,
-			description: 'Now you have a deck!',
+			title: `Стек ${data.name} створено`,
+			description: 'Тепер створюйте картки в цьому стеку!',
 			status: 'success',
 			duration: 4000,
 			isClosable: true,
@@ -33,7 +33,7 @@ const DeckForm = memo(({isEditing}: IDeckForm) => {
 	};
 
 	if (isEditing) {
-		return <Box>Editing</Box>;
+		return <Box>Редагування</Box>;
 	}
 
 	return (
@@ -49,12 +49,12 @@ const DeckForm = memo(({isEditing}: IDeckForm) => {
 		>
 			<Stack spacing={2}>
 				<FormControl isRequired>
-					<FormLabel>Deck name</FormLabel>
+					<FormLabel>Назва стеку</FormLabel>
 					<Input {...register('name', {required: true})} />
 				</FormControl>
 
 				<Button type="submit" mt={6}>
-					Add Deck
+					Додати стек
 				</Button>
 			</Stack>
 		</Box>

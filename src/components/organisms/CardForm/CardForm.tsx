@@ -34,8 +34,8 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 		dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
 
 		toast({
-			title: `${data?.article ? data?.article + ' ' : ''}${data.word} card is added!`,
-			description: "We've created a card and placed it to the deck.",
+			title: `${data?.article ? data?.article + ' ' : ''}${data.word} картка створена!`,
+			description: 'Наші привітання! Ви щойно створили нову картку.',
 			status: 'success',
 			duration: 4000,
 			isClosable: true,
@@ -45,7 +45,7 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 	};
 
 	if (isEditing) {
-		return <Box>Editing</Box>;
+		return <Box>Редагування</Box>;
 	}
 
 	return (
@@ -62,17 +62,17 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 			<Stack spacing={2}>
 				<InputWrapper shouldMobileColumn={false}>
 					<FormControl isRequired>
-						<FormLabel>Type</FormLabel>
-						<Select {...register('wordType', {required: true})} placeholder="Select type of the word">
-							<option value="noun">Noun</option>
-							<option value="verb">Verb</option>
-							<option value="adjective">Adjective</option>
+						<FormLabel>Тип слова</FormLabel>
+						<Select {...register('wordType', {required: true})} placeholder="Оберіть тип слова">
+							<option value="noun">Іменник</option>
+							<option value="verb">Дієслово</option>
+							<option value="adjective">Прикметник</option>
 						</Select>
 					</FormControl>
 
 					{wordType === 'noun' && (
 						<FormControl isRequired={wordType === 'noun'} isDisabled={wordType !== 'noun'} ml="1rem">
-							<FormLabel>Article</FormLabel>
+							<FormLabel>Артикль</FormLabel>
 							<Select {...register('article', {required: wordType === 'noun'})}>
 								<option value="der">Der</option>
 								<option value="die">Die</option>
@@ -84,31 +84,31 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 					{wordType === 'verb' && (
 						<FormControl isRequired={false}>
 							<Box display="flex" alignItems="center" justifyContent="center">
-								<Checkbox {...register('isStrong', {required: false})}>Is strong</Checkbox>
+								<Checkbox {...register('isStrong', {required: false})}>сильне</Checkbox>
 							</Box>
 						</FormControl>
 					)}
 				</InputWrapper>
 
 				<FormControl isRequired>
-					<FormLabel>Word</FormLabel>
+					<FormLabel>Слово</FormLabel>
 					<Input {...register('word', {required: true})} />
 				</FormControl>
 
 				{wordType === 'noun' && (
 					<FormControl isRequired={wordType === 'noun'} isDisabled={wordType !== 'noun'}>
-						<FormLabel>Plural</FormLabel>
+						<FormLabel>Множина</FormLabel>
 						<Input {...register('plural', {required: wordType === 'noun'})} />
 					</FormControl>
 				)}
 
 				<FormControl isRequired>
-					<FormLabel>Translation</FormLabel>
+					<FormLabel>Переклад</FormLabel>
 					<Input {...register('translation', {required: true})} />
 				</FormControl>
 
 				<FormControl isRequired>
-					<FormLabel>Deck</FormLabel>
+					<FormLabel>Стек</FormLabel>
 					<Select {...register('deck', {required: true})}>
 						{decks.map((deck) => (
 							<option key={deck.id} value={deck.id}>
@@ -119,7 +119,7 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 				</FormControl>
 
 				<Button type="submit" mt={6}>
-					Add Card
+					Додати картку
 				</Button>
 			</Stack>
 		</Box>

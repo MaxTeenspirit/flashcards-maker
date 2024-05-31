@@ -23,10 +23,10 @@ const AllCards = () => {
 	if (isNoCards) {
 		return (
 			<Box>
-				<Heading as="h1">All Cards</Heading>
+				<Heading as="h1">Всі картки</Heading>
 				<Heading as="h2" size="h2">
 					<Link as={NavLink} to="/create">
-						Click here to create your first card!
+						Натисніть тут, щоб створити свою першу картку!
 					</Link>
 				</Heading>
 			</Box>
@@ -35,7 +35,7 @@ const AllCards = () => {
 
 	return (
 		<Box>
-			<Heading as="h1">All Cards</Heading>
+			<Heading as="h1">Всі картки</Heading>
 
 			<Grid
 				mb="2rem"

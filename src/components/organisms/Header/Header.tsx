@@ -76,16 +76,16 @@ const Header = () => {
 			{!isMobile && (
 				<HStack>
 					<Link as={NavLink} to="/learn">
-						<IconCTA text="Learn" condition={isScrolled} iconName={'learn'} />
+						<IconCTA text="Вчити" condition={isScrolled} iconName={'learn'} />
 					</Link>
 					<Link as={NavLink} to="/allCards">
-						<IconCTA margin="0 1rem" text="All Cards" condition={isScrolled} iconName={'all'} />
+						<IconCTA margin="0 1rem" text="Всі картки" condition={isScrolled} iconName={'all'} />
 					</Link>
 					<Link as={NavLink} to="/decks">
-						<IconCTA text="Decks" condition={isScrolled} iconName={'piles'} />
+						<IconCTA text="Стеки" condition={isScrolled} iconName={'piles'} />
 					</Link>
 					<Link as={NavLink} to="/create">
-						<IconCTA margin="0 0 0 1rem" text="Create" condition={isScrolled} iconName={'add'} />
+						<IconCTA margin="0 0 0 1rem" text="Створити" condition={isScrolled} iconName={'add'} />
 					</Link>
 				</HStack>
 			)}

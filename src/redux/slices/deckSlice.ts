@@ -3,7 +3,7 @@ import {createSlice} from '@reduxjs/toolkit';
 import {IDeckInitialState} from '../types';
 
 const initialState: IDeckInitialState = {
-	decks: [{id: 'all', name: 'All cards', cards: []}],
+	decks: [{id: 'all', name: 'Слова без стеку', cards: []}],
 };
 
 export const deckSlice = createSlice({

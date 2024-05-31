@@ -26,10 +26,10 @@ const Decks = () => {
 	if (isNoDecks) {
 		return (
 			<Box>
-				<Heading as="h1">Decks</Heading>
+				<Heading as="h1">Стеки</Heading>
 				<Heading as="h2" size="h2">
 					<Link as={NavLink} to="/create/deck">
-						Click here to create your first deck!
+						Натисніть тут, щоб створити свій перший стек!
 					</Link>
 				</Heading>
 			</Box>
@@ -38,7 +38,7 @@ const Decks = () => {
 
 	return (
 		<Box>
-			<Heading as="h1">Decks</Heading>
+			<Heading as="h1">Стеки</Heading>
 
 			<Grid
 				mb="2rem"
