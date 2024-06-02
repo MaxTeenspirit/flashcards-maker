@@ -54,7 +54,8 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 			onSubmit={handleSubmit(onSubmit)}
 			p={7}
 			borderWidth={1}
-			backgroundColor="#EFEFEF"
+			backgroundColor="#F5F5F5"
+			borderColor="#979DA8"
 			borderRadius="md"
 			maxWidth="680px"
 			margin="0 auto"

@@ -1,4 +1,4 @@
-import {extendTheme} from '@chakra-ui/react';
+import {border, extendTheme} from '@chakra-ui/react';
 
 const inputsVariants = {
 	outline: {

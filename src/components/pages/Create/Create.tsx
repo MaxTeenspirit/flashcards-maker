@@ -5,7 +5,7 @@ import {useParams} from 'react-router-dom';
 import {CardForm, DeckForm} from '@organisms';
 
 const Create = () => {
-	const {deck} = useParams();
+	const {deckId} = useParams();
 
 	const [activeTab, setActiveTab] = useState(0);
 
@@ -16,14 +16,14 @@ const Create = () => {
 	return (
 		<Tabs
 			index={activeTab}
-			defaultIndex={deck ? 1 : 0}
+			defaultIndex={deckId ? 1 : 0}
 			onChange={handleTabsChange}
 			isFitted
 			variant="solid-rounded"
 			maxWidth="680px"
 			margin="0 auto"
 		>
-			<Heading as="h1">Створити {deck || activeTab ? 'стек карток' : 'картку'}</Heading>
+			<Heading as="h1">Створити {deckId || activeTab ? 'стек карток' : 'картку'}</Heading>
 			<TabList mb="2rem">
 				<Tab>Картку</Tab>
 				<Tab>Стек карток</Tab>

@@ -22,3 +22,12 @@ export interface IDeck {
 export interface IDeckInitialState {
 	decks: IDeck[];
 }
+
+export interface IWord extends Omit<ICard, 'id' | 'deck'> {
+	article?: string;
+	word: string;
+	plural?: string | undefined;
+	translation: string;
+	isStrong?: boolean;
+	wordType: string;
+}

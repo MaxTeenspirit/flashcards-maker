@@ -1,4 +1,4 @@
-import {ICard} from '@redux-types';
+import {ICard, IWord} from '@redux-types';
 
 export const capitalizeWord = (word: string) => {
 	if (!word) {
@@ -8,7 +8,7 @@ export const capitalizeWord = (word: string) => {
 	return word.charAt(0).toUpperCase() + word.slice(1);
 };
 
-export const chooseBackgroundColor = (card: ICard) => {
+export const chooseBackgroundColor = (card: ICard | IWord) => {
 	if (card.wordType === 'noun') {
 		switch (card.article) {
 			case 'der':
@@ -46,4 +46,35 @@ export const getRandomSubset = <T>(arr: T[], num: number): T[] => {
 	}
 
 	return arrayCopy.slice(0, num);
+};
+
+export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] | null => {
+	if (!cards || !cards?.length || !deckId) {
+		return null;
+	}
+	const cardsInDeck = cards.filter((card) => card.deck === deckId);
+
+	return cardsInDeck.map((card) => ({
+		word: card.word,
+		translation: card.translation,
+		plural: card?.plural,
+		isStrong: card?.isStrong,
+		wordType: card.wordType,
+		article: card?.article,
+	}));
+};
+
+export const getRandomIndexFromArray = <T>(array: Array<T> | null, prevIndex?: number): number => {
+	if (!array || !array.length) {
+		return 0;
+	}
+
+	const randomBytes = new Uint32Array(1);
+	crypto.getRandomValues(randomBytes);
+
+	const newIndex = randomBytes[0] % array.length;
+
+	const randomIndex = newIndex === prevIndex ? getRandomIndexFromArray(array, newIndex) : newIndex;
+
+	return randomIndex;
 };
