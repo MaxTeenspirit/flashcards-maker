@@ -1,5 +1,6 @@
 import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery} from '@chakra-ui/react';
 import {useDispatch} from 'react-redux';
+import {useNavigate} from 'react-router-dom';
 
 import {chooseBackgroundColor} from '@helpers';
 import {deleteCard} from '@slices';
@@ -11,6 +12,7 @@ import {ICardProps} from './ICard';
 
 const Card = ({card}: ICardProps) => {
 	const dispatch = useDispatch();
+	const navigate = useNavigate();
 	const [isMobile] = useMediaQuery('(max-width: 425px)');
 
 	const handleDeleteCard = () => {
@@ -33,6 +35,7 @@ const Card = ({card}: ICardProps) => {
 						</Text>
 					</Heading>
 					<CardMenu>
+						<CardMenu.Item onClick={() => navigate(`/edit-card/${card.id}`)}>Редагувати</CardMenu.Item>
 						<Modal
 							text={{
 								message: `Ви впевнені, що хочете видалити картку ${card.word}?`,

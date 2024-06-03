@@ -1,3 +1,3 @@
 export interface IDeckForm {
-	isEditing?: boolean;
+	isEdit?: boolean;
 }

@@ -8,7 +8,7 @@ import {addDeck} from '@slices';
 
 import {IDeckForm} from './IDeckForm.ts';
 
-const DeckForm = memo(({isEditing}: IDeckForm) => {
+const DeckForm = memo(({isEdit}: IDeckForm) => {
 	const dispatch = useDispatch();
 	const toast = useToast();
 
@@ -32,7 +32,7 @@ const DeckForm = memo(({isEditing}: IDeckForm) => {
 		reset();
 	};
 
-	if (isEditing) {
+	if (isEdit) {
 		return <Box>Редагування</Box>;
 	}
 

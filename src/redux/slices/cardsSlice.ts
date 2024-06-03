@@ -1,6 +1,6 @@
 import {createSlice} from '@reduxjs/toolkit';
 
-import {ICardInitialState} from '../types';
+import {ICardInitialState, ICard} from '../types';
 
 const initialState: ICardInitialState = {
 	cards: [],
@@ -21,6 +21,34 @@ export const cardsSlice = createSlice({
 				return card;
 			});
 		},
+		editCard: (state, {payload}) => {
+			const editCardIndex = state.cards.findIndex((card) => card.id === payload.id);
+
+			if (editCardIndex || editCardIndex === 0) {
+				state.cards = state.cards.reduce((cards, current, i) => {
+					if (i === editCardIndex) {
+						const editableCard = state.cards[editCardIndex];
+
+						const changedCard = {
+							...editableCard,
+							wordType: payload?.wordType || editableCard?.wordType,
+							article: payload?.article || editableCard?.article,
+							word: payload?.word || editableCard?.word,
+							plural: payload?.plural || editableCard?.plural,
+							translation: payload?.translation || editableCard?.translation,
+							deck: payload?.deck || editableCard?.deck,
+							isStrong: payload?.isStrong || editableCard?.isStrong,
+						};
+
+						cards.push(changedCard);
+					} else {
+						cards.push(current);
+					}
+
+					return cards;
+				}, [] as ICard[]);
+			}
+		},
 		deleteCard: (state, {payload}) => {
 			state.cards = state.cards.filter((card) => card.id !== payload.id);
 		},
@@ -33,6 +61,6 @@ export const cardsSlice = createSlice({
 	},
 });
 
-export const {addCard, setDefaultCardsDeck, deleteAllCards, deleteCards, deleteCard} = cardsSlice.actions;
+export const {addCard, setDefaultCardsDeck, editCard, deleteAllCards, deleteCards, deleteCard} = cardsSlice.actions;
 
 export default cardsSlice.reducer;

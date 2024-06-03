@@ -14,6 +14,8 @@ export const router = createBrowserRouter(
 			<Route path="/allCards" element={<AllCards />} />
 			<Route path="/create" element={<Create />} />
 			<Route path="/create/:deckId" element={<Create />} />
+			<Route path="/edit-card/:cardId" element={<Create isEdit />} />
+			<Route path="/edit-deck/:deckId" element={<Create isEdit />} />
 		</Route>,
 	),
 );

@@ -1,3 +1,4 @@
 export interface ICardForm {
-	isEditing?: boolean;
+	isEdit?: boolean;
+	cardId?: string;
 }

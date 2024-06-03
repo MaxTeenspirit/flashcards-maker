@@ -6,18 +6,21 @@ import {Box, Button, FormControl, FormLabel, Input, Select, Stack, Checkbox, use
 import {RootState} from '@redux';
 import {capitalizeWord} from '@helpers';
 import {ICard} from '@redux-types';
-import {addCard, addCardToDeck} from '@slices';
+import {addCard, addCardToDeck, editCard} from '@slices';
 import {InputWrapper} from '@molecules';
 
 import {ICardForm} from './ICardForm.ts';
 
-const CardForm = memo(({isEditing}: ICardForm) => {
+const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 	const dispatch = useDispatch();
 	const toast = useToast();
 
 	const {register, handleSubmit, watch, reset, setValue} = useForm<ICard>();
 
 	const {decks} = useSelector((state: RootState) => state.decks);
+	const {cards} = useSelector((state: RootState) => state.cards);
+
+	const cardToEdit: ICard | undefined = cards.find((card) => card.id === cardId);
 
 	const wordType = watch('wordType');
 
@@ -25,28 +28,62 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 		setValue('plural', '=');
 	}, [setValue]);
 
+	useEffect(() => {
+		if (cardToEdit && isEdit) {
+			const fieldsToSet: Array<keyof ICard> = [
+				'wordType',
+				'article',
+				'word',
+				'plural',
+				'translation',
+				'deck',
+				'isStrong',
+			];
+
+			fieldsToSet.forEach((field) => {
+				if (field in cardToEdit) {
+					setValue(field, cardToEdit[field]);
+				}
+			});
+		}
+	}, [isEdit, cardToEdit, setValue]);
+
 	const onSubmit = (data: ICard) => {
-		const id = crypto.randomUUID();
+		if (!isEdit) {
+			const id = crypto.randomUUID();
 
-		const newCard = {...data, id, word: capitalizeWord(data?.word)};
+			const newCard = {...data, id, word: capitalizeWord(data?.word)};
 
-		dispatch(addCard(newCard));
-		dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
+			dispatch(addCard(newCard));
+			dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
 
-		toast({
-			title: `${data?.article ? data?.article + ' ' : ''}${data.word} картка створена!`,
-			description: 'Наші привітання! Ви щойно створили нову картку.',
-			status: 'success',
-			duration: 4000,
-			isClosable: true,
-		});
+			toast({
+				title: `${data?.article ? data?.article + ' ' : ''}${data.word} картка створена!`,
+				description: 'Наші вітання! Ви щойно створили нову картку.',
+				status: 'success',
+				duration: 4000,
+				isClosable: true,
+			});
 
-		reset();
+			reset();
+		} else if (isEdit && cardToEdit) {
+			dispatch(editCard({...data, id: cardToEdit.id}));
+
+			if (cardToEdit.deck !== data.deck) {
+				dispatch(addCardToDeck({deckId: data.deck, cardId: cardToEdit.id}));
+			}
+
+			toast({
+				title: `${data?.article ? data?.article + ' ' : ''}${data.word} картка змінена!`,
+				description: 'Ви успішно редагували картку.',
+				status: 'success',
+				duration: 4000,
+				isClosable: true,
+			});
+
+			reset();
+		}
 	};
-
-	if (isEditing) {
-		return <Box>Редагування</Box>;
-	}
 
 	return (
 		<Box
@@ -120,7 +157,7 @@ const CardForm = memo(({isEditing}: ICardForm) => {
 				</FormControl>
 
 				<Button type="submit" mt={6}>
-					Додати картку
+					{`${isEdit ? 'Редагувати' : 'Додати'} картку`}
 				</Button>
 			</Stack>
 		</Box>
