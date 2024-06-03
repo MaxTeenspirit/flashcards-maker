@@ -52,7 +52,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 		if (!isEdit) {
 			const id = crypto.randomUUID();
 
-			const newCard = {...data, id, word: capitalizeWord(data?.word)};
+			const newCard = {...data, id, word: capitalizeWord(data?.word), plural: data?.plural || '='};
 
 			dispatch(addCard(newCard));
 			dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
@@ -134,9 +134,9 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 				</FormControl>
 
 				{wordType === 'noun' && (
-					<FormControl isRequired={wordType === 'noun'} isDisabled={wordType !== 'noun'}>
+					<FormControl isDisabled={wordType !== 'noun'}>
 						<FormLabel>Множина</FormLabel>
-						<Input {...register('plural', {required: wordType === 'noun'})} />
+						<Input {...register('plural')} />
 					</FormControl>
 				)}
 

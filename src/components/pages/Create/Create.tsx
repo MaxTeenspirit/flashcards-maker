@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {Heading, Tabs, Tab, TabList, TabPanels, TabPanel} from '@chakra-ui/react';
 import {useParams} from 'react-router-dom';
 
@@ -8,7 +8,13 @@ const Create = ({isEdit}: {isEdit?: boolean}) => {
 	const {deckId} = useParams();
 	const {cardId} = useParams();
 
-	const [activeTab, setActiveTab] = useState(0);
+	const [activeTab, setActiveTab] = useState((isEdit && deckId) || deckId ? 1 : 0);
+
+	useEffect(() => {
+		if (isEdit && deckId) {
+			setActiveTab(1);
+		}
+	}, [isEdit, deckId, cardId]);
 
 	const handleTabsChange = (index: number) => {
 		setActiveTab(index);
@@ -17,7 +23,7 @@ const Create = ({isEdit}: {isEdit?: boolean}) => {
 	return (
 		<Tabs
 			index={activeTab}
-			defaultIndex={deckId ? 1 : 0}
+			defaultIndex={(isEdit && deckId) || deckId ? 1 : 0}
 			onChange={handleTabsChange}
 			isFitted
 			variant="solid-rounded"
@@ -42,7 +48,7 @@ const Create = ({isEdit}: {isEdit?: boolean}) => {
 					<CardForm isEdit={isEdit} cardId={cardId} />
 				</TabPanel>
 				<TabPanel>
-					<DeckForm isEdit={isEdit} />
+					<DeckForm isEdit={isEdit} deckId={deckId} />
 				</TabPanel>
 			</TabPanels>
 		</Tabs>

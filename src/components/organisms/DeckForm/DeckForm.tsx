@@ -1,40 +1,51 @@
-import {memo} from 'react';
+import {memo, useEffect} from 'react';
 import {useForm} from 'react-hook-form';
-import {useDispatch} from 'react-redux';
+import {useSelector, useDispatch} from 'react-redux';
 import {Box, Button, FormControl, FormLabel, Input, Stack, useToast} from '@chakra-ui/react';
 
 import {IDeck} from '@redux-types';
-import {addDeck} from '@slices';
+import {addDeck, editDeck} from '@slices';
+import {RootState} from '@redux';
 
 import {IDeckForm} from './IDeckForm.ts';
 
-const DeckForm = memo(({isEdit}: IDeckForm) => {
+const DeckForm = memo(({isEdit, deckId}: IDeckForm) => {
 	const dispatch = useDispatch();
 	const toast = useToast();
 
-	const {register, handleSubmit, reset} = useForm<IDeck>();
+	const {decks} = useSelector((state: RootState) => state.decks);
+
+	const deckToEdit: IDeck | undefined = decks.find((deck) => deck.id === deckId);
+
+	const {register, handleSubmit, reset, setValue} = useForm<IDeck>();
+
+	useEffect(() => {
+		if (deckToEdit && isEdit) {
+			setValue('name', deckToEdit.name);
+		}
+	}, [deckToEdit, isEdit, setValue]);
 
 	const onSubmit = (data: IDeck) => {
-		const id = crypto.randomUUID();
+		if (!isEdit) {
+			const id = crypto.randomUUID();
 
-		const newDeck = {...data, id, cards: []};
+			const newDeck = {...data, id, cards: []};
 
-		dispatch(addDeck(newDeck));
+			dispatch(addDeck(newDeck));
 
-		toast({
-			title: `Стек ${data.name} створено`,
-			description: 'Тепер створюйте картки в цьому стеку!',
-			status: 'success',
-			duration: 4000,
-			isClosable: true,
-		});
+			toast({
+				title: `Стек ${data.name} створено`,
+				description: 'Тепер створюйте картки в цьому стеку!',
+				status: 'success',
+				duration: 4000,
+				isClosable: true,
+			});
 
-		reset();
+			reset();
+		} else if (isEdit && deckToEdit) {
+			dispatch(editDeck({id: deckToEdit.id, name: data.name}));
+		}
 	};
-
-	if (isEdit) {
-		return <Box>Редагування</Box>;
-	}
 
 	return (
 		<Box
@@ -55,7 +66,7 @@ const DeckForm = memo(({isEdit}: IDeckForm) => {
 				</FormControl>
 
 				<Button type="submit" mt={6}>
-					Додати стек
+					{`${isEdit ? 'Редагувати' : 'Додати'} стек`}
 				</Button>
 			</Stack>
 		</Box>

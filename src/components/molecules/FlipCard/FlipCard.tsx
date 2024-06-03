@@ -52,7 +52,7 @@ const FlipCard = ({word}: IFlipCard) => {
 					fontSize="2xl"
 					borderWidth={1}
 					borderColor="#979DA8"
-					borderRadius="md"
+					borderRadius="lg"
 					cursor="pointer"
 					sx={{
 						transformStyle: 'preserve-3d',
@@ -96,7 +96,7 @@ const FlipCard = ({word}: IFlipCard) => {
 							backfaceVisibility: 'hidden',
 							transform: 'rotateY(180deg)',
 							backgroundColor: 'white',
-							borderRadius: 'md',
+							borderRadius: 'lg',
 						}}
 					>
 						<Text ref={translationRef} fontSize="1.8rem">

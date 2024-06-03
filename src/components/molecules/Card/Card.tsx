@@ -3,7 +3,7 @@ import {useDispatch} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 
 import {chooseBackgroundColor} from '@helpers';
-import {deleteCard} from '@slices';
+import {deleteCard, deleteCardFromDeck} from '@slices';
 
 import CardMenu from '../CardMenu';
 import Modal from '../Modal';
@@ -17,6 +17,7 @@ const Card = ({card}: ICardProps) => {
 
 	const handleDeleteCard = () => {
 		dispatch(deleteCard({id: card.id}));
+		dispatch(deleteCardFromDeck({id: card.deck, cardId: card.id}));
 	};
 
 	return (

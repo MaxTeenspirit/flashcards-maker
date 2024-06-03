@@ -1,6 +1,6 @@
 import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery, useToast} from '@chakra-ui/react';
-import {useDispatch} from 'react-redux';
-import {useSelector} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
+import {useNavigate} from 'react-router-dom';
 
 import {deleteDeck, deleteCards, setDefaultCardsDeck} from '@slices';
 import {getRandomSubset} from '@helpers';
@@ -13,12 +13,14 @@ import {IDeckProps} from './IDeck.ts';
 
 const Deck = ({deck}: IDeckProps) => {
 	const dispatch = useDispatch();
+	const navigate = useNavigate();
 	const toast = useToast();
 	const [isMobile] = useMediaQuery('(max-width: 425px)');
 
 	const {cards} = useSelector((state: RootState) => state.cards);
 
 	const cardsInCurrentDeck = cards.filter((card) => card.deck === deck.id);
+	const cardsInCurrentDeckIds = cardsInCurrentDeck.map((card) => card.id);
 
 	const showToast = (isCards?: boolean, allDelete?: boolean) =>
 		toast({
@@ -46,7 +48,8 @@ const Deck = ({deck}: IDeckProps) => {
 			showToast(false, true);
 			return;
 		}
-		dispatch(deleteCards({cards: cardsInCurrentDeck}));
+
+		dispatch(deleteCards({cards: cardsInCurrentDeckIds}));
 		dispatch(deleteDeck({id: deck.id}));
 		showToast(true);
 	};
@@ -62,6 +65,12 @@ const Deck = ({deck}: IDeckProps) => {
 					</Heading>
 					{deck.id !== 'all' && (
 						<CardMenu>
+							<CardMenu.Item
+								onClick={() => navigate(`/edit-deck/${deck.id}`)}
+								fontSize={['1.6rem', '1.2rem']}
+							>
+								Редагувати
+							</CardMenu.Item>
 							<Modal
 								text={{
 									message: 'Ця дія видалить лише стек, картки залишаться!',

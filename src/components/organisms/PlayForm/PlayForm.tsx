@@ -16,12 +16,12 @@ const PlayForm = () => {
 		const {deck} = data;
 		const selectedDeck = decks.find((deck) => deck.id === data.deck);
 
-		if (selectedDeck && selectedDeck?.cards.length > 0) {
+		if (selectedDeck && selectedDeck?.cards.length > 1) {
 			navigate(`/learn/${deck}`);
 		} else {
 			toast({
-				title: 'В ціьому стеку немає слів!',
-				description: 'Стек пустий. Будь ласка, додайте картки в обраний стек',
+				title: 'Замало карток у стеку!',
+				description: 'Спочатку додайте картки у цей стек стек',
 				status: 'error',
 				duration: 4000,
 				isClosable: true,
