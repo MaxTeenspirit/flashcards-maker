@@ -53,7 +53,7 @@ const DeckForm = memo(({isEdit, deckId}: IDeckForm) => {
 			onSubmit={handleSubmit(onSubmit)}
 			p={7}
 			borderWidth={1}
-			backgroundColor="#F5F5F5"
+			backgroundColor="#FFFEED"
 			borderColor="#979DA8"
 			borderRadius="md"
 			maxWidth="680px"

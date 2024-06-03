@@ -27,7 +27,7 @@ export const chooseBackgroundColor = (card: ICard | IWord) => {
 	}
 
 	if (card.wordType === 'adjective') {
-		return '#FFDCA9';
+		return '#f0ffc4';
 	}
 
 	return 'white';

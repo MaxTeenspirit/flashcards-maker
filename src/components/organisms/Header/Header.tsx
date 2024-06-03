@@ -1,8 +1,8 @@
 import {useState, useEffect} from 'react';
-import {Box, Flex, Link, HStack, IconButton, useMediaQuery} from '@chakra-ui/react';
+import {Flex, Link, HStack, IconButton, useMediaQuery} from '@chakra-ui/react';
 import {HamburgerIcon} from '@chakra-ui/icons';
 
-import {Icon, NavLink, IconCTA} from '@atoms';
+import {Icon, NavLink, IconCTA, Title} from '@atoms';
 import {MobileMenu} from '@molecules';
 
 const Header = () => {
@@ -46,8 +46,8 @@ const Header = () => {
 			top="0"
 			transition="height 0.2s ease-in-out, padding 0.3s ease-in-out"
 		>
-			<Box>
-				<Link as={NavLink} to="/">
+			<Flex alignItems="center">
+				<Link display="flex" as={NavLink} to="/">
 					<Icon
 						src="logo-100.png"
 						srcSet="logo-100.png 50w, logo-140.png 70w, logo-200.png 100w"
@@ -56,7 +56,8 @@ const Header = () => {
 						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
 					/>
 				</Link>
-			</Box>
+				<Title />
+			</Flex>
 			{isMobile && (
 				<IconButton
 					variant="unstiled"

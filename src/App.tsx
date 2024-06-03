@@ -1,3 +1,5 @@
+import './font.css';
+
 import {useEffect} from 'react';
 import {Outlet, useLocation} from 'react-router-dom';
 import {Box} from '@chakra-ui/react';
@@ -12,7 +14,7 @@ function App() {
 	}, [pathname]);
 
 	return (
-		<Box position="relative" minHeight="100vh" bg="#EAEAEA">
+		<Box position="relative" minHeight="100vh" bg="#f7fcff">
 			<Header />
 			<Wrapper>
 				<Outlet />

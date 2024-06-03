@@ -21,7 +21,7 @@ const Card = ({card}: ICardProps) => {
 	};
 
 	return (
-		<CardUI backgroundColor={chooseBackgroundColor(card)}>
+		<CardUI backgroundColor={chooseBackgroundColor(card)} border="1px solid #42aaff">
 			<CardHeader
 				p={card?.wordType === 'adjective' ? '0.5rem 1rem 2.3rem 1rem' : '0.5rem 1rem 0rem 1rem'}
 				fontSize={['2rem', '1.2rem']}
