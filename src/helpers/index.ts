@@ -78,3 +78,16 @@ export const getRandomIndexFromArray = <T>(array: Array<T> | null, prevIndex?: n
 
 	return randomIndex;
 };
+
+export const shuffleArray = <T>(array: T[] | null): T[] | null => {
+	if (!array?.length) {
+		return null;
+	}
+
+	return array.reduce<T[]>((shuffled, _, i) => {
+		const j = Math.floor(Math.random() * (i + 1));
+		if (j !== i) shuffled[i] = shuffled[j];
+		shuffled[j] = array[i];
+		return shuffled;
+	}, []);
+};
