@@ -18,5 +18,5 @@ export const router = createBrowserRouter(
 			<Route path="/edit-deck/:deckId" element={<Create isEdit />} />
 		</Route>,
 	),
-	{basename: '/flashcards-maker'},
+	{basename: '/flashcards-maker/'},
 );
