@@ -5,14 +5,16 @@ import {Box, Button, FormControl, FormLabel, Select, Stack, Checkbox, useToast} 
 
 import {RootState} from '@redux';
 
-const PlayForm = ({setTranslationFirst}: {setTranslationFirst: (data: boolean) => void}) => {
+import {IPlayForm, IFormFields} from './IPlayForm';
+
+const PlayForm = ({setTranslationFirst}: IPlayForm) => {
 	const {decks} = useSelector((state: RootState) => state.decks);
-	const {register, handleSubmit} = useForm<{deck: string; translationFirst: boolean}>();
+	const {register, handleSubmit} = useForm<IFormFields>();
 	const toast = useToast();
 
 	const navigate = useNavigate();
 
-	const onSubmit = (data: {deck: string; translationFirst: boolean}) => {
+	const onSubmit = (data: IFormFields) => {
 		const {deck, translationFirst} = data;
 		const selectedDeck = decks.find((deck) => deck.id === data.deck);
 

@@ -1,6 +1,6 @@
 export interface IIconCTA {
 	condition?: boolean;
-	text: string;
+	text?: string;
 	iconName: string;
 	margin?: string;
 	onClick?: () => void;

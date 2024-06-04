@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import {useSelector} from 'react-redux';
 
 import {RootState} from '@redux';
+import {BackButton} from '@atoms';
 import {PlayForm, LearnCards} from '@organisms';
 import {getWordsFromDeck, shuffleArray} from '@helpers';
 
@@ -26,6 +27,7 @@ const Learn = () => {
 
 	return (
 		<Box overflow="hidden">
+			<BackButton />
 			<LearnCards isTranslationFirst={isTranslationFirst} words={shuffledWords} />
 		</Box>
 	);
