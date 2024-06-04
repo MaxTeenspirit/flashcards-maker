@@ -2,7 +2,7 @@
 	"name": "flashcards-maker",
 	"private": true,
 	"version": "0.0.0",
-	"homepage": "https://MaxTeenspirit.github.io/flashcards-maker/",
+	"homepage": "https://maxteenspirit.github.io/flashcards-maker/",
 	"type": "module",
 	"scripts": {
 		"predeploy": "npm run build",
