@@ -8,7 +8,7 @@ const Title = () => {
 			onClick={() => navigate('/')}
 			as="h1"
 			color="#f7fcff"
-			fontSize={['2rem', '2rem', '2rem', '3rem']}
+			fontSize={['1.6rem', '2rem', '2rem', '3rem']}
 			fontFamily="MaliRegular, sans-serif"
 			cursor="pointer"
 			padding="0 1rem"

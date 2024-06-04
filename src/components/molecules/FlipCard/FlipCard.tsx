@@ -1,5 +1,5 @@
 import {useState, useRef} from 'react';
-import {Box, Text, Center} from '@chakra-ui/react';
+import {Box, Text, Center, useMediaQuery} from '@chakra-ui/react';
 import {useMotionValue, useTransform} from 'framer-motion';
 
 import {MotionBox} from '@atoms';
@@ -11,6 +11,8 @@ import {IFlipCard} from './IFlipCard.ts';
 
 const FlipCard = ({word}: IFlipCard) => {
 	const [flipped, setFlipped] = useState(false);
+	const [isXSScreen] = useMediaQuery('(max-width: 360px)');
+
 	const x = useMotionValue(0);
 	const rotateY = useTransform(x, [-200, 0, 200], [15, 0, -15]);
 
@@ -42,8 +44,8 @@ const FlipCard = ({word}: IFlipCard) => {
 				}}
 			>
 				<Box
-					w="320px"
-					h="400px"
+					w={isXSScreen ? '270px' : '320px'}
+					h={isXSScreen ? '350px' : '400px'}
 					display="flex"
 					alignItems="center"
 					justifyContent="center"

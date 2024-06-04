@@ -14,7 +14,7 @@ function App() {
 	}, [pathname]);
 
 	return (
-		<Box position="relative" minHeight="100vh" bg="#f7fcff">
+		<Box position="relative" minHeight="100vh" bg="#F7FCFF">
 			<Header />
 			<Wrapper>
 				<Outlet />

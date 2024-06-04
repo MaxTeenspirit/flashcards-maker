@@ -37,7 +37,7 @@ const Header = () => {
 			justify="space-between"
 			padding={['1rem', '1rem 3rem']}
 			borderBottom="1px solid #ccc"
-			height={isScrolled ? ['70px', '90px', '120px'] : ['80px', '110px', '130px']}
+			height={isScrolled && !isMobile ? ['70px', '90px', '120px'] : ['80px', '110px', '130px']}
 			color="#E0E0E0"
 			bg="#20293C"
 			position="fixed"
@@ -52,7 +52,7 @@ const Header = () => {
 						src="logo-100.png"
 						srcSet="logo-100.png 50w, logo-140.png 70w, logo-200.png 100w"
 						sizes="(max-width: 425px) 50px, (max-width: 768px) 70px, 100px"
-						boxSize={isScrolled ? ['30px', '40px', '70px'] : ['50px', '70px', '100px']}
+						boxSize={isScrolled && !isMobile ? ['30px', '40px', '70px'] : ['50px', '70px', '100px']}
 						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
 					/>
 				</Link>
@@ -65,7 +65,7 @@ const Header = () => {
 					icon={
 						<HamburgerIcon
 							color="#E0E0E0"
-							boxSize={isScrolled ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
+							boxSize={isScrolled && !isMobile ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
 							transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
 						/>
 					}
@@ -77,21 +77,31 @@ const Header = () => {
 			{!isMobile && (
 				<HStack>
 					<Link as={NavLink} to="/learn">
-						<IconCTA text="Вчити" condition={isScrolled} iconName={'learn'} />
+						<IconCTA text="Вчити" condition={isScrolled && !isMobile} iconName={'learn'} />
 					</Link>
 					<Link as={NavLink} to="/allCards">
-						<IconCTA margin="0 1rem" text="Всі картки" condition={isScrolled} iconName={'all'} />
+						<IconCTA
+							margin="0 1rem"
+							text="Всі картки"
+							condition={isScrolled && !isMobile}
+							iconName={'all'}
+						/>
 					</Link>
 					<Link as={NavLink} to="/decks">
-						<IconCTA text="Стеки" condition={isScrolled} iconName={'piles'} />
+						<IconCTA text="Стеки" condition={isScrolled && !isMobile} iconName={'piles'} />
 					</Link>
 					<Link as={NavLink} to="/create">
-						<IconCTA margin="0 0 0 1rem" text="Створити" condition={isScrolled} iconName={'add'} />
+						<IconCTA
+							margin="0 0 0 1rem"
+							text="Створити"
+							condition={isScrolled && !isMobile}
+							iconName={'add'}
+						/>
 					</Link>
 				</HStack>
 			)}
 
-			<MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu}></MobileMenu>
+			{!!isMobile && <MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu}></MobileMenu>}
 		</Flex>
 	);
 };

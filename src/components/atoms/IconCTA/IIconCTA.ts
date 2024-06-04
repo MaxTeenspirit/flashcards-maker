@@ -3,4 +3,5 @@ export interface IIconCTA {
 	text: string;
 	iconName: string;
 	margin?: string;
+	onClick?: () => void;
 }

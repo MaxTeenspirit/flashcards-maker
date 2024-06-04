@@ -15,6 +15,14 @@ const LearnCards = ({words}: ILearnCards) => {
 	const x = useMotionValue(0);
 
 	useEffect(() => {
+		document.body.style.overflow = 'hidden';
+
+		return () => {
+			document.body.style.overflow = 'auto';
+		};
+	}, []);
+
+	useEffect(() => {
 		setHidden(false);
 	}, [index]);
 
