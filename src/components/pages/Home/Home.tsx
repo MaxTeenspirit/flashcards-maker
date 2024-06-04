@@ -22,7 +22,7 @@ const Home = () => {
 					</Heading>
 					{!!isTab && (
 						<Image
-							src="./public/asset1-600.png"
+							src="./asset1-600.png"
 							boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
 							margin="0 auto"
 						/>
@@ -69,7 +69,7 @@ const Home = () => {
 				</Box>
 				{!isTab && (
 					<Image
-						src="./public/asset1-600.png"
+						src="./asset1-600.png"
 						boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
 						marginTop="2rem"
 					/>
