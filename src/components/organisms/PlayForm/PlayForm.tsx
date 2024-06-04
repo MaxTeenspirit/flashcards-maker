@@ -1,20 +1,22 @@
 import {useSelector} from 'react-redux';
 import {useForm} from 'react-hook-form';
 import {useNavigate} from 'react-router-dom';
-import {Box, Button, FormControl, FormLabel, Select, Stack, useToast} from '@chakra-ui/react';
+import {Box, Button, FormControl, FormLabel, Select, Stack, Checkbox, useToast} from '@chakra-ui/react';
 
 import {RootState} from '@redux';
 
-const PlayForm = () => {
+const PlayForm = ({setTranslationFirst}: {setTranslationFirst: (data: boolean) => void}) => {
 	const {decks} = useSelector((state: RootState) => state.decks);
-	const {register, handleSubmit} = useForm<{deck: string}>();
+	const {register, handleSubmit} = useForm<{deck: string; translationFirst: boolean}>();
 	const toast = useToast();
 
 	const navigate = useNavigate();
 
-	const onSubmit = (data: {deck: string}) => {
-		const {deck} = data;
+	const onSubmit = (data: {deck: string; translationFirst: boolean}) => {
+		const {deck, translationFirst} = data;
 		const selectedDeck = decks.find((deck) => deck.id === data.deck);
+
+		setTranslationFirst(translationFirst);
 
 		if (selectedDeck && selectedDeck?.cards.length > 1) {
 			navigate(`/learn/${deck}`);
@@ -51,6 +53,12 @@ const PlayForm = () => {
 							</option>
 						))}
 					</Select>
+				</FormControl>
+
+				<FormControl isRequired={false}>
+					<Box display="flex" alignItems="center" justifyContent="center">
+						<Checkbox {...register('translationFirst', {required: false})}>спочатку переклад</Checkbox>
+					</Box>
 				</FormControl>
 
 				<Button type="submit" mt={6}>

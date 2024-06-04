@@ -7,7 +7,7 @@ import {getRandomIndexFromArray} from '@helpers';
 
 import {ILearnCards} from './ILearnCards.ts';
 
-const LearnCards = ({words}: ILearnCards) => {
+const LearnCards = ({words, isTranslationFirst}: ILearnCards) => {
 	const [hidden, setHidden] = useState(false);
 	const [index, setIndex] = useState(0);
 
@@ -63,7 +63,7 @@ const LearnCards = ({words}: ILearnCards) => {
 				onDragEnd={handleDragEnd}
 				key={index}
 			>
-				{!hidden && <FlipCard word={words[index]} />}
+				{!hidden && <FlipCard isTranslationFirst={isTranslationFirst} word={words[index]} />}
 			</MotionBox>
 		</AnimatePresence>
 	);

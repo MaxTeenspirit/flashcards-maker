@@ -9,7 +9,7 @@ import {chooseBackgroundColor} from '@helpers';
 
 import {IFlipCard} from './IFlipCard.ts';
 
-const FlipCard = ({word}: IFlipCard) => {
+const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 	const [flipped, setFlipped] = useState(false);
 	const [isXSScreen] = useMediaQuery('(max-width: 360px)');
 
@@ -23,6 +23,9 @@ const FlipCard = ({word}: IFlipCard) => {
 	const maxWidth = 300 / 16;
 	const initialFontSize = 1.8;
 
+	const isPlural = !!word?.plural && word?.wordType === 'noun' && !isTranslationFirst;
+	const isTranslatedPlural = !!word?.plural && word?.wordType === 'noun' && isTranslationFirst;
+	console.log(word.word, word.wordType);
 	useFitText(wordRef, initialFontSize, maxWidth);
 	useFitText(pluralRef, initialFontSize, maxWidth);
 	useFitText(translationRef, initialFontSize, maxWidth);
@@ -49,7 +52,7 @@ const FlipCard = ({word}: IFlipCard) => {
 					display="flex"
 					alignItems="center"
 					justifyContent="center"
-					bg={chooseBackgroundColor(word)}
+					bg={isTranslationFirst ? 'white' : chooseBackgroundColor(word)}
 					color="white"
 					fontSize="2xl"
 					borderWidth={1}
@@ -78,16 +81,19 @@ const FlipCard = ({word}: IFlipCard) => {
 							backfaceVisibility: 'hidden',
 						}}
 					>
-						<Text ref={wordRef} as="p" color="#20293C" fontSize="1.8rem">{`${
-							word?.article ? word?.article + ' ' : ''
-						}${word?.word}`}</Text>
-						{!!word?.plural && (
+						<Text ref={wordRef} as="p" color="#20293C" fontSize="1.8rem">
+							{isTranslationFirst
+								? word.translation
+								: `${word?.article ? word?.article + ' ' : ''}${word?.word}`}
+						</Text>
+						{!!isPlural && (
 							<Text ref={pluralRef} as="p" fontSize="1.8rem">{`${word?.article ? 'die ' : ''}${
 								word?.plural
 							}`}</Text>
 						)}
 					</Box>
 					<Box
+						backgroundColor={isTranslationFirst ? chooseBackgroundColor(word) : 'white'}
 						sx={{
 							position: 'absolute',
 							width: '100%',
@@ -95,15 +101,22 @@ const FlipCard = ({word}: IFlipCard) => {
 							display: 'flex',
 							alignItems: 'center',
 							justifyContent: 'center',
+							flexDir: 'column',
 							backfaceVisibility: 'hidden',
 							transform: 'rotateY(180deg)',
-							backgroundColor: 'white',
 							borderRadius: 'lg',
 						}}
 					>
-						<Text ref={translationRef} fontSize="1.8rem">
-							{word?.translation}
+						<Text ref={translationRef} as="p" fontSize="1.8rem">
+							{isTranslationFirst
+								? `${word?.article ? word?.article + ' ' : ''}${word?.word}`
+								: word.translation}
 						</Text>
+						{!!isTranslatedPlural && (
+							<Text ref={pluralRef} as="p" fontSize="1.8rem">{`${word?.article ? 'die ' : ''}${
+								word?.plural
+							}`}</Text>
+						)}
 					</Box>
 				</Box>
 			</MotionBox>
