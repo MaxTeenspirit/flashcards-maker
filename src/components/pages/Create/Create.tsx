@@ -39,8 +39,24 @@ const Create = ({isEdit}: {isEdit?: boolean}) => {
 			</Heading>
 			{!isEdit && (
 				<TabList mb="2rem">
-					<Tab>Картку</Tab>
-					<Tab>Стек карток</Tab>
+					<Tab
+						sx={{
+							WebkitTapHighlightColor: 'transparent',
+							WebkitFocusRingColor: 'transparent',
+							outline: 'none',
+						}}
+					>
+						Картку
+					</Tab>
+					<Tab
+						sx={{
+							WebkitTapHighlightColor: 'transparent',
+							WebkitFocusRingColor: 'transparent',
+							outline: 'none',
+						}}
+					>
+						Стек карток
+					</Tab>
 				</TabList>
 			)}
 			<TabPanels>

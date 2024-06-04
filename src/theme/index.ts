@@ -36,8 +36,9 @@ const components = {
 	},
 	Text: {
 		baseStyle: {
-			color: '#6F6F6F',
+			color: '#20293C',
 			fontFamily: 'MRegular',
+			fontSize: ['1.2rem', '1.2rem', '1.3rem'],
 		},
 	},
 	Input: {

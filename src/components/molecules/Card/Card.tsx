@@ -36,7 +36,12 @@ const Card = ({card}: ICardProps) => {
 						</Text>
 					</Heading>
 					<CardMenu>
-						<CardMenu.Item onClick={() => navigate(`/edit-card/${card.id}`)}>Редагувати</CardMenu.Item>
+						<CardMenu.Item
+							fontSize={['1.6rem', '1.2rem']}
+							onClick={() => navigate(`/edit-card/${card.id}`)}
+						>
+							Редагувати
+						</CardMenu.Item>
 						<Modal
 							text={{
 								message: `Ви впевнені, що хочете видалити картку ${card.word}?`,
@@ -45,7 +50,7 @@ const Card = ({card}: ICardProps) => {
 								approve: 'Видалити',
 							}}
 							onApprove={handleDeleteCard}
-							trigger={<CardMenu.Item>Видалити</CardMenu.Item>}
+							trigger={<CardMenu.Item fontSize={['1.6rem', '1.2rem']}>Видалити</CardMenu.Item>}
 						/>
 					</CardMenu>
 				</Flex>

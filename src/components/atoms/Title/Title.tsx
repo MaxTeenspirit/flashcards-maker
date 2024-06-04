@@ -12,6 +12,7 @@ const Title = () => {
 			fontFamily="MaliRegular, sans-serif"
 			cursor="pointer"
 			padding="0 1rem"
+			sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
 		>
 			FlashFluent DE
 		</Text>

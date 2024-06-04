@@ -47,7 +47,12 @@ const Header = () => {
 			transition="height 0.2s ease-in-out, padding 0.3s ease-in-out"
 		>
 			<Flex alignItems="center">
-				<Link display="flex" as={NavLink} to="/">
+				<Link
+					display="flex"
+					as={NavLink}
+					to="/"
+					sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
+				>
 					<Icon
 						src="logo-100.png"
 						srcSet="logo-100.png 50w, logo-140.png 70w, logo-200.png 100w"
@@ -62,6 +67,7 @@ const Header = () => {
 				<IconButton
 					variant="unstiled"
 					aria-label="Menu"
+					sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
 					icon={
 						<HamburgerIcon
 							color="#E0E0E0"
