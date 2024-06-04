@@ -1,0 +1,19 @@
+# Allow all web crawlers to index the main site
+User-agent: *
+Allow: /
+
+# Disallow access to certain directories or files
+Disallow: /private/
+Disallow: /temp/
+
+# Disallow access to any service worker files
+Disallow: /custom-sw.js
+
+# Allow Googlebot to access JavaScript, CSS, and image files
+User-agent: Googlebot
+Allow: *.js
+Allow: *.css
+Allow: *.png
+Allow: *.jpg
+Allow: *.svg
+Allow: *.ico

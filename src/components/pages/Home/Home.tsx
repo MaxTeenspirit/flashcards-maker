@@ -2,7 +2,7 @@ import {Box, Heading, Text, Image, Flex, useMediaQuery, Button} from '@chakra-ui
 import {useNavigate} from 'react-router-dom';
 
 const Home = () => {
-	const [isMobile, isTab] = useMediaQuery(['(max-width: 500px)', '(max-width: 900px)']);
+	const [isTab] = useMediaQuery(['(max-width: 900px)']);
 	const navigate = useNavigate();
 
 	const navigateToLearn = () => navigate('/learn');
