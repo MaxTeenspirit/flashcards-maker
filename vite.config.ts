@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react';
 import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig({
+	server: {
+		headers: {'cache-control': 'public, max-age=31536000'},
+	},
 	plugins: [
 		react(),
 		tsconfigPaths(),

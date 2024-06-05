@@ -4,6 +4,9 @@ import {ChakraProvider} from '@chakra-ui/react';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import {RouterProvider} from 'react-router-dom';
+import {registerSW} from 'virtual:pwa-register';
+
+registerSW({immediate: true});
 
 import {persistor, store} from './redux/store';
 import {router} from './router';
