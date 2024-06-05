@@ -1,14 +1,16 @@
 import {Box, Heading, Text, Image, Flex, useMediaQuery, Button} from '@chakra-ui/react';
 import {useNavigate} from 'react-router-dom';
 
+import styles from './Home.module.scss';
+
 const Home = () => {
 	const [isTab] = useMediaQuery(['(max-width: 900px)']);
+	console.log(isTab);
 	const navigate = useNavigate();
 
 	const navigateToLearn = () => navigate('/learn');
 	const navigateToCreateCard = () => navigate('/create');
 	const navigateToCreateDeck = () => navigate('/create/1');
-
 	return (
 		<Box padding={['0rem', '0rem', '0rem', '0 2rem', '0 6rem']}>
 			<Flex
@@ -20,15 +22,14 @@ const Home = () => {
 					<Heading as="h1" textAlign="start" p={['2rem 0', '3rem 0', '4rem 0']}>
 						Зручний інструмент вивчення слів німецької мови
 					</Heading>
-					{!!isTab && (
-						<Image
-							src="./asset1-600.png"
-							boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
-							margin="0 auto"
-							objectFit="cover"
-							style={{width: '150px', height: 'auto'}}
-						/>
-					)}
+					<Image
+						src="./asset1-600.png"
+						boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
+						margin="0 auto"
+						objectFit="cover"
+						style={{width: '150px', height: 'auto'}}
+						className={styles['home-image__mobile']}
+					/>
 					<Text as="p" paddingTop="1rem">
 						Створюйте картки слів, обʼєднуйте картки в стеки, вчіть слова приємно!
 					</Text>
@@ -69,15 +70,14 @@ const Home = () => {
 						</Flex>
 					)}
 				</Box>
-				{!isTab && (
-					<Image
-						src="./asset1-600.png"
-						boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
-						marginTop="2rem"
-						objectFit="cover"
-						style={{width: '320px', height: 'auto'}}
-					/>
-				)}
+				<Image
+					src="./asset1-600.png"
+					boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
+					marginTop="2rem"
+					objectFit="cover"
+					style={{width: '320px', height: 'auto'}}
+					className={styles['home-image__desktop']}
+				/>
 			</Flex>
 		</Box>
 	);
