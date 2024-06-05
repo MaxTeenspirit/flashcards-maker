@@ -73,7 +73,7 @@ const Header = () => {
 				icon={
 					<HamburgerIcon
 						color="#E0E0E0"
-						boxSize={isScrolled ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
+						boxSize={isScrolled && !isMobile ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
 						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
 					/>
 				}
