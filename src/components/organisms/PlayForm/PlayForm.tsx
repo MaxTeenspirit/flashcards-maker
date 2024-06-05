@@ -25,7 +25,7 @@ const PlayForm = ({setTranslationFirst}: IPlayForm) => {
 		} else {
 			toast({
 				title: 'Замало карток у стеку!',
-				description: 'Спочатку додайте картки у цей стек стек',
+				description: 'Спочатку додайте картки у цей стек',
 				status: 'error',
 				duration: 4000,
 				isClosable: true,

@@ -39,6 +39,43 @@ export default defineConfig({
 					},
 				],
 			},
+			workbox: {
+				runtimeCaching: [
+					{
+						urlPattern: ({request}) => request.destination === 'style',
+						handler: 'CacheFirst',
+						options: {
+							cacheName: 'css-cache',
+							expiration: {
+								maxEntries: 20,
+								maxAgeSeconds: 7 * 24 * 60 * 60, // 1 week
+							},
+						},
+					},
+					{
+						urlPattern: ({request}) => request.destination === 'font',
+						handler: 'CacheFirst',
+						options: {
+							cacheName: 'font-cache',
+							expiration: {
+								maxEntries: 20,
+								maxAgeSeconds: 365 * 24 * 60 * 60, // 1 year
+							},
+						},
+					},
+					{
+						urlPattern: ({request}) => request.destination === 'image',
+						handler: 'CacheFirst',
+						options: {
+							cacheName: 'image-cache',
+							expiration: {
+								maxEntries: 50,
+								maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
+							},
+						},
+					},
+				],
+			},
 		}),
 	],
 	base: '/flashcards-maker/',
