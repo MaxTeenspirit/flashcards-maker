@@ -9,6 +9,8 @@ import {IPlayForm, IFormFields} from './IPlayForm';
 
 const PlayForm = ({setTranslationFirst}: IPlayForm) => {
 	const {decks} = useSelector((state: RootState) => state.decks);
+	const {cards} = useSelector((state: RootState) => state.cards);
+
 	const {register, handleSubmit} = useForm<IFormFields>();
 	const toast = useToast();
 
@@ -20,7 +22,7 @@ const PlayForm = ({setTranslationFirst}: IPlayForm) => {
 
 		setTranslationFirst(translationFirst);
 
-		if (data.deck === 'all-cards' || (selectedDeck && selectedDeck?.cards.length > 1)) {
+		if ((data.deck === 'all-cards' && cards?.length) || (selectedDeck && selectedDeck?.cards.length > 1)) {
 			navigate(`/learn/${deck}`);
 		} else {
 			toast({

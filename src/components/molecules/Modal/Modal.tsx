@@ -32,9 +32,9 @@ const Modal = ({trigger, onApprove, text}: IModal) => {
 					<ModalCloseButton />
 					{!!title && <ModalHeader fontSize={['1.2rem', '1.4rem']}>{title}</ModalHeader>}
 					{!!message && <ModalBody fontSize={['1rem', '1.2rem']}>{message}</ModalBody>}
-					<ModalFooter>
+					<ModalFooter p="1rem 0.5rem">
 						{!!cancel && (
-							<Button variant="ghost" onClick={onClose} mr="1rem">
+							<Button variant="ghost" onClick={onClose} sx={{textWrap: 'wrap'}}>
 								{cancel}
 							</Button>
 						)}
