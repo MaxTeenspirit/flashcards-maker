@@ -1,5 +1,3 @@
-import './font.css';
-
 import {useEffect} from 'react';
 import {Outlet, useLocation} from 'react-router-dom';
 import {Box} from '@chakra-ui/react';
