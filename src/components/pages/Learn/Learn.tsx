@@ -15,7 +15,7 @@ const Learn = () => {
 
 	const words = getWordsFromDeck(cards, deckId);
 	const shuffledWords = shuffleArray(words);
-
+	console.log({words, shuffleArray, cards});
 	if (!deckId) {
 		return (
 			<>

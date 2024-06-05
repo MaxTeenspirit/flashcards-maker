@@ -52,7 +52,8 @@ export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] | nu
 	if (!cards || !cards?.length || !deckId) {
 		return null;
 	}
-	const cardsInDeck = cards.filter((card) => card.deck === deckId);
+
+	const cardsInDeck = deckId === 'all-cards' ? cards : cards.filter((card) => card.deck === deckId);
 
 	return cardsInDeck.map((card) => ({
 		word: card.word,

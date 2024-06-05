@@ -20,7 +20,7 @@ const PlayForm = ({setTranslationFirst}: IPlayForm) => {
 
 		setTranslationFirst(translationFirst);
 
-		if (selectedDeck && selectedDeck?.cards.length > 1) {
+		if (data.deck === 'all-cards' || (selectedDeck && selectedDeck?.cards.length > 1)) {
 			navigate(`/learn/${deck}`);
 		} else {
 			toast({
@@ -49,6 +49,9 @@ const PlayForm = ({setTranslationFirst}: IPlayForm) => {
 				<FormControl isRequired>
 					<FormLabel>Стек</FormLabel>
 					<Select {...register('deck', {required: true})}>
+						<option key={'all-cards'} value={'all-cards'}>
+							Всі картки
+						</option>
 						{decks.map((deck) => (
 							<option key={deck.id} value={deck.id}>
 								{deck.name}
