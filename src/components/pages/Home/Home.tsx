@@ -25,6 +25,8 @@ const Home = () => {
 							src="./asset1-600.png"
 							boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
 							margin="0 auto"
+							objectFit="cover"
+							style={{width: '150px', height: 'auto'}}
 						/>
 					)}
 					<Text as="p" paddingTop="1rem">
@@ -72,6 +74,8 @@ const Home = () => {
 						src="./asset1-600.png"
 						boxSize={['150px', '200px', '280px', '320px', '350px', '400px', '500px']}
 						marginTop="2rem"
+						objectFit="cover"
+						style={{width: '320px', height: 'auto'}}
 					/>
 				)}
 			</Flex>
