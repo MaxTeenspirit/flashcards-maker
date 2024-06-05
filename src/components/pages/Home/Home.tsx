@@ -56,9 +56,15 @@ const Home = () => {
 						alignItems="center"
 						className={styles['home__ctas_desktop']}
 					>
-						<Button margin={'0 1rem 2rem 0'}>Вчити</Button>
-						<Button margin={'0 1rem 2rem 0'}>Cтворити картку</Button>
-						<Button margin={'0 1rem 2rem 0'}>Створити стек</Button>
+						<Button onClick={navigateToLearn} margin={'0 1rem 2rem 0'}>
+							Вчити
+						</Button>
+						<Button onClick={navigateToCreateCard} margin={'0 1rem 2rem 0'}>
+							Cтворити картку
+						</Button>
+						<Button onClick={navigateToCreateDeck} margin={'0 1rem 2rem 0'}>
+							Створити стек
+						</Button>
 					</Flex>
 				</Box>
 				<Image
