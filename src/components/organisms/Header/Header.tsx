@@ -5,6 +5,8 @@ import {HamburgerIcon} from '@chakra-ui/icons';
 import {Icon, NavLink, IconCTA, Title} from '@atoms';
 import {MobileMenu} from '@molecules';
 
+import styles from './Header.module.scss';
+
 const Header = () => {
 	const [isMobile] = useMediaQuery('(max-width: 768px)');
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,49 +65,36 @@ const Header = () => {
 				</Link>
 				<Title />
 			</Flex>
-			{isMobile && (
-				<IconButton
-					variant="unstiled"
-					aria-label="Menu"
-					sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
-					icon={
-						<HamburgerIcon
-							color="#E0E0E0"
-							boxSize={isScrolled && !isMobile ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
-							transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
-						/>
-					}
-					mr={2}
-					onClick={toggleMenu}
-				/>
-			)}
+			<IconButton
+				className={styles['header__mobile-menu-cta']}
+				variant="unstiled"
+				aria-label="Menu"
+				sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
+				icon={
+					<HamburgerIcon
+						color="#E0E0E0"
+						boxSize={isScrolled ? ['20px', '30px', '50px'] : ['30px', '40px', '70px']}
+						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
+					/>
+				}
+				mr={2}
+				onClick={toggleMenu}
+			/>
 
-			{!isMobile && (
-				<HStack>
-					<Link as={NavLink} to="/learn">
-						<IconCTA text="Вчити" condition={isScrolled && !isMobile} iconName={'learn'} />
-					</Link>
-					<Link as={NavLink} to="/allCards">
-						<IconCTA
-							margin="0 1rem"
-							text="Всі картки"
-							condition={isScrolled && !isMobile}
-							iconName={'all'}
-						/>
-					</Link>
-					<Link as={NavLink} to="/decks">
-						<IconCTA text="Стеки" condition={isScrolled && !isMobile} iconName={'piles'} />
-					</Link>
-					<Link as={NavLink} to="/create">
-						<IconCTA
-							margin="0 0 0 1rem"
-							text="Створити"
-							condition={isScrolled && !isMobile}
-							iconName={'add'}
-						/>
-					</Link>
-				</HStack>
-			)}
+			<HStack className={styles['header__cta-stack']}>
+				<Link as={NavLink} to="/learn">
+					<IconCTA text="Вчити" condition={isScrolled} iconName={'learn'} />
+				</Link>
+				<Link as={NavLink} to="/allCards">
+					<IconCTA margin="0 1rem" text="Всі картки" condition={isScrolled && !isMobile} iconName={'all'} />
+				</Link>
+				<Link as={NavLink} to="/decks">
+					<IconCTA text="Стеки" condition={isScrolled && !isMobile} iconName={'piles'} />
+				</Link>
+				<Link as={NavLink} to="/create">
+					<IconCTA margin="0 0 0 1rem" text="Створити" condition={isScrolled && !isMobile} iconName={'add'} />
+				</Link>
+			</HStack>
 
 			{!!isMobile && <MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu}></MobileMenu>}
 		</Flex>
