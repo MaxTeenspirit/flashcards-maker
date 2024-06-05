@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/flashcards-maker/sw.js', { scope: '/flashcards-maker/' })})}
