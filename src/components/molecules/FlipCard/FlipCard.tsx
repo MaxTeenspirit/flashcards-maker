@@ -25,7 +25,7 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 
 	const isPlural = !!word?.plural && word?.wordType === 'noun' && !isTranslationFirst;
 	const isTranslatedPlural = !!word?.plural && word?.wordType === 'noun' && isTranslationFirst;
-	console.log(word.word, word.wordType);
+
 	useFitText(wordRef, initialFontSize, maxWidth);
 	useFitText(pluralRef, initialFontSize, maxWidth);
 	useFitText(translationRef, initialFontSize, maxWidth);

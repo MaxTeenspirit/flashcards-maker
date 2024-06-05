@@ -5,7 +5,7 @@ import styles from './Home.module.scss';
 
 const Home = () => {
 	const [isTab] = useMediaQuery(['(max-width: 900px)']);
-	console.log(isTab);
+
 	const navigate = useNavigate();
 
 	const navigateToLearn = () => navigate('/learn');
