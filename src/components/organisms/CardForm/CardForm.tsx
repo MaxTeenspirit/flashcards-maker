@@ -52,7 +52,13 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 		if (!isEdit) {
 			const id = crypto.randomUUID();
 
-			const newCard = {...data, id, word: capitalizeWord(data?.word), plural: data?.plural || '='};
+			const newCard = {
+				...data,
+				id,
+				article: data.wordType === 'noun' ? data?.article : '',
+				word: capitalizeWord(data?.word),
+				plural: data?.plural || '',
+			};
 
 			dispatch(addCard(newCard));
 			dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
@@ -70,7 +76,13 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 			dispatch(editCard({...data, id: cardToEdit.id}));
 
 			if (cardToEdit.deck !== data.deck) {
-				dispatch(addCardToDeck({deckId: data.deck, cardId: cardToEdit.id}));
+				dispatch(
+					addCardToDeck({
+						deckId: data.deck,
+						article: data.wordType === 'noun' ? data?.article : '',
+						cardId: cardToEdit.id,
+					}),
+				);
 			}
 
 			toast({

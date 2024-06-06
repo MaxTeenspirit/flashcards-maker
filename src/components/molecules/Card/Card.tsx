@@ -21,14 +21,19 @@ const Card = ({card}: ICardProps) => {
 	};
 
 	return (
-		<CardUI backgroundColor={chooseBackgroundColor(card)} border="1px solid #42aaff">
+		<CardUI
+			padding={['0rem 0 0.5rem 1rem', '0.5rem 0 1rem 1rem']}
+			backgroundColor={chooseBackgroundColor(card)}
+			border="1px solid #42aaff"
+			minHeight={['4rem', '6rem']}
+		>
 			<CardHeader
-				p={card?.wordType === 'adjective' ? '0.5rem 1rem 2.3rem 1rem' : '0.5rem 1rem 0rem 1rem'}
+				p={card?.wordType === 'adjective' ? '0.5rem 1rem 1.3rem 0.5rem' : '0.5rem 1rem 0rem 0.5rem'}
 				fontSize={['2rem', '1.2rem']}
 				whiteSpace={isMobile ? '' : 'nowrap'}
 			>
 				<Flex width="100%" alignItems="center" justifyContent="space-between">
-					<Heading textAlign="left" size="h4">
+					<Heading textAlign="left" fontSize={['1.2rem', '1.4rem', '1.6rem']} paddingBottom="0.5rem">
 						{card?.wordType === 'noun' ? card.article + ' ' : ''}
 						{card.word} -{' '}
 						<Text textAlign="left" as="span">
@@ -55,16 +60,18 @@ const Card = ({card}: ICardProps) => {
 					</CardMenu>
 				</Flex>
 			</CardHeader>
-			{card?.wordType === 'noun' && card?.plural ? (
-				<CardBody p="0rem 1rem 0.5rem 1rem" fontSize={['1.1rem', '1.2rem']}>
-					<Text textAlign="left">{`die ${card.plural}`}</Text>
+			{card?.wordType === 'noun' ? (
+				<CardBody flexGrow="initial" p="0rem 1rem 0rem 0.5rem" fontSize={['1.1rem', '1.2rem']}>
+					{card?.plural ? (
+						<Text textAlign="left">{`die ${card.plural}`}</Text>
+					) : (
+						<Text textAlign="left">-</Text>
+					)}
 				</CardBody>
 			) : null}
 			{card?.wordType === 'verb' ? (
-				<CardBody p="0rem 1rem 0.5rem 1rem" fontSize={['1.1rem', '1rem']}>
-					<Text textAlign="left" pb="0.3rem">
-						{card?.isStrong ? 'сильний' : 'слабкий'}
-					</Text>
+				<CardBody flexGrow="initial" p="0rem 1rem 0rem 0.5rem" fontSize={['1.1rem', '1rem']}>
+					<Text textAlign="left">{card?.isStrong ? 'сильний' : 'слабкий'}</Text>
 				</CardBody>
 			) : null}
 		</CardUI>

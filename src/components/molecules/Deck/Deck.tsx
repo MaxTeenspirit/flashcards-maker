@@ -43,13 +43,17 @@ const Deck = ({deck}: IDeckProps) => {
 		showToast();
 	};
 
+	const handleDeleteCards = () => {
+		dispatch(deleteCards({cards: cardsInCurrentDeckIds}));
+	};
+
 	const handleDeleteDeckWithCards = () => {
 		if (deck.id === 'all') {
 			showToast(false, true);
 			return;
 		}
 
-		dispatch(deleteCards({cards: cardsInCurrentDeckIds}));
+		handleDeleteCards();
 		dispatch(deleteDeck({id: deck.id}));
 		showToast(true);
 	};
@@ -91,6 +95,24 @@ const Deck = ({deck}: IDeckProps) => {
 								onApprove={handleDeleteDeckWithCards}
 								trigger={
 									<CardMenu.Item fontSize={['1.6rem', '1.2rem']}>Видалити з картками</CardMenu.Item>
+								}
+							/>
+						</CardMenu>
+					)}
+					{deck.id === 'all' && (
+						<CardMenu>
+							<Modal
+								text={{
+									message: 'Ця дія видалить лише картки з цього стеку!',
+									title: `Видалити картки з ${deck.name}?`,
+									cancel: 'Відміна',
+									approve: 'Видалити картки',
+								}}
+								onApprove={handleDeleteCards}
+								trigger={
+									<CardMenu.Item onClick={handleDeleteCards} fontSize={['1.6rem', '1.2rem']}>
+										Видалити картки
+									</CardMenu.Item>
 								}
 							/>
 						</CardMenu>
