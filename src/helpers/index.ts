@@ -48,9 +48,9 @@ export const getRandomSubset = <T>(arr: T[], num: number): T[] => {
 	return arrayCopy.slice(0, num);
 };
 
-export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] | null => {
+export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] => {
 	if (!cards || !cards?.length || !deckId) {
-		return null;
+		return [];
 	}
 
 	const cardsInDeck = deckId === 'all-cards' ? cards : cards.filter((card) => card.deck === deckId);
@@ -67,7 +67,7 @@ export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] | nu
 };
 
 export const getRandomIndexFromArray = <T>(array: Array<T> | null, prevIndex?: number): number => {
-	if (!array || !array.length) {
+	if (!array || !array.length || array.length <= 1) {
 		return 0;
 	}
 
@@ -81,9 +81,9 @@ export const getRandomIndexFromArray = <T>(array: Array<T> | null, prevIndex?: n
 	return randomIndex;
 };
 
-export const shuffleArray = <T>(array: T[] | null): T[] | null => {
+export const shuffleArray = <T>(array: T[]): T[] => {
 	if (!array?.length) {
-		return null;
+		return [];
 	}
 
 	return array.reduce<T[]>((shuffled, _, i) => {
