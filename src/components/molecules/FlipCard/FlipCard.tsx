@@ -35,7 +35,7 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 	};
 
 	return (
-		<Center h="60vh">
+		<Center h={['67vh', '60vh', '60vh']}>
 			<MotionBox
 				style={{perspective: 1000, x, rotateY}}
 				onClick={handleFlip}

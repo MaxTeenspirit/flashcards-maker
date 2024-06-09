@@ -38,7 +38,7 @@ const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
 	};
 
 	return (
-		<Flex justify="center" align="center">
+		<Flex justify="center" align="center" marginBottom="2rem">
 			<IconButton
 				icon={<ChevronLeftIcon />}
 				variant="ghost"
