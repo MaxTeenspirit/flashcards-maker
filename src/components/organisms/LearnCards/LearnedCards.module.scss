@@ -1,0 +1,44 @@
+.learned {
+	&__button {
+		position: absolute;
+		top: 6rem;
+		right: 1.2rem;
+
+		@media (min-width: 480px) {
+			top: 8rem;
+			right: 3.2rem;
+		}
+
+		@media (min-width: 768px) {
+			top: 10rem;
+			right: 8.2rem;
+		}
+	}
+
+	&__tips {
+		position: absolute;
+		bottom: 5%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		display: flex;
+		align-items: center;
+		color: #a1a1a1;
+		white-space: nowrap;
+		font-size: 0.6rem;
+
+		@media (min-width: 768px) {
+			font-size: 1rem;
+		}
+
+		p {
+			margin: 0 1rem;
+			color: #a1a1a1;
+			white-space: nowrap;
+			font-size: 1rem;
+
+			@media (min-width: 768px) {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}

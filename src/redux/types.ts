@@ -23,7 +23,8 @@ export interface IDeckInitialState {
 	decks: IDeck[];
 }
 
-export interface IWord extends Omit<ICard, 'id' | 'deck'> {
+export interface IWord extends Omit<ICard, 'deck'> {
+	id: string;
 	article?: string;
 	word: string;
 	plural?: string | undefined;

@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useMemo} from 'react';
 import {Heading, Box} from '@chakra-ui/react';
 import {useParams} from 'react-router-dom';
 import {useSelector} from 'react-redux';
@@ -13,8 +13,8 @@ const Learn = () => {
 	const {cards} = useSelector((state: RootState) => state.cards);
 	const [isTranslationFirst, setTranslationFirst] = useState(false);
 
-	const words = getWordsFromDeck(cards, deckId);
-	const shuffledWords = shuffleArray(words);
+	const words = useMemo(() => getWordsFromDeck(cards, deckId), [cards, deckId]);
+	const shuffledWords = useMemo(() => shuffleArray(words), [words]);
 
 	if (!deckId) {
 		return (
