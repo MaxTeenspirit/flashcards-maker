@@ -8,6 +8,8 @@ import {MobileMenu} from '@molecules';
 import styles from './Header.module.scss';
 
 const Header = () => {
+	const basePath = import.meta.env.BASE_URL;
+
 	const [isMobile] = useMediaQuery('(max-width: 768px)');
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -56,8 +58,8 @@ const Header = () => {
 					sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
 				>
 					<Icon
-						src="./logo-100.png"
-						srcSet="./logo-100.png 50w, ./logo-140.png 70w, ./logo-200.png 100w"
+						src={`${basePath}logo-100.png`}
+						srcSet={`${basePath}logo-100.png 50w, ${basePath}logo-140.png 70w, ${basePath}logo-200.png 100w`}
 						sizes="(max-width: 425px) 50px, (max-width: 768px) 70px, 100px"
 						boxSize={isScrolled && !isMobile ? ['30px', '40px', '70px'] : ['50px', '70px', '100px']}
 						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
