@@ -1,0 +1,694 @@
+{
+    "pfeifen": {
+        "perfekt": "gepfiffen",
+        "prateritum": "pfiff"
+    },
+    "preisen": {
+        "perfekt": "gepriesen",
+        "prateritum": "pries"
+    },
+    "pflegen": {
+        "perfekt": "gepflegt",
+        "prateritum": "pflegte"
+    },
+    "packen": {
+        "perfekt": "gepackt",
+        "prateritum": "packte"
+    },
+    "prüfen": {
+        "perfekt": "geprüft",
+        "prateritum": "prüfte"
+    },
+    "planen": {
+        "perfekt": "geplant",
+        "prateritum": "plante"
+    },
+    "provozieren": {
+        "perfekt": "provoziert",
+        "prateritum": "provozierte"
+    },
+    "pflanzen": {
+        "perfekt": "gepflanzt",
+        "prateritum": "pflanzte"
+    },
+    "profitieren": {
+        "perfekt": "profitiert",
+        "prateritum": "profitierte"
+    },
+    "präsentieren": {
+        "perfekt": "präsentiert",
+        "prateritum": "präsentierte"
+    },
+    "passieren": {
+        "perfekt": "passiert",
+        "prateritum": "passierte"
+    },
+    "projizieren": {
+        "perfekt": "projiziert",
+        "prateritum": "projizierte"
+    },
+    "provozieren lassen": {
+        "perfekt": "provozieren lassen",
+        "prateritum": "ließ provozieren"
+    },
+    "probieren": {
+        "perfekt": "probiert",
+        "prateritum": "probierte"
+    },
+    "platzen": {
+        "perfekt": "geplatzt",
+        "prateritum": "platzte"
+    },
+    "putzen": {
+        "perfekt": "geputzt",
+        "prateritum": "putzte"
+    },
+    "platzieren": {
+        "perfekt": "platziert",
+        "prateritum": "platzierte"
+    },
+    "plaudern": {
+        "perfekt": "geplaudert",
+        "prateritum": "plauderte"
+    },
+    "prophezeien": {
+        "perfekt": "prophezeit",
+        "prateritum": "prophezeite"
+    },
+    "provozieren müssen": {
+        "perfekt": "provoziert gemusst",
+        "prateritum": "musste provozieren"
+    },
+    "provozieren wollen": {
+        "perfekt": "provoziert gewollt",
+        "prateritum": "wollte provozieren"
+    },
+    "provozieren können": {
+        "perfekt": "provoziert gekonnt",
+        "prateritum": "konnte provozieren"
+    },
+    "pochen": {
+        "perfekt": "gepocht",
+        "prateritum": "pochte"
+    },
+    "prahlen": {
+        "perfekt": "geprahlt",
+        "prateritum": "prahlte"
+    },
+    "posieren": {
+        "perfekt": "posiert",
+        "prateritum": "posierte"
+    },
+    "probieren lassen": {
+        "perfekt": "probieren lassen",
+        "prateritum": "ließ probieren"
+    },
+    "platzieren lassen": {
+        "perfekt": "platzieren lassen",
+        "prateritum": "ließ platzieren"
+    },
+    "platzieren müssen": {
+        "perfekt": "platziert gemusst",
+        "prateritum": "musste platzieren"
+    },
+    "platzieren wollen": {
+        "perfekt": "platziert gewollt",
+        "prateritum": "wollte platzieren"
+    },
+    "platzieren können": {
+        "perfekt": "platziert gekonnt",
+        "prateritum": "konnte platzieren"
+    },
+    "putzen lassen": {
+        "perfekt": "putzen lassen",
+        "prateritum": "ließ putzen"
+    },
+    "putzen müssen": {
+        "perfekt": "geputzt gemusst",
+        "prateritum": "musste putzen"
+    },
+    "putzen wollen": {
+        "perfekt": "geputzt gewollt",
+        "prateritum": "wollte putzen"
+    },
+    "putzen können": {
+        "perfekt": "geputzt gekonnt",
+        "prateritum": "konnte putzen"
+    },
+    "passen": {
+        "perfekt": "gepasst",
+        "prateritum": "passte"
+    },
+    "phrasieren": {
+        "perfekt": "phrasiert",
+        "prateritum": "phrasierte"
+    },
+    "pokern": {
+        "perfekt": "gepokert",
+        "prateritum": "pokerte"
+    },
+    "pokern lassen": {
+        "perfekt": "pokern lassen",
+        "prateritum": "ließ pokern"
+    },
+    "pokern müssen": {
+        "perfekt": "gepokert gemusst",
+        "prateritum": "musste pokern"
+    },
+    "pokern wollen": {
+        "perfekt": "gepokert gewollt",
+        "prateritum": "wollte pokern"
+    },
+    "pokern können": {
+        "perfekt": "gepokert gekonnt",
+        "prateritum": "konnte pokern"
+    },
+    "platzen lassen": {
+        "perfekt": "platzen lassen",
+        "prateritum": "ließ platzen"
+    },
+    "platzen müssen": {
+        "perfekt": "geplatzt gemusst",
+        "prateritum": "musste platzen"
+    },
+    "platzen wollen": {
+        "perfekt": "geplatzt gewollt",
+        "prateritum": "wollte platzen"
+    },
+    "predigen": {
+        "perfekt": "gepredigt",
+        "prateritum": "predigte"
+    },
+    "präparieren": {
+        "perfekt": "präpariert",
+        "prateritum": "präparierte"
+    },
+    "probieren müssen": {
+        "perfekt": "probiert gemusst",
+        "prateritum": "musste probieren"
+    },
+    "probieren wollen": {
+        "perfekt": "probiert gewollt",
+        "prateritum": "wollte probieren"
+    },
+    "probieren können": {
+        "perfekt": "probiert gekonnt",
+        "prateritum": "konnte probieren"
+    },
+    "protestieren": {
+        "perfekt": "protestiert",
+        "prateritum": "protestierte"
+    },
+    "plagen": {
+        "perfekt": "geplagt",
+        "prateritum": "plagte"
+    },
+    "portieren": {
+        "perfekt": "portiert",
+        "prateritum": "portierte"
+    },
+    "pumpen": {
+        "perfekt": "gepumpt",
+        "prateritum": "pumpte"
+    },
+    "plädieren": {
+        "perfekt": "geplädiert",
+        "prateritum": "plädierte"
+    },
+    "posieren lassen": {
+        "perfekt": "posieren lassen",
+        "prateritum": "ließ posieren"
+    },
+    "projizieren lassen": {
+        "perfekt": "projizieren lassen",
+        "prateritum": "ließ projizieren"
+    },
+    "protestieren lassen": {
+        "perfekt": "protestieren lassen",
+        "prateritum": "ließ protestieren"
+    },
+    "plaudern lassen": {
+        "perfekt": "plaudern lassen",
+        "prateritum": "ließ plaudern"
+    },
+    "prahlen lassen": {
+        "perfekt": "prahlen lassen",
+        "prateritum": "ließ prahlen"
+    },
+    "planen lassen": {
+        "perfekt": "planen lassen",
+        "prateritum": "ließ planen"
+    },
+    "packen lassen": {
+        "perfekt": "packen lassen",
+        "prateritum": "ließ packen"
+    },
+    "phrasieren lassen": {
+        "perfekt": "phrasieren lassen",
+        "prateritum": "ließ phrasieren"
+    },
+    "pochen lassen": {
+        "perfekt": "pochen lassen",
+        "prateritum": "ließ pochen"
+    },
+    "prüfen lassen": {
+        "perfekt": "prüfen lassen",
+        "prateritum": "ließ prüfen"
+    },
+    "plagen lassen": {
+        "perfekt": "plagen lassen",
+        "prateritum": "ließ plagen"
+    },
+    "pudern": {
+        "perfekt": "gepudert",
+        "prateritum": "puderte"
+    },
+    "präsentieren lassen": {
+        "perfekt": "präsentieren lassen",
+        "prateritum": "ließ präsentieren"
+    },
+    "probieren dürfen": {
+        "perfekt": "probiert dürfen",
+        "prateritum": "durfte probieren"
+    },
+    "probieren sollen": {
+        "perfekt": "probiert sollen",
+        "prateritum": "sollte probieren"
+    },
+    "probieren mögen": {
+        "perfekt": "probiert mögen",
+        "prateritum": "mochte probieren"
+    },
+    "prahlen müssen": {
+        "perfekt": "geprahlt gemusst",
+        "prateritum": "musste prahlen"
+    },
+    "prahlen wollen": {
+        "perfekt": "geprahlt gewollt",
+        "prateritum": "wollte prahlen"
+    },
+    "prahlen können": {
+        "perfekt": "geprahlt gekonnt",
+        "prateritum": "konnte prahlen"
+    },
+    "plaudern müssen": {
+        "perfekt": "geplaudert gemusst",
+        "prateritum": "musste plaudern"
+    },
+    "plaudern wollen": {
+        "perfekt": "geplaudert gewollt",
+        "prateritum": "wollte plaudern"
+    },
+    "plaudern können": {
+        "perfekt": "geplaudert gekonnt",
+        "prateritum": "konnte plaudern"
+    },
+    "prüfen dürfen": {
+        "perfekt": "geprüft dürfen",
+        "prateritum": "durfte prüfen"
+    },
+    "prüfen sollen": {
+        "perfekt": "geprüft sollen",
+        "prateritum": "sollte prüfen"
+    },
+    "prüfen mögen": {
+        "perfekt": "geprüft mögen",
+        "prateritum": "mochte prüfen"
+    },
+    "platzen können": {
+        "perfekt": "geplatzt gekonnt",
+        "prateritum": "konnte platzen"
+    },
+    "plaudern dürfen": {
+        "perfekt": "geplaudert dürfen",
+        "prateritum": "durfte plaudern"
+    },
+    "plaudern sollen": {
+        "perfekt": "geplaudert sollen",
+        "prateritum": "sollte plaudern"
+    },
+    "plaudern mögen": {
+        "perfekt": "geplaudert mögen",
+        "prateritum": "mochte plaudern"
+    },
+    "pochen können": {
+        "perfekt": "gepocht gekonnt",
+        "prateritum": "konnte pochen"
+    },
+    "pochen müssen": {
+        "perfekt": "gepocht gemusst",
+        "prateritum": "musste pochen"
+    },
+    "pochen wollen": {
+        "perfekt": "gepocht gewollt",
+        "prateritum": "wollte pochen"
+    },
+    "portieren lassen": {
+        "perfekt": "portieren lassen",
+        "prateritum": "ließ portieren"
+    },
+    "portieren müssen": {
+        "perfekt": "portiert gemusst",
+        "prateritum": "musste portieren"
+    },
+    "portieren wollen": {
+        "perfekt": "portiert gewollt",
+        "prateritum": "wollte portieren"
+    },
+    "portieren können": {
+        "perfekt": "portiert gekonnt",
+        "prateritum": "konnte portieren"
+    },
+    "posieren können": {
+        "perfekt": "posiert gekonnt",
+        "prateritum": "konnte posieren"
+    },
+    "posieren müssen": {
+        "perfekt": "posiert gemusst",
+        "prateritum": "musste posieren"
+    },
+    "posieren wollen": {
+        "perfekt": "posiert gewollt",
+        "prateritum": "wollte posieren"
+    },
+    "phrasieren können": {
+        "perfekt": "phrasiert gekonnt",
+        "prateritum": "konnte phrasieren"
+    },
+    "phrasieren müssen": {
+        "perfekt": "phrasiert gemusst",
+        "prateritum": "musste phrasieren"
+    },
+    "phrasieren wollen": {
+        "perfekt": "phrasiert gewollt",
+        "prateritum": "wollte phrasieren"
+    },
+    "prüfen müssen": {
+        "perfekt": "geprüft gemusst",
+        "prateritum": "musste prüfen"
+    },
+    "prüfen wollen": {
+        "perfekt": "geprüft gewollt",
+        "prateritum": "wollte prüfen"
+    },
+    "pudern lassen": {
+        "perfekt": "pudern lassen",
+        "prateritum": "ließ pudern"
+    },
+    "pudern müssen": {
+        "perfekt": "gepudert gemusst",
+        "prateritum": "musste pudern"
+    },
+    "pumpen können": {
+        "perfekt": "gepumpt gekonnt",
+        "prateritum": "konnte pumpen"
+    },
+    "pumpen müssen": {
+        "perfekt": "gepumpt gemusst",
+        "prateritum": "musste pumpen"
+    },
+    "pumpen wollen": {
+        "perfekt": "gepumpt gewollt",
+        "prateritum": "wollte pumpen"
+    },
+    "pachten": {
+        "perfekt": "gepachtet",
+        "prateritum": "pachtete"
+    },
+    "patrouillieren": {
+        "perfekt": "patrouilliert",
+        "prateritum": "patrouillierte"
+    },
+    "pauken": {
+        "perfekt": "gepaukt",
+        "prateritum": "paukte"
+    },
+    "peinigen": {
+        "perfekt": "gepeinigt",
+        "prateritum": "peinigte"
+    },
+    "pendeln": {
+        "perfekt": "gependelt",
+        "prateritum": "pendelte"
+    },
+    "perfektionieren": {
+        "perfekt": "perfektioniert",
+        "prateritum": "perfektionierte"
+    },
+    "photographieren": {
+        "perfekt": "photographiert",
+        "prateritum": "photographierte"
+    },
+    "pilgern": {
+        "perfekt": "gepilgert",
+        "prateritum": "pilgerte"
+    },
+    "pissen": {
+        "perfekt": "gepisst",
+        "prateritum": "pisste"
+    },
+    "planieren": {
+        "perfekt": "planiert",
+        "prateritum": "planierte"
+    },
+    "plärren": {
+        "perfekt": "geplärrt",
+        "prateritum": "plärrte"
+    },
+    "plündern": {
+        "perfekt": "geplündert",
+        "prateritum": "plünderte"
+    },
+    "polieren": {
+        "perfekt": "poliert",
+        "prateritum": "polierte"
+    },
+    "posten": {
+        "perfekt": "gepostet",
+        "prateritum": "postete"
+    },
+    "prägen": {
+        "perfekt": "geprägt",
+        "prateritum": "prägte"
+    },
+    "proben": {
+        "perfekt": "geprobt",
+        "prateritum": "probierte"
+    },
+    "proklamieren": {
+        "perfekt": "proklamiert",
+        "prateritum": "proklamierte"
+    },
+    "proletarisieren": {
+        "perfekt": "proletarisiert",
+        "prateritum": "proletarisierte"
+    },
+    "promenieren": {
+        "perfekt": "promeniert",
+        "prateritum": "promenierte"
+    },
+    "publizieren": {
+        "perfekt": "publiziert",
+        "prateritum": "publizierte"
+    },
+    "pulverisieren": {
+        "perfekt": "pulverisiert",
+        "prateritum": "pulverisierte"
+    },
+    "punkten": {
+        "perfekt": "gepunktet",
+        "prateritum": "punktete"
+    },
+    "purgieren": {
+        "perfekt": "purgiert",
+        "prateritum": "purgierte"
+    },
+    "pushen": {
+        "perfekt": "gepusht",
+        "prateritum": "pushte"
+    },
+    "pfeffern": {
+        "perfekt": "gepfeffert",
+        "prateritum": "pfefferte"
+    },
+    "phantasieren": {
+        "perfekt": "phantasiert",
+        "prateritum": "phnatasiierte"
+    },
+    "pinzettieren": {
+        "perfekt": "pinzettiert",
+        "prateritum": "pinzettierte"
+    },
+    "pipettieren": {
+        "perfekt": "pipettiert",
+        "prateritum": "pipettierte"
+    },
+    "plakatieren": {
+        "perfekt": "plakatiert",
+        "prateritum": "plakatierte"
+    },
+    "plattieren": {
+        "perfekt": "plattiert",
+        "prateritum": "plattierte"
+    },
+    "plätschern": {
+        "perfekt": "geplätschert",
+        "prateritum": "plätscherte"
+    },
+    "pleitegehen": {
+        "perfekt": "pleitegegangen",
+        "prateritum": "ging pleite"
+    },
+    "poetisieren": {
+        "perfekt": "poetisiert",
+        "prateritum": "poetisierte"
+    },
+    "pökeln": {
+        "perfekt": "gepökelt",
+        "prateritum": "pökelte"
+    },
+    "polarisieren": {
+        "perfekt": "polarisiert",
+        "prateritum": "polarisierte"
+    },
+    "politisieren": {
+        "perfekt": "politisiert",
+        "prateritum": "politisierte"
+    },
+    "polstern": {
+        "perfekt": "gepolstert",
+        "prateritum": "polsterte"
+    },
+    "populär machen": {
+        "perfekt": "populär gemacht",
+        "prateritum": "machte populär"
+    },
+    "populär sein": {
+        "perfekt": "populär gewesen",
+        "prateritum": "war populär"
+    },
+    "populär werden": {
+        "perfekt": "populär geworden",
+        "prateritum": "wurde populär"
+    },
+    "poren": {
+        "perfekt": "geporkelt",
+        "prateritum": "porkelte"
+    },
+    "porträtieren": {
+        "perfekt": "porträtiert",
+        "prateritum": "porträtierte"
+    },
+    "posyndromen": {
+        "perfekt": "posyndromiert",
+        "prateritum": "posyndromierte"
+    },
+    "potenzieren": {
+        "perfekt": "potenziert",
+        "prateritum": "potenzierte"
+    },
+    "präferieren": {
+        "perfekt": "präferiert",
+        "prateritum": "präferierte"
+    },
+    "pragmatisieren": {
+        "perfekt": "pragmatisiert",
+        "prateritum": "pragmatisierte"
+    },
+    "praktizieren": {
+        "perfekt": "praktiziert",
+        "prateritum": "praktizierte"
+    },
+    "präludieren": {
+        "perfekt": "präludiert",
+        "prateritum": "präludierte"
+    },
+    "prämiieren": {
+        "perfekt": "prämiert",
+        "prateritum": "prämierte"
+    },
+    "präsidieren": {
+        "perfekt": "präsidiert",
+        "prateritum": "präsidierte"
+    },
+    "präsupponieren": {
+        "perfekt": "präsupponiert",
+        "prateritum": "präsupponierte"
+    },
+    "präventieren": {
+        "perfekt": "präventiert",
+        "prateritum": "präventierte"
+    },
+    "präzisieren": {
+        "perfekt": "präzisiert",
+        "prateritum": "präzisierte"
+    },
+    "prekarisieren": {
+        "perfekt": "prekarisiert",
+        "prateritum": "prekarisierte"
+    },
+    "prellen": {
+        "perfekt": "geprellt",
+        "prateritum": "prellte"
+    },
+    "prickeln": {
+        "perfekt": "geprickelt",
+        "prateritum": "prickelte"
+    },
+    "priesterlich sein": {
+        "perfekt": "priesterlich gewesen",
+        "prateritum": "war priesterlich"
+    },
+    "priorisieren": {
+        "perfekt": "priorisiert",
+        "prateritum": "priorisierte"
+    },
+    "privatisieren": {
+        "perfekt": "privatisiert",
+        "prateritum": "privatisierte"
+    },
+    "probiern": {
+        "perfekt": "geprobieret",
+        "prateritum": "probierete"
+    },
+    "procedieren": {
+        "perfekt": "procediert",
+        "prateritum": "procedierte"
+    },
+    "produzieren": {
+        "perfekt": "produziert",
+        "prateritum": "produzierte"
+    },
+    "programmieren": {
+        "perfekt": "programmiert",
+        "prateritum": "programmierte"
+    },
+    "prognostizieren": {
+        "perfekt": "prognostiziert",
+        "prateritum": "prognostizierte"
+    },
+    "projektieren": {
+        "perfekt": "projektiert",
+        "prateritum": "projektierte"
+    },
+    "prokrastinieren": {
+        "perfekt": "prokrastiniert",
+        "prateritum": "prokrastinierte"
+    },
+    "promovieren": {
+        "perfekt": "promoviert",
+        "prateritum": "promovierte"
+    },
+    "prophetieren": {
+        "perfekt": "prophetiert",
+        "prateritum": "prophetierte"
+    },
+    "prostestieren": {
+        "perfekt": "prostestiert",
+        "prateritum": "prostestierte"
+    },
+    "pubertieren": {
+        "perfekt": "pubertiert",
+        "prateritum": "pubertierte"
+    }
+}

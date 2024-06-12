@@ -1,0 +1,150 @@
+{
+    "lesen": {
+        "perfekt": "gelesen",
+        "prateritum": "las"
+    },
+    "laufen": {
+        "perfekt": "gelaufen",
+        "prateritum": "lief"
+    },
+    "liegen": {
+        "perfekt": "gelegen",
+        "prateritum": "lag"
+    },
+    "lassen": {
+        "perfekt": "gelassen",
+        "prateritum": "ließ"
+    },
+    "laden": {
+        "perfekt": "geladen",
+        "prateritum": "lud"
+    },
+    "leiden": {
+        "perfekt": "gelitten",
+        "prateritum": "litt"
+    },
+    "leihen": {
+        "perfekt": "geliehen",
+        "prateritum": "lieh"
+    },
+    "lügen": {
+        "perfekt": "gelogen",
+        "prateritum": "log"
+    },
+    "lieben": {
+        "perfekt": "geliebt",
+        "prateritum": "liebte"
+    },
+    "liefern": {
+        "perfekt": "geliefert",
+        "prateritum": "lieferte"
+    },
+    "lernen": {
+        "perfekt": "gelernt",
+        "prateritum": "lernte"
+    },
+    "leben": {
+        "perfekt": "gelebt",
+        "prateritum": "lebte"
+    },
+    "lachen": {
+        "perfekt": "gelacht",
+        "prateritum": "lachte"
+    },
+    "landen": {
+        "perfekt": "gelandet",
+        "prateritum": "landete"
+    },
+    "leiten": {
+        "perfekt": "geleitet",
+        "prateritum": "leitete"
+    },
+    "lächeln": {
+        "perfekt": "gelächelt",
+        "prateritum": "lächelte"
+    },
+    "locken": {
+        "perfekt": "gelockt",
+        "prateritum": "lockte"
+    },
+    "lenken": {
+        "perfekt": "gelenkt",
+        "prateritum": "lenkte"
+    },
+    "löschen": {
+        "perfekt": "gelöscht",
+        "prateritum": "löschte"
+    },
+    "lüften": {
+        "perfekt": "gelüftet",
+        "prateritum": "lüftete"
+    },
+    "lösen": {
+        "perfekt": "gelöst",
+        "prateritum": "löste"
+    },
+    "lutschen": {
+        "perfekt": "gelutscht",
+        "prateritum": "lutschte"
+    },
+    "läuten": {
+        "perfekt": "geläutet",
+        "prateritum": "läutete"
+    },
+    "laben": {
+        "perfekt": "gelabt",
+        "prateritum": "labte"
+    },
+    "laichen": {
+        "perfekt": "gelaicht",
+        "prateritum": "laichte"
+    },
+    "langen": {
+        "perfekt": "gelangt",
+        "prateritum": "langte"
+    },
+    "lehnen": {
+        "perfekt": "gelehnt",
+        "prateritum": "lehte"
+    },
+    "leuchten": {
+        "perfekt": "geleuchtet",
+        "prateritum": "leuchtete"
+    },
+    "lindern": {
+        "perfekt": "gelindert",
+        "prateritum": "linderte"
+    },
+    "lehren": {
+        "perfekt": "gelehrt",
+        "prateritum": "lehrte"
+    },
+    "lagern": {
+        "perfekt": "gelagert",
+        "prateritum": "lagerte"
+    },
+    "lauschen": {
+        "perfekt": "gelauscht",
+        "prateritum": "lauschte"
+    },
+    "loben": {
+        "perfekt": "gelobt",
+        "prateritum": "lobte"
+    },
+    "löten": {
+        "perfekt": "gelötet",
+        "prateritum": "lötete"
+    },
+    "lungern": {
+        "perfekt": "gelungert",
+        "prateritum": "lungerte"
+    },
+    "lullen": {
+        "perfekt": "gelullt",
+        "prateritum": "lullte"
+    },
+    "legen": {
+        "perfekt": "gelegt",
+        "prateritum": "legte"
+    }
+}

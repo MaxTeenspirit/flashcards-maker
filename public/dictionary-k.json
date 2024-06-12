@@ -1,0 +1,206 @@
+{
+    "kommen": {
+        "perfekt": "gekommen",
+        "prateritum": "kam"
+    },
+    "kennen": {
+        "perfekt": "gekannt",
+        "prateritum": "kannte"
+    },
+    "können": {
+        "perfekt": "gekonnt",
+        "prateritum": "konnte"
+    },
+    "klingen": {
+        "perfekt": "geklungen",
+        "prateritum": "klang"
+    },
+    "kriechen": {
+        "perfekt": "gekrochen",
+        "prateritum": "kroch"
+    },
+    "kneifen": {
+        "perfekt": "gekniffen",
+        "prateritum": "kniff"
+    },
+    "kaufen": {
+        "perfekt": "gekauft",
+        "prateritum": "kaufte"
+    },
+    "kochen": {
+        "perfekt": "gekocht",
+        "prateritum": "kochte"
+    },
+    "klettern": {
+        "perfekt": "geklettert",
+        "prateritum": "kletterte"
+    },
+    "klären": {
+        "perfekt": "geklärt",
+        "prateritum": "klärte"
+    },
+    "kämpfen": {
+        "perfekt": "gekämpft",
+        "prateritum": "kämpfte"
+    },
+    "knallen": {
+        "perfekt": "geknallt",
+        "prateritum": "knallte"
+    },
+    "kratzen": {
+        "perfekt": "gekratzt",
+        "prateritum": "kratzte"
+    },
+    "küssen": {
+        "perfekt": "geküsst",
+        "prateritum": "küsste"
+    },
+    "kündigen": {
+        "perfekt": "gekündigt",
+        "prateritum": "kündigte"
+    },
+    "knien": {
+        "perfekt": "gekniet",
+        "prateritum": "kniete"
+    },
+    "kämmen": {
+        "perfekt": "gekämmt",
+        "prateritum": "kämmte"
+    },
+    "knicken": {
+        "perfekt": "geknickt",
+        "prateritum": "knickte"
+    },
+    "kleiden": {
+        "perfekt": "gekleidet",
+        "prateritum": "kleidete"
+    },
+    "krabbeln": {
+        "perfekt": "gekrabbelt",
+        "prateritum": "krabbelte"
+    },
+    "klopfen": {
+        "perfekt": "geklopft",
+        "prateritum": "klopfte"
+    },
+    "knüpfen": {
+        "perfekt": "geknüpft",
+        "prateritum": "knüpfte"
+    },
+    "kauen": {
+        "perfekt": "gekaut",
+        "prateritum": "kaute"
+    },
+    "kneten": {
+        "perfekt": "geknetet",
+        "prateritum": "knetete"
+    },
+    "kehren": {
+        "perfekt": "gekehrt",
+        "prateritum": "kehrte"
+    },
+    "kuscheln": {
+        "perfekt": "gekuschelt",
+        "prateritum": "kuschelte"
+    },
+    "klauen": {
+        "perfekt": "geklaut",
+        "prateritum": "klaut"
+    },
+    "kriegen": {
+        "perfekt": "gekriegt",
+        "prateritum": "kriegte"
+    },
+    "klimpern": {
+        "perfekt": "geklimpert",
+        "prateritum": "klimperte"
+    },
+    "knirschen": {
+        "perfekt": "geknirscht",
+        "prateritum": "knirschte"
+    },
+    "krabben": {
+        "perfekt": "gekrabbelt",
+        "prateritum": "krabbelte"
+    },
+    "kernern": {
+        "perfekt": "gekernert",
+        "prateritum": "kernerte"
+    },
+    "keuchen": {
+        "perfekt": "gekeucht",
+        "prateritum": "keuchte"
+    },
+    "kichern": {
+        "perfekt": "gekichert",
+        "prateritum": "kicherte"
+    },
+    "knuddeln": {
+        "perfekt": "geknuddelt",
+        "prateritum": "knuddelte"
+    },
+    "kultivieren": {
+        "perfekt": "kultiviert",
+        "prateritum": "kultivierte"
+    },
+    "kondensieren": {
+        "perfekt": "kondensiert",
+        "prateritum": "kondensierte"
+    },
+    "kollidieren": {
+        "perfekt": "kollidiert",
+        "prateritum": "kollidierte"
+    },
+    "konsumieren": {
+        "perfekt": "konsumiert",
+        "prateritum": "konsumierte"
+    },
+    "kontrollieren": {
+        "perfekt": "kontrolliert",
+        "prateritum": "kontrollierte"
+    },
+    "kooperieren": {
+        "perfekt": "kooperiert",
+        "prateritum": "kooperierte"
+    },
+    "kränken": {
+        "perfekt": "gekränkt",
+        "prateritum": "kränkte"
+    },
+    "klatschen": {
+        "perfekt": "geklatscht",
+        "prateritum": "klatschte"
+    },
+    "korrigieren": {
+        "perfekt": "korrigiert",
+        "prateritum": "korrigierte"
+    },
+    "kosten": {
+        "perfekt": "gekostet",
+        "prateritum": "kostete"
+    },
+    "krächzen": {
+        "perfekt": "gekrächzt",
+        "prateritum": "krächzte"
+    },
+    "ködern": {
+        "perfekt": "geködert",
+        "prateritum": "köderte"
+    },
+    "klammern": {
+        "perfekt": "geklammert",
+        "prateritum": "klammerte"
+    },
+    "klicken": {
+        "perfekt": "geklickt",
+        "prateritum": "klickte"
+    },
+    "klügeln": {
+        "perfekt": "geklügelt",
+        "prateritum": "klügelte"
+    },
+    "klappern": {
+        "perfekt": "geklappert",
+        "prateritum": "klapperte"
+    }
+}

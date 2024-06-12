@@ -1,0 +1,514 @@
+{
+    "übelschmecken": {
+        "perfekt": "übelschmeckt",
+        "prateritum": "übelschmeckte"
+    },
+    "überbacken": {
+        "perfekt": "überbacken",
+        "prateritum": "überbackte"
+    },
+    "überbieten": {
+        "perfekt": "überboten",
+        "prateritum": "überbot"
+    },
+    "überbraten": {
+        "perfekt": "überbraten",
+        "prateritum": "überbriet"
+    },
+    "überdenken": {
+        "perfekt": "überdacht",
+        "prateritum": "überdachte"
+    },
+    "überfliegen": {
+        "perfekt": "überflogen",
+        "prateritum": "überflog"
+    },
+    "überfrachten": {
+        "perfekt": "überfrachtet",
+        "prateritum": "überfrachtete"
+    },
+    "überholen": {
+        "perfekt": "überholt",
+        "prateritum": "überholte"
+    },
+    "überhören": {
+        "perfekt": "überhört",
+        "prateritum": "überhörte"
+    },
+    "überkleben": {
+        "perfekt": "überklebt",
+        "prateritum": "überklebte"
+    },
+    "überlegen": {
+        "perfekt": "überlegt",
+        "prateritum": "überlegte"
+    },
+    "überrumpeln": {
+        "perfekt": "überrumpelt",
+        "prateritum": "überrumpelte"
+    },
+    "überschätzen": {
+        "perfekt": "überschätzt",
+        "prateritum": "überschätzte"
+    },
+    "übersetzen": {
+        "perfekt": "übersetzt",
+        "prateritum": "übersetzte"
+    },
+    "überspringen": {
+        "perfekt": "übersprungen",
+        "prateritum": "übersprang"
+    },
+    "überstürzen": {
+        "perfekt": "überstürzt",
+        "prateritum": "überstürzte"
+    },
+    "übertreiben": {
+        "perfekt": "übertrieben",
+        "prateritum": "übertrieb"
+    },
+    "überwachen": {
+        "perfekt": "überwacht",
+        "prateritum": "überwachte"
+    },
+    "überweisen": {
+        "perfekt": "überwiesen",
+        "prateritum": "überwies"
+    },
+    "überzeugen": {
+        "perfekt": "überzeugt",
+        "prateritum": "überzeugte"
+    },
+    "üblecken": {
+        "perfekt": "übgeleckt",
+        "prateritum": "übleckte"
+    },
+    "übluffen": {
+        "perfekt": "üblufft",
+        "prateritum": "übluffte"
+    },
+    "übungsmachen": {
+        "perfekt": "übungsgemacht",
+        "prateritum": "übungsmachte"
+    },
+    "übersäen": {
+        "perfekt": "übersät",
+        "prateritum": "übersäte"
+    },
+    "übereilen": {
+        "perfekt": "übereilt",
+        "prateritum": "übereilte"
+    },
+    "überfallen": {
+        "perfekt": "überfallen",
+        "prateritum": "überfiel"
+    },
+    "überfluten": {
+        "perfekt": "überflutet",
+        "prateritum": "überflutete"
+    },
+    "überfüllen": {
+        "perfekt": "überfüllt",
+        "prateritum": "überfüllte"
+    },
+    "übergeben": {
+        "perfekt": "übergeben",
+        "prateritum": "übergab"
+    },
+    "überkochen": {
+        "perfekt": "überkocht",
+        "prateritum": "überkochte"
+    },
+    "überkreuzen": {
+        "perfekt": "überkreuzt",
+        "prateritum": "überkreuzte"
+    },
+    "überlagern": {
+        "perfekt": "überlagert",
+        "prateritum": "überlagerte"
+    },
+    "überlassen": {
+        "perfekt": "überlassen",
+        "prateritum": "überließ"
+    },
+    "überleben": {
+        "perfekt": "überlebt",
+        "prateritum": "überlebte"
+    },
+    "übermalen": {
+        "perfekt": "übermalt",
+        "prateritum": "übermalte"
+    },
+    "übernehmen": {
+        "perfekt": "übernommen",
+        "prateritum": "übernahm"
+    },
+    "überreden": {
+        "perfekt": "überredet",
+        "prateritum": "überredete"
+    },
+    "überraschen": {
+        "perfekt": "überrascht",
+        "prateritum": "überraschte"
+    },
+    "überschwemmen": {
+        "perfekt": "überschwemmt",
+        "prateritum": "überschwemmte"
+    },
+    "überschreiben": {
+        "perfekt": "überschrieben",
+        "prateritum": "überschrieb"
+    },
+    "übersehen": {
+        "perfekt": "übersehen",
+        "prateritum": "sah über"
+    },
+    "überstehen": {
+        "perfekt": "überstanden",
+        "prateritum": "stand über"
+    },
+    "übertragen": {
+        "perfekt": "übertragen",
+        "prateritum": "übertrug"
+    },
+    "üblichwerden": {
+        "perfekt": "üblichgeworden",
+        "prateritum": "üblichwurde"
+    },
+    "überfahren": {
+        "perfekt": "überfahren",
+        "prateritum": "überfuhr"
+    },
+    "übergehen": {
+        "perfekt": "übergegangen",
+        "prateritum": "überging"
+    },
+    "überladen": {
+        "perfekt": "überladen",
+        "prateritum": "überlud"
+    },
+    "überreizen": {
+        "perfekt": "überreizt",
+        "prateritum": "überreizte"
+    },
+    "überdauern": {
+        "perfekt": "überdauert",
+        "prateritum": "überdauerte"
+    },
+    "überdecken": {
+        "perfekt": "überdeckt",
+        "prateritum": "überdeckte"
+    },
+    "überfrieren": {
+        "perfekt": "überfroren",
+        "prateritum": "überfror"
+    },
+    "umarmen": {
+        "perfekt": "umarmt",
+        "prateritum": "umarmte"
+    },
+    "umändern": {
+        "perfekt": "umgeändert",
+        "prateritum": "änderte um"
+    },
+    "umbauen": {
+        "perfekt": "umgebaut",
+        "prateritum": "baute um"
+    },
+    "umbetten": {
+        "perfekt": "umbettet",
+        "prateritum": "betta um"
+    },
+    "umblättern": {
+        "perfekt": "umgeblättert",
+        "prateritum": "blätterte um"
+    },
+    "umbringen": {
+        "perfekt": "umgebracht",
+        "prateritum": "brachte um"
+    },
+    "umdenken": {
+        "perfekt": "umgedacht",
+        "prateritum": "dachte um"
+    },
+    "umdrehen": {
+        "perfekt": "umgedreht",
+        "prateritum": "drehte um"
+    },
+    "umfahren": {
+        "perfekt": "umgefahren",
+        "prateritum": "fuhr um"
+    },
+    "umfallen": {
+        "perfekt": "umgefallen",
+        "prateritum": "fiel um"
+    },
+    "umfassen": {
+        "perfekt": "umfasst",
+        "prateritum": "fasste um"
+    },
+    "umgeben": {
+        "perfekt": "umgeben",
+        "prateritum": "umgab"
+    },
+    "umgehen": {
+        "perfekt": "umgangen",
+        "prateritum": "ging um"
+    },
+    "umgraben": {
+        "perfekt": "umgegraben",
+        "prateritum": "grub um"
+    },
+    "umhängen": {
+        "perfekt": "umgehängt",
+        "prateritum": "hängte um"
+    },
+    "umkehren": {
+        "perfekt": "umgekehrt",
+        "prateritum": "kehrte um"
+    },
+    "umklappen": {
+        "perfekt": "umgeklappt",
+        "prateritum": "klappte um"
+    },
+    "umkommen": {
+        "perfekt": "umgekommen",
+        "prateritum": "kam um"
+    },
+    "umkreisen": {
+        "perfekt": "umkreist",
+        "prateritum": "kreiste um"
+    },
+    "umlegen": {
+        "perfekt": "umgelegt",
+        "prateritum": "legte um"
+    },
+    "umranden": {
+        "perfekt": "umrandet",
+        "prateritum": "randete um"
+    },
+    "umreißen": {
+        "perfekt": "umrissen",
+        "prateritum": "riss um"
+    },
+    "umschalten": {
+        "perfekt": "umgeschaltet",
+        "prateritum": "schaltete um"
+    },
+    "umschreiben": {
+        "perfekt": "umschrieben",
+        "prateritum": "schrieb um"
+    },
+    "umschulen": {
+        "perfekt": "umschult",
+        "prateritum": "schulte um"
+    },
+    "umsehen": {
+        "perfekt": "umgesehen",
+        "prateritum": "sah um"
+    },
+    "umsetzen": {
+        "perfekt": "umgesetzt",
+        "prateritum": "setzte um"
+    },
+    "umsiedeln": {
+        "perfekt": "umgesiedelt",
+        "prateritum": "siedelte um"
+    },
+    "umspringen": {
+        "perfekt": "umgesprungen",
+        "prateritum": "sprang um"
+    },
+    "umstellen": {
+        "perfekt": "umgestellt",
+        "prateritum": "stellte um"
+    },
+    "umstrukturieren": {
+        "perfekt": "umstrukturiert",
+        "prateritum": "strukturierte um"
+    },
+    "umtauschen": {
+        "perfekt": "umgetauscht",
+        "prateritum": "tauschte um"
+    },
+    "unterbrechen": {
+        "perfekt": "unterbrochen",
+        "prateritum": "unterbrach"
+    },
+    "unterdrücken": {
+        "perfekt": "unterdrückt",
+        "prateritum": "unterdrückte"
+    },
+    "unterhalten": {
+        "perfekt": "unterhalten",
+        "prateritum": "unterhielt"
+    },
+    "unternehmen": {
+        "perfekt": "unternommen",
+        "prateritum": "unternahm"
+    },
+    "unterrichten": {
+        "perfekt": "unterrichtet",
+        "prateritum": "unterrichtete"
+    },
+    "unterscheiden": {
+        "perfekt": "unterschieden",
+        "prateritum": "unterschied"
+    },
+    "unterstützen": {
+        "perfekt": "unterstützt",
+        "prateritum": "unterstützte"
+    },
+    "untersuchen": {
+        "perfekt": "untersucht",
+        "prateritum": "untersuchte"
+    },
+    "unterzeichnen": {
+        "perfekt": "unterzeichnet",
+        "prateritum": "unterzeichnete"
+    },
+    "urteilen": {
+        "perfekt": "geurteilt",
+        "prateritum": "urteilte"
+    },
+    "umziehen": {
+        "perfekt": "umgezogen",
+        "prateritum": "zog um"
+    },
+    "übelnehmen": {
+        "perfekt": "übelgenommen",
+        "prateritum": "nahm übel"
+    },
+    "überarbeiten": {
+        "perfekt": "überarbeitet",
+        "prateritum": "überarbeitete"
+    },
+    "uberprüfen": {
+        "perfekt": "überprüft",
+        "prateritum": "überprüfte"
+    },
+    "ubernehmen": {
+        "perfekt": "übernommen",
+        "prateritum": "übernahm"
+    },
+    "uberreden": {
+        "perfekt": "überredet",
+        "prateritum": "überredete"
+    },
+    "uberschwemmen": {
+        "perfekt": "überschwemmt",
+        "prateritum": "überschwemmte"
+    },
+    "überqueren": {
+        "perfekt": "überquert",
+        "prateritum": "überquerte"
+    },
+    "unverstehen": {
+        "perfekt": "unverstanden",
+        "prateritum": "verstand nicht"
+    },
+    "unvertragen": {
+        "perfekt": "unvertragen",
+        "prateritum": "vertrug nicht"
+    },
+    "unbehagen": {
+        "perfekt": "unbehagen",
+        "prateritum": "behagte nicht"
+    },
+    "unfallen": {
+        "perfekt": "unfallen",
+        "prateritum": "fiel nicht um"
+    },
+    "umwandeln": {
+        "perfekt": "umgewandelt",
+        "prateritum": "wandelte um"
+    },
+    "unverbinden": {
+        "perfekt": "unverbinden",
+        "prateritum": "verband sich nicht"
+    },
+    "unfreunden": {
+        "perfekt": "unfreunden",
+        "prateritum": "wurde nicht befreundet"
+    },
+    "unzugehen": {
+        "perfekt": "unzugegangen",
+        "prateritum": "ging nicht zu"
+    },
+    "unkosten": {
+        "perfekt": "unkosten",
+        "prateritum": "kosten nicht"
+    },
+    "unzweifeln": {
+        "perfekt": "unzweifeln",
+        "prateritum": "zweifelte nicht"
+    },
+    "unkünden": {
+        "perfekt": "unkünden",
+        "prateritum": "kündete nicht"
+    },
+    "unterstellen": {
+        "perfekt": "unterstellt",
+        "prateritum": "stellte unter"
+    },
+    "unverdrossen": {
+        "perfekt": "unverdrossen",
+        "prateritum": "war nicht verdrossen"
+    },
+    "umwerfen": {
+        "perfekt": "umgeworfen",
+        "prateritum": "warf um"
+    },
+    "unterbinden": {
+        "perfekt": "unterbunden",
+        "prateritum": "band unter"
+    },
+    "untersetzen": {
+        "perfekt": "untersetzt",
+        "prateritum": "setzte unter"
+    },
+    "untersagen": {
+        "perfekt": "untersagt",
+        "prateritum": "sagte unter"
+    },
+    "unterbringen": {
+        "perfekt": "untergebracht",
+        "prateritum": "brachte unter"
+    },
+    "unverzüglichhandeln": {
+        "perfekt": "unverzüglichgehandelt",
+        "prateritum": "handelte unverzüglich"
+    },
+    "unverzüglichreagieren": {
+        "perfekt": "unverzüglichreagiert",
+        "prateritum": "reagierte unverzüglich"
+    },
+    "unverzüglichzurückschreiben": {
+        "perfekt": "unverzüglichzurückgeschrieben",
+        "prateritum": "schrieb unverzüglich zurück"
+    },
+    "unverzüglichantworten": {
+        "perfekt": "unverzüglichgeantwortet",
+        "prateritum": "antwortete unverzüglich"
+    },
+    "überspannen": {
+        "perfekt": "überspannt",
+        "prateritum": "überspannte"
+    },
+    "übertreten": {
+        "perfekt": "übertreten",
+        "prateritum": "trat über"
+    },
+    "überwachsen": {
+        "perfekt": "überwachsen",
+        "prateritum": "wuchs über"
+    },
+    "überwintern": {
+        "perfekt": "überwintert",
+        "prateritum": "überwinterte"
+    },
+    "überziehen": {
+        "perfekt": "überzogen",
+        "prateritum": "überzog"
+    }
+}

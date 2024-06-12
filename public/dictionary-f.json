@@ -1,0 +1,282 @@
+{
+    "fallen": {
+        "perfekt": "gefallen",
+        "prateritum": "fiel"
+    },
+    "fahren": {
+        "perfekt": "gefahren",
+        "prateritum": "fuhr"
+    },
+    "fangen": {
+        "perfekt": "gefangen",
+        "prateritum": "fing"
+    },
+    "finden": {
+        "perfekt": "gefunden",
+        "prateritum": "fand"
+    },
+    "fliegen": {
+        "perfekt": "geflogen",
+        "prateritum": "flog"
+    },
+    "fließen": {
+        "perfekt": "geflossen",
+        "prateritum": "floss"
+    },
+    "fressen": {
+        "perfekt": "gefressen",
+        "prateritum": "fraß"
+    },
+    "frieren": {
+        "perfekt": "gefroren",
+        "prateritum": "fror"
+    },
+    "fällen": {
+        "perfekt": "gefällt",
+        "prateritum": "fällte"
+    },
+    "fliehen": {
+        "perfekt": "geflohen",
+        "prateritum": "floh"
+    },
+    "fluchen": {
+        "perfekt": "geflucht",
+        "prateritum": "fluchte"
+    },
+    "folgen": {
+        "perfekt": "gefolgt",
+        "prateritum": "folgte"
+    },
+    "fechten": {
+        "perfekt": "gefochten",
+        "prateritum": "focht"
+    },
+    "fürchten": {
+        "perfekt": "gefürchtet",
+        "prateritum": "fürchtete"
+    },
+    "fehlen": {
+        "perfekt": "gefehlt",
+        "prateritum": "fehlte"
+    },
+    "feststellen": {
+        "perfekt": "festgestellt",
+        "prateritum": "stellte fest"
+    },
+    "führen": {
+        "perfekt": "geführt",
+        "prateritum": "führte"
+    },
+    "fackeln": {
+        "perfekt": "gefackelt",
+        "prateritum": "fackelte"
+    },
+    "fächeln": {
+        "perfekt": "gefächelt",
+        "prateritum": "fächelte"
+    },
+    "faden": {
+        "perfekt": "gefadet",
+        "prateritum": "fadete"
+    },
+    "fächern": {
+        "perfekt": "gefächert",
+        "prateritum": "fächerte"
+    },
+    "fegen": {
+        "perfekt": "gefegt",
+        "prateritum": "fegte"
+    },
+    "feiern": {
+        "perfekt": "gefeiert",
+        "prateritum": "feierte"
+    },
+    "feilen": {
+        "perfekt": "gefeilt",
+        "prateritum": "feilte"
+    },
+    "feixen": {
+        "perfekt": "gefeixt",
+        "prateritum": "feixte"
+    },
+    "festhalten": {
+        "perfekt": "festgehalten",
+        "prateritum": "hielt fest"
+    },
+    "festigen": {
+        "perfekt": "festigt",
+        "prateritum": "festigte"
+    },
+    "festkleben": {
+        "perfekt": "festgeklebt",
+        "prateritum": "klebte fest"
+    },
+    "festklemmen": {
+        "perfekt": "festgeklemmt",
+        "prateritum": "klemmte fest"
+    },
+    "festlegen": {
+        "perfekt": "festgelegt",
+        "prateritum": "legte fest"
+    },
+    "festmachen": {
+        "perfekt": "festgemacht",
+        "prateritum": "machte fest"
+    },
+    "festnageln": {
+        "perfekt": "festgenagelt",
+        "prateritum": "nagelte fest"
+    },
+    "festnehmen": {
+        "perfekt": "festgenommen",
+        "prateritum": "nahm fest"
+    },
+    "festsetzen": {
+        "perfekt": "festgesetzt",
+        "prateritum": "setzte fest"
+    },
+    "festzurren": {
+        "perfekt": "festgezurrt",
+        "prateritum": "zurrte fest"
+    },
+    "fetzen": {
+        "perfekt": "gefetzt",
+        "prateritum": "fetzte"
+    },
+    "fiebern": {
+        "perfekt": "gefiebert",
+        "prateritum": "fieberte"
+    },
+    "fiedeln": {
+        "perfekt": "gefiedelt",
+        "prateritum": "fiedelte"
+    },
+    "fiepen": {
+        "perfekt": "gefiept",
+        "prateritum": "fiepte"
+    },
+    "fielen": {
+        "perfekt": "gefielen",
+        "prateritum": "fielten"
+    },
+    "filetieren": {
+        "perfekt": "filetiert",
+        "prateritum": "filetierte"
+    },
+    "filmen": {
+        "perfekt": "gefilmt",
+        "prateritum": "filmte"
+    },
+    "filtrieren": {
+        "perfekt": "filtriert",
+        "prateritum": "filtrierte"
+    },
+    "fingern": {
+        "perfekt": "gefingert",
+        "prateritum": "fingerte"
+    },
+    "fischen": {
+        "perfekt": "gefischt",
+        "prateritum": "fischte"
+    },
+    "flachsen": {
+        "perfekt": "geflachst",
+        "prateritum": "flachste"
+    },
+    "flackern": {
+        "perfekt": "geflackert",
+        "prateritum": "flackerte"
+    },
+    "flaggen": {
+        "perfekt": "geflaggt",
+        "prateritum": "flaggte"
+    },
+    "flammen": {
+        "perfekt": "geflammt",
+        "prateritum": "flammte"
+    },
+    "flanken": {
+        "perfekt": "geflankt",
+        "prateritum": "flankte"
+    },
+    "flämmen": {
+        "perfekt": "geflämmt",
+        "prateritum": "flämte"
+    },
+    "fläzen": {
+        "perfekt": "gefläzt",
+        "prateritum": "fläzte"
+    },
+    "flattern": {
+        "perfekt": "geflattert",
+        "prateritum": "flatterte"
+    },
+    "flechten": {
+        "perfekt": "geflochten",
+        "prateritum": "flocht"
+    },
+    "flecken": {
+        "perfekt": "gefleckt",
+        "prateritum": "fleckte"
+    },
+    "flegeln": {
+        "perfekt": "geflegelt",
+        "prateritum": "flegelte"
+    },
+    "flehen": {
+        "perfekt": "gefleht",
+        "prateritum": "flehte"
+    },
+    "fleißen": {
+        "perfekt": "gefleißt",
+        "prateritum": "fleißte"
+    },
+    "fabrizieren": {
+        "perfekt": "fabriziert",
+        "prateritum": "fabrizierte"
+    },
+    "facettenreich": {
+        "perfekt": "facettenreich",
+        "prateritum": "facettenreichte"
+    },
+    "fahnden": {
+        "perfekt": "gefahndet",
+        "prateritum": "fahndete"
+    },
+    "fälschen": {
+        "perfekt": "gefälscht",
+        "prateritum": "fälschte"
+    },
+    "fällig": {
+        "perfekt": "fällig",
+        "prateritum": "fälligte"
+    },
+    "färben": {
+        "perfekt": "gefärbt",
+        "prateritum": "färbte"
+    },
+    "farbigen": {
+        "perfekt": "gefarbigt",
+        "prateritum": "farbigte"
+    },
+    "fassen": {
+        "perfekt": "gefasst",
+        "prateritum": "fasste"
+    },
+    "fasten": {
+        "perfekt": "gefastet",
+        "prateritum": "fastete"
+    },
+    "federn": {
+        "perfekt": "gefedert",
+        "prateritum": "federte"
+    },
+    "feuern": {
+        "perfekt": "gefeuert",
+        "prateritum": "feuerte"
+    },
+    "fladen": {
+        "perfekt": "gefladet",
+        "prateritum": "fladete"
+    }
+}

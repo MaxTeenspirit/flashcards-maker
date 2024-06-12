@@ -1,0 +1,134 @@
+{
+    "rufen": {
+        "perfekt": "gerufen",
+        "prateritum": "rief"
+    },
+    "reiten": {
+        "perfekt": "geritten",
+        "prateritum": "ritt"
+    },
+    "rennen": {
+        "perfekt": "gerannt",
+        "prateritum": "rannte"
+    },
+    "reiben": {
+        "perfekt": "gerieben",
+        "prateritum": "rieb"
+    },
+    "reißen": {
+        "perfekt": "gerissen",
+        "prateritum": "riss"
+    },
+    "riechen": {
+        "perfekt": "gerochen",
+        "prateritum": "roch"
+    },
+    "rinnen": {
+        "perfekt": "geronnen",
+        "prateritum": "rann"
+    },
+    "raten": {
+        "perfekt": "geraten",
+        "prateritum": "riet"
+    },
+    "räumen": {
+        "perfekt": "geräumt",
+        "prateritum": "räumte"
+    },
+    "rauchen": {
+        "perfekt": "geraucht",
+        "prateritum": "rauchte"
+    },
+    "reichen": {
+        "perfekt": "gereicht",
+        "prateritum": "reichte"
+    },
+    "reisen": {
+        "perfekt": "gereist",
+        "prateritum": "reiste"
+    },
+    "retten": {
+        "perfekt": "gerettet",
+        "prateritum": "rettete"
+    },
+    "ringen": {
+        "perfekt": "gerungen",
+        "prateritum": "rang"
+    },
+    "ruhen": {
+        "perfekt": "geruht",
+        "prateritum": "ruhte"
+    },
+    "rühmen": {
+        "perfekt": "gerühmt",
+        "prateritum": "rühmte"
+    },
+    "rutschen": {
+        "perfekt": "gerutscht",
+        "prateritum": "rutschte"
+    },
+    "rechnen": {
+        "perfekt": "gerechnet",
+        "prateritum": "rechnete"
+    },
+    "reden": {
+        "perfekt": "geredet",
+        "prateritum": "redete"
+    },
+    "rächen": {
+        "perfekt": "gerächt",
+        "prateritum": "rächte"
+    },
+    "radieren": {
+        "perfekt": "radiert",
+        "prateritum": "radierte"
+    },
+    "reagieren": {
+        "perfekt": "reagiert",
+        "prateritum": "reagierte"
+    },
+    "rechen": {
+        "perfekt": "gerechnet",
+        "prateritum": "rechnete"
+    },
+    "regnen": {
+        "perfekt": "geregnet",
+        "prateritum": "regnete"
+    },
+    "reizen": {
+        "perfekt": "gereizt",
+        "prateritum": "reizte"
+    },
+    "rauben": {
+        "perfekt": "geraubt",
+        "prateritum": "raubte"
+    },
+    "ratzen": {
+        "perfekt": "geratzt",
+        "prateritum": "ratzte"
+    },
+    "rudern": {
+        "perfekt": "gerudert",
+        "prateritum": "ruderte"
+    },
+    "rubbeln": {
+        "perfekt": "gerubbelt",
+        "prateritum": "rubbelt"
+    },
+    "reimen": {
+        "perfekt": "gereimt",
+        "prateritum": "reimte"
+    },
+    "rasieren": {
+        "perfekt": "rasiert",
+        "prateritum": "rasierte"
+    },
+    "regieren": {
+        "perfekt": "regiert",
+        "prateritum": "regierte"
+    },
+    "rauschen": {
+        "perfekt": "gerauscht",
+        "prateritum": "rauschte"
+    }
+}

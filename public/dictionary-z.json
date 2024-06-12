@@ -1,0 +1,186 @@
+{
+    "ziehen": {
+        "perfekt": "gezogen",
+        "prateritum": "zog"
+    },
+    "zwingen": {
+        "perfekt": "gezwungen",
+        "prateritum": "zwang"
+    },
+    "zeigen": {
+        "perfekt": "gezeigt",
+        "prateritum": "zeigte"
+    },
+    "zerstören": {
+        "perfekt": "zerstört",
+        "prateritum": "zerstörte"
+    },
+    "zubereiten": {
+        "perfekt": "zubereitet",
+        "prateritum": "bereitete zu"
+    },
+    "zuhören": {
+        "perfekt": "zugehört",
+        "prateritum": "hörte zu"
+    },
+    "zulassen": {
+        "perfekt": "zugelassen",
+        "prateritum": "ließ zu"
+    },
+    "zumachen": {
+        "perfekt": "zugemacht",
+        "prateritum": "machte zu"
+    },
+    "zustimmen": {
+        "perfekt": "zugestimmt",
+        "prateritum": "stimmte zu"
+    },
+    "zweifeln": {
+        "perfekt": "gezweifelt",
+        "prateritum": "zweifelte"
+    },
+    "zerbrechen": {
+        "perfekt": "zerbrochen",
+        "prateritum": "zerbrach"
+    },
+    "zersetzen": {
+        "perfekt": "zersetzt",
+        "prateritum": "zersetzte"
+    },
+    "zielen": {
+        "perfekt": "gezielt",
+        "prateritum": "zielte"
+    },
+    "zittern": {
+        "perfekt": "gezittert",
+        "prateritum": "zitterte"
+    },
+    "zudecken": {
+        "perfekt": "zugedeckt",
+        "prateritum": "deckte zu"
+    },
+    "zufügen": {
+        "perfekt": "zugefügt",
+        "prateritum": "fügte zu"
+    },
+    "zugestehen": {
+        "perfekt": "zugestanden",
+        "prateritum": "gestand zu"
+    },
+    "zugreifen": {
+        "perfekt": "zugegriffen",
+        "prateritum": "griff zu"
+    },
+    "zunehmen": {
+        "perfekt": "zugenommen",
+        "prateritum": "nahm zu"
+    },
+    "zurechtkommen": {
+        "perfekt": "zurechtgekommen",
+        "prateritum": "kam zurecht"
+    },
+    "zurückgeben": {
+        "perfekt": "zurückgegeben",
+        "prateritum": "gab zurück"
+    },
+    "zurückkehren": {
+        "perfekt": "zurückgekehrt",
+        "prateritum": "kehrte zurück"
+    },
+    "zurücknehmen": {
+        "perfekt": "zurückgenommen",
+        "prateritum": "nahm zurück"
+    },
+    "zusagen": {
+        "perfekt": "zugesagt",
+        "prateritum": "sagte zu"
+    },
+    "zusammenbrechen": {
+        "perfekt": "zusammengebrochen",
+        "prateritum": "brach zusammen"
+    },
+    "zusammenfassen": {
+        "perfekt": "zusammengefasst",
+        "prateritum": "fasste zusammen"
+    },
+    "zusammenhalten": {
+        "perfekt": "zusammengehalten",
+        "prateritum": "hielt zusammen"
+    },
+    "zusammenkommen": {
+        "perfekt": "zusammengekommen",
+        "prateritum": "kam zusammen"
+    },
+    "zusammensetzen": {
+        "perfekt": "zusammengesetzt",
+        "prateritum": "setzte zusammen"
+    },
+    "zusammenstoßen": {
+        "perfekt": "zusammengestoßen",
+        "prateritum": "stieß zusammen"
+    },
+    "zuteilen": {
+        "perfekt": "zugeteilt",
+        "prateritum": "teilte zu"
+    },
+    "zuweisen": {
+        "perfekt": "zugewiesen",
+        "prateritum": "wies zu"
+    },
+    "zerschneiden": {
+        "perfekt": "zerschnitten",
+        "prateritum": "zerschnitt"
+    },
+    "zwängen": {
+        "perfekt": "gezwungen",
+        "prateritum": "zwang"
+    },
+    "zählen": {
+        "perfekt": "gezählt",
+        "prateritum": "zählte"
+    },
+    "zeichnen": {
+        "perfekt": "gezeichnet",
+        "prateritum": "zeichnete"
+    },
+    "zieren": {
+        "perfekt": "geziert",
+        "prateritum": "zierte"
+    },
+    "zögern": {
+        "perfekt": "gezögert",
+        "prateritum": "zögerte"
+    },
+    "zollen": {
+        "perfekt": "gezollt",
+        "prateritum": "zollte"
+    },
+    "züchten": {
+        "perfekt": "gezüchtet",
+        "prateritum": "züchtete"
+    },
+    "zücken": {
+        "perfekt": "gezückt",
+        "prateritum": "zückte"
+    },
+    "zurückgreifen": {
+        "perfekt": "zurückgegriffen",
+        "prateritum": "griff zurück"
+    },
+    "zurückhalten": {
+        "perfekt": "zurückgehalten",
+        "prateritum": "hielt zurück"
+    },
+    "zurückkommen": {
+        "perfekt": "zurückgekommen",
+        "prateritum": "kam zurück"
+    },
+    "zusammentreffen": {
+        "perfekt": "zusammentreffen",
+        "prateritum": "traf zusammen"
+    },
+    "zutreffen": {
+        "perfekt": "zutreffen",
+        "prateritum": "traf zu"
+    }
+}
