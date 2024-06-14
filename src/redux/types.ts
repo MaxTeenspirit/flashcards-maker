@@ -32,3 +32,12 @@ export interface IWord extends Omit<ICard, 'deck'> {
 	isStrong?: boolean;
 	wordType: string;
 }
+
+export interface IDictionaryData {
+	[key: string]: IVerbData;
+}
+
+export interface IVerbData {
+	perfekt: string;
+	prateritum: string;
+}

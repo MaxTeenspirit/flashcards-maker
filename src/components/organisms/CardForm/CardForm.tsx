@@ -3,11 +3,11 @@ import {useForm} from 'react-hook-form';
 import {useSelector, useDispatch} from 'react-redux';
 import {Box, Button, FormControl, FormLabel, Input, Select, Stack, Checkbox, useToast} from '@chakra-ui/react';
 
+import {InputWrapper} from '@molecules';
 import {RootState} from '@redux';
-import {capitalizeWord} from '@helpers';
 import {ICard} from '@redux-types';
 import {addCard, addCardToDeck, editCard} from '@slices';
-import {InputWrapper} from '@molecules';
+import {capitalizeWord} from '@helpers';
 
 import {ICardForm} from './ICardForm.ts';
 

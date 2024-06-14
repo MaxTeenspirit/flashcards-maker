@@ -93,3 +93,12 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 		return shuffled;
 	}, []);
 };
+
+export const normalizeLetter = (letter: string): string => {
+	const normalizationMap: {[key: string]: string} = {
+		ö: 'o',
+		ü: 'u',
+		ä: 'a',
+	};
+	return letter.replace(/[öüä]/g, (match) => normalizationMap[match]);
+};

@@ -3,30 +3,39 @@ import {combineReducers} from 'redux';
 import {persistReducer, persistStore} from 'redux-persist';
 import storage from 'redux-persist-indexeddb-storage';
 
+import {ICardInitialState, IDeckInitialState} from '@redux-types';
+
 import cardsReducer from './slices/cardsSlice';
 import decksReducer from './slices/deckSlice';
-
-const rootReducer = combineReducers({
-	cards: cardsReducer,
-	decks: decksReducer,
-});
+import filesSlice from './slices/filesSlice';
 
 const persistConfig = {
 	key: 'root',
 	storage: storage('FlashFluentDE'),
-	serialize: false, // Data serialization is not required and disabling it allows you to inspect storage value in DevTools; Available since redux-persist@5.4.0
-	deserialize: false, // Required to bear same value as `serialize` since redux-persist@6.0
+	serialize: false,
+	deserialize: false,
 };
 
-const persistedReducer = persistReducer(persistConfig, rootReducer);
+const persistedCardsReducer = persistReducer({...persistConfig, key: 'cards'}, cardsReducer);
+const persistedDecksReducer = persistReducer({...persistConfig, key: 'decks'}, decksReducer);
+
+const rootReducer = combineReducers({
+	[filesSlice.reducerPath]: filesSlice.reducer, // No need to persist
+	cards: persistedCardsReducer,
+	decks: persistedDecksReducer,
+});
 
 export const store = configureStore({
-	reducer: persistedReducer,
+	reducer: rootReducer,
 	middleware: (getDefaultMiddleware) =>
 		getDefaultMiddleware({
 			serializableCheck: false,
-		}),
+		}).concat(filesSlice.middleware),
 });
 
 export const persistor = persistStore(store);
-export type RootState = ReturnType<typeof store.getState>;
+
+export type RootState = {
+	cards: ICardInitialState;
+	decks: IDeckInitialState;
+};
