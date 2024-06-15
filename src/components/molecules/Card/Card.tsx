@@ -97,7 +97,7 @@ const Card = ({card}: ICardProps) => {
 			) : null}
 			{card?.wordType === 'verb' ? (
 				<CardBody flexGrow="initial" p="0rem 1rem 0rem 0.5rem" fontSize={['1.1rem', '1rem']}>
-					{settings?.perfekt && dictionaryData?.perfekt && (
+					{!!settings?.perfekt && !!dictionaryData?.perfekt && (
 						<Text as="p" textAlign="left">
 							<Text as="span" color="#919191">
 								Part.II:{' '}
@@ -105,7 +105,7 @@ const Card = ({card}: ICardProps) => {
 							{dictionaryData?.perfekt + '; '}
 						</Text>
 					)}
-					{settings?.prateritum && dictionaryData?.prateritum && (
+					{!!settings?.prateritum && !!dictionaryData?.prateritum && (
 						<Text as="p" textAlign="left">
 							<Text as="span" color="#919191">
 								Prät.:{' '}

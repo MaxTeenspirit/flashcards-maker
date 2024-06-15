@@ -1,17 +1,43 @@
-import {useState, useRef} from 'react';
+import {useState, useRef, useEffect} from 'react';
 import {Box, Text, Center, useMediaQuery} from '@chakra-ui/react';
 import {useMotionValue, useTransform} from 'framer-motion';
+import {FetchBaseQueryError} from '@reduxjs/toolkit/query';
+import {SerializedError} from '@reduxjs/toolkit';
+import {useSelector} from 'react-redux';
 
 import {MotionBox} from '@atoms';
 
+import {useGetVerbDataQuery} from 'redux/slices/dictionarySlice.ts';
 import {useFitText} from '../../../hooks';
 import {chooseBackgroundColor} from '@helpers';
+import {IDictionaryData, IVerbData} from '@redux-types';
+import {RootState} from '@redux';
 
 import {IFlipCard} from './IFlipCard.ts';
 
 const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 	const [flipped, setFlipped] = useState(false);
 	const [isXSScreen] = useMediaQuery('(max-width: 360px)');
+
+	const [dictionaryData, setDictionaryData] = useState<IVerbData>();
+
+	const settings = useSelector((state: RootState) => state.settings);
+
+	const {data: verbData} = useGetVerbDataQuery(word.word[0]?.toLowerCase(), {
+		skip: !word?.word || word?.wordType !== 'verb',
+	}) as {
+		data: IDictionaryData | undefined;
+		error: FetchBaseQueryError | SerializedError | undefined;
+	};
+
+	useEffect(() => {
+		const wordValue = word?.word;
+		const type = word?.wordType;
+
+		if (!!word && type === 'verb' && verbData) {
+			setDictionaryData(verbData[wordValue?.toLowerCase()]);
+		}
+	}, [word, word?.word, word?.wordType, verbData]);
 
 	const x = useMotionValue(0);
 	const rotateY = useTransform(x, [-200, 0, 200], [15, 0, -15]);
@@ -90,6 +116,22 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 							<Text ref={pluralRef} as="p" fontSize="1.8rem">{`${word?.article ? 'die ' : ''}${
 								word?.plural
 							}`}</Text>
+						)}
+						{!!settings?.perfekt && !!dictionaryData?.perfekt && (
+							<Text as="p" textAlign="left">
+								<Text as="span" color="#919191">
+									Part.II:{' '}
+								</Text>
+								{dictionaryData?.perfekt + '; '}
+							</Text>
+						)}
+						{!!settings?.prateritum && !!dictionaryData?.prateritum && (
+							<Text as="p" textAlign="left">
+								<Text as="span" color="#919191">
+									Prät.:{' '}
+								</Text>
+								{dictionaryData?.prateritum};
+							</Text>
 						)}
 					</Box>
 					<Box
