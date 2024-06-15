@@ -1,0 +1,406 @@
+{
+    "verderben": {
+        "perfekt": "verdorben",
+        "prateritum": "verdarb"
+    },
+    "vergessen": {
+        "perfekt": "vergessen",
+        "prateritum": "vergaß"
+    },
+    "verlassen": {
+        "perfekt": "verlassen",
+        "prateritum": "verließ"
+    },
+    "verlieren": {
+        "perfekt": "verloren",
+        "prateritum": "verlor"
+    },
+    "verzeihen": {
+        "perfekt": "verziehen",
+        "prateritum": "verzieh"
+    },
+    "verändern": {
+        "perfekt": "verändert",
+        "prateritum": "veränderte"
+    },
+    "verbinden": {
+        "perfekt": "verbunden",
+        "prateritum": "verband"
+    },
+    "verdienen": {
+        "perfekt": "verdient",
+        "prateritum": "verdiente"
+    },
+    "vergleichen": {
+        "perfekt": "verglichen",
+        "prateritum": "verglich"
+    },
+    "verstehen": {
+        "perfekt": "verstanden",
+        "prateritum": "verstand"
+    },
+    "versuchen": {
+        "perfekt": "versucht",
+        "prateritum": "versuchte"
+    },
+    "verteidigen": {
+        "perfekt": "verteidigt",
+        "prateritum": "verteidigte"
+    },
+    "verwenden": {
+        "perfekt": "verwendet",
+        "prateritum": "verwendete"
+    },
+    "verfügen": {
+        "perfekt": "verfügt",
+        "prateritum": "verfügte"
+    },
+    "vergrößern": {
+        "perfekt": "vergrößert",
+        "prateritum": "vergrößerte"
+    },
+    "verhandeln": {
+        "perfekt": "verhandelt",
+        "prateritum": "verhandelte"
+    },
+    "verhindern": {
+        "perfekt": "verhindert",
+        "prateritum": "verhinderte"
+    },
+    "verkaufen": {
+        "perfekt": "verkauft",
+        "prateritum": "verkaufte"
+    },
+    "verletzen": {
+        "perfekt": "verletzt",
+        "prateritum": "verletzte"
+    },
+    "vermeiden": {
+        "perfekt": "vermieden",
+        "prateritum": "vermied"
+    },
+    "vermitteln": {
+        "perfekt": "vermittelt",
+        "prateritum": "vermittelte"
+    },
+    "vermissen": {
+        "perfekt": "vermisst",
+        "prateritum": "vermisste"
+    },
+    "verpassen": {
+        "perfekt": "verpasst",
+        "prateritum": "verpasste"
+    },
+    "verreisen": {
+        "perfekt": "verreist",
+        "prateritum": "verreiste"
+    },
+    "verschieben": {
+        "perfekt": "verschoben",
+        "prateritum": "verschob"
+    },
+    "versichern": {
+        "perfekt": "versichert",
+        "prateritum": "versicherte"
+    },
+    "versprechen": {
+        "perfekt": "versprochen",
+        "prateritum": "versprach"
+    },
+    "vertreten": {
+        "perfekt": "vertreten",
+        "prateritum": "vertrat"
+    },
+    "verurteilen": {
+        "perfekt": "verurteilt",
+        "prateritum": "verurteilte"
+    },
+    "verwandeln": {
+        "perfekt": "verwandelt",
+        "prateritum": "verwandelte"
+    },
+    "verweigern": {
+        "perfekt": "verweigert",
+        "prateritum": "verweigerte"
+    },
+    "verzichten": {
+        "perfekt": "verzichtet",
+        "prateritum": "verzichtete"
+    },
+    "verschwinden": {
+        "perfekt": "verschwunden",
+        "prateritum": "verschwand"
+    },
+    "verteilen": {
+        "perfekt": "verteilt",
+        "prateritum": "verteilte"
+    },
+    "vergeben": {
+        "perfekt": "vergeben",
+        "prateritum": "vergab"
+    },
+    "verbringen": {
+        "perfekt": "verbracht",
+        "prateritum": "verbrachte"
+    },
+    "versorgen": {
+        "perfekt": "versorgt",
+        "prateritum": "versorgte"
+    },
+    "verfolgen": {
+        "perfekt": "verfolgt",
+        "prateritum": "verfolgte"
+    },
+    "verhalten": {
+        "perfekt": "verhalten",
+        "prateritum": "verhielt"
+    },
+    "verkennen": {
+        "perfekt": "verkannt",
+        "prateritum": "verkannte"
+    },
+    "vermuten": {
+        "perfekt": "vermutet",
+        "prateritum": "vermutete"
+    },
+    "verstecken": {
+        "perfekt": "versteckt",
+        "prateritum": "versteckte"
+    },
+    "vergiften": {
+        "perfekt": "vergiftet",
+        "prateritum": "vergiftete"
+    },
+    "verlängern": {
+        "perfekt": "verlängert",
+        "prateritum": "verlängerte"
+    },
+    "verwirren": {
+        "perfekt": "verwirrt",
+        "prateritum": "verwirrte"
+    },
+    "verharren": {
+        "perfekt": "verharrt",
+        "prateritum": "verharrte"
+    },
+    "verlaufen": {
+        "perfekt": "verlaufen",
+        "prateritum": "verlief"
+    },
+    "verschwören": {
+        "perfekt": "verschworen",
+        "prateritum": "verschwörte"
+    },
+    "verachten": {
+        "perfekt": "verachtet",
+        "prateritum": "verachtete"
+    },
+    "verschließen": {
+        "perfekt": "verschlossen",
+        "prateritum": "verschloss"
+    },
+    "versinken": {
+        "perfekt": "versunken",
+        "prateritum": "versank"
+    },
+    "verwöhnen": {
+        "perfekt": "verwöhnt",
+        "prateritum": "verwöhnte"
+    },
+    "versetzen": {
+        "perfekt": "versetzt",
+        "prateritum": "versetzte"
+    },
+    "verführen": {
+        "perfekt": "verführt",
+        "prateritum": "verführte"
+    },
+    "verspotten": {
+        "perfekt": "verspottet",
+        "prateritum": "verspottete"
+    },
+    "verabschieden": {
+        "perfekt": "verabschiedet",
+        "prateritum": "verabschiedete"
+    },
+    "verwarnen": {
+        "perfekt": "verwarnt",
+        "prateritum": "verwarnte"
+    },
+    "veröffentlichen": {
+        "perfekt": "veröffentlicht",
+        "prateritum": "veröffentlichte"
+    },
+    "verursachen": {
+        "perfekt": "verursacht",
+        "prateritum": "verursachte"
+    },
+    "verhören": {
+        "perfekt": "verhört",
+        "prateritum": "verhörte"
+    },
+    "verwerfen": {
+        "perfekt": "verworfen",
+        "prateritum": "verwarf"
+    },
+    "verbrauchen": {
+        "perfekt": "verbraucht",
+        "prateritum": "verbrauchte"
+    },
+    "vertrauen": {
+        "perfekt": "vertraut",
+        "prateritum": "vertraute"
+    },
+    "verweisen": {
+        "perfekt": "verwiesen",
+        "prateritum": "verwies"
+    },
+    "verleihen": {
+        "perfekt": "verliehen",
+        "prateritum": "verlieh"
+    },
+    "verringern": {
+        "perfekt": "verringert",
+        "prateritum": "verringerte"
+    },
+    "vertreiben": {
+        "perfekt": "vertrieben",
+        "prateritum": "vertrieb"
+    },
+    "verwickeln": {
+        "perfekt": "verwickelt",
+        "prateritum": "verwickelte"
+    },
+    "verhüllen": {
+        "perfekt": "verhüllt",
+        "prateritum": "verhüllte"
+    },
+    "verraten": {
+        "perfekt": "verraten",
+        "prateritum": "verriet"
+    },
+    "verbreiten": {
+        "perfekt": "verbreitet",
+        "prateritum": "verbreitete"
+    },
+    "verfluchen": {
+        "perfekt": "verflucht",
+        "prateritum": "verfluchte"
+    },
+    "vermieten": {
+        "perfekt": "vermietet",
+        "prateritum": "vermietete"
+    },
+    "verarbeiten": {
+        "perfekt": "verarbeitet",
+        "prateritum": "verarbeitete"
+    },
+    "verjagen": {
+        "perfekt": "verjagt",
+        "prateritum": "verjagte"
+    },
+    "vermehren": {
+        "perfekt": "vermehrt",
+        "prateritum": "vermehrte"
+    },
+    "vergewaltigen": {
+        "perfekt": "vergewaltigt",
+        "prateritum": "vergewaltigte"
+    },
+    "verschlingen": {
+        "perfekt": "verschlungen",
+        "prateritum": "verschluckte"
+    },
+    "versperren": {
+        "perfekt": "versperrt",
+        "prateritum": "versperrte"
+    },
+    "verstauen": {
+        "perfekt": "verstaut",
+        "prateritum": "verstaute"
+    },
+    "verwalten": {
+        "perfekt": "verwaltet",
+        "prateritum": "verwaltete"
+    },
+    "verzweifeln": {
+        "perfekt": "verzweifelt",
+        "prateritum": "verzweifelte"
+    },
+    "vibrieren": {
+        "perfekt": "vibriert",
+        "prateritum": "vibrierte"
+    },
+    "vollbringen": {
+        "perfekt": "vollbracht",
+        "prateritum": "vollbrachte"
+    },
+    "vollenden": {
+        "perfekt": "vollendet",
+        "prateritum": "vollendete"
+    },
+    "vorankommen": {
+        "perfekt": "vorangekommen",
+        "prateritum": "kam voran"
+    },
+    "vorangehen": {
+        "perfekt": "vorangegangen",
+        "prateritum": "ging voran"
+    },
+    "vorbeigehen": {
+        "perfekt": "vorbeigegangen",
+        "prateritum": "ging vorbei"
+    },
+    "vorbeikommen": {
+        "perfekt": "vorbeigekommen",
+        "prateritum": "kam vorbei"
+    },
+    "vorbeisehen": {
+        "perfekt": "vorbeigesehen",
+        "prateritum": "sah vorbei"
+    },
+    "vorbereiten": {
+        "perfekt": "vorbereitet",
+        "prateritum": "bereitete vor"
+    },
+    "vorbringen": {
+        "perfekt": "vorbracht",
+        "prateritum": "brachte vor"
+    },
+    "vorhaben": {
+        "perfekt": "vorgehabt",
+        "prateritum": "hatte vor"
+    },
+    "vorkommen": {
+        "perfekt": "vorgekommen",
+        "prateritum": "kam vor"
+    },
+    "vorlesen": {
+        "perfekt": "vorgelesen",
+        "prateritum": "las vor"
+    },
+    "vorliegen": {
+        "perfekt": "vorgelegen",
+        "prateritum": "lag vor"
+    },
+    "vorschlagen": {
+        "perfekt": "vorgeschlagen",
+        "prateritum": "schlug vor"
+    },
+    "vorspielen": {
+        "perfekt": "vorgespielt",
+        "prateritum": "spielte vor"
+    },
+    "vortragen": {
+        "perfekt": "vorgetragen",
+        "prateritum": "trug vor"
+    },
+    "vorwärtskommen": {
+        "perfekt": "vorangekommen",
+        "prateritum": "kam voran"
+    },
+    "vorwärtsgehen": {
+        "perfekt": "vorangegangen",
+        "prateritum": "ging voran"
+    }
+}

@@ -1,0 +1,586 @@
+{
+    "sein": {
+        "perfekt": "gewesen",
+        "prateritum": "war"
+    },
+    "schreiben": {
+        "perfekt": "geschrieben",
+        "prateritum": "schrieb"
+    },
+    "sprechen": {
+        "perfekt": "gesprochen",
+        "prateritum": "sprach"
+    },
+    "schlafen": {
+        "perfekt": "geschlafen",
+        "prateritum": "schlief"
+    },
+    "sitzen": {
+        "perfekt": "gesessen",
+        "prateritum": "saß"
+    },
+    "stehen": {
+        "perfekt": "gestanden",
+        "prateritum": "stand"
+    },
+    "sollen": {
+        "perfekt": "gesollt",
+        "prateritum": "sollte"
+    },
+    "sterben": {
+        "perfekt": "gestorben",
+        "prateritum": "starb"
+    },
+    "springen": {
+        "perfekt": "gesprungen",
+        "prateritum": "sprang"
+    },
+    "schwimmen": {
+        "perfekt": "geschwommen",
+        "prateritum": "schwamm"
+    },
+    "singen": {
+        "perfekt": "gesungen",
+        "prateritum": "sang"
+    },
+    "sehen": {
+        "perfekt": "gesehen",
+        "prateritum": "sah"
+    },
+    "sinken": {
+        "perfekt": "gesunken",
+        "prateritum": "sank"
+    },
+    "schlagen": {
+        "perfekt": "geschlagen",
+        "prateritum": "schlug"
+    },
+    "sagen": {
+        "perfekt": "gesagt",
+        "prateritum": "sagte"
+    },
+    "saufen": {
+        "perfekt": "gesoffen",
+        "prateritum": "soff"
+    },
+    "saugen": {
+        "perfekt": "gesaugt",
+        "prateritum": "sog"
+    },
+    "schaffen": {
+        "perfekt": "geschafft",
+        "prateritum": "schuf"
+    },
+    "scheinen": {
+        "perfekt": "geschienen",
+        "prateritum": "schien"
+    },
+    "schieben": {
+        "perfekt": "geschoben",
+        "prateritum": "schob"
+    },
+    "schinden": {
+        "perfekt": "geschunden",
+        "prateritum": "schund"
+    },
+    "schleichen": {
+        "perfekt": "geschlichen",
+        "prateritum": "schlich"
+    },
+    "schließen": {
+        "perfekt": "geschlossen",
+        "prateritum": "schloss"
+    },
+    "schlingen": {
+        "perfekt": "geschlungen",
+        "prateritum": "schlang"
+    },
+    "schmeißen": {
+        "perfekt": "geschmissen",
+        "prateritum": "schmiss"
+    },
+    "schmelzen": {
+        "perfekt": "geschmolzen",
+        "prateritum": "schmolz"
+    },
+    "schnauben": {
+        "perfekt": "geschnaubt",
+        "prateritum": "schnaubte"
+    },
+    "schneiden": {
+        "perfekt": "geschnitten",
+        "prateritum": "schnitt"
+    },
+    "schreien": {
+        "perfekt": "geschrien",
+        "prateritum": "schrie"
+    },
+    "schweigen": {
+        "perfekt": "geschwiegen",
+        "prateritum": "schwieg"
+    },
+    "schwinden": {
+        "perfekt": "geschwunden",
+        "prateritum": "schwand"
+    },
+    "senden": {
+        "perfekt": "gesandt",
+        "prateritum": "sandte"
+    },
+    "sieden": {
+        "perfekt": "gesiedet",
+        "prateritum": "siedete"
+    },
+    "stechen": {
+        "perfekt": "gestochen",
+        "prateritum": "stach"
+    },
+    "stehlen": {
+        "perfekt": "gestohlen",
+        "prateritum": "stahl"
+    },
+    "stieben": {
+        "perfekt": "gestoben",
+        "prateritum": "stob"
+    },
+    "stoßen": {
+        "perfekt": "gestoßen",
+        "prateritum": "stieß"
+    },
+    "streichen": {
+        "perfekt": "gestrichen",
+        "prateritum": "strich"
+    },
+    "streiten": {
+        "perfekt": "gestritten",
+        "prateritum": "stritt"
+    },
+    "sägen": {
+        "perfekt": "gesägt",
+        "prateritum": "sägte"
+    },
+    "schallen": {
+        "perfekt": "geschollen",
+        "prateritum": "scholl"
+    },
+    "schelten": {
+        "perfekt": "gescholten",
+        "prateritum": "scholt"
+    },
+    "schenden": {
+        "perfekt": "geschändet",
+        "prateritum": "schändete"
+    },
+    "scheren": {
+        "perfekt": "geschoren",
+        "prateritum": "schor"
+    },
+    "schießen": {
+        "perfekt": "geschossen",
+        "prateritum": "schoss"
+    },
+    "schmecken": {
+        "perfekt": "geschmeckt",
+        "prateritum": "schmeckte"
+    },
+    "schütten": {
+        "perfekt": "geschüttet",
+        "prateritum": "schüttete"
+    },
+    "sing": {
+        "perfekt": "gesungen",
+        "prateritum": "sang"
+    },
+    "steigen": {
+        "perfekt": "gestiegen",
+        "prateritum": "stieg"
+    },
+    "schicken": {
+        "perfekt": "geschickt",
+        "prateritum": "schickte"
+    },
+    "stinken": {
+        "perfekt": "gestunken",
+        "prateritum": "stank"
+    },
+    "spinnen": {
+        "perfekt": "gesponnen",
+        "prateritum": "spann"
+    },
+    "sprießen": {
+        "perfekt": "gesprossen",
+        "prateritum": "spross"
+    },
+    "schleifen": {
+        "perfekt": "geschliffen",
+        "prateritum": "schliff"
+    },
+    "schrecken": {
+        "perfekt": "geschrocken",
+        "prateritum": "schreckte"
+    },
+    "schwingen": {
+        "perfekt": "geschwungen",
+        "prateritum": "schwang"
+    },
+    "schwitzen": {
+        "perfekt": "geschwitzt",
+        "prateritum": "schwitzte"
+    },
+    "schneien": {
+        "perfekt": "geschneit",
+        "prateritum": "schneite"
+    },
+    "spülen": {
+        "perfekt": "gespült",
+        "prateritum": "spülte"
+    },
+    "schämen": {
+        "perfekt": "geschämt",
+        "prateritum": "schämte"
+    },
+    "schützen": {
+        "perfekt": "geschützt",
+        "prateritum": "schützte"
+    },
+    "schärfen": {
+        "perfekt": "geschärft",
+        "prateritum": "schärfte"
+    },
+    "schwärmen": {
+        "perfekt": "geschwärmt",
+        "prateritum": "schwärmte"
+    },
+    "schätzen": {
+        "perfekt": "geschätzt",
+        "prateritum": "schätzte"
+    },
+    "stricken": {
+        "perfekt": "gestrickt",
+        "prateritum": "strickte"
+    },
+    "schwören": {
+        "perfekt": "geschworen",
+        "prateritum": "schwor"
+    },
+    "spalten": {
+        "perfekt": "gespalten",
+        "prateritum": "spaltete"
+    },
+    "schmücken": {
+        "perfekt": "geschmückt",
+        "prateritum": "schmückte"
+    },
+    "sammeln": {
+        "perfekt": "gesammelt",
+        "prateritum": "sammelte"
+    },
+    "schubsen": {
+        "perfekt": "geschubst",
+        "prateritum": "schubste"
+    },
+    "streben": {
+        "perfekt": "gestrebt",
+        "prateritum": "strebte"
+    },
+    "schleppen": {
+        "perfekt": "geschleppt",
+        "prateritum": "schleppte"
+    },
+    "spüren": {
+        "perfekt": "gespürt",
+        "prateritum": "spürte"
+    },
+    "schälen": {
+        "perfekt": "geschält",
+        "prateritum": "schälte"
+    },
+    "stutzen": {
+        "perfekt": "gestutzt",
+        "prateritum": "stutzte"
+    },
+    "sausen": {
+        "perfekt": "gesaust",
+        "prateritum": "sauste"
+    },
+    "schwärzen": {
+        "perfekt": "geschwärzt",
+        "prateritum": "schwärzte"
+    },
+    "schwirren": {
+        "perfekt": "geschwirrt",
+        "prateritum": "schwirrte"
+    },
+    "schleudern": {
+        "perfekt": "geschleudert",
+        "prateritum": "schleuderte"
+    },
+    "schnarchen": {
+        "perfekt": "geschnarcht",
+        "prateritum": "schnarchte"
+    },
+    "schäumen": {
+        "perfekt": "geschäumt",
+        "prateritum": "schäumte"
+    },
+    "schminken": {
+        "perfekt": "geschminkt",
+        "prateritum": "schminkte"
+    },
+    "säuseln": {
+        "perfekt": "gesäuselt",
+        "prateritum": "säuselte"
+    },
+    "stochern": {
+        "perfekt": "gestochert",
+        "prateritum": "stocherte"
+    },
+    "schluchzen": {
+        "perfekt": "geschluchzt",
+        "prateritum": "schluchzte"
+    },
+    "streuen": {
+        "perfekt": "gestreut",
+        "prateritum": "streute"
+    },
+    "schnitzen": {
+        "perfekt": "geschnitzt",
+        "prateritum": "schnitzte"
+    },
+    "schrauben": {
+        "perfekt": "geschraubt",
+        "prateritum": "schraubte"
+    },
+    "schütteln": {
+        "perfekt": "geschüttelt",
+        "prateritum": "schüttelte"
+    },
+    "schweben": {
+        "perfekt": "geschwebt",
+        "prateritum": "schwebte"
+    },
+    "schielen": {
+        "perfekt": "geschielt",
+        "prateritum": "schielte"
+    },
+    "stolpern": {
+        "perfekt": "gestolpert",
+        "prateritum": "stolperte"
+    },
+    "scheitern": {
+        "perfekt": "gescheitert",
+        "prateritum": "scheiterte"
+    },
+    "schwatzen": {
+        "perfekt": "geschwatzt",
+        "prateritum": "schwatzte"
+    },
+    "schmunzeln": {
+        "perfekt": "geschmunzelt",
+        "prateritum": "schmunzelte"
+    },
+    "schwelgen": {
+        "perfekt": "geschwelgt",
+        "prateritum": "schwelgte"
+    },
+    "stapeln": {
+        "perfekt": "gestapelt",
+        "prateritum": "stapelte"
+    },
+    "schnaufen": {
+        "perfekt": "geschnauft",
+        "prateritum": "schnaufte"
+    },
+    "schlucken": {
+        "perfekt": "geschluckt",
+        "prateritum": "schluckte"
+    },
+    "schmachten": {
+        "perfekt": "geschmachtet",
+        "prateritum": "schmachtete"
+    },
+    "spionieren": {
+        "perfekt": "gespioniert",
+        "prateritum": "spionierte"
+    },
+    "sichern": {
+        "perfekt": "gesichert",
+        "prateritum": "sicherte"
+    },
+    "sicheln": {
+        "perfekt": "gesichelt",
+        "prateritum": "sichelte"
+    },
+    "schwanken": {
+        "perfekt": "geschwankt",
+        "prateritum": "schwankte"
+    },
+    "schnuppern": {
+        "perfekt": "geschnuppert",
+        "prateritum": "schnupperte"
+    },
+    "schimpfen": {
+        "perfekt": "geschimpft",
+        "prateritum": "schimpfte"
+    },
+    "schaben": {
+        "perfekt": "geschabt",
+        "prateritum": "schabte"
+    },
+    "schmatzen": {
+        "perfekt": "geschmatzt",
+        "prateritum": "schmatzte"
+    },
+    "schildern": {
+        "perfekt": "geschildert",
+        "prateritum": "schilderte"
+    },
+    "schmieren": {
+        "perfekt": "geschmiert",
+        "prateritum": "schmierte"
+    },
+    "stolzieren": {
+        "perfekt": "gestolziert",
+        "prateritum": "stolzierte"
+    },
+    "strömen": {
+        "perfekt": "geströmt",
+        "prateritum": "strömte"
+    },
+    "strahlen": {
+        "perfekt": "gestrahlt",
+        "prateritum": "strahlte"
+    },
+    "schreiten": {
+        "perfekt": "geschritten",
+        "prateritum": "schritt"
+    },
+    "sudeln": {
+        "perfekt": "gesudelt",
+        "prateritum": "sudelte"
+    },
+    "scheuern": {
+        "perfekt": "gescheuert",
+        "prateritum": "scheuerte"
+    },
+    "schlürfen": {
+        "perfekt": "geschlürft",
+        "prateritum": "schlürfte"
+    },
+    "schmoren": {
+        "perfekt": "geschmort",
+        "prateritum": "schmorte"
+    },
+    "säen": {
+        "perfekt": "gesät",
+        "prateritum": "säte"
+    },
+    "schnappen": {
+        "perfekt": "geschnappt",
+        "prateritum": "schnappte"
+    },
+    "schwindeln": {
+        "perfekt": "geschwindelt",
+        "prateritum": "schwindelte"
+    },
+    "schlängeln": {
+        "perfekt": "geschlängelt",
+        "prateritum": "schlängelte"
+    },
+    "schlittern": {
+        "perfekt": "geschlittert",
+        "prateritum": "schlitterte"
+    },
+    "schrubben": {
+        "perfekt": "geschrubbt",
+        "prateritum": "schrubbte"
+    },
+    "schneuzen": {
+        "perfekt": "geschnäuzt",
+        "prateritum": "schnäuzte"
+    },
+    "stöhnen": {
+        "perfekt": "gestöhnt",
+        "prateritum": "stöhnte"
+    },
+    "schwänzen": {
+        "perfekt": "geschwänzt",
+        "prateritum": "schwänzte"
+    },
+    "schnipsen": {
+        "perfekt": "geschnipst",
+        "prateritum": "schnipste"
+    },
+    "säubern": {
+        "perfekt": "gesäubert",
+        "prateritum": "säuberte"
+    },
+    "schaukeln": {
+        "perfekt": "geschaukelt",
+        "prateritum": "schaukelte"
+    },
+    "spitzen": {
+        "perfekt": "gespitzt",
+        "prateritum": "spitzte"
+    },
+    "schlichten": {
+        "perfekt": "geschlichtet",
+        "prateritum": "schlichtete"
+    },
+    "schlummern": {
+        "perfekt": "geschlummert",
+        "prateritum": "schlummerte"
+    },
+    "schenken": {
+        "perfekt": "geschenkt",
+        "prateritum": "schenkte"
+    },
+    "schüren": {
+        "perfekt": "geschürt",
+        "prateritum": "schürte"
+    },
+    "schnarren": {
+        "perfekt": "geschnarrt",
+        "prateritum": "schnarrte"
+    },
+    "stürzen": {
+        "perfekt": "gestürzt",
+        "prateritum": "stürzte"
+    },
+    "stöbern": {
+        "perfekt": "gestöbert",
+        "prateritum": "stöberte"
+    },
+    "streicheln": {
+        "perfekt": "gestreichelt",
+        "prateritum": "streichelte"
+    },
+    "schnattern": {
+        "perfekt": "geschnattert",
+        "prateritum": "schnatterte"
+    },
+    "streifen": {
+        "perfekt": "gestreift",
+        "prateritum": "streifte"
+    },
+    "schürfen": {
+        "perfekt": "geschürft",
+        "prateritum": "schürfte"
+    },
+    "schweifen": {
+        "perfekt": "geschweift",
+        "prateritum": "schweifte"
+    },
+    "sinnen": {
+        "perfekt": "gesonnen",
+        "prateritum": "sann"
+    },
+    "sparen": {
+        "perfekt": "gespart",
+        "prateritum": "sparte"
+    },
+    "salzen": {
+        "perfekt": "gesalzen",
+        "prateritum": "salzte"
+    }
+}

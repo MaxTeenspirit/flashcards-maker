@@ -1,0 +1,114 @@
+{
+    "werden": {
+        "perfekt": "geworden",
+        "prateritum": "wurde"
+    },
+    "wissen": {
+        "perfekt": "gewusst",
+        "prateritum": "wusste"
+    },
+    "wollen": {
+        "perfekt": "gewollt",
+        "prateritum": "wollte"
+    },
+    "werfen": {
+        "perfekt": "geworfen",
+        "prateritum": "warf"
+    },
+    "wachsen": {
+        "perfekt": "gewachsen",
+        "prateritum": "wuchs"
+    },
+    "waschen": {
+        "perfekt": "gewaschen",
+        "prateritum": "wusch"
+    },
+    "weichen": {
+        "perfekt": "gewichen",
+        "prateritum": "wich"
+    },
+    "weisen": {
+        "perfekt": "gewiesen",
+        "prateritum": "wies"
+    },
+    "werben": {
+        "perfekt": "geworben",
+        "prateritum": "warb"
+    },
+    "wiegen": {
+        "perfekt": "gewiegt",
+        "prateritum": "wog"
+    },
+    "winden": {
+        "perfekt": "gewunden",
+        "prateritum": "wand"
+    },
+    "wählen": {
+        "perfekt": "gewählt",
+        "prateritum": "wählte"
+    },
+    "wechseln": {
+        "perfekt": "gewechselt",
+        "prateritum": "wechselte"
+    },
+    "weitermachen": {
+        "perfekt": "weitergemacht",
+        "prateritum": "machte weiter"
+    },
+    "weiterziehen": {
+        "perfekt": "weitergezogen",
+        "prateritum": "zog weiter"
+    },
+    "wiederholen": {
+        "perfekt": "wiederholt",
+        "prateritum": "wiederholte"
+    },
+    "widersprechen": {
+        "perfekt": "widersprochen",
+        "prateritum": "widersprach"
+    },
+    "wiederverwenden": {
+        "perfekt": "wiederverwendet",
+        "prateritum": "wiederverwendete"
+    },
+    "wirken": {
+        "perfekt": "gewirkt",
+        "prateritum": "wirkte"
+    },
+    "wohnen": {
+        "perfekt": "gewohnt",
+        "prateritum": "wohnte"
+    },
+    "wandeln": {
+        "perfekt": "gewandelt",
+        "prateritum": "wandelte"
+    },
+    "wanken": {
+        "perfekt": "gewankt",
+        "prateritum": "wankte"
+    },
+    "wägen": {
+        "perfekt": "gewogen",
+        "prateritum": "wog"
+    },
+    "wagen": {
+        "perfekt": "gewagt",
+        "prateritum": "wagte"
+    },
+    "wecken": {
+        "perfekt": "geweckt",
+        "prateritum": "weckte"
+    },
+    "wehren": {
+        "perfekt": "gewehrt",
+        "prateritum": "wehrte"
+    },
+    "weinen": {
+        "perfekt": "geweint",
+        "prateritum": "weinte"
+    },
+    "wenden": {
+        "perfekt": "gewendet",
+        "prateritum": "wandte"
+    }
+}

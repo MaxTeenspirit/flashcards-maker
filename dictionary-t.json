@@ -1,0 +1,238 @@
+{
+    "trinken": {
+        "perfekt": "getrunken",
+        "prateritum": "trank"
+    },
+    "tragen": {
+        "perfekt": "getragen",
+        "prateritum": "trug"
+    },
+    "treffen": {
+        "perfekt": "getroffen",
+        "prateritum": "traf"
+    },
+    "treiben": {
+        "perfekt": "getrieben",
+        "prateritum": "trieb"
+    },
+    "treten": {
+        "perfekt": "getreten",
+        "prateritum": "trat"
+    },
+    "tun": {
+        "perfekt": "getan",
+        "prateritum": "tat"
+    },
+    "tadeln": {
+        "perfekt": "getadelt",
+        "prateritum": "tadelte"
+    },
+    "tanzen": {
+        "perfekt": "getanzt",
+        "prateritum": "tanzte"
+    },
+    "tauchen": {
+        "perfekt": "getaucht",
+        "prateritum": "tauchte"
+    },
+    "täuschen": {
+        "perfekt": "getäuscht",
+        "prateritum": "täuschte"
+    },
+    "teeren": {
+        "perfekt": "geteert",
+        "prateritum": "teerte"
+    },
+    "teilen": {
+        "perfekt": "geteilt",
+        "prateritum": "teilte"
+    },
+    "terminieren": {
+        "perfekt": "terminiert",
+        "prateritum": "terminierte"
+    },
+    "testen": {
+        "perfekt": "getestet",
+        "prateritum": "testete"
+    },
+    "texten": {
+        "perfekt": "getextet",
+        "prateritum": "textete"
+    },
+    "ticken": {
+        "perfekt": "getickt",
+        "prateritum": "tickte"
+    },
+    "tiefkühlen": {
+        "perfekt": "tiefgekühlt",
+        "prateritum": "tiefkühlte"
+    },
+    "töten": {
+        "perfekt": "getötet",
+        "prateritum": "tötete"
+    },
+    "trainieren": {
+        "perfekt": "trainiert",
+        "prateritum": "trainierte"
+    },
+    "transportieren": {
+        "perfekt": "transportiert",
+        "prateritum": "transportierte"
+    },
+    "träumen": {
+        "perfekt": "geträumt",
+        "prateritum": "träumte"
+    },
+    "trennen": {
+        "perfekt": "getrennt",
+        "prateritum": "trennte"
+    },
+    "trocknen": {
+        "perfekt": "getrocknet",
+        "prateritum": "trocknete"
+    },
+    "turnen": {
+        "perfekt": "geturnt",
+        "prateritum": "turnte"
+    },
+    "twittern": {
+        "perfekt": "getwittert",
+        "prateritum": "twitterte"
+    },
+    "typisieren": {
+        "perfekt": "typisiert",
+        "prateritum": "typisierte"
+    },
+    "tauschen": {
+        "perfekt": "getauscht",
+        "prateritum": "tauschte"
+    },
+    "telefonieren": {
+        "perfekt": "telefoniert",
+        "prateritum": "telefonierte"
+    },
+    "temperieren": {
+        "perfekt": "temperiert",
+        "prateritum": "temperierte"
+    },
+    "tönen": {
+        "perfekt": "getönt",
+        "prateritum": "tönte"
+    },
+    "tourismusmachen": {
+        "perfekt": "tourismusgemacht",
+        "prateritum": "tourismusmachte"
+    },
+    "tradieren": {
+        "perfekt": "tradiert",
+        "prateritum": "tradierte"
+    },
+    "transferieren": {
+        "perfekt": "transferiert",
+        "prateritum": "transferierte"
+    },
+    "transformieren": {
+        "perfekt": "transformiert",
+        "prateritum": "transformierte"
+    },
+    "transkribieren": {
+        "perfekt": "transkribiert",
+        "prateritum": "transkribierte"
+    },
+    "trollen": {
+        "perfekt": "getrollt",
+        "prateritum": "trollte"
+    },
+    "trommeln": {
+        "perfekt": "getrommelt",
+        "prateritum": "trommelte"
+    },
+    "tropfen": {
+        "perfekt": "getropft",
+        "prateritum": "tropfte"
+    },
+    "tummeln": {
+        "perfekt": "getummelt",
+        "prateritum": "tummelte"
+    },
+    "töpfern": {
+        "perfekt": "getöpfert",
+        "prateritum": "töpferte"
+    },
+    "tarnen": {
+        "perfekt": "getarnt",
+        "prateritum": "tarnete"
+    },
+    "telegrafieren": {
+        "perfekt": "telegrafiert",
+        "prateritum": "telegrafierte"
+    },
+    "teleportieren": {
+        "perfekt": "teleportiert",
+        "prateritum": "teleportierte"
+    },
+    "thronen": {
+        "perfekt": "ge/thront",
+        "prateritum": "thronte"
+    },
+    "tindern": {
+        "perfekt": "getindert",
+        "prateritum": "tinderte"
+    },
+    "toben": {
+        "perfekt": "getobt",
+        "prateritum": "tobte"
+    },
+    "toppen": {
+        "perfekt": "getoppt",
+        "prateritum": "toppte"
+    },
+    "touristisieren": {
+        "perfekt": "touristisiert",
+        "prateritum": "touristisierte"
+    },
+    "traktieren": {
+        "perfekt": "traktiert",
+        "prateritum": "traktierte"
+    },
+    "transpirieren": {
+        "perfekt": "transpiriert",
+        "prateritum": "transpirierte"
+    },
+    "tränken": {
+        "perfekt": "getränkt",
+        "prateritum": "tränkte"
+    },
+    "träufeln": {
+        "perfekt": "geträufelt",
+        "prateritum": "träufelte"
+    },
+    "trödeln": {
+        "perfekt": "getrödelt",
+        "prateritum": "trödelte"
+    },
+    "trügen": {
+        "perfekt": "getrogen",
+        "prateritum": "trug"
+    },
+    "tüfteln": {
+        "perfekt": "getüftelt",
+        "prateritum": "tüftelte"
+    },
+    "tüpfeln": {
+        "perfekt": "getüpfelt",
+        "prateritum": "tüpfelte"
+    },
+    "türgucken": {
+        "perfekt": "türgeschaut",
+        "prateritum": "türguckte"
+    },
+    "türken": {
+        "perfekt": "getürkt",
+        "prateritum": "türkte"
+    },
+    "tüten": {
+        "perfekt": "getütet",
+        "prateritum": "tütete"
+    }
+}

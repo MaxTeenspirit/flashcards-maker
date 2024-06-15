@@ -1,0 +1,438 @@
+{
+    "nehmen": {
+        "perfekt": "genommen",
+        "prateritum": "nahm"
+    },
+    "nennen": {
+        "perfekt": "genannt",
+        "prateritum": "nannte"
+    },
+    "nagen": {
+        "perfekt": "genagt",
+        "prateritum": "nagte"
+    },
+    "naschen": {
+        "perfekt": "genascht",
+        "prateritum": "naschte"
+    },
+    "nicken": {
+        "perfekt": "genickt",
+        "prateritum": "nickte"
+    },
+    "notieren": {
+        "perfekt": "notiert",
+        "prateritum": "notierte"
+    },
+    "nötigen": {
+        "perfekt": "genötigt",
+        "prateritum": "nötigte"
+    },
+    "nachahmen": {
+        "perfekt": "nachgeahmt",
+        "prateritum": "ahmte nach"
+    },
+    "nachdenken": {
+        "perfekt": "nachgedacht",
+        "prateritum": "dachte nach"
+    },
+    "nachgeben": {
+        "perfekt": "nachgegeben",
+        "prateritum": "gab nach"
+    },
+    "nachhaken": {
+        "perfekt": "nachgehakt",
+        "prateritum": "hakte nach"
+    },
+    "nachkommen": {
+        "perfekt": "nachgekommen",
+        "prateritum": "kam nach"
+    },
+    "nachlassen": {
+        "perfekt": "nachgelassen",
+        "prateritum": "ließ nach"
+    },
+    "nachmachen": {
+        "perfekt": "nachgemacht",
+        "prateritum": "machte nach"
+    },
+    "nachsinnen": {
+        "perfekt": "nachgesonnen",
+        "prateritum": "sann nach"
+    },
+    "nachvollziehen": {
+        "perfekt": "nachvollzogen",
+        "prateritum": "vollzog nach"
+    },
+    "neigen": {
+        "perfekt": "geneigt",
+        "prateritum": "neigte"
+    },
+    "nippen": {
+        "perfekt": "genippt",
+        "prateritum": "nipp"
+    },
+    "nisten": {
+        "perfekt": "genistet",
+        "prateritum": "nistete"
+    },
+    "nügen": {
+        "perfekt": "genungen",
+        "prateritum": "nugte"
+    },
+    "nuscheln": {
+        "perfekt": "genuschelt",
+        "prateritum": "nuschelte"
+    },
+    "nützen": {
+        "perfekt": "genutzt",
+        "prateritum": "nützte"
+    },
+    "nachfragen": {
+        "perfekt": "nachgefragt",
+        "prateritum": "fragte nach"
+    },
+    "nachholen": {
+        "perfekt": "nachgeholt",
+        "prateritum": "holte nach"
+    },
+    "nachsehen": {
+        "perfekt": "nachgesehen",
+        "prateritum": "sah nach"
+    },
+    "nachspielen": {
+        "perfekt": "nachgespielt",
+        "prateritum": "spielte nach"
+    },
+    "nachtragen": {
+        "perfekt": "nachgetragen",
+        "prateritum": "trug nach"
+    },
+    "nachweisen": {
+        "perfekt": "nachgewiesen",
+        "prateritum": "wies nach"
+    },
+    "nachzeichnen": {
+        "perfekt": "nachgezeichnet",
+        "prateritum": "zeichnete nach"
+    },
+    "nachspüren": {
+        "perfekt": "nachgespürt",
+        "prateritum": "spürte nach"
+    },
+    "nachgären": {
+        "perfekt": "nachgegoren",
+        "prateritum": "gärte nach"
+    },
+    "nachsprechen": {
+        "perfekt": "nachgesprochen",
+        "prateritum": "sprach nach"
+    },
+    "nachhängen": {
+        "perfekt": "nachgehangen",
+        "prateritum": "hing nach"
+    },
+    "nachzählen": {
+        "perfekt": "nachgezählt",
+        "prateritum": "zählte nach"
+    },
+    "nachbilden": {
+        "perfekt": "nachgebildet",
+        "prateritum": "bildete nach"
+    },
+    "nachbrüllen": {
+        "perfekt": "nachgebrüllt",
+        "prateritum": "brüllte nach"
+    },
+    "nachdrucken": {
+        "perfekt": "nachgedruckt",
+        "prateritum": "druckte nach"
+    },
+    "nachempfinden": {
+        "perfekt": "nachempfunden",
+        "prateritum": "empfand nach"
+    },
+    "nachfahren": {
+        "perfekt": "nachgefahren",
+        "prateritum": "fuhr nach"
+    },
+    "nachfüllen": {
+        "perfekt": "nachgefüllt",
+        "prateritum": "füllte nach"
+    },
+    "nachreichen": {
+        "perfekt": "nachgereicht",
+        "prateritum": "reichte nach"
+    },
+    "nachwachsen": {
+        "perfekt": "nachgewachsen",
+        "prateritum": "wuchs nach"
+    },
+    "nähern": {
+        "perfekt": "genähert",
+        "prateritum": "näherte"
+    },
+    "nähren": {
+        "perfekt": "genährt",
+        "prateritum": "nährte"
+    },
+    "nähen": {
+        "perfekt": "genäht",
+        "prateritum": "nähte"
+    },
+    "narkotisieren": {
+        "perfekt": "narkotisiert",
+        "prateritum": "narkotisierte"
+    },
+    "navigieren": {
+        "perfekt": "navigiert",
+        "prateritum": "navigierte"
+    },
+    "nenne": {
+        "perfekt": "genannt",
+        "prateritum": "nannte"
+    },
+    "netzen": {
+        "perfekt": "genetzt",
+        "prateritum": "netzte"
+    },
+    "nörgeln": {
+        "perfekt": "nörgelt",
+        "prateritum": "nörgelte"
+    },
+    "nug": {
+        "perfekt": "genogen",
+        "prateritum": "nugte"
+    },
+    "nutze": {
+        "perfekt": "genutzt",
+        "prateritum": "nützte"
+    },
+    "nacharbeiten": {
+        "perfekt": "nachgearbeitet",
+        "prateritum": "arbeitete nach"
+    },
+    "nachbessern": {
+        "perfekt": "nachgebessert",
+        "prateritum": "besserte nach"
+    },
+    "nachgehen": {
+        "perfekt": "nachgegangen",
+        "prateritum": "ging nach"
+    },
+    "nachgrübeln": {
+        "perfekt": "nachgegrübelt",
+        "prateritum": "grübelte nach"
+    },
+    "nachjagen": {
+        "perfekt": "nachgejagt",
+        "prateritum": "jagte nach"
+    },
+    "nachlaufen": {
+        "perfekt": "nachgelaufen",
+        "prateritum": "lief nach"
+    },
+    "nachleben": {
+        "perfekt": "nachgelebt",
+        "prateritum": "lebte nach"
+    },
+    "nachlesen": {
+        "perfekt": "nachgelesen",
+        "prateritum": "las nach"
+    },
+    "nachmessen": {
+        "perfekt": "nachgemessen",
+        "prateritum": "maß nach"
+    },
+    "nachplappern": {
+        "perfekt": "nachgeplappert",
+        "prateritum": "plapperte nach"
+    },
+    "nachrüsten": {
+        "perfekt": "nachgerüstet",
+        "prateritum": "rüstete nach"
+    },
+    "nachsagen": {
+        "perfekt": "nachgesagt",
+        "prateritum": "sagte nach"
+    },
+    "nachschauen": {
+        "perfekt": "nachgeschaut",
+        "prateritum": "schaute nach"
+    },
+    "nachstellen": {
+        "perfekt": "nachgestellt",
+        "prateritum": "stellte nach"
+    },
+    "nachsuchen": {
+        "perfekt": "nachgesucht",
+        "prateritum": "suchte nach"
+    },
+    "nacktbaden": {
+        "perfekt": "nacktgebaddert",
+        "prateritum": "badderte nackt"
+    },
+    "nachbeben": {
+        "perfekt": "nachgebebt",
+        "prateritum": "bebte nach"
+    },
+    "nachdunkeln": {
+        "perfekt": "nachgedunkelt",
+        "prateritum": "dunkelte nach"
+    },
+    "nachentwickeln": {
+        "perfekt": "nachentwickelt",
+        "prateritum": "entwickelte nach"
+    },
+    "nacherzählen": {
+        "perfekt": "nacherzählt",
+        "prateritum": "erzählte nach"
+    },
+    "nachessen": {
+        "perfekt": "nachgegessen",
+        "prateritum": "aß nach"
+    },
+    "nachfassen": {
+        "perfekt": "nachgefasst",
+        "prateritum": "fasste nach"
+    },
+    "nachfolgen": {
+        "perfekt": "nachgefolgt",
+        "prateritum": "folgte nach"
+    },
+    "nachglänzen": {
+        "perfekt": "nachgeglänzt",
+        "prateritum": "glänzte nach"
+    },
+    "nachhalten": {
+        "perfekt": "nachgehalten",
+        "prateritum": "hielt nach"
+    },
+    "nachheulen": {
+        "perfekt": "nachgeheult",
+        "prateritum": "heulte nach"
+    },
+    "nachhinken": {
+        "perfekt": "nachgehinkt",
+        "prateritum": "hinkte nach"
+    },
+    "nachhören": {
+        "perfekt": "nachgehört",
+        "prateritum": "hörte nach"
+    },
+    "nachhüpfen": {
+        "perfekt": "nachgehüpft",
+        "prateritum": "hüpfte nach"
+    },
+    "nachjustieren": {
+        "perfekt": "nachjustiert",
+        "prateritum": "justierte nach"
+    },
+    "nachkaufen": {
+        "perfekt": "nachgekauft",
+        "prateritum": "kaufte nach"
+    },
+    "nachklingen": {
+        "perfekt": "nachgeklungen",
+        "prateritum": "klang nach"
+    },
+    "nachkorrigieren": {
+        "perfekt": "nachkorrigiert",
+        "prateritum": "korrigierte nach"
+    },
+    "nachkramen": {
+        "perfekt": "nachgekramt",
+        "prateritum": "kramte nach"
+    },
+    "nachkratzen": {
+        "perfekt": "nachgekratzt",
+        "prateritum": "kratzte nach"
+    },
+    "nachkriechen": {
+        "perfekt": "nachgekrochen",
+        "prateritum": "kroch nach"
+    },
+    "nachladen": {
+        "perfekt": "nachgeladen",
+        "prateritum": "lud nach"
+    },
+    "nachliefern": {
+        "perfekt": "nachgeliefert",
+        "prateritum": "lieferte nach"
+    },
+    "nachlöten": {
+        "perfekt": "nachgelötet",
+        "prateritum": "lötete nach"
+    },
+    "nachmalen": {
+        "perfekt": "nachgemalt",
+        "prateritum": "malte nach"
+    },
+    "nachmittagsschlafen": {
+        "perfekt": "nachmittagsgeschlafen",
+        "prateritum": "schlief nachmittags"
+    },
+    "nachprüfen": {
+        "perfekt": "nachgeprüft",
+        "prateritum": "prüfte nach"
+    },
+    "nachschieben": {
+        "perfekt": "nachgeschoben",
+        "prateritum": "schob nach"
+    },
+    "nachschnüffeln": {
+        "perfekt": "nachgeschnüffelt",
+        "prateritum": "schnüffelte nach"
+    },
+    "nachstechen": {
+        "perfekt": "nachgestochen",
+        "prateritum": "stach nach"
+    },
+    "nachsammeln": {
+        "perfekt": "nachgesammelt",
+        "prateritum": "sammelte nach"
+    },
+    "niederknien": {
+        "perfekt": "niedergekniet",
+        "prateritum": "kniete nieder"
+    },
+    "niedermachen": {
+        "perfekt": "niedergemacht",
+        "prateritum": "machte nieder"
+    },
+    "niederschlagen": {
+        "perfekt": "niedergeschlagen",
+        "prateritum": "schlug nieder"
+    },
+    "niederschreiben": {
+        "perfekt": "niedergeschrieben",
+        "prateritum": "schrieb nieder"
+    },
+    "niederstrecken": {
+        "perfekt": "niedergestreckt",
+        "prateritum": "streckte nieder"
+    },
+    "niederwerfen": {
+        "perfekt": "niedergeworfen",
+        "prateritum": "warf nieder"
+    },
+    "nieseln": {
+        "perfekt": "genieselt",
+        "prateritum": "nieselte"
+    },
+    "niesen": {
+        "perfekt": "geniest",
+        "prateritum": "nies"
+    },
+    "nieten": {
+        "perfekt": "genietet",
+        "prateritum": "nietete"
+    },
+    "nivellieren": {
+        "perfekt": "nivelliert",
+        "prateritum": "nivellierte"
+    },
+    "nomadisieren": {
+        "perfekt": "nomadisiert",
+        "prateritum": "nomadisierte"
+    }
+}

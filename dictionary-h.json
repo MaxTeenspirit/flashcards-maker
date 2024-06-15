@@ -1,0 +1,198 @@
+{
+    "haben": {
+        "perfekt": "gehabt",
+        "prateritum": "hatte"
+    },
+    "halten": {
+        "perfekt": "gehalten",
+        "prateritum": "hielt"
+    },
+    "hängen": {
+        "perfekt": "gehangen",
+        "prateritum": "hing"
+    },
+    "heben": {
+        "perfekt": "gehoben",
+        "prateritum": "hob"
+    },
+    "heißen": {
+        "perfekt": "geheißen",
+        "prateritum": "hieß"
+    },
+    "helfen": {
+        "perfekt": "geholfen",
+        "prateritum": "half"
+    },
+    "hacken": {
+        "perfekt": "gehackt",
+        "prateritum": "hackte"
+    },
+    "hadern": {
+        "perfekt": "gehadert",
+        "prateritum": "haderte"
+    },
+    "haften": {
+        "perfekt": "gehaftet",
+        "prateritum": "haftete"
+    },
+    "hageln": {
+        "perfekt": "gehagelt",
+        "prateritum": "hagelte"
+    },
+    "haken": {
+        "perfekt": "gehakt",
+        "prateritum": "hakte"
+    },
+    "hämmern": {
+        "perfekt": "gehämmert",
+        "prateritum": "hämmerte"
+    },
+    "hampeln": {
+        "perfekt": "gehampelt",
+        "prateritum": "hampelte"
+    },
+    "handeln": {
+        "perfekt": "gehandelt",
+        "prateritum": "handelte"
+    },
+    "härten": {
+        "perfekt": "gehärtet",
+        "prateritum": "härtete"
+    },
+    "harren": {
+        "perfekt": "geharrt",
+        "prateritum": "harrte"
+    },
+    "hassen": {
+        "perfekt": "gehasst",
+        "prateritum": "hasste"
+    },
+    "hauchen": {
+        "perfekt": "gehaucht",
+        "prateritum": "hauchte"
+    },
+    "hauen": {
+        "perfekt": "gehauen",
+        "prateritum": "haute"
+    },
+    "hausen": {
+        "perfekt": "gehaust",
+        "prateritum": "hauste"
+    },
+    "heften": {
+        "perfekt": "geheftet",
+        "prateritum": "heftete"
+    },
+    "hegen": {
+        "perfekt": "gehegt",
+        "prateritum": "hegte"
+    },
+    "heilen": {
+        "perfekt": "geheilt",
+        "prateritum": "heilte"
+    },
+    "heiraten": {
+        "perfekt": "geheiratet",
+        "prateritum": "heiratete"
+    },
+    "heizen": {
+        "perfekt": "geheizt",
+        "prateritum": "heizte"
+    },
+    "hemmen": {
+        "perfekt": "gehemmt",
+        "prateritum": "hemmte"
+    },
+    "herzen": {
+        "perfekt": "geherzt",
+        "prateritum": "herzte"
+    },
+    "hetzen": {
+        "perfekt": "gehetzt",
+        "prateritum": "hetzte"
+    },
+    "heucheln": {
+        "perfekt": "geheuchelt",
+        "prateritum": "heuchelte"
+    },
+    "hexen": {
+        "perfekt": "gehext",
+        "prateritum": "hexte"
+    },
+    "hieven": {
+        "perfekt": "gehievt",
+        "prateritum": "hievte"
+    },
+    "himmeln": {
+        "perfekt": "gehimmelt",
+        "prateritum": "himmelte"
+    },
+    "hindern": {
+        "perfekt": "gehindert",
+        "prateritum": "hinderte"
+    },
+    "hingeben": {
+        "perfekt": "hingegeben",
+        "prateritum": "gab hin"
+    },
+    "hinken": {
+        "perfekt": "gehinkt",
+        "prateritum": "hinkte"
+    },
+    "hinnehmen": {
+        "perfekt": "hingenommen",
+        "prateritum": "nahm hin"
+    },
+    "hinzufügen": {
+        "perfekt": "hinzugefügt",
+        "prateritum": "fügte hinzu"
+    },
+    "hinweisen": {
+        "perfekt": "hingewiesen",
+        "prateritum": "wies hin"
+    },
+    "hissen": {
+        "perfekt": "gehisst",
+        "prateritum": "hisste"
+    },
+    "hocken": {
+        "perfekt": "gehockt",
+        "prateritum": "hockte"
+    },
+    "hoffen": {
+        "perfekt": "gehofft",
+        "prateritum": "hoffte"
+    },
+    "holen": {
+        "perfekt": "geholt",
+        "prateritum": "holte"
+    },
+    "hören": {
+        "perfekt": "gehört",
+        "prateritum": "hörte"
+    },
+    "horchen": {
+        "perfekt": "gehorcht",
+        "prateritum": "horchte"
+    },
+    "huldigen": {
+        "perfekt": "gehuldigt",
+        "prateritum": "huldigte"
+    },
+    "hungern": {
+        "perfekt": "gehungert",
+        "prateritum": "hungerte"
+    },
+    "husten": {
+        "perfekt": "gehustet",
+        "prateritum": "hustete"
+    },
+    "hagen": {
+        "perfekt": "gehagt",
+        "prateritum": "hagte"
+    },
+    "humpeln": {
+        "perfekt": "gehumpelt",
+        "prateritum": "humpelte"
+    }
+}

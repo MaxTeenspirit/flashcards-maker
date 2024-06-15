@@ -1,0 +1,438 @@
+{
+    "offenbaren": {
+        "perfekt": "offenbart",
+        "prateritum": "offenbarte"
+    },
+    "öffnen": {
+        "perfekt": "geöffnet",
+        "prateritum": "öffnete"
+    },
+    "operieren": {
+        "perfekt": "operiert",
+        "prateritum": "operierte"
+    },
+    "organisieren": {
+        "perfekt": "organisiert",
+        "prateritum": "organisierte"
+    },
+    "orten": {
+        "perfekt": "geortet",
+        "prateritum": "ortete"
+    },
+    "optimieren": {
+        "perfekt": "optimiert",
+        "prateritum": "optimierte"
+    },
+    "outen": {
+        "perfekt": "geoutet",
+        "prateritum": "outete"
+    },
+    "obduzieren": {
+        "perfekt": "obduziert",
+        "prateritum": "obduzierte"
+    },
+    "obligieren": {
+        "perfekt": "obligiert",
+        "prateritum": "obligierte"
+    },
+    "obstruieren": {
+        "perfekt": "obstruiert",
+        "prateritum": "obstruierte"
+    },
+    "offenhalten": {
+        "perfekt": "offengehalten",
+        "prateritum": "hielt offen"
+    },
+    "ordern": {
+        "perfekt": "geordert",
+        "prateritum": "orderte"
+    },
+    "oszillieren": {
+        "perfekt": "oszilliert",
+        "prateritum": "oszillierte"
+    },
+    "outsourcen": {
+        "perfekt": "ausgelagert",
+        "prateritum": "lagerte aus"
+    },
+    "oxidieren": {
+        "perfekt": "oxidiert",
+        "prateritum": "oxidierte"
+    },
+    "obliegen": {
+        "perfekt": "obgelegen",
+        "prateritum": "oblag"
+    },
+    "odern": {
+        "perfekt": "geodert",
+        "prateritum": "oderte"
+    },
+    "orientieren": {
+        "perfekt": "orientiert",
+        "prateritum": "orientierte"
+    },
+    "opfern": {
+        "perfekt": "geopfert",
+        "prateritum": "opferte"
+    },
+    "ordnen": {
+        "perfekt": "geordnet",
+        "prateritum": "ordnete"
+    },
+    "ohren": {
+        "perfekt": "geohrt",
+        "prateritum": "ohrte"
+    },
+    "objektivieren": {
+        "perfekt": "objektiviert",
+        "prateritum": "objektivierte"
+    },
+    "offenlegen": {
+        "perfekt": "offengelegt",
+        "prateritum": "offenlegte"
+    },
+    "orgeln": {
+        "perfekt": "georgelt",
+        "prateritum": "orgelte"
+    },
+    "ohnmächtig werden": {
+        "perfekt": "ohnmächtig geworden",
+        "prateritum": "wurde ohnmächtig"
+    },
+    "ölen": {
+        "perfekt": "geölt",
+        "prateritum": "ölte"
+    },
+    "optieren": {
+        "perfekt": "optiert",
+        "prateritum": "optierte"
+    },
+    "orakeln": {
+        "perfekt": "georakelt",
+        "prateritum": "orakelte"
+    },
+    "onanieren": {
+        "perfekt": "onaniert",
+        "prateritum": "onanierte"
+    },
+    "onkelhaften": {
+        "perfekt": "onkelhaft",
+        "prateritum": "onkelhafter"
+    },
+    "opern": {
+        "perfekt": "geopert",
+        "prateritum": "operte"
+    },
+    "obdachlos machen": {
+        "perfekt": "obdachlos gemacht",
+        "prateritum": "machte obdachlos"
+    },
+    "observieren": {
+        "perfekt": "observiert",
+        "prateritum": "observierte"
+    },
+    "ornamentieren": {
+        "perfekt": "ornamentiert",
+        "prateritum": "ornamentierte"
+    },
+    "obdach suchen": {
+        "perfekt": "obdach gesucht",
+        "prateritum": "suchte obdach"
+    },
+    "obdachlos sein": {
+        "perfekt": "obdachlos gewesen",
+        "prateritum": "war obdachlos"
+    },
+    "obdachlos werden": {
+        "perfekt": "obdachlos geworden",
+        "prateritum": "wurde obdachlos"
+    },
+    "oben sein": {
+        "perfekt": "oben gewesen",
+        "prateritum": "war oben"
+    },
+    "oberflächlich sein": {
+        "perfekt": "oberflächlich gewesen",
+        "prateritum": "war oberflächlich"
+    },
+    "oberflächlich werden": {
+        "perfekt": "oberflächlich geworden",
+        "prateritum": "wurde oberflächlich"
+    },
+    "obligatorisch sein": {
+        "perfekt": "obligatorisch gewesen",
+        "prateritum": "war obligatorisch"
+    },
+    "obstruktiv sein": {
+        "perfekt": "obstruktiv gewesen",
+        "prateritum": "war obstruktiv"
+    },
+    "obstruktiv werden": {
+        "perfekt": "obstruktiv geworden",
+        "prateritum": "wurde obstruktiv"
+    },
+    "obwohl sein": {
+        "perfekt": "obwohl gewesen",
+        "prateritum": "war obwohl"
+    },
+    "operativ sein": {
+        "perfekt": "operativ gewesen",
+        "prateritum": "war operativ"
+    },
+    "operativ werden": {
+        "perfekt": "operativ geworden",
+        "prateritum": "wurde operativ"
+    },
+    "operieren lassen": {
+        "perfekt": "operieren lassen",
+        "prateritum": "ließ operieren"
+    },
+    "operieren müssen": {
+        "perfekt": "operieren gemusst",
+        "prateritum": "musste operieren"
+    },
+    "optional sein": {
+        "perfekt": "optional gewesen",
+        "prateritum": "war optional"
+    },
+    "optional werden": {
+        "perfekt": "optional geworden",
+        "prateritum": "wurde optional"
+    },
+    "optimistisch sein": {
+        "perfekt": "optimistisch gewesen",
+        "prateritum": "war optimistisch"
+    },
+    "optimistisch werden": {
+        "perfekt": "optimistisch geworden",
+        "prateritum": "wurde optimistisch"
+    },
+    "optisch sein": {
+        "perfekt": "optisch gewesen",
+        "prateritum": "war optisch"
+    },
+    "optisch werden": {
+        "perfekt": "optisch geworden",
+        "prateritum": "wurde optisch"
+    },
+    "orientalisch sein": {
+        "perfekt": "orientalisch gewesen",
+        "prateritum": "war orientalisch"
+    },
+    "orientalisch werden": {
+        "perfekt": "orientalisch geworden",
+        "prateritum": "wurde orientalisch"
+    },
+    "orientieren lassen": {
+        "perfekt": "orientieren lassen",
+        "prateritum": "ließ orientieren"
+    },
+    "orientieren müssen": {
+        "perfekt": "orientieren gemusst",
+        "prateritum": "musste orientieren"
+    },
+    "originell sein": {
+        "perfekt": "originell gewesen",
+        "prateritum": "war originell"
+    },
+    "originell werden": {
+        "perfekt": "originell geworden",
+        "prateritum": "wurde originell"
+    },
+    "orkanartig sein": {
+        "perfekt": "orkanartig gewesen",
+        "prateritum": "war orkanartig"
+    },
+    "orkanartig werden": {
+        "perfekt": "orkanartig geworden",
+        "prateritum": "wurde orkanartig"
+    },
+    "orthodox sein": {
+        "perfekt": "orthodox gewesen",
+        "prateritum": "war orthodox"
+    },
+    "orthodox werden": {
+        "perfekt": "orthodox geworden",
+        "prateritum": "wurde orthodox"
+    },
+    "osteuropäisch sein": {
+        "perfekt": "osteuropäisch gewesen",
+        "prateritum": "war osteuropäisch"
+    },
+    "osteuropäisch werden": {
+        "perfekt": "osteuropäisch geworden",
+        "prateritum": "wurde osteuropäisch"
+    },
+    "ozonisiert sein": {
+        "perfekt": "ozonisiert gewesen",
+        "prateritum": "war ozonisiert"
+    },
+    "ozonisiert werden": {
+        "perfekt": "ozonisiert geworden",
+        "prateritum": "wurde ozonisiert"
+    },
+    "ölen lassen": {
+        "perfekt": "geölt lassen",
+        "prateritum": "ließ ölen"
+    },
+    "ölen müssen": {
+        "perfekt": "geölt gemusst",
+        "prateritum": "musste ölen"
+    },
+    "ölen wollen": {
+        "perfekt": "geölt gewollt",
+        "prateritum": "wollte ölen"
+    },
+    "ölen können": {
+        "perfekt": "geölt gekonnt",
+        "prateritum": "konnte ölen"
+    },
+    "öffnen lassen": {
+        "perfekt": "geöffnet lassen",
+        "prateritum": "ließ öffnen"
+    },
+    "öffnen müssen": {
+        "perfekt": "geöffnet gemusst",
+        "prateritum": "musste öffnen"
+    },
+    "öffnen wollen": {
+        "perfekt": "geöffnet gewollt",
+        "prateritum": "wollte öffnen"
+    },
+    "öffnen können": {
+        "perfekt": "geöffnet gekonnt",
+        "prateritum": "konnte öffnen"
+    },
+    "ödipal sein": {
+        "perfekt": "ödipal gewesen",
+        "prateritum": "war ödipal"
+    },
+    "ödipal werden": {
+        "perfekt": "ödipal geworden",
+        "prateritum": "wurde ödipal"
+    },
+    "ödipuskomplex haben": {
+        "perfekt": "ödipuskomplex gehabt",
+        "prateritum": "hatte ödipuskomplex"
+    },
+    "ödipuskomplex haben wollen": {
+        "perfekt": "ödipuskomplex gehabt gewollt",
+        "prateritum": "wollte ödipuskomplex haben"
+    },
+    "ödipuskomplex haben müssen": {
+        "perfekt": "ödipuskomplex gehabt gemusst",
+        "prateritum": "musste ödipuskomplex haben"
+    },
+    "ödipuskomplex haben können": {
+        "perfekt": "ödipuskomplex gehabt gekonnt",
+        "prateritum": "konnte ödipuskomplex haben"
+    },
+    "öfter sein": {
+        "perfekt": "öfter gewesen",
+        "prateritum": "war öfter"
+    },
+    "öfter werden": {
+        "perfekt": "öfter geworden",
+        "prateritum": "wurde öfter"
+    },
+    "öfter kommen": {
+        "perfekt": "öfter gekommen",
+        "prateritum": "kam öfter"
+    },
+    "öfter vorbeikommen": {
+        "perfekt": "öfter vorbeigekommen",
+        "prateritum": "kam öfter vorbei"
+    },
+    "öfter denken": {
+        "perfekt": "öfter gedacht",
+        "prateritum": "dachte öfter"
+    },
+    "öfter verlieren": {
+        "perfekt": "öfter verloren",
+        "prateritum": "verlor öfter"
+    },
+    "öfter spielen": {
+        "perfekt": "öfter gespielt",
+        "prateritum": "spielte öfter"
+    },
+    "öfter lachen": {
+        "perfekt": "öfter gelacht",
+        "prateritum": "lachte öfter"
+    },
+    "öfter weinen": {
+        "perfekt": "öfter geweint",
+        "prateritum": "weinte öfter"
+    },
+    "öfter sagen": {
+        "perfekt": "öfter gesagt",
+        "prateritum": "sagte öfter"
+    },
+    "öfter gehen": {
+        "perfekt": "öfter gegangen",
+        "prateritum": "ging öfter"
+    },
+    "öfter kommen lassen": {
+        "perfekt": "öfter kommen lassen",
+        "prateritum": "ließ öfter kommen"
+    },
+    "öfter verlieren müssen": {
+        "perfekt": "öfter verloren gemusst",
+        "prateritum": "musste öfter verlieren"
+    },
+    "öfter verlieren wollen": {
+        "perfekt": "öfter verloren gewollt",
+        "prateritum": "wollte öfter verlieren"
+    },
+    "öfter verlieren können": {
+        "perfekt": "öfter verloren gekonnt",
+        "prateritum": "konnte öfter verlieren"
+    },
+    "öfter spielen lassen": {
+        "perfekt": "öfter spielen lassen",
+        "prateritum": "ließ öfter spielen"
+    },
+    "öfter lachen müssen": {
+        "perfekt": "öfter gelacht gemusst",
+        "prateritum": "musste öfter lachen"
+    },
+    "öfter lachen wollen": {
+        "perfekt": "öfter gelacht gewollt",
+        "prateritum": "wollte öfter lachen"
+    },
+    "öfter lachen können": {
+        "perfekt": "öfter gelacht gekonnt",
+        "prateritum": "konnte öfter lachen"
+    },
+    "öfter weinen lassen": {
+        "perfekt": "öfter weinen lassen",
+        "prateritum": "ließ öfter weinen"
+    },
+    "öfter sagen müssen": {
+        "perfekt": "öfter gesagt gemusst",
+        "prateritum": "musste öfter sagen"
+    },
+    "öfter sagen wollen": {
+        "perfekt": "öfter gesagt gewollt",
+        "prateritum": "wollte öfter sagen"
+    },
+    "öfter sagen können": {
+        "perfekt": "öfter gesagt gekonnt",
+        "prateritum": "konnte öfter sagen"
+    },
+    "öfter gehen lassen": {
+        "perfekt": "öfter gehen lassen",
+        "prateritum": "ließ öfter gehen"
+    },
+    "öfter gehen müssen": {
+        "perfekt": "öfter gegangen gemusst",
+        "prateritum": "musste öfter gehen"
+    },
+    "öfter gehen wollen": {
+        "perfekt": "öfter gegangen gewollt",
+        "prateritum": "wollte öfter gehen"
+    },
+    "öfter gehen können": {
+        "perfekt": "öfter gegangen gekonnt",
+        "prateritum": "konnte öfter gehen"
+    }
+}

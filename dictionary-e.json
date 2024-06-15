@@ -1,0 +1,718 @@
+{
+    "essen": {
+        "perfekt": "gegessen",
+        "prateritum": "aß ein"
+    },
+    "empfangen": {
+        "perfekt": "empfangen",
+        "prateritum": "empfing"
+    },
+    "empfehlen": {
+        "perfekt": "empfohlen",
+        "prateritum": "empfahl"
+    },
+    "entscheiden": {
+        "perfekt": "entschieden",
+        "prateritum": "entschied ein"
+    },
+    "erschrecken": {
+        "perfekt": "erschrocken",
+        "prateritum": "erschrak"
+    },
+    "erheben": {
+        "perfekt": "erhoben",
+        "prateritum": "erhob"
+    },
+    "erhalten": {
+        "perfekt": "erhalten",
+        "prateritum": "erhielt"
+    },
+    "erkennen": {
+        "perfekt": "erkannt",
+        "prateritum": "erkannte ein"
+    },
+    "erwägen": {
+        "perfekt": "erwogen",
+        "prateritum": "erwog"
+    },
+    "erwischen": {
+        "perfekt": "erwischt",
+        "prateritum": "wischte ein"
+    },
+    "eintreten": {
+        "perfekt": "eingetreten",
+        "prateritum": "trat ein"
+    },
+    "entstehen": {
+        "perfekt": "entstanden",
+        "prateritum": "entstand"
+    },
+    "erfahren": {
+        "perfekt": "erfahren",
+        "prateritum": "fuhr ein"
+    },
+    "erleben": {
+        "perfekt": "erlebt",
+        "prateritum": "erlebte"
+    },
+    "erwarten": {
+        "perfekt": "erwartet",
+        "prateritum": "erwartete"
+    },
+    "erzählen": {
+        "perfekt": "erzählt",
+        "prateritum": "zählte ein"
+    },
+    "erhöhen": {
+        "perfekt": "erhöht",
+        "prateritum": "erhöhte ein"
+    },
+    "erledigen": {
+        "perfekt": "erledigt",
+        "prateritum": "erledigte"
+    },
+    "eröffnen": {
+        "perfekt": "eröffnet",
+        "prateritum": "eröffnete"
+    },
+    "erscheinen": {
+        "perfekt": "erschienen",
+        "prateritum": "erschien"
+    },
+    "einarbeiten": {
+        "perfekt": "eingearbeitet",
+        "prateritum": "arbeitete ein"
+    },
+    "einatmen": {
+        "perfekt": "eingeathmet",
+        "prateritum": "atmete ein"
+    },
+    "einbauen": {
+        "perfekt": "eingebaut",
+        "prateritum": "baute ein"
+    },
+    "einbeziehen": {
+        "perfekt": "einbezogen",
+        "prateritum": "bezog ein"
+    },
+    "einbiegen": {
+        "perfekt": "eingebogen",
+        "prateritum": "bog ein"
+    },
+    "einblasen": {
+        "perfekt": "eingeblasen",
+        "prateritum": "blies ein"
+    },
+    "einbringen": {
+        "perfekt": "eingebracht",
+        "prateritum": "brachte ein"
+    },
+    "einchecken": {
+        "perfekt": "eingecheckt",
+        "prateritum": "checkte ein"
+    },
+    "eincremen": {
+        "perfekt": "eingecremt",
+        "prateritum": "cremte ein"
+    },
+    "eindämmen": {
+        "perfekt": "eingedämmt",
+        "prateritum": "dämmte ein"
+    },
+    "eindecken": {
+        "perfekt": "eingedekt",
+        "prateritum": "deckte ein"
+    },
+    "eindrücken": {
+        "perfekt": "eingedrückt",
+        "prateritum": "drückte ein"
+    },
+    "eindringen": {
+        "perfekt": "eingedrungen",
+        "prateritum": "drang ein"
+    },
+    "einfangen": {
+        "perfekt": "eingefangen",
+        "prateritum": "fing ein"
+    },
+    "einfahren": {
+        "perfekt": "eingefahren",
+        "prateritum": "fuhr ein"
+    },
+    "einfallen": {
+        "perfekt": "eingefallen",
+        "prateritum": "fiel ein"
+    },
+    "einfließen": {
+        "perfekt": "eingeflossen",
+        "prateritum": "floss ein"
+    },
+    "einfordern": {
+        "perfekt": "eingefordert",
+        "prateritum": "forderte ein"
+    },
+    "einfügen": {
+        "perfekt": "eingefügt",
+        "prateritum": "fügte ein"
+    },
+    "eingehen": {
+        "perfekt": "eingegangen",
+        "prateritum": "ging ein"
+    },
+    "eingestehen": {
+        "perfekt": "eingestanden",
+        "prateritum": "gestand ein"
+    },
+    "eingießen": {
+        "perfekt": "eingegossen",
+        "prateritum": "goss ein"
+    },
+    "einhaken": {
+        "perfekt": "eingehakt",
+        "prateritum": "hakte ein"
+    },
+    "einhauchen": {
+        "perfekt": "eingeatmet",
+        "prateritum": "hauchte ein"
+    },
+    "einholen": {
+        "perfekt": "eingeholt",
+        "prateritum": "holte ein"
+    },
+    "einkehren": {
+        "perfekt": "eingekehrt",
+        "prateritum": "kehrte ein"
+    },
+    "einklappen": {
+        "perfekt": "eingeklappt",
+        "prateritum": "klappte ein"
+    },
+    "einklemmen": {
+        "perfekt": "eingeklemmt",
+        "prateritum": "klemmte ein"
+    },
+    "einkochen": {
+        "perfekt": "eingekocht",
+        "prateritum": "kochte ein"
+    },
+    "einkreisen": {
+        "perfekt": "eingekreist",
+        "prateritum": "kreiste ein"
+    },
+    "einladen": {
+        "perfekt": "eingeladen",
+        "prateritum": "lud ein"
+    },
+    "einlaufen": {
+        "perfekt": "eingelaufen",
+        "prateritum": "lief ein"
+    },
+    "einleiten": {
+        "perfekt": "eingeleitet",
+        "prateritum": "leitete ein"
+    },
+    "einloggen": {
+        "perfekt": "eingeloggt",
+        "prateritum": "loggte ein"
+    },
+    "einmischen": {
+        "perfekt": "eingemischt",
+        "prateritum": "mischte ein"
+    },
+    "einpacken": {
+        "perfekt": "eingepackt",
+        "prateritum": "packte ein"
+    },
+    "einpendeln": {
+        "perfekt": "eingependelt",
+        "prateritum": "pendelte ein"
+    },
+    "einpflanzen": {
+        "perfekt": "eingepflanzt",
+        "prateritum": "pflanzte ein"
+    },
+    "einprägen": {
+        "perfekt": "eingeprägt",
+        "prateritum": "prägte ein"
+    },
+    "einräumen": {
+        "perfekt": "eingeräumt",
+        "prateritum": "räumte ein"
+    },
+    "einreiben": {
+        "perfekt": "eingerieben",
+        "prateritum": "rieb ein"
+    },
+    "einsacken": {
+        "perfekt": "eingesackt",
+        "prateritum": "sackte ein"
+    },
+    "einsammeln": {
+        "perfekt": "eingesammelt",
+        "prateritum": "sammelte ein"
+    },
+    "einschalten": {
+        "perfekt": "eingeschaltet",
+        "prateritum": "schaltete ein"
+    },
+    "einschenken": {
+        "perfekt": "eingeschenkt",
+        "prateritum": "schenkte ein"
+    },
+    "einschlafen": {
+        "perfekt": "einschlafen",
+        "prateritum": "schlief ein"
+    },
+    "einschlagen": {
+        "perfekt": "einschlagen",
+        "prateritum": "schlug ein"
+    },
+    "einschließen": {
+        "perfekt": "einschließen",
+        "prateritum": "schloss ein"
+    },
+    "einschmieren": {
+        "perfekt": "einschmiert",
+        "prateritum": "schmierte ein"
+    },
+    "einschneiden": {
+        "perfekt": "eingeschnitten",
+        "prateritum": "schnitt ein"
+    },
+    "einschüchtern": {
+        "perfekt": "einschüchtert",
+        "prateritum": "schüchterte ein"
+    },
+    "einschulen": {
+        "perfekt": "einschulen",
+        "prateritum": "schulte ein"
+    },
+    "einschwenken": {
+        "perfekt": "einschwenken",
+        "prateritum": "schwenkte ein"
+    },
+    "einschreiben": {
+        "perfekt": "einschreiben",
+        "prateritum": "schrieb ein"
+    },
+    "einschütteln": {
+        "perfekt": "einschüttelt",
+        "prateritum": "schüttelte ein"
+    },
+    "einsehen": {
+        "perfekt": "eingesehen",
+        "prateritum": "sah ein"
+    },
+    "einsetzen": {
+        "perfekt": "eingesetzt",
+        "prateritum": "setzte ein"
+    },
+    "einsickern": {
+        "perfekt": "eingesickert",
+        "prateritum": "sickerte ein"
+    },
+    "einsinken": {
+        "perfekt": "eingesunken",
+        "prateritum": "sank ein"
+    },
+    "einsortieren": {
+        "perfekt": "eingesortiert",
+        "prateritum": "sortierte ein"
+    },
+    "einstecken": {
+        "perfekt": "eingesteckt",
+        "prateritum": "steckte ein"
+    },
+    "einstellen": {
+        "perfekt": "eingestellt",
+        "prateritum": "stellte ein"
+    },
+    "einsteigen": {
+        "perfekt": "eingestiegen",
+        "prateritum": "stieg ein"
+    },
+    "einstreichen": {
+        "perfekt": "eingestrichen",
+        "prateritum": "strich ein"
+    },
+    "einstufen": {
+        "perfekt": "eingestuft",
+        "prateritum": "stufte ein"
+    },
+    "eintauchen": {
+        "perfekt": "eingetaucht",
+        "prateritum": "tauchte ein"
+    },
+    "eintragen": {
+        "perfekt": "eingetragen",
+        "prateritum": "trug ein"
+    },
+    "einüben": {
+        "perfekt": "eingeübt",
+        "prateritum": "übte ein"
+    },
+    "einvon": {
+        "perfekt": "eingevon",
+        "prateritum": "von ein"
+    },
+    "einwachsen": {
+        "perfekt": "eingewachsen",
+        "prateritum": "wuchs ein"
+    },
+    "einweihen": {
+        "perfekt": "eingeweiht",
+        "prateritum": "weihte ein"
+    },
+    "einwerfen": {
+        "perfekt": "eingeworfen",
+        "prateritum": "warf ein"
+    },
+    "einwickeln": {
+        "perfekt": "eingewickelt",
+        "prateritum": "wickelte ein"
+    },
+    "einwirken": {
+        "perfekt": "eingewirkt",
+        "prateritum": "wirkte ein"
+    },
+    "einziehen": {
+        "perfekt": "eingezogen",
+        "prateritum": "zog ein"
+    },
+    "einzahlen": {
+        "perfekt": "eingezahlt",
+        "prateritum": "zahlte ein"
+    },
+    "einzeichnen": {
+        "perfekt": "eingezeichnet",
+        "prateritum": "zeichnete ein"
+    },
+    "einzelheiten": {
+        "perfekt": "einzelnheiten",
+        "prateritum": "nheiten ein"
+    },
+    "einzige": {
+        "perfekt": "eingezige",
+        "prateritum": "zige ein"
+    },
+    "einzukleiden": {
+        "perfekt": "eingezukleidet",
+        "prateritum": "zukleidete ein"
+    },
+    "einzureihen": {
+        "perfekt": "eingezureihen",
+        "prateritum": "zureihen ein"
+    },
+    "einzusammeln": {
+        "perfekt": "eingezusammeln",
+        "prateritum": "zusammeln ein"
+    },
+    "einzustellen": {
+        "perfekt": "eingezustellt",
+        "prateritum": "zustellte ein"
+    },
+    "einzusuchen": {
+        "perfekt": "eingezusucht",
+        "prateritum": "zusucht ein"
+    },
+    "einzuzahlen": {
+        "perfekt": "eingezuzahlen",
+        "prateritum": "zuzahlen ein"
+    },
+    "einzuziehen": {
+        "perfekt": "eingezuziehen",
+        "prateritum": "zuziehen ein"
+    },
+    "einschütten": {
+        "perfekt": "einschüttet",
+        "prateritum": "schüttete ein"
+    },
+    "einzählen": {
+        "perfekt": "eingezählt",
+        "prateritum": "zählte ein"
+    },
+    "einzigen": {
+        "perfekt": "eingezigen",
+        "prateritum": "zigen ein"
+    },
+    "einzuhalten": {
+        "perfekt": "eingezuhalten",
+        "prateritum": "zuhalten ein"
+    },
+    "einzunehmen": {
+        "perfekt": "eingezunehmen",
+        "prateritum": "zunehmen ein"
+    },
+    "einzupacken": {
+        "perfekt": "eingezupackt",
+        "prateritum": "zupackte ein"
+    },
+    "einzutreten": {
+        "perfekt": "eingezutreten",
+        "prateritum": "zutreten ein"
+    },
+    "einbilden": {
+        "perfekt": "eingebildet",
+        "prateritum": "bildete ein"
+    },
+    "einführen": {
+        "perfekt": "eingeführt",
+        "prateritum": "führte ein"
+    },
+    "einschleichen": {
+        "perfekt": "eingeschlichen",
+        "prateritum": "schlich ein"
+    },
+    "einkaufen": {
+        "perfekt": "eingekauft",
+        "prateritum": "kaufte ein"
+    },
+    "einschreiten": {
+        "perfekt": "einschreiten",
+        "prateritum": "schritt ein"
+    },
+    "einsenden": {
+        "perfekt": "eingesendet",
+        "prateritum": "sendete ein"
+    },
+    "einträufeln": {
+        "perfekt": "eingeträufelt",
+        "prateritum": "träufelte ein"
+    },
+    "eintüten": {
+        "perfekt": "eingetütet",
+        "prateritum": "tütete ein"
+    },
+    "eintunken": {
+        "perfekt": "eingetunkt",
+        "prateritum": "tunkte ein"
+    },
+    "einwählen": {
+        "perfekt": "eingewählt",
+        "prateritum": "wählte ein"
+    },
+    "einnehmen": {
+        "perfekt": "eingenommen",
+        "prateritum": "nahm ein"
+    },
+    "eislaufen": {
+        "perfekt": "eisgelaufen",
+        "prateritum": "lief ein"
+    },
+    "eiswürfeln": {
+        "perfekt": "eisgewürfelt",
+        "prateritum": "würfelte ein"
+    },
+    "erhellen": {
+        "perfekt": "erhellt",
+        "prateritum": "hellte ein"
+    },
+    "erhitzen": {
+        "perfekt": "erhitzt",
+        "prateritum": "hitzte ein"
+    },
+    "erkaufen": {
+        "perfekt": "erkauft",
+        "prateritum": "kaufte ein"
+    },
+    "erlaufen": {
+        "perfekt": "erlaufen",
+        "prateritum": "lief ein"
+    },
+    "ermüden": {
+        "perfekt": "ermüdet",
+        "prateritum": "müdete ein"
+    },
+    "erschlaffen": {
+        "perfekt": "erschlafft",
+        "prateritum": "schlaffte ein"
+    },
+    "erschließen": {
+        "perfekt": "erschlossen",
+        "prateritum": "schloss ein"
+    },
+    "etwas": {
+        "perfekt": "eingenommen",
+        "prateritum": "nahm ein"
+    },
+    "entdecken": {
+        "perfekt": "entdeckt",
+        "prateritum": "deckte ein"
+    },
+    "entfernen": {
+        "perfekt": "entfernt",
+        "prateritum": "fernte ein"
+    },
+    "entgegennehmen": {
+        "perfekt": "entgegengenommen",
+        "prateritum": "nahm entgegen"
+    },
+    "entladen": {
+        "perfekt": "entladen",
+        "prateritum": "lud ein"
+    },
+    "entpuppen": {
+        "perfekt": "entpuppt",
+        "prateritum": "puppte ein"
+    },
+    "entschuldigen": {
+        "perfekt": "entschuldigt",
+        "prateritum": "entschuldigte ein"
+    },
+    "entwerfen": {
+        "perfekt": "entworfen",
+        "prateritum": "warf ein"
+    },
+    "ernähren": {
+        "perfekt": "ernährt",
+        "prateritum": "ernährte ein"
+    },
+    "ernten": {
+        "perfekt": "geerntet",
+        "prateritum": "erntete ein"
+    },
+    "erreichen": {
+        "perfekt": "erreicht",
+        "prateritum": "erreichte ein"
+    },
+    "erschweren": {
+        "perfekt": "erschwert",
+        "prateritum": "erschwerte ein"
+    },
+    "erwärmen": {
+        "perfekt": "erwärmt",
+        "prateritum": "erwärmte ein"
+    },
+    "erweisen": {
+        "perfekt": "erwiesen",
+        "prateritum": "erwies ein"
+    },
+    "erziehen": {
+        "perfekt": "erzogen",
+        "prateritum": "erzog ein"
+    },
+    "erzielen": {
+        "perfekt": "erzielt",
+        "prateritum": "erzielte ein"
+    },
+    "eskamotieren": {
+        "perfekt": "eskamotiert",
+        "prateritum": "eskamotierte ein"
+    },
+    "etablieren": {
+        "perfekt": "etabliert",
+        "prateritum": "etablierte ein"
+    },
+    "explodieren": {
+        "perfekt": "explodiert",
+        "prateritum": "explodierte ein"
+    },
+    "experimentieren": {
+        "perfekt": "experimentiert",
+        "prateritum": "experimentierte ein"
+    },
+    "extrahieren": {
+        "perfekt": "extrahiert",
+        "prateritum": "extrahierte ein"
+    },
+    "extremisieren": {
+        "perfekt": "extremisiert",
+        "prateritum": "extremisierte ein"
+    },
+    "exzerpieren": {
+        "perfekt": "exzerpiert",
+        "prateritum": "exzerpierte ein"
+    },
+    "exhumieren": {
+        "perfekt": "exhumiert",
+        "prateritum": "exhumierte ein"
+    },
+    "exkludieren": {
+        "perfekt": "exkludiert",
+        "prateritum": "exkludierte ein"
+    },
+    "exkommunizieren": {
+        "perfekt": "exkommuniziert",
+        "prateritum": "exkommunizierte ein"
+    },
+    "exkulpieren": {
+        "perfekt": "exkulpiert",
+        "prateritum": "exkulpierte ein"
+    },
+    "expandieren": {
+        "perfekt": "expandiert",
+        "prateritum": "expandierte ein"
+    },
+    "expedieren": {
+        "perfekt": "expediert",
+        "prateritum": "expedierte ein"
+    },
+    "explizieren": {
+        "perfekt": "expliziert",
+        "prateritum": "explizierte ein"
+    },
+    "exponieren": {
+        "perfekt": "exponiert",
+        "prateritum": "exponierte ein"
+    },
+    "exportieren": {
+        "perfekt": "exportiert",
+        "prateritum": "exportierte ein"
+    },
+    "expropriieren": {
+        "perfekt": "expropriiert",
+        "prateritum": "exproprierte ein"
+    },
+    "extrapolieren": {
+        "perfekt": "extrapoliert",
+        "prateritum": "extrapolierte ein"
+    },
+    "extravaganzieren": {
+        "perfekt": "extravaganzisiert",
+        "prateritum": "extravaganzisierte ein"
+    },
+    "einschränken": {
+        "perfekt": "einschränken",
+        "prateritum": "schränkte ein"
+    },
+    "einschweißen": {
+        "perfekt": "eingeschweißt",
+        "prateritum": "schweißte ein"
+    },
+    "einschwingen": {
+        "perfekt": "eingeschwungen",
+        "prateritum": "schwang ein"
+    },
+    "einschätzen": {
+        "perfekt": "eingeschätzt",
+        "prateritum": "schätzte ein"
+    },
+    "einschmelzen": {
+        "perfekt": "einschmelzen",
+        "prateritum": "schmolz ein"
+    },
+    "einschneien": {
+        "perfekt": "eingeschneit",
+        "prateritum": "schneite ein"
+    },
+    "einschrumpfen": {
+        "perfekt": "eingeschrumpft",
+        "prateritum": "schrumpfte ein"
+    },
+    "einschäumen": {
+        "perfekt": "einschäumt",
+        "prateritum": "schäumte ein"
+    },
+    "einschärfen": {
+        "perfekt": "einschärft",
+        "prateritum": "schärfte ein"
+    },
+    "einschöpfen": {
+        "perfekt": "einschöpft",
+        "prateritum": "schöpfte ein"
+    },
+    "einschwänzen": {
+        "perfekt": "einschwänzt",
+        "prateritum": "schwänzte ein"
+    }
+}
