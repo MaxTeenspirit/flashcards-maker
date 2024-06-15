@@ -7,7 +7,7 @@ import {getRandomSubset} from '@helpers';
 import {RootState} from '@redux';
 
 import CardMenu from '../CardMenu';
-import Modal from '../Modal';
+import ModalWarning from '../ModalWarning/index.ts';
 
 import {IDeckProps} from './IDeck.ts';
 
@@ -75,7 +75,7 @@ const Deck = ({deck}: IDeckProps) => {
 							>
 								Редагувати
 							</CardMenu.Item>
-							<Modal
+							<ModalWarning
 								text={{
 									message: 'Ця дія видалить лише стек, картки залишаться!',
 									title: `Видалити стек ${deck.name}?`,
@@ -85,7 +85,7 @@ const Deck = ({deck}: IDeckProps) => {
 								onApprove={handleDeleteDeck}
 								trigger={<CardMenu.Item fontSize={['1.6rem', '1.2rem']}>Видалити</CardMenu.Item>}
 							/>
-							<Modal
+							<ModalWarning
 								text={{
 									message: 'Ця дія видалить стек з усіма картками в ньому!',
 									title: `Видалити стек ${deck.name} з усіма картками?`,
@@ -101,7 +101,7 @@ const Deck = ({deck}: IDeckProps) => {
 					)}
 					{deck.id === 'all' && (
 						<CardMenu>
-							<Modal
+							<ModalWarning
 								text={{
 									message: 'Ця дія видалить лише картки з цього стеку!',
 									title: `Видалити картки з ${deck.name}?`,

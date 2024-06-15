@@ -8,10 +8,10 @@ const Title = () => {
 			onClick={() => navigate('/')}
 			as="h1"
 			color="#f7fcff"
-			fontSize={['1.6rem', '2rem', '2rem', '3rem']}
-			fontFamily="MaliRegular, sans-serif"
+			fontSize={['1.6rem', '1.8rem', '2.2rem', '2.2rem']}
 			cursor="pointer"
-			padding="0 1rem"
+			padding={['0 0.5rem', '0 1rem', '0 1rem']}
+			whiteSpace="nowrap"
 			sx={{WebkitTapHighlightColor: 'transparent', WebkitFocusRingColor: 'transparent', outline: 'none'}}
 		>
 			FlashFluent DE

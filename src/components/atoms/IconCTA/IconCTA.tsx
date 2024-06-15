@@ -17,6 +17,7 @@ const IconCTA = ({text, condition, iconName, margin, onClick}: IIconCTA) => {
 			justifyContent="center"
 			alignItems={isMobile ? 'start' : 'center'}
 			margin={margin}
+			cursor="pointer"
 			sx={{
 				'&:hover span': {
 					textDecoration: 'underline',

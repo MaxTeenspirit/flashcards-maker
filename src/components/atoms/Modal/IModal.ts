@@ -1,6 +1,6 @@
 import {ReactNode} from 'react';
 
-interface ITextProp {
+export interface ITextProp {
 	title?: string;
 	message?: string;
 	cancel?: string;
@@ -9,6 +9,9 @@ interface ITextProp {
 
 export interface IModal {
 	trigger: ReactNode;
-	onApprove: () => void;
+	children?: ReactNode | string;
+	isCloseButton?: boolean;
+	onApprove?: () => void;
+	onCancel?: () => void;
 	text: ITextProp;
 }

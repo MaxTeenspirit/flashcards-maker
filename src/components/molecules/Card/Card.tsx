@@ -6,7 +6,7 @@ import {chooseBackgroundColor} from '@helpers';
 import {deleteCard, deleteCardFromDeck} from '@slices';
 
 import CardMenu from '../CardMenu';
-import Modal from '../Modal';
+import ModalWarning from '../ModalWarning';
 
 import {ICardProps} from './ICard';
 
@@ -47,7 +47,7 @@ const Card = ({card}: ICardProps) => {
 						>
 							Редагувати
 						</CardMenu.Item>
-						<Modal
+						<ModalWarning
 							text={{
 								message: `Ви впевнені, що хочете видалити картку ${card.word}?`,
 								title: `Видалити ${card.word}?`,

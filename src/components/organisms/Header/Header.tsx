@@ -3,7 +3,7 @@ import {Flex, Link, HStack, IconButton, useMediaQuery} from '@chakra-ui/react';
 import {HamburgerIcon} from '@chakra-ui/icons';
 
 import {Icon, NavLink, IconCTA, Title} from '@atoms';
-import {MobileMenu} from '@molecules';
+import {MobileMenu, ModalMenu} from '@molecules';
 
 import styles from './Header.module.scss';
 
@@ -39,7 +39,7 @@ const Header = () => {
 			as="header"
 			align="center"
 			justify="space-between"
-			padding={['1rem', '1rem 3rem']}
+			padding={['1rem', '1rem 1.6rem']}
 			borderBottom="1px solid #ccc"
 			height={isScrolled && !isMobile ? ['70px', '90px', '120px'] : ['80px', '110px', '130px']}
 			color="#E0E0E0"
@@ -61,7 +61,7 @@ const Header = () => {
 						src={`${basePath}logo-100.png`}
 						srcSet={`${basePath}logo-100.png 50w, ${basePath}logo-140.png 70w, ${basePath}logo-200.png 100w`}
 						sizes="(max-width: 425px) 50px, (max-width: 768px) 70px, 100px"
-						boxSize={isScrolled && !isMobile ? ['30px', '40px', '70px'] : ['50px', '70px', '100px']}
+						boxSize={isScrolled && !isMobile ? ['30px', '40px', '70px'] : ['40px', '60px', '80px']}
 						transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
 					/>
 				</Link>
@@ -88,14 +88,34 @@ const Header = () => {
 					<IconCTA text="Вчити" condition={isScrolled} iconName={'learn'} />
 				</Link>
 				<Link as={NavLink} to="/allCards">
-					<IconCTA margin="0 1rem" text="Всі картки" condition={isScrolled && !isMobile} iconName={'all'} />
+					<IconCTA
+						margin={['0 0.5rem', '0 0.4rem', '0 0.5rem', '0 1rem']}
+						text="Всі картки"
+						condition={isScrolled && !isMobile}
+						iconName={'all'}
+					/>
 				</Link>
 				<Link as={NavLink} to="/decks">
 					<IconCTA text="Стеки" condition={isScrolled && !isMobile} iconName={'piles'} />
 				</Link>
 				<Link as={NavLink} to="/create">
-					<IconCTA margin="0 0 0 1rem" text="Створити" condition={isScrolled && !isMobile} iconName={'add'} />
+					<IconCTA
+						margin={['0 0 0 0.5rem', '0 0 0 0.4rem', '0 0 0 0.5rem', '0 0 0 1rem']}
+						text="Створити"
+						condition={isScrolled && !isMobile}
+						iconName={'add'}
+					/>
 				</Link>
+				<ModalMenu
+					trigger={
+						<IconCTA
+							margin={['0 0 0 0.5rem', '0 0 0 0.4rem', '0 0 0 0.5rem', '0 0 0 1rem']}
+							text="Опції"
+							condition={isScrolled && !isMobile}
+							iconName={'settings'}
+						/>
+					}
+				/>
 			</HStack>
 
 			{!!isMobile && <MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu}></MobileMenu>}
