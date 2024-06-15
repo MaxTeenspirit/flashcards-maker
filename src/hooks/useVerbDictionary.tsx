@@ -32,13 +32,12 @@ const useVerbDictionary = (verb: string, wordType: string) => {
 	}, [verbData, error, verb]);
 
 	useEffect(() => {
-		const lowerVerb = verb?.toLocaleLowerCase();
+		const lowerVerb = verb?.toLowerCase();
 
 		if (lowerVerb?.length && prevLetterRef.current !== lowerVerb[0] && wordType === 'verb') {
 			const normalizedLetter = normalizeLetter(lowerVerb[0]);
 
 			prevLetterRef.current = normalizedLetter;
-
 			setQueryLetter(normalizedLetter);
 		} else {
 			setQueryLetter('');

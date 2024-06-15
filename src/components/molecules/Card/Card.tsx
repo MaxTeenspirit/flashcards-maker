@@ -1,10 +1,16 @@
+import {useEffect, useState} from 'react';
 import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery} from '@chakra-ui/react';
-import {useDispatch} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
+import {FetchBaseQueryError} from '@reduxjs/toolkit/query';
+import {SerializedError} from '@reduxjs/toolkit';
 
+import {RootState} from '@redux';
 import {chooseBackgroundColor} from '@helpers';
 import {deleteCard, deleteCardFromDeck} from '@slices';
+import {IDictionaryData, IVerbData} from '@redux-types';
 
+import {useGetVerbDataQuery} from 'redux/slices/dictionarySlice';
 import CardMenu from '../CardMenu';
 import ModalWarning from '../ModalWarning';
 
@@ -14,6 +20,26 @@ const Card = ({card}: ICardProps) => {
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 	const [isMobile] = useMediaQuery('(max-width: 425px)');
+
+	const [dictionaryData, setDictionaryData] = useState<IVerbData>();
+
+	const settings = useSelector((state: RootState) => state.settings);
+
+	const {data: verbData} = useGetVerbDataQuery(card?.word[0]?.toLowerCase(), {
+		skip: !card?.word || card?.wordType !== 'verb',
+	}) as {
+		data: IDictionaryData | undefined;
+		error: FetchBaseQueryError | SerializedError | undefined;
+	};
+
+	useEffect(() => {
+		const word = card?.word;
+		const type = card?.wordType;
+
+		if (!!word && type === 'verb' && verbData) {
+			setDictionaryData(verbData[word?.toLowerCase()]);
+		}
+	}, [card?.word, card?.wordType, verbData]);
 
 	const handleDeleteCard = () => {
 		dispatch(deleteCard({id: card.id}));
@@ -62,7 +88,7 @@ const Card = ({card}: ICardProps) => {
 			</CardHeader>
 			{card?.wordType === 'noun' ? (
 				<CardBody flexGrow="initial" p="0rem 1rem 0rem 0.5rem" fontSize={['1.1rem', '1.2rem']}>
-					{card?.plural ? (
+					{card?.plural && card?.plural !== '-' ? (
 						<Text textAlign="left">{`die ${card.plural}`}</Text>
 					) : (
 						<Text textAlign="left">-</Text>
@@ -71,7 +97,22 @@ const Card = ({card}: ICardProps) => {
 			) : null}
 			{card?.wordType === 'verb' ? (
 				<CardBody flexGrow="initial" p="0rem 1rem 0rem 0.5rem" fontSize={['1.1rem', '1rem']}>
-					<Text textAlign="left">{card?.isStrong ? 'сильний' : 'слабкий'}</Text>
+					{settings?.perfekt && dictionaryData?.perfekt && (
+						<Text as="p" textAlign="left">
+							<Text as="span" color="#919191">
+								Part.II:{' '}
+							</Text>
+							{dictionaryData?.perfekt + '; '}
+						</Text>
+					)}
+					{settings?.prateritum && dictionaryData?.prateritum && (
+						<Text as="p" textAlign="left">
+							<Text as="span" color="#919191">
+								Prät.:{' '}
+							</Text>
+							{dictionaryData?.prateritum};
+						</Text>
+					)}
 				</CardBody>
 			) : null}
 		</CardUI>

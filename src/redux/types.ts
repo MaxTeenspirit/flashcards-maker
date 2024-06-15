@@ -6,7 +6,6 @@ export interface ICard {
 	translation: string;
 	plural?: string;
 	deck: string;
-	isStrong?: boolean;
 }
 
 export interface ICardInitialState {
@@ -29,7 +28,6 @@ export interface IWord extends Omit<ICard, 'deck'> {
 	word: string;
 	plural?: string | undefined;
 	translation: string;
-	isStrong?: boolean;
 	wordType: string;
 }
 
@@ -40,4 +38,9 @@ export interface IDictionaryData {
 export interface IVerbData {
 	perfekt: string;
 	prateritum: string;
+}
+
+export interface ISettingsInitialState {
+	perfekt: boolean;
+	prateritum: boolean;
 }

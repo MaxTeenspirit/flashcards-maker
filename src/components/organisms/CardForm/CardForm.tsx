@@ -1,13 +1,13 @@
 import {useEffect, memo} from 'react';
 import {useForm} from 'react-hook-form';
 import {useSelector, useDispatch} from 'react-redux';
-import {Box, Button, FormControl, FormLabel, Input, Select, Stack, Checkbox, useToast} from '@chakra-ui/react';
+import {Box, Button, FormControl, FormLabel, Input, Select, Stack, useToast} from '@chakra-ui/react';
 
 import {InputWrapper} from '@molecules';
 import {RootState} from '@redux';
 import {ICard} from '@redux-types';
 import {addCard, addCardToDeck, editCard} from '@slices';
-import {capitalizeWord} from '@helpers';
+import {capitalizeWord, lowerWord, removeArticle} from '@helpers';
 
 import {ICardForm} from './ICardForm.ts';
 
@@ -30,15 +30,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 
 	useEffect(() => {
 		if (cardToEdit && isEdit) {
-			const fieldsToSet: Array<keyof ICard> = [
-				'wordType',
-				'article',
-				'word',
-				'plural',
-				'translation',
-				'deck',
-				'isStrong',
-			];
+			const fieldsToSet: Array<keyof ICard> = ['wordType', 'article', 'word', 'plural', 'translation', 'deck'];
 
 			fieldsToSet.forEach((field) => {
 				if (field in cardToEdit) {
@@ -56,8 +48,8 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 				...data,
 				id,
 				article: data.wordType === 'noun' ? data?.article : '',
-				word: capitalizeWord(data?.word),
-				plural: data?.plural || '',
+				word: data.wordType === 'noun' ? capitalizeWord(data?.word) : lowerWord(data?.word),
+				plural: data?.plural ? removeArticle(data.plural) : '',
 			};
 
 			dispatch(addCard(newCard));
@@ -128,14 +120,6 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 								<option value="die">Die</option>
 								<option value="das">Das</option>
 							</Select>
-						</FormControl>
-					)}
-
-					{wordType === 'verb' && (
-						<FormControl isRequired={false}>
-							<Box display="flex" alignItems="center" justifyContent="center">
-								<Checkbox {...register('isStrong', {required: false})}>сильне</Checkbox>
-							</Box>
 						</FormControl>
 					)}
 				</InputWrapper>

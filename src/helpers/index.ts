@@ -1,11 +1,36 @@
 import {ICard, IWord} from '@redux-types';
 
+export const removeArticle = (word: string): string => {
+	if (!word) {
+		return '';
+	}
+
+	const lowercasedWord = word.toLowerCase();
+
+	if (lowercasedWord.startsWith('der ') || lowercasedWord.startsWith('die ') || lowercasedWord.startsWith('das ')) {
+		return word.slice(4);
+	}
+	return word;
+};
+
 export const capitalizeWord = (word: string) => {
 	if (!word) {
 		return '';
 	}
 
-	return word.charAt(0).toUpperCase() + word.slice(1);
+	const noArticle = removeArticle(word);
+
+	return noArticle.charAt(0).toUpperCase() + noArticle.slice(1);
+};
+
+export const lowerWord = (word: string) => {
+	if (!word) {
+		return '';
+	}
+
+	const noArticle = removeArticle(word);
+
+	return noArticle.charAt(0).toLowerCase() + noArticle.slice(1);
 };
 
 export const chooseBackgroundColor = (card: ICard | IWord) => {
@@ -60,7 +85,6 @@ export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] => {
 		word: card.word,
 		translation: card.translation,
 		plural: card?.plural,
-		isStrong: card?.isStrong,
 		wordType: card.wordType,
 		article: card?.article,
 	}));

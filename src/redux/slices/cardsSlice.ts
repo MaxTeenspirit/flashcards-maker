@@ -37,7 +37,6 @@ export const cardsSlice = createSlice({
 							plural: payload?.plural || editableCard?.plural,
 							translation: payload?.translation || editableCard?.translation,
 							deck: payload?.deck || editableCard?.deck,
-							isStrong: payload?.isStrong || editableCard?.isStrong,
 						};
 
 						cards.push(changedCard);
