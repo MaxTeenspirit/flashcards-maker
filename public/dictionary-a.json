@@ -25,7 +25,7 @@
     },
     "anwenden": {
         "perfekt": "angewendet",
-        "prateritum": "wendete an"
+        "prateritum": "wandte an"
     },
     "aufgeben": {
         "perfekt": "aufgegeben",
@@ -548,7 +548,7 @@
         "prateritum": "füllte aus"
     },
     "anordnen": {
-        "perfekt": "angeordnet",
+        "perfekt": "anordnen",
         "prateritum": "ordnete an"
     },
     "ausprobieren": {
@@ -621,7 +621,7 @@
     },
     "anbauen": {
         "perfekt": "angebaut",
-        "prateritum": "baute an"
+        "prateritum": "anbaute"
     },
     "anfechten": {
         "perfekt": "angefochten",
@@ -724,7 +724,7 @@
         "prateritum": "schrieb an"
     },
     "ansetzen": {
-        "perfekt": "angesetzt",
+        "perfekt": "angsetzt",
         "prateritum": "setzte an"
     },
     "anstiften": {
@@ -769,7 +769,7 @@
     },
     "anbeten": {
         "perfekt": "angebetet",
-        "prateritum": "bete an"
+        "prateritum": "betete an"
     },
     "anfachen": {
         "perfekt": "angefacht",
@@ -1674,5 +1674,941 @@
     "abwimmeln": {
         "perfekt": "abgewimmelt",
         "prateritum": "wimmelte ab"
+    },
+    "aufbleiben": {
+        "perfekt": "aufgeblieben",
+        "prateritum": "blieb auf"
+    },
+    "aufbrechen": {
+        "perfekt": "aufgebrochen",
+        "prateritum": "brach auf"
+    },
+    "auffallen": {
+        "perfekt": "aufgefallen",
+        "prateritum": "fiel auf"
+    },
+    "auffangen": {
+        "perfekt": "aufgefangen",
+        "prateritum": "fing auf"
+    },
+    "auffinden": {
+        "perfekt": "aufgefunden",
+        "prateritum": "fand auf"
+    },
+    "aufgehen": {
+        "perfekt": "aufgegangen",
+        "prateritum": "ging auf"
+    },
+    "aufhängen": {
+        "perfekt": "aufgehängt",
+        "prateritum": "hängte auf"
+    },
+    "auflaufen": {
+        "perfekt": "aufgelaufen",
+        "prateritum": "lief auf"
+    },
+    "auflisten": {
+        "perfekt": "aufgelistet",
+        "prateritum": "listete auf"
+    },
+    "aufmuntern": {
+        "perfekt": "aufgemuntert",
+        "prateritum": "munterte auf"
+    },
+    "aufpumpen": {
+        "perfekt": "aufgepumpt",
+        "prateritum": "pumpte auf"
+    },
+    "aufräumen": {
+        "perfekt": "aufgeräumt",
+        "prateritum": "räumte auf"
+    },
+    "aufrichten": {
+        "perfekt": "aufgerichtet",
+        "prateritum": "richtete auf"
+    },
+    "aufrufen": {
+        "perfekt": "aufgerufen",
+        "prateritum": "rief auf"
+    },
+    "aufrunden": {
+        "perfekt": "aufgerundet",
+        "prateritum": "rundete auf"
+    },
+    "aufschauen": {
+        "perfekt": "aufgeschaut",
+        "prateritum": "schaute auf"
+    },
+    "aufschieben": {
+        "perfekt": "aufgeschoben",
+        "prateritum": "schob auf"
+    },
+    "aufschneiden": {
+        "perfekt": "aufgeschnitten",
+        "prateritum": "schnitt auf"
+    },
+    "aufsehen": {
+        "perfekt": "aufgesehen",
+        "prateritum": "sah auf"
+    },
+    "aufstören": {
+        "perfekt": "aufgestört",
+        "prateritum": "störte auf"
+    },
+    "auftischen": {
+        "perfekt": "aufgetischt",
+        "prateritum": "tischte auf"
+    },
+    "auftreten": {
+        "perfekt": "aufgetreten",
+        "prateritum": "trat auf"
+    },
+    "aufwärmen": {
+        "perfekt": "aufgewärmt",
+        "prateritum": "wärmte auf"
+    },
+    "aufweisen": {
+        "perfekt": "aufgewiesen",
+        "prateritum": "wies auf"
+    },
+    "aufwenden": {
+        "perfekt": "aufgewendet",
+        "prateritum": "wendete auf"
+    },
+    "aufwerfen": {
+        "perfekt": "aufgeworfen",
+        "prateritum": "warf auf"
+    },
+    "aufwiegen": {
+        "perfekt": "aufgewogen",
+        "prateritum": "wog auf"
+    },
+    "aufzeichnen": {
+        "perfekt": "aufgezeichnet",
+        "prateritum": "zeichnete auf"
+    },
+    "aufzwingen": {
+        "perfekt": "aufgezwungen",
+        "prateritum": "zwang auf"
+    },
+    "aufblitzen": {
+        "perfekt": "aufgeblitzt",
+        "prateritum": "blitzte auf"
+    },
+    "aufbieten": {
+        "perfekt": "aufgeboten",
+        "prateritum": "bot auf"
+    },
+    "aufbrausen": {
+        "perfekt": "aufgebraust",
+        "prateritum": "brauste auf"
+    },
+    "aufdonnern": {
+        "perfekt": "aufgedonnert",
+        "prateritum": "donnerte auf"
+    },
+    "aufdröseln": {
+        "perfekt": "aufgedröselt",
+        "prateritum": "dröselte auf"
+    },
+    "aufflackern": {
+        "perfekt": "aufgeflackert",
+        "prateritum": "flackerte auf"
+    },
+    "auffrischen": {
+        "perfekt": "aufgefrischt",
+        "prateritum": "frischte auf"
+    },
+    "aufglimmen": {
+        "perfekt": "aufgeglommen",
+        "prateritum": "glomm auf"
+    },
+    "aufjagen": {
+        "perfekt": "aufgejagt",
+        "prateritum": "jagte auf"
+    },
+    "aufklappen": {
+        "perfekt": "aufgeklappt",
+        "prateritum": "klappte auf"
+    },
+    "aufleuchten": {
+        "perfekt": "aufgeleuchtet",
+        "prateritum": "leuchtete auf"
+    },
+    "aufmotzen": {
+        "perfekt": "aufgemotzt",
+        "prateritum": "motzte auf"
+    },
+    "aufmucken": {
+        "perfekt": "aufgemuckt",
+        "prateritum": "muckte auf"
+    },
+    "aufraffen": {
+        "perfekt": "aufgerafft",
+        "prateritum": "raffte auf"
+    },
+    "aufrauen": {
+        "perfekt": "aufgeraut",
+        "prateritum": "raute auf"
+    },
+    "aufribbeln": {
+        "perfekt": "aufgeribbelt",
+        "prateritum": "ribbelte auf"
+    },
+    "aufschichten": {
+        "perfekt": "aufgeschichtet",
+        "prateritum": "schichtete auf"
+    },
+    "aufschnappen": {
+        "perfekt": "aufgeschnappt",
+        "prateritum": "schnappte auf"
+    },
+    "aufschnüren": {
+        "perfekt": "aufgeschnürt",
+        "prateritum": "schnürte auf"
+    },
+    "aufschrecken": {
+        "perfekt": "aufgeschreckt",
+        "prateritum": "schreckte auf"
+    },
+    "aufstöbern": {
+        "perfekt": "aufgestöbert",
+        "prateritum": "stöberte auf"
+    },
+    "aufstreichen": {
+        "perfekt": "aufgestrichen",
+        "prateritum": "strich auf"
+    },
+    "auftrennen": {
+        "perfekt": "aufgetrennt",
+        "prateritum": "trennte auf"
+    },
+    "auftrumpfen": {
+        "perfekt": "aufgetrumpft",
+        "prateritum": "trumpfte auf"
+    },
+    "aufwärtsgehen": {
+        "perfekt": "aufwärtsgegangen",
+        "prateritum": "ging aufwärts"
+    },
+    "aufwirbeln": {
+        "perfekt": "aufgewirbelt",
+        "prateritum": "wirbelte auf"
+    },
+    "aufzehren": {
+        "perfekt": "aufgezehrt",
+        "prateritum": "zehrte auf"
+    },
+    "aufbäumen": {
+        "perfekt": "aufgebäumt",
+        "prateritum": "bäumte auf"
+    },
+    "aufdringen": {
+        "perfekt": "aufgedrungen",
+        "prateritum": "drang auf"
+    },
+    "auffliegen": {
+        "perfekt": "aufgeflogen",
+        "prateritum": "flog auf"
+    },
+    "aufbinden": {
+        "perfekt": "aufgebunden",
+        "prateritum": "band auf"
+    },
+    "aufblähen": {
+        "perfekt": "aufgebläht",
+        "prateritum": "blähte auf"
+    },
+    "aufpolstern": {
+        "perfekt": "aufgepolstert",
+        "prateritum": "polsterte auf"
+    },
+    "aufbauschen": {
+        "perfekt": "aufgebauscht",
+        "prateritum": "bauschte auf"
+    },
+    "aufkratzen": {
+        "perfekt": "aufgekratzt",
+        "prateritum": "kratzte auf"
+    },
+    "aufmischen": {
+        "perfekt": "aufgemischt",
+        "prateritum": "mischte auf"
+    },
+    "aufplatzen": {
+        "perfekt": "aufgeplatzt",
+        "prateritum": "platzte auf"
+    },
+    "aufreißen": {
+        "perfekt": "aufgerissen",
+        "prateritum": "riss auf"
+    },
+    "aufrollen": {
+        "perfekt": "aufgerollt",
+        "prateritum": "rollte auf"
+    },
+    "aufquellen": {
+        "perfekt": "aufgequollen",
+        "prateritum": "quoll auf"
+    },
+    "aufdunsen": {
+        "perfekt": "aufgedunsen",
+        "prateritum": "dunste auf"
+    },
+    "aufhäufen": {
+        "perfekt": "aufgehäuft",
+        "prateritum": "häufte auf"
+    },
+    "aufbessern": {
+        "perfekt": "aufgebessert",
+        "prateritum": "besserte auf"
+    },
+    "aufblättern": {
+        "perfekt": "aufgeblättert",
+        "prateritum": "blätterte auf"
+    },
+    "aufspritzen": {
+        "perfekt": "aufgespritzt",
+        "prateritum": "spritzte auf"
+    },
+    "aufscheinen": {
+        "perfekt": "aufgeschienen",
+        "prateritum": "schien auf"
+    },
+    "aufheulen": {
+        "perfekt": "aufgeheult",
+        "prateritum": "heulte auf"
+    },
+    "aufdrucken": {
+        "perfekt": "aufgedruckt",
+        "prateritum": "druckte auf"
+    },
+    "aufklopfen": {
+        "perfekt": "aufgeklopft",
+        "prateritum": "klopfte auf"
+    },
+    "aufstöhnen": {
+        "perfekt": "aufgestöhnt",
+        "prateritum": "stöhnte auf"
+    },
+    "aufzwirbeln": {
+        "perfekt": "aufgezwirbelt",
+        "prateritum": "zwirbelte auf"
+    },
+    "aufhacken": {
+        "perfekt": "aufgehackt",
+        "prateritum": "hackte auf"
+    },
+    "aufschütteln": {
+        "perfekt": "aufgeschüttelt",
+        "prateritum": "schüttelte auf"
+    },
+    "aufmotten": {
+        "perfekt": "aufgemottet",
+        "prateritum": "mottete auf"
+    },
+    "aufspringen": {
+        "perfekt": "aufgesprungen",
+        "prateritum": "sprang auf"
+    },
+    "aufzünden": {
+        "perfekt": "aufgezündet",
+        "prateritum": "zündete auf"
+    },
+    "aufknöpfen": {
+        "perfekt": "aufgeknöpft",
+        "prateritum": "knöpfte auf"
+    },
+    "aufkochen": {
+        "perfekt": "aufgekocht",
+        "prateritum": "kochte auf"
+    },
+    "aufbiegen": {
+        "perfekt": "aufgebogen",
+        "prateritum": "bog auf"
+    },
+    "aufmöbeln": {
+        "perfekt": "aufgemöbelt",
+        "prateritum": "möbelte auf"
+    },
+    "aufknüpfen": {
+        "perfekt": "aufgeknüpft",
+        "prateritum": "knüpfte auf"
+    },
+    "aufplustern": {
+        "perfekt": "aufgeplustert",
+        "prateritum": "plusterte auf"
+    },
+    "aufklaffen": {
+        "perfekt": "aufgeklafft",
+        "prateritum": "klaffte auf"
+    },
+    "aufbrühen": {
+        "perfekt": "aufgebrüht",
+        "prateritum": "brühte auf"
+    },
+    "aufweichen": {
+        "perfekt": "aufgeweicht",
+        "prateritum": "weichte auf"
+    },
+    "aufdrillen": {
+        "perfekt": "aufgedrillt",
+        "prateritum": "drillte auf"
+    },
+    "aufwerten": {
+        "perfekt": "aufgewertet",
+        "prateritum": "wertete auf"
+    },
+    "aufstemmen": {
+        "perfekt": "aufgestemmt",
+        "prateritum": "stemmte auf"
+    },
+    "aufhorchen": {
+        "perfekt": "aufgehorcht",
+        "prateritum": "horchte auf"
+    },
+    "aufleimen": {
+        "perfekt": "aufgeleimt",
+        "prateritum": "leimte auf"
+    },
+    "aufgabeln": {
+        "perfekt": "aufgegabelt",
+        "prateritum": "gabelte auf"
+    },
+    "aufdrängen": {
+        "perfekt": "aufgedrängt",
+        "prateritum": "drängte auf"
+    },
+    "aufkrempeln": {
+        "perfekt": "aufgekrempelt",
+        "prateritum": "krempelte auf"
+    },
+    "aufwinden": {
+        "perfekt": "aufgewunden",
+        "prateritum": "wand auf"
+    },
+    "aufknistern": {
+        "perfekt": "aufgeknistert",
+        "prateritum": "knisterte auf"
+    },
+    "aufscheuchen": {
+        "perfekt": "aufgescheucht",
+        "prateritum": "scheuchte auf"
+    },
+    "aufhupen": {
+        "perfekt": "aufgehupt",
+        "prateritum": "hupte auf"
+    },
+    "aufwallen": {
+        "perfekt": "aufgewallt",
+        "prateritum": "wallte auf"
+    },
+    "aufwühlen": {
+        "perfekt": "aufgewühlt",
+        "prateritum": "wühlte auf"
+    },
+    "aufachten": {
+        "perfekt": "aufgeachtet",
+        "prateritum": "achtete auf"
+    },
+    "aufblühen": {
+        "perfekt": "aufgeblüht",
+        "prateritum": "blühte auf"
+    },
+    "aufbocken": {
+        "perfekt": "aufgebockt",
+        "prateritum": "bockte auf"
+    },
+    "auffahren": {
+        "perfekt": "aufgefahren",
+        "prateritum": "fuhr auf"
+    },
+    "aufleben": {
+        "perfekt": "aufgelebt",
+        "prateritum": "lebte auf"
+    },
+    "auflockern": {
+        "perfekt": "aufgelockert",
+        "prateritum": "lockerte auf"
+    },
+    "aufmalen": {
+        "perfekt": "aufgemalt",
+        "prateritum": "malte auf"
+    },
+    "aufspielen": {
+        "perfekt": "aufgespielt",
+        "prateritum": "spielte auf"
+    },
+    "aufsuchen": {
+        "perfekt": "aufgesucht",
+        "prateritum": "suchte auf"
+    },
+    "auftauen": {
+        "perfekt": "aufgetaut",
+        "prateritum": "taute auf"
+    },
+    "aufwickeln": {
+        "perfekt": "aufgewickelt",
+        "prateritum": "wickelte auf"
+    },
+    "aufzählen": {
+        "perfekt": "aufgezählt",
+        "prateritum": "zählte auf"
+    },
+    "aufächzen": {
+        "perfekt": "aufgeächzt",
+        "prateritum": "ächzte auf"
+    },
+    "aufbegehren": {
+        "perfekt": "aufbegehrt",
+        "prateritum": "begehrte auf"
+    },
+    "aufbehalten": {
+        "perfekt": "aufbehalten",
+        "prateritum": "behielt auf"
+    },
+    "aufbrüllen": {
+        "perfekt": "aufgebrüllt",
+        "prateritum": "brüllte auf"
+    },
+    "aufdämmen": {
+        "perfekt": "aufgedämmt",
+        "prateritum": "dämmte auf"
+    },
+    "auffindbar sein": {
+        "perfekt": "auffindbar gewesen",
+        "prateritum": "war auffindbar"
+    },
+    "auflassen": {
+        "perfekt": "aufgelassen",
+        "prateritum": "ließ auf"
+    },
+    "auflauern": {
+        "perfekt": "aufgelauert",
+        "prateritum": "lauerte auf"
+    },
+    "aufmahnen": {
+        "perfekt": "aufgemahnt",
+        "prateritum": "mahnte auf"
+    },
+    "aufrechnen": {
+        "perfekt": "aufgerechnet",
+        "prateritum": "rechnete auf"
+    },
+    "aufrühren": {
+        "perfekt": "aufgerührt",
+        "prateritum": "rührte auf"
+    },
+    "aufschwatzen": {
+        "perfekt": "aufgeschwatzt",
+        "prateritum": "schwatzte auf"
+    },
+    "auftun": {
+        "perfekt": "aufgetan",
+        "prateritum": "tat auf"
+    },
+    "auftürmen": {
+        "perfekt": "aufgetürmt",
+        "prateritum": "türmte auf"
+    },
+    "anarbeiten": {
+        "perfekt": "angearbeitet",
+        "prateritum": "anarbeitete"
+    },
+    "anbeißen": {
+        "perfekt": "angebissen",
+        "prateritum": "biss an"
+    },
+    "anblicken": {
+        "perfekt": "angeblickt",
+        "prateritum": "blickte an"
+    },
+    "anfliegen": {
+        "perfekt": "angeflogen",
+        "prateritum": "flog an"
+    },
+    "angeben": {
+        "perfekt": "angegeben",
+        "prateritum": "gab an"
+    },
+    "angeln": {
+        "perfekt": "geangelt",
+        "prateritum": "angelte an"
+    },
+    "angreifen": {
+        "perfekt": "angegriffen",
+        "prateritum": "griff an"
+    },
+    "ankreuzen": {
+        "perfekt": "angekreuzt",
+        "prateritum": "kreuzte an"
+    },
+    "anmieten": {
+        "perfekt": "angemietet",
+        "prateritum": "mietete an"
+    },
+    "anpacken": {
+        "perfekt": "angepackt",
+        "prateritum": "packte an"
+    },
+    "ansagen": {
+        "perfekt": "angesagt",
+        "prateritum": "sagte an"
+    },
+    "ansteuern": {
+        "perfekt": "angesteuert",
+        "prateritum": "steuerte an"
+    },
+    "antasten": {
+        "perfekt": "antastet",
+        "prateritum": "tastete an"
+    },
+    "anvertrauen": {
+        "perfekt": "anvertraut",
+        "prateritum": "vertraute an"
+    },
+    "anwerben": {
+        "perfekt": "angeworben",
+        "prateritum": "warb an"
+    },
+    "anwidern": {
+        "perfekt": "angewidert",
+        "prateritum": "widerst an"
+    },
+    "auf- und annehmen": {
+        "perfekt": "auf- und angenommen",
+        "prateritum": "nahm auf und an"
+    },
+    "auffassen": {
+        "perfekt": "aufgefasst",
+        "prateritum": "fasste auf"
+    },
+    "aufstacheln": {
+        "perfekt": "aufgestachelt",
+        "prateritum": "stachelte auf"
+    },
+    "aus- und anziehen": {
+        "perfekt": "aus- und angezogen",
+        "prateritum": "zog aus und an"
+    },
+    "aufeilen": {
+        "perfekt": "aufgefeilt",
+        "prateritum": "feilte auf"
+    },
+    "auflachen": {
+        "perfekt": "aufgelacht",
+        "prateritum": "lachte auf"
+    },
+    "aufzüchten": {
+        "perfekt": "aufgezüchtet",
+        "prateritum": "züchtete auf"
+    },
+    "aufzuzeigen": {
+        "perfekt": "aufgezeigt",
+        "prateritum": "zeigte auf"
+    },
+    "aufäugen": {
+        "perfekt": "aufgeäugt",
+        "prateritum": "äugte auf"
+    },
+    "aufbeladen": {
+        "perfekt": "aufbeladen",
+        "prateritum": "belud auf"
+    },
+    "aufbewirken": {
+        "perfekt": "aufbewirkt",
+        "prateritum": "bewirkte auf"
+    },
+    "aufbrauchen": {
+        "perfekt": "aufgebraucht",
+        "prateritum": "brauchte auf"
+    },
+    "aufbrennen": {
+        "perfekt": "aufgebrannt",
+        "prateritum": "brannte auf"
+    },
+    "aufdrücken": {
+        "perfekt": "aufgedrückt",
+        "prateritum": "drückte auf"
+    },
+    "aufeinandertreffen": {
+        "perfekt": "aufeinandergetroffen",
+        "prateritum": "traf aufeinander"
+    },
+    "aufeinanderprallen": {
+        "perfekt": "aufeinandergeprallt",
+        "prateritum": "prallte aufeinander"
+    },
+    "aufeinanderstoßen": {
+        "perfekt": "aufeinandergestoßen",
+        "prateritum": "stieß aufeinander"
+    },
+    "aufeinanderzulaufen": {
+        "perfekt": "aufeinanderzugeelaufen",
+        "prateritum": "lief aufeinander zu"
+    },
+    "auferbieten": {
+        "perfekt": "auferboten",
+        "prateritum": "boten auf"
+    },
+    "auferlegen": {
+        "perfekt": "auferlegt",
+        "prateritum": "legte auf"
+    },
+    "auferwecken": {
+        "perfekt": "auferweckt",
+        "prateritum": "weckte auf"
+    },
+    "auffächern": {
+        "perfekt": "aufgefächert",
+        "prateritum": "fächerte auf"
+    },
+    "aufgießen": {
+        "perfekt": "aufgegossen",
+        "prateritum": "goss auf"
+    },
+    "aufhellen": {
+        "perfekt": "aufgehellt",
+        "prateritum": "hellte auf"
+    },
+    "aufjubeln": {
+        "perfekt": "aufgejubelt",
+        "prateritum": "jubelte auf"
+    },
+    "aufnähen": {
+        "perfekt": "aufgenäht",
+        "prateritum": "nähte auf"
+    },
+    "aufragen": {
+        "perfekt": "aufgeragt",
+        "prateritum": "ragte auf"
+    },
+    "aufsagen": {
+        "perfekt": "aufgesagt",
+        "prateritum": "sagte auf"
+    },
+    "aufschlauen": {
+        "perfekt": "aufgeschlaucht",
+        "prateritum": "schlauchte auf"
+    },
+    "auftreiben": {
+        "perfekt": "aufgetrieben",
+        "prateritum": "trieb auf"
+    },
+    "aufbereiten": {
+        "perfekt": "aufbereitet",
+        "prateritum": "bereitete auf"
+    },
+    "aufbürden": {
+        "perfekt": "aufgebürdet",
+        "prateritum": "bürdete auf"
+    },
+    "aufhetzen": {
+        "perfekt": "aufgehetzt",
+        "prateritum": "hetzte auf"
+    },
+    "auflehnen": {
+        "perfekt": "aufgelehnt",
+        "prateritum": "lehrnte auf"
+    },
+    "aufrüsten": {
+        "perfekt": "aufgerüstet",
+        "prateritum": "rüstete auf"
+    },
+    "aufstapeln": {
+        "perfekt": "aufgestapelt",
+        "prateritum": "stapelte auf"
+    },
+    "aufwarten": {
+        "perfekt": "aufgewartet",
+        "prateritum": "wartete auf"
+    },
+    "anbahnen": {
+        "perfekt": "angebahnt",
+        "prateritum": "bahnte an"
+    },
+    "anbellen": {
+        "perfekt": "angebellt",
+        "prateritum": "bellte an"
+    },
+    "anbinden": {
+        "perfekt": "angebunden",
+        "prateritum": "band an"
+    },
+    "anblinzeln": {
+        "perfekt": "angeblinzelt",
+        "prateritum": "blinzelte an"
+    },
+    "anbürsten": {
+        "perfekt": "angebürstet",
+        "prateritum": "bürstete an"
+    },
+    "andenken": {
+        "perfekt": "angedacht",
+        "prateritum": "dachte an"
+    },
+    "andichten": {
+        "perfekt": "angedichtet",
+        "prateritum": "dichtete an"
+    },
+    "andocken": {
+        "perfekt": "angedockt",
+        "prateritum": "dockte an"
+    },
+    "andrängen": {
+        "perfekt": "angedrängt",
+        "prateritum": "drängte an"
+    },
+    "andrücken": {
+        "perfekt": "angedrückt",
+        "prateritum": "drückte an"
+    },
+    "anecken": {
+        "perfekt": "angestoßen",
+        "prateritum": "stieß an"
+    },
+    "anerkennen": {
+        "perfekt": "anerkannt",
+        "prateritum": "erkannte an"
+    },
+    "anfallen": {
+        "perfekt": "angefallen",
+        "prateritum": "fiel an"
+    },
+    "anfragen": {
+        "perfekt": "angefragt",
+        "prateritum": "fragte an"
+    },
+    "angelen": {
+        "perfekt": "angelangt",
+        "prateritum": "langte an"
+    },
+    "angehen": {
+        "perfekt": "angegangen",
+        "prateritum": "ging an"
+    },
+    "angießen": {
+        "perfekt": "angegossen",
+        "prateritum": "goss an"
+    },
+    "anhaken": {
+        "perfekt": "angehakt",
+        "prateritum": "hakte an"
+    },
+    "anheizen": {
+        "perfekt": "angeheizt",
+        "prateritum": "heizte an"
+    },
+    "ankämpfen": {
+        "perfekt": "angekämpft",
+        "prateritum": "kämpfte an"
+    },
+    "anketten": {
+        "perfekt": "angekettet",
+        "prateritum": "kettete an"
+    },
+    "ankippen": {
+        "perfekt": "angekippt",
+        "prateritum": "kippte an"
+    },
+    "anklopfen": {
+        "perfekt": "angeklopft",
+        "prateritum": "klopfte an"
+    },
+    "anknabbern": {
+        "perfekt": "angeknabbert",
+        "prateritum": "knabberte an"
+    },
+    "ankreiden": {
+        "perfekt": "angekreidet",
+        "prateritum": "kreidete an"
+    },
+    "anlangen": {
+        "perfekt": "angelangt",
+        "prateritum": "langte an"
+    },
+    "anlächeln": {
+        "perfekt": "angelächelt",
+        "prateritum": "lächelte an"
+    },
+    "anlaufen": {
+        "perfekt": "angelaufen",
+        "prateritum": "lief an"
+    },
+    "anlügen": {
+        "perfekt": "angelogen",
+        "prateritum": "log an"
+    },
+    "anmahnen": {
+        "perfekt": "angemahnt",
+        "prateritum": "mahnte an"
+    },
+    "anmalen": {
+        "perfekt": "angemalt",
+        "prateritum": "malte an"
+    },
+    "anpöbeln": {
+        "perfekt": "angepöbelt",
+        "prateritum": "pöbelte an"
+    },
+    "anprallen": {
+        "perfekt": "angeprellt",
+        "prateritum": "prallte an"
+    },
+    "anräumen": {
+        "perfekt": "angeräumt",
+        "prateritum": "räumte an"
+    },
+    "anreden": {
+        "perfekt": "angeredet",
+        "prateritum": "redete an"
+    },
+    "anreißen": {
+        "perfekt": "angerissen",
+        "prateritum": "riss an"
+    },
+    "anrennen": {
+        "perfekt": "angerannt",
+        "prateritum": "rannte an"
+    },
+    "anrücken": {
+        "perfekt": "angerückt",
+        "prateritum": "rückte an"
+    },
+    "anschlagen": {
+        "perfekt": "angeschlagen",
+        "prateritum": "schlug an"
+    },
+    "anschubsen": {
+        "perfekt": "angeschubst",
+        "prateritum": "schubste an"
+    },
+    "anschwärzen": {
+        "perfekt": "angeschwärzt",
+        "prateritum": "schwärzte an"
+    },
+    "anschwellen": {
+        "perfekt": "angeschwollen",
+        "prateritum": "schwoll an"
+    },
+    "anschwindeln": {
+        "perfekt": "angeschwindelt",
+        "prateritum": "schwindelte an"
+    },
+    "anschwören": {
+        "perfekt": "angeschworen",
+        "prateritum": "schwor an"
+    },
+    "anstürmen": {
+        "perfekt": "angestürmt",
+        "prateritum": "stürmte an"
+    },
+    "antun": {
+        "perfekt": "angetan",
+        "prateritum": "tat an"
+    },
+    "anwinkeln": {
+        "perfekt": "angewinkelt",
+        "prateritum": "winkelte an"
     }
 }
