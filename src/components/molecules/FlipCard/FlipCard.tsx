@@ -117,7 +117,7 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 								word?.plural
 							}`}</Text>
 						)}
-						{!!settings?.perfekt && !!dictionaryData?.perfekt && (
+						{!!settings?.perfekt && !!dictionaryData?.perfekt && !isTranslationFirst && (
 							<Text as="p" textAlign="left">
 								<Text as="span" color="#919191">
 									Part.II:{' '}
@@ -125,7 +125,7 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 								{dictionaryData?.perfekt + '; '}
 							</Text>
 						)}
-						{!!settings?.prateritum && !!dictionaryData?.prateritum && (
+						{!!settings?.prateritum && !!dictionaryData?.prateritum && !isTranslationFirst && (
 							<Text as="p" textAlign="left">
 								<Text as="span" color="#919191">
 									Prät.:{' '}
@@ -158,6 +158,22 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 							<Text ref={pluralRef} as="p" fontSize="1.8rem">{`${word?.article ? 'die ' : ''}${
 								word?.plural
 							}`}</Text>
+						)}
+						{!!settings?.perfekt && !!dictionaryData?.perfekt && isTranslationFirst && (
+							<Text as="p" textAlign="left">
+								<Text as="span" color="#919191">
+									Part.II:{' '}
+								</Text>
+								{dictionaryData?.perfekt + '; '}
+							</Text>
+						)}
+						{!!settings?.prateritum && !!dictionaryData?.prateritum && isTranslationFirst && (
+							<Text as="p" textAlign="left">
+								<Text as="span" color="#919191">
+									Prät.:{' '}
+								</Text>
+								{dictionaryData?.prateritum};
+							</Text>
 						)}
 					</Box>
 				</Box>
