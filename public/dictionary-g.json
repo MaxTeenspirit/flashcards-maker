@@ -5,27 +5,27 @@
     },
     "gehen": {
         "perfekt": "gegangen",
-        "prateritum": "ging"
+        "prateritum": "ging bei"
     },
     "gelingen": {
         "perfekt": "gelungen",
-        "prateritum": "gelang"
+        "prateritum": "gelang bei"
     },
     "gelten": {
         "perfekt": "gegolten",
-        "prateritum": "galt"
+        "prateritum": "galt bei"
     },
     "genießen": {
         "perfekt": "genossen",
-        "prateritum": "genoss"
+        "prateritum": "genoss bei"
     },
     "geschehen": {
         "perfekt": "geschehen",
-        "prateritum": "geschah"
+        "prateritum": "geschah bei"
     },
     "gewinnen": {
         "perfekt": "gewonnen",
-        "prateritum": "gewann"
+        "prateritum": "gewann bei"
     },
     "gießen": {
         "perfekt": "gegossen",
@@ -33,11 +33,11 @@
     },
     "graben": {
         "perfekt": "gegraben",
-        "prateritum": "grub"
+        "prateritum": "grub bei"
     },
     "greifen": {
         "perfekt": "gegriffen",
-        "prateritum": "griff"
+        "prateritum": "griff bei"
     },
     "gebären": {
         "perfekt": "geboren",
@@ -57,11 +57,11 @@
     },
     "gleichen": {
         "perfekt": "geglichen",
-        "prateritum": "glich"
+        "prateritum": "glich bei"
     },
     "gleiten": {
         "perfekt": "geglitten",
-        "prateritum": "glitt"
+        "prateritum": "glitt bei"
     },
     "glimmen": {
         "perfekt": "geglommen",
@@ -69,15 +69,15 @@
     },
     "gebieten": {
         "perfekt": "geboten",
-        "prateritum": "gebot"
+        "prateritum": "gebietet bei"
     },
     "gefallen": {
         "perfekt": "gefallen",
-        "prateritum": "gefiel"
+        "prateritum": "gefiel bei"
     },
     "gründen": {
         "perfekt": "gegründet",
-        "prateritum": "gründete"
+        "prateritum": "gründete bei"
     },
     "gären": {
         "perfekt": "gegoren",
@@ -124,8 +124,8 @@
         "prateritum": "fror"
     },
     "gehören": {
-        "perfekt": "gehört",
-        "prateritum": "gehörte"
+        "perfekt": "gehort",
+        "prateritum": "gehörte bei"
     },
     "geigen": {
         "perfekt": "gegeigt",
@@ -145,7 +145,7 @@
     },
     "glänzen": {
         "perfekt": "geglänzt",
-        "prateritum": "glänzte"
+        "prateritum": "glänzte bei"
     },
     "glotzen": {
         "perfekt": "geglotzt",
@@ -157,7 +157,7 @@
     },
     "gönnen": {
         "perfekt": "gegönnt",
-        "prateritum": "gönnte"
+        "prateritum": "gönnte bei"
     },
     "grillen": {
         "perfekt": "gegrillt",
@@ -177,7 +177,7 @@
     },
     "grüßen": {
         "perfekt": "gegrüßt",
-        "prateritum": "grüßte"
+        "prateritum": "grüßte bei"
     },
     "gucken": {
         "perfekt": "geguckt",
@@ -201,7 +201,7 @@
     },
     "gelangen": {
         "perfekt": "gelangt",
-        "prateritum": "gelangte"
+        "prateritum": "gelang bei"
     },
     "gerben": {
         "perfekt": "gegerbt",
@@ -222,5 +222,13 @@
     "gurren": {
         "perfekt": "gegurrt",
         "prateritum": "gurrte"
+    },
+    "gehorchen": {
+        "perfekt": "gehorcht",
+        "prateritum": "gehorchte bei"
+    },
+    "gliedern": {
+        "perfekt": "gegliedert",
+        "prateritum": "gliederte bei"
     }
 }

@@ -1,27 +1,27 @@
 {
     "haben": {
         "perfekt": "gehabt",
-        "prateritum": "hatte"
+        "prateritum": "hatte bei"
     },
     "halten": {
         "perfekt": "gehalten",
-        "prateritum": "hielt"
+        "prateritum": "hielt bei"
     },
     "hängen": {
         "perfekt": "gehangen",
-        "prateritum": "hing"
+        "prateritum": "hing bei"
     },
     "heben": {
         "perfekt": "gehoben",
-        "prateritum": "hob"
+        "prateritum": "hob bei"
     },
     "heißen": {
         "perfekt": "geheißen",
-        "prateritum": "hieß"
+        "prateritum": "hieß bei"
     },
     "helfen": {
         "perfekt": "geholfen",
-        "prateritum": "half"
+        "prateritum": "half bei"
     },
     "hacken": {
         "perfekt": "gehackt",
@@ -53,7 +53,7 @@
     },
     "handeln": {
         "perfekt": "gehandelt",
-        "prateritum": "handelte"
+        "prateritum": "handelte bei"
     },
     "härten": {
         "perfekt": "gehärtet",
@@ -65,7 +65,7 @@
     },
     "hassen": {
         "perfekt": "gehasst",
-        "prateritum": "hasste"
+        "prateritum": "hasste bei"
     },
     "hauchen": {
         "perfekt": "gehaucht",
@@ -93,7 +93,7 @@
     },
     "heiraten": {
         "perfekt": "geheiratet",
-        "prateritum": "heiratete"
+        "prateritum": "heiratete bei"
     },
     "heizen": {
         "perfekt": "geheizt",
@@ -194,5 +194,45 @@
     "humpeln": {
         "perfekt": "gehumpelt",
         "prateritum": "humpelte"
+    },
+    "heranwachsen": {
+        "perfekt": "herangewachsen",
+        "prateritum": "wuchs bei"
+    },
+    "herausbekommen": {
+        "perfekt": "herausbekommen",
+        "prateritum": "bekam bei"
+    },
+    "herausfordern": {
+        "perfekt": "herausgefordert",
+        "prateritum": "forderte bei"
+    },
+    "herausholen": {
+        "perfekt": "herausgeholt",
+        "prateritum": "holte bei"
+    },
+    "herausrufen": {
+        "perfekt": "herausgerufen",
+        "prateritum": "rief bei"
+    },
+    "herausstellen": {
+        "perfekt": "herausgestellt",
+        "prateritum": "stellte bei"
+    },
+    "herbeibringen": {
+        "perfekt": "herbeigebracht",
+        "prateritum": "brachte bei"
+    },
+    "herbeiführen": {
+        "perfekt": "herbeigeführt",
+        "prateritum": "führte bei"
+    },
+    "herbeirufen": {
+        "perfekt": "herbeigerufen",
+        "prateritum": "rief bei"
+    },
+    "herbeischaffen": {
+        "perfekt": "herbeigeschafft",
+        "prateritum": "schaffte bei"
     }
 }

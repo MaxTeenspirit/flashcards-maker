@@ -1,422 +1,422 @@
 {
-	"denken": {
-		"perfekt": "gedacht",
-		"prateritum": "dachte"
-	},
-	"dürfen": {
-		"perfekt": "gedurft",
-		"prateritum": "durfte"
-	},
-	"dreschen": {
-		"perfekt": "gedroschen",
-		"prateritum": "drosch"
-	},
-	"dringen": {
-		"perfekt": "gedrungen",
-		"prateritum": "drang"
-	},
-	"durchbrechen": {
-		"perfekt": "durchbrochen",
-		"prateritum": "brach durch"
-	},
-	"durchführen": {
-		"perfekt": "durchgeführt",
-		"prateritum": "führte durch"
-	},
-	"dampfen": {
-		"perfekt": "gedampft",
-		"prateritum": "dampfte"
-	},
-	"danken": {
-		"perfekt": "gedankt",
-		"prateritum": "dankte"
-	},
-	"darstellen": {
-		"perfekt": "dargestellt",
-		"prateritum": "stellte dar"
-	},
-	"dauern": {
-		"perfekt": "gedauert",
-		"prateritum": "dauerte"
-	},
-	"dealen": {
-		"perfekt": "gehandelt",
-		"prateritum": "dealte"
-	},
-	"decken": {
-		"perfekt": "gedeckt",
-		"prateritum": "deckte"
-	},
-	"definieren": {
-		"perfekt": "definiert",
-		"prateritum": "definierte"
-	},
-	"dehnen": {
-		"perfekt": "gedehnt",
-		"prateritum": "dehnte"
-	},
-	"dekorieren": {
-		"perfekt": "dekoriert",
-		"prateritum": "dekorierte"
-	},
-	"demonstrieren": {
-		"perfekt": "demonstriert",
-		"prateritum": "demonstrierte"
-	},
-	"deponieren": {
-		"perfekt": "deponiert",
-		"prateritum": "deponierte"
-	},
-	"desinfizieren": {
-		"perfekt": "desinfiziert",
-		"prateritum": "desinfizierte"
-	},
-	"desorientieren": {
-		"perfekt": "desorientiert",
-		"prateritum": "desorientierte"
-	},
-	"dessen": {
-		"perfekt": "gedessen",
-		"prateritum": "aß"
-	},
-	"dienen": {
-		"perfekt": "gedient",
-		"prateritum": "diente"
-	},
-	"differenzieren": {
-		"perfekt": "differenziert",
-		"prateritum": "differenzierte"
-	},
-	"diktieren": {
-		"perfekt": "diktiert",
-		"prateritum": "diktierte"
-	},
-	"dilettieren": {
-		"perfekt": "dilettiert",
-		"prateritum": "dilettierte"
-	},
-	"diskutieren": {
-		"perfekt": "diskutiert",
-		"prateritum": "diskutierte"
-	},
-	"dominieren": {
-		"perfekt": "dominiert",
-		"prateritum": "dominierte"
-	},
-	"donnern": {
-		"perfekt": "gedonnert",
-		"prateritum": "donnerte"
-	},
-	"dopen": {
-		"perfekt": "gedopt",
-		"prateritum": "dopte"
-	},
-	"drehen": {
-		"perfekt": "gedreht",
-		"prateritum": "drehte"
-	},
-	"driften": {
-		"perfekt": "gedriftet",
-		"prateritum": "driftete"
-	},
-	"drucken": {
-		"perfekt": "gedruckt",
-		"prateritum": "druckte"
-	},
-	"drücken": {
-		"perfekt": "gedrückt",
-		"prateritum": "drückte"
-	},
-	"dublieren": {
-		"perfekt": "dubliert",
-		"prateritum": "dublierte"
-	},
-	"dudeln": {
-		"perfekt": "gedudelt",
-		"prateritum": "dudelte"
-	},
-	"duften": {
-		"perfekt": "geduftet",
-		"prateritum": "duftete"
-	},
-	"dumpfen": {
-		"perfekt": "gedumpft",
-		"prateritum": "dumpfte"
-	},
-	"durchdringen": {
-		"perfekt": "durchdrungen",
-		"prateritum": "drang durch"
-	},
-	"durchfahren": {
-		"perfekt": "durchgefahren",
-		"prateritum": "fuhr durch"
-	},
-	"durchfallen": {
-		"perfekt": "durchgefallen",
-		"prateritum": "fiel durch"
-	},
-	"durchfliegen": {
-		"perfekt": "durchgeflogen",
-		"prateritum": "flog durch"
-	},
-	"durchkämmen": {
-		"perfekt": "durchgekämmt",
-		"prateritum": "kämmte durch"
-	},
-	"durchlaufen": {
-		"perfekt": "durchlaufen",
-		"prateritum": "lief durch"
-	},
-	"durchleben": {
-		"perfekt": "durchlebt",
-		"prateritum": "durchlebte"
-	},
-	"durchlesen": {
-		"perfekt": "durchgelesen",
-		"prateritum": "las durch"
-	},
-	"durchqueren": {
-		"perfekt": "durchquert",
-		"prateritum": "durchquerte"
-	},
-	"durchschauen": {
-		"perfekt": "durchgeschaut",
-		"prateritum": "durchschaute"
-	},
-	"durchsetzen": {
-		"perfekt": "durchgesetzt",
-		"prateritum": "setzte durch"
-	},
-	"durchstreichen": {
-		"perfekt": "durchgestrichen",
-		"prateritum": "strich durch"
-	},
-	"dämmern": {
-		"perfekt": "gedämmert",
-		"prateritum": "dämmerte"
-	},
-	"dämpfen": {
-		"perfekt": "gedämpft",
-		"prateritum": "dämpfte"
-	},
-	"darbieten": {
-		"perfekt": "dargeboten",
-		"prateritum": "bot dar"
-	},
-	"datieren": {
-		"perfekt": "datiert",
-		"prateritum": "datierte"
-	},
-	"deklinieren": {
-		"perfekt": "dekliniert",
-		"prateritum": "deklinierte"
-	},
-	"destillieren": {
-		"perfekt": "destilliert",
-		"prateritum": "destillierte"
-	},
-	"deuten": {
-		"perfekt": "gedeutet",
-		"prateritum": "deutete"
-	},
-	"devastieren": {
-		"perfekt": "devastiert",
-		"prateritum": "devastierte"
-	},
-	"diagnostizieren": {
-		"perfekt": "diagnostiziert",
-		"prateritum": "diagnostizierte"
-	},
-	"dimensionieren": {
-		"perfekt": "dimensioniert",
-		"prateritum": "dimensionierte"
-	},
-	"diner": {
-		"perfekt": "gedinet",
-		"prateritum": "dinierte"
-	},
-	"dirigieren": {
-		"perfekt": "dirigiert",
-		"prateritum": "dirigierte"
-	},
-	"diskreditieren": {
-		"perfekt": "diskreditiert",
-		"prateritum": "diskreditierte"
-	},
-	"dislozieren": {
-		"perfekt": "disloziert",
-		"prateritum": "dislozierte"
-	},
-	"dispensieren": {
-		"perfekt": "dispensiert",
-		"prateritum": "dispensierte"
-	},
-	"disponieren": {
-		"perfekt": "disponiert",
-		"prateritum": "disponierte"
-	},
-	"distanzieren": {
-		"perfekt": "distanziert",
-		"prateritum": "distanzierte"
-	},
-	"divergieren": {
-		"perfekt": "divergiert",
-		"prateritum": "divergierte"
-	},
-	"divinisieren": {
-		"perfekt": "divinisiert",
-		"prateritum": "divinisierte"
-	},
-	"domestizieren": {
-		"perfekt": "domestiziert",
-		"prateritum": "domestizierte"
-	},
-	"dörren": {
-		"perfekt": "gedörrt",
-		"prateritum": "dörrte"
-	},
-	"dosen": {
-		"perfekt": "gedost",
-		"prateritum": "doste"
-	},
-	"dotieren": {
-		"perfekt": "dotiert",
-		"prateritum": "dotierte"
-	},
-	"drängeln": {
-		"perfekt": "gedrängelt",
-		"prateritum": "drängelte"
-	},
-	"drapieren": {
-		"perfekt": "drapiert",
-		"prateritum": "drapierte"
-	},
-	"draufhauen": {
-		"perfekt": "draufgehauen",
-		"prateritum": "hieb drauf"
-	},
-	"drauflegen": {
-		"perfekt": "draufgelegt",
-		"prateritum": "legte drauf"
-	},
-	"draufschlagen": {
-		"perfekt": "draufgeschlagen",
-		"prateritum": "schlug drauf"
-	},
-	"dreiecken": {
-		"perfekt": "gedreieckt",
-		"prateritum": "dreieckte"
-	},
-	"dribbeln": {
-		"perfekt": "gedribbelt",
-		"prateritum": "dribbelte"
-	},
-	"dröhnern": {
-		"perfekt": "gedröhnt",
-		"prateritum": "dröhnte"
-	},
-	"ducken": {
-		"perfekt": "geduckt",
-		"prateritum": "duckte"
-	},
-	"durchsuchen": {
-		"perfekt": "durchsucht",
-		"prateritum": "durchsuchte"
-	},
-	"durchtrennen": {
-		"perfekt": "durchtrennt",
-		"prateritum": "durchtrennte"
-	},
-	"duschen": {
-		"perfekt": "geduscht",
-		"prateritum": "duschte"
-	},
-	"düngen": {
-		"perfekt": "gedüngt",
-		"prateritum": "düngte"
-	},
-	"drillen": {
-		"perfekt": "gedrillt",
-		"prateritum": "drillte"
-	},
-	"düpieren": {
-		"perfekt": "gedüpiert",
-		"prateritum": "düpierte"
-	},
-	"düsen": {
-		"perfekt": "gedüst",
-		"prateritum": "düste"
-	},
-	"deklarieren": {
-		"perfekt": "deklariert",
-		"prateritum": "deklarierte"
-	},
-	"delikaten": {
-		"perfekt": "gedelikatet",
-		"prateritum": "delikatierte"
-	},
-	"demütigen": {
-		"perfekt": "gedemütigt",
-		"prateritum": "demütigte"
-	},
-	"derben": {
-		"perfekt": "gederbt",
-		"prateritum": "derbte"
-	},
-	"diffundieren": {
-		"perfekt": "diffundiert",
-		"prateritum": "diffundierte"
-	},
-	"dimmten": {
-		"perfekt": "gedimmt",
-		"prateritum": "dimmt"
-	},
-	"dingen": {
-		"perfekt": "gedungen",
-		"prateritum": "dingte"
-	},
-	"direktiv": {
-		"perfekt": "direktiv",
-		"prateritum": "direktivierte"
-	},
-	"disparieren": {
-		"perfekt": "dispariert",
-		"prateritum": "disparierte"
-	},
-	"disputieren": {
-		"perfekt": "disputiert",
-		"prateritum": "disputierte"
-	},
-	"distillieren": {
-		"perfekt": "destilliert",
-		"prateritum": "destillierte"
-	},
-	"dopaminieren": {
-		"perfekt": "dopaminiert",
-		"prateritum": "dopaminierte"
-	},
-	"dornieren": {
-		"perfekt": "gedorniert",
-		"prateritum": "dornierte"
-	},
-	"downdaten": {
-		"perfekt": "gedowndatet",
-		"prateritum": "downdatete"
-	},
-	"downgraden": {
-		"perfekt": "downgegradet",
-		"prateritum": "downgradete"
-	},
-	"drängen": {
-		"perfekt": "gedrängt",
-		"prateritum": "drängte"
-	},
-	"dreifach": {
-		"perfekt": "gedreifacht",
-		"prateritum": "dreifachte"
-	},
-	"dulden": {
-		"perfekt": "geduldet",
-		"prateritum": "duldete"
-	}
+    "denken": {
+        "perfekt": "gedacht",
+        "prateritum": "dachte"
+    },
+    "dürfen": {
+        "perfekt": "gedurft",
+        "prateritum": "durfte bei"
+    },
+    "dreschen": {
+        "perfekt": "gedroschen",
+        "prateritum": "drosch"
+    },
+    "dringen": {
+        "perfekt": "gedrungen",
+        "prateritum": "drang bei"
+    },
+    "durchbrechen": {
+        "perfekt": "durchbrochen",
+        "prateritum": "brach durch"
+    },
+    "durchführen": {
+        "perfekt": "durchgeführt",
+        "prateritum": "führte durch"
+    },
+    "dampfen": {
+        "perfekt": "gedampft",
+        "prateritum": "dampfte"
+    },
+    "danken": {
+        "perfekt": "gedankt",
+        "prateritum": "dankte bei"
+    },
+    "darstellen": {
+        "perfekt": "dargestellt",
+        "prateritum": "stellte dar"
+    },
+    "dauern": {
+        "perfekt": "gedauert",
+        "prateritum": "dauerte"
+    },
+    "dealen": {
+        "perfekt": "gehandelt",
+        "prateritum": "dealte"
+    },
+    "decken": {
+        "perfekt": "gedeckt",
+        "prateritum": "deckte bei"
+    },
+    "definieren": {
+        "perfekt": "definiert",
+        "prateritum": "definierte"
+    },
+    "dehnen": {
+        "perfekt": "gedehnt",
+        "prateritum": "dehnte"
+    },
+    "dekorieren": {
+        "perfekt": "dekoriert",
+        "prateritum": "dekorierte"
+    },
+    "demonstrieren": {
+        "perfekt": "demonstriert",
+        "prateritum": "demonstrierte"
+    },
+    "deponieren": {
+        "perfekt": "deponiert",
+        "prateritum": "deponierte"
+    },
+    "desinfizieren": {
+        "perfekt": "desinfiziert",
+        "prateritum": "desinfizierte"
+    },
+    "desorientieren": {
+        "perfekt": "desorientiert",
+        "prateritum": "desorientierte"
+    },
+    "dessen": {
+        "perfekt": "gedessen",
+        "prateritum": "aß"
+    },
+    "dienen": {
+        "perfekt": "gedient",
+        "prateritum": "diente bei"
+    },
+    "differenzieren": {
+        "perfekt": "differenziert",
+        "prateritum": "differenzierte"
+    },
+    "diktieren": {
+        "perfekt": "diktiert",
+        "prateritum": "diktierte"
+    },
+    "dilettieren": {
+        "perfekt": "dilettiert",
+        "prateritum": "dilettierte"
+    },
+    "diskutieren": {
+        "perfekt": "diskutiert",
+        "prateritum": "diskutierte bei"
+    },
+    "dominieren": {
+        "perfekt": "dominiert",
+        "prateritum": "dominierte"
+    },
+    "donnern": {
+        "perfekt": "gedonnert",
+        "prateritum": "donnerte"
+    },
+    "dopen": {
+        "perfekt": "gedopt",
+        "prateritum": "dopte"
+    },
+    "drehen": {
+        "perfekt": "gedreht",
+        "prateritum": "drehte bei"
+    },
+    "driften": {
+        "perfekt": "gedriftet",
+        "prateritum": "driftete"
+    },
+    "drucken": {
+        "perfekt": "gedruckt",
+        "prateritum": "druckte bei"
+    },
+    "drücken": {
+        "perfekt": "gedrückt",
+        "prateritum": "drückte"
+    },
+    "dublieren": {
+        "perfekt": "dubliert",
+        "prateritum": "dublierte"
+    },
+    "dudeln": {
+        "perfekt": "gedudelt",
+        "prateritum": "dudelte"
+    },
+    "duften": {
+        "perfekt": "geduftet",
+        "prateritum": "duftete"
+    },
+    "dumpfen": {
+        "perfekt": "gedumpft",
+        "prateritum": "dumpfte"
+    },
+    "durchdringen": {
+        "perfekt": "durchdrungen",
+        "prateritum": "drang durch"
+    },
+    "durchfahren": {
+        "perfekt": "durchgefahren",
+        "prateritum": "fuhr durch"
+    },
+    "durchfallen": {
+        "perfekt": "durchgefallen",
+        "prateritum": "fiel durch"
+    },
+    "durchfliegen": {
+        "perfekt": "durchgeflogen",
+        "prateritum": "flog durch"
+    },
+    "durchkämmen": {
+        "perfekt": "durchgekämmt",
+        "prateritum": "kämmte durch"
+    },
+    "durchlaufen": {
+        "perfekt": "durchlaufen",
+        "prateritum": "lief durch"
+    },
+    "durchleben": {
+        "perfekt": "durchlebt",
+        "prateritum": "durchlebte"
+    },
+    "durchlesen": {
+        "perfekt": "durchgelesen",
+        "prateritum": "las durch"
+    },
+    "durchqueren": {
+        "perfekt": "durchquert",
+        "prateritum": "durchquerte"
+    },
+    "durchschauen": {
+        "perfekt": "durchgeschaut",
+        "prateritum": "durchschaute"
+    },
+    "durchsetzen": {
+        "perfekt": "durchgesetzt",
+        "prateritum": "setzte durch"
+    },
+    "durchstreichen": {
+        "perfekt": "durchgestrichen",
+        "prateritum": "strich durch"
+    },
+    "dämmern": {
+        "perfekt": "gedämmert",
+        "prateritum": "dämmerte"
+    },
+    "dämpfen": {
+        "perfekt": "gedämpft",
+        "prateritum": "dämpfte"
+    },
+    "darbieten": {
+        "perfekt": "dargeboten",
+        "prateritum": "bot dar"
+    },
+    "datieren": {
+        "perfekt": "datiert",
+        "prateritum": "datierte"
+    },
+    "deklinieren": {
+        "perfekt": "dekliniert",
+        "prateritum": "deklinierte"
+    },
+    "destillieren": {
+        "perfekt": "destilliert",
+        "prateritum": "destillierte"
+    },
+    "deuten": {
+        "perfekt": "gedeutet",
+        "prateritum": "deutete"
+    },
+    "devastieren": {
+        "perfekt": "devastiert",
+        "prateritum": "devastierte"
+    },
+    "diagnostizieren": {
+        "perfekt": "diagnostiziert",
+        "prateritum": "diagnostizierte"
+    },
+    "dimensionieren": {
+        "perfekt": "dimensioniert",
+        "prateritum": "dimensionierte"
+    },
+    "diner": {
+        "perfekt": "gedinet",
+        "prateritum": "dinierte"
+    },
+    "dirigieren": {
+        "perfekt": "dirigiert",
+        "prateritum": "dirigierte"
+    },
+    "diskreditieren": {
+        "perfekt": "diskreditiert",
+        "prateritum": "diskreditierte"
+    },
+    "dislozieren": {
+        "perfekt": "disloziert",
+        "prateritum": "dislozierte"
+    },
+    "dispensieren": {
+        "perfekt": "dispensiert",
+        "prateritum": "dispensierte"
+    },
+    "disponieren": {
+        "perfekt": "disponiert",
+        "prateritum": "disponierte"
+    },
+    "distanzieren": {
+        "perfekt": "distanziert",
+        "prateritum": "distanzierte"
+    },
+    "divergieren": {
+        "perfekt": "divergiert",
+        "prateritum": "divergierte"
+    },
+    "divinisieren": {
+        "perfekt": "divinisiert",
+        "prateritum": "divinisierte"
+    },
+    "domestizieren": {
+        "perfekt": "domestiziert",
+        "prateritum": "domestizierte"
+    },
+    "dörren": {
+        "perfekt": "gedörrt",
+        "prateritum": "dörrte"
+    },
+    "dosen": {
+        "perfekt": "gedost",
+        "prateritum": "doste"
+    },
+    "dotieren": {
+        "perfekt": "dotiert",
+        "prateritum": "dotierte"
+    },
+    "drängeln": {
+        "perfekt": "gedrängelt",
+        "prateritum": "drängelte"
+    },
+    "drapieren": {
+        "perfekt": "drapiert",
+        "prateritum": "drapierte"
+    },
+    "draufhauen": {
+        "perfekt": "draufgehauen",
+        "prateritum": "hieb drauf"
+    },
+    "drauflegen": {
+        "perfekt": "draufgelegt",
+        "prateritum": "legte drauf"
+    },
+    "draufschlagen": {
+        "perfekt": "draufgeschlagen",
+        "prateritum": "schlug drauf"
+    },
+    "dreiecken": {
+        "perfekt": "gedreieckt",
+        "prateritum": "dreieckte"
+    },
+    "dribbeln": {
+        "perfekt": "gedribbelt",
+        "prateritum": "dribbelte"
+    },
+    "dröhnern": {
+        "perfekt": "gedröhnt",
+        "prateritum": "dröhnte"
+    },
+    "ducken": {
+        "perfekt": "geduckt",
+        "prateritum": "duckte bei"
+    },
+    "durchsuchen": {
+        "perfekt": "durchsucht",
+        "prateritum": "durchsuchte"
+    },
+    "durchtrennen": {
+        "perfekt": "durchtrennt",
+        "prateritum": "durchtrennte"
+    },
+    "duschen": {
+        "perfekt": "geduscht",
+        "prateritum": "duschte"
+    },
+    "düngen": {
+        "perfekt": "gedüngt",
+        "prateritum": "düngte"
+    },
+    "drillen": {
+        "perfekt": "gedrillt",
+        "prateritum": "drillte"
+    },
+    "düpieren": {
+        "perfekt": "gedüpiert",
+        "prateritum": "düpierte"
+    },
+    "düsen": {
+        "perfekt": "gedüst",
+        "prateritum": "düste"
+    },
+    "deklarieren": {
+        "perfekt": "deklariert",
+        "prateritum": "deklarierte"
+    },
+    "delikaten": {
+        "perfekt": "gedelikatet",
+        "prateritum": "delikatierte"
+    },
+    "demütigen": {
+        "perfekt": "gedemütigt",
+        "prateritum": "demütigte"
+    },
+    "derben": {
+        "perfekt": "gederbt",
+        "prateritum": "derbte"
+    },
+    "diffundieren": {
+        "perfekt": "diffundiert",
+        "prateritum": "diffundierte"
+    },
+    "dimmten": {
+        "perfekt": "gedimmt",
+        "prateritum": "dimmt"
+    },
+    "dingen": {
+        "perfekt": "gedungen",
+        "prateritum": "dingte"
+    },
+    "direktiv": {
+        "perfekt": "direktiv",
+        "prateritum": "direktivierte"
+    },
+    "disparieren": {
+        "perfekt": "dispariert",
+        "prateritum": "disparierte"
+    },
+    "disputieren": {
+        "perfekt": "disputiert",
+        "prateritum": "disputierte"
+    },
+    "distillieren": {
+        "perfekt": "destilliert",
+        "prateritum": "destillierte"
+    },
+    "dopaminieren": {
+        "perfekt": "dopaminiert",
+        "prateritum": "dopaminierte"
+    },
+    "dornieren": {
+        "perfekt": "gedorniert",
+        "prateritum": "dornierte"
+    },
+    "downdaten": {
+        "perfekt": "gedowndatet",
+        "prateritum": "downdatete"
+    },
+    "downgraden": {
+        "perfekt": "downgegradet",
+        "prateritum": "downgradete"
+    },
+    "drängen": {
+        "perfekt": "gedrängt",
+        "prateritum": "drängte bei"
+    },
+    "dreifach": {
+        "perfekt": "gedreifacht",
+        "prateritum": "dreifachte"
+    },
+    "dulden": {
+        "perfekt": "geduldet",
+        "prateritum": "duldete"
+    }
 }

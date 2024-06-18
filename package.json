@@ -12,6 +12,7 @@
 		"cc": "node ./scripts/createComponent.js",
 		"rd": "node ./scripts/removeDuplicatesJSON.js",
 		"separate": "node ./scripts/separateByLetter.js",
+		"count": "node ./scripts/countPerfect.js",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
 	},
