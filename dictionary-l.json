@@ -146,5 +146,1237 @@
     "legen": {
         "perfekt": "gelegt",
         "prateritum": "legte"
+    },
+    "losarbeiten": {
+        "perfekt": "losggearbeitet",
+        "prateritum": "arbeitete los"
+    },
+    "losatmen": {
+        "perfekt": "geatmet",
+        "prateritum": "atmete los"
+    },
+    "losbacken": {
+        "perfekt": "losggebacken",
+        "prateritum": "backte los"
+    },
+    "losballern": {
+        "perfekt": "losgeballert",
+        "prateritum": "ballerte los"
+    },
+    "losbasteln": {
+        "perfekt": "losgesbastelt",
+        "prateritum": "bastelte los"
+    },
+    "losbauen": {
+        "perfekt": "gebaut",
+        "prateritum": "baute los"
+    },
+    "losbeißen": {
+        "perfekt": "losgebissen",
+        "prateritum": "biss los"
+    },
+    "losbellen": {
+        "perfekt": "gebellt",
+        "prateritum": "bellte los"
+    },
+    "losbezahlen": {
+        "perfekt": "losbezahlt",
+        "prateritum": "bezahlte los"
+    },
+    "losbiegen": {
+        "perfekt": "losgebogen",
+        "prateritum": "bog los"
+    },
+    "losbinden": {
+        "perfekt": "losgebunden",
+        "prateritum": "band los"
+    },
+    "losbleiben": {
+        "perfekt": "geblieben los",
+        "prateritum": "blieb los"
+    },
+    "losbraten": {
+        "perfekt": "losgebraten",
+        "prateritum": "briet los"
+    },
+    "losbrechen": {
+        "perfekt": "gebrochen",
+        "prateritum": "brach los"
+    },
+    "losbrennen": {
+        "perfekt": "gebrannt",
+        "prateritum": "brannte los"
+    },
+    "losbrüllen": {
+        "perfekt": "gebrüllt",
+        "prateritum": "brüllte los"
+    },
+    "losbuddeln": {
+        "perfekt": "losgebuddelt",
+        "prateritum": "buddelte los"
+    },
+    "losbürsten": {
+        "perfekt": "losggebürstet",
+        "prateritum": "bürstete los"
+    },
+    "losdenken": {
+        "perfekt": "losgedacht",
+        "prateritum": "dachte los"
+    },
+    "losdrehen": {
+        "perfekt": "losgedreht",
+        "prateritum": "drehte los"
+    },
+    "losdrücken": {
+        "perfekt": "losgedrückt",
+        "prateritum": "drückte los"
+    },
+    "losessen": {
+        "perfekt": "losgegessen",
+        "prateritum": "aß los"
+    },
+    "losfahren": {
+        "perfekt": "losgefahren",
+        "prateritum": "fuhr los"
+    },
+    "losfallen": {
+        "perfekt": "losgefallen",
+        "prateritum": "fiel los"
+    },
+    "losfangen": {
+        "perfekt": "losgefangen",
+        "prateritum": "fing los"
+    },
+    "losfeiern": {
+        "perfekt": "losgefeiert",
+        "prateritum": "feierte los"
+    },
+    "losfliegen": {
+        "perfekt": "geflogen",
+        "prateritum": "flog los"
+    },
+    "losfressen": {
+        "perfekt": "losgefressen",
+        "prateritum": "fraß los"
+    },
+    "losgeben": {
+        "perfekt": "losgesorgt",
+        "prateritum": "sorgte los"
+    },
+    "losgehen": {
+        "perfekt": "losgegangen",
+        "prateritum": "ging los"
+    },
+    "losgießen": {
+        "perfekt": "losgegossen",
+        "prateritum": "goss los"
+    },
+    "losgleiten": {
+        "perfekt": "losgeglitten",
+        "prateritum": "glitt los"
+    },
+    "loshaben": {
+        "perfekt": "losgelassen",
+        "prateritum": "ließ los"
+    },
+    "loshämmern": {
+        "perfekt": "loshämmerte",
+        "prateritum": "hämmerte los"
+    },
+    "loshandeln": {
+        "perfekt": "losgewandelt",
+        "prateritum": "handelte los"
+    },
+    "losharken": {
+        "perfekt": "losharkte",
+        "prateritum": "harkte los"
+    },
+    "loshauen": {
+        "perfekt": "losgeschlagen",
+        "prateritum": "schlug los"
+    },
+    "loshexen": {
+        "perfekt": "gehext",
+        "prateritum": "hexte los"
+    },
+    "losjagen": {
+        "perfekt": "gejagt",
+        "prateritum": "jagte los"
+    },
+    "loskämpfen": {
+        "perfekt": "losgekämpft",
+        "prateritum": "kämpfte los"
+    },
+    "loskacken": {
+        "perfekt": "losgekackt",
+        "prateritum": "kackte los"
+    },
+    "losklettern": {
+        "perfekt": "geklettert",
+        "prateritum": "kletterte los"
+    },
+    "loskommen": {
+        "perfekt": "losgekommen",
+        "prateritum": "kam los"
+    },
+    "loskriegen": {
+        "perfekt": "losgekriegt",
+        "prateritum": "kriegte los"
+    },
+    "loslachen": {
+        "perfekt": "gelacht",
+        "prateritum": "lachte los"
+    },
+    "loslassen": {
+        "perfekt": "losgelassen",
+        "prateritum": "ließ los"
+    },
+    "loslaufen": {
+        "perfekt": "losgelaufen",
+        "prateritum": "lief los"
+    },
+    "loslegen": {
+        "perfekt": "losgelgt",
+        "prateritum": "legte los"
+    },
+    "losliegen": {
+        "perfekt": "losgelgen",
+        "prateritum": "lag los"
+    },
+    "losmachen": {
+        "perfekt": "losgemacht",
+        "prateritum": "machte los"
+    },
+    "losmaulen": {
+        "perfekt": "losgemausert",
+        "prateritum": "mauserte los"
+    },
+    "losnehmen": {
+        "perfekt": "losgenommen",
+        "prateritum": "nahm los"
+    },
+    "losplappern": {
+        "perfekt": "geplappert",
+        "prateritum": "plapperte los"
+    },
+    "losprusten": {
+        "perfekt": "geprustet",
+        "prateritum": "prustete los"
+    },
+    "lospulen": {
+        "perfekt": "losgepult",
+        "prateritum": "pulte los"
+    },
+    "losquietschen": {
+        "perfekt": "gequietscht",
+        "prateritum": "quietschte los"
+    },
+    "losrauschen": {
+        "perfekt": "losgerauscht",
+        "prateritum": "rauschte los"
+    },
+    "losreisen": {
+        "perfekt": "losgereist",
+        "prateritum": "reiste los"
+    },
+    "losreißen": {
+        "perfekt": "losgerissen",
+        "prateritum": "riss los"
+    },
+    "losrennen": {
+        "perfekt": "gerannt",
+        "prateritum": "rannte los"
+    },
+    "losrutschen": {
+        "perfekt": "losgerutscht",
+        "prateritum": "rutschte los"
+    },
+    "losbröckeln": {
+        "perfekt": "gebröckelt",
+        "prateritum": "bröckelte los"
+    },
+    "losreden": {
+        "perfekt": "losgeredet",
+        "prateritum": "redete los"
+    },
+    "losschicken": {
+        "perfekt": "losgeschickt",
+        "prateritum": "schickte los"
+    },
+    "losschlagen": {
+        "perfekt": "losgeschlagen",
+        "prateritum": "schlug los"
+    },
+    "losschreien": {
+        "perfekt": "losgeschrien",
+        "prateritum": "schrie los"
+    },
+    "losschreiben": {
+        "perfekt": "losgeschrieben",
+        "prateritum": "schrieb los"
+    },
+    "losschwimmen": {
+        "perfekt": "lossgeschwommen",
+        "prateritum": "schwamm los"
+    },
+    "losstehen": {
+        "perfekt": "losgestanden",
+        "prateritum": "stand los"
+    },
+    "loswerden": {
+        "perfekt": "losgeworden",
+        "prateritum": "wurde los"
+    },
+    "losziehen": {
+        "perfekt": "losgezogen",
+        "prateritum": "zog los"
+    },
+    "losplaudern": {
+        "perfekt": "geplaudert",
+        "prateritum": "plauderte los"
+    },
+    "losführen": {
+        "perfekt": "geführt",
+        "prateritum": "führte los"
+    },
+    "loswerfen": {
+        "perfekt": "geworfen",
+        "prateritum": "warf los"
+    },
+    "losstoßen": {
+        "perfekt": "losgestoßen",
+        "prateritum": "stieß los"
+    },
+    "loskrabbeln": {
+        "perfekt": "losgkrabbelt",
+        "prateritum": "krabbelte los"
+    },
+    "losglotzen": {
+        "perfekt": "geglotzt",
+        "prateritum": "glotzte los"
+    },
+    "loswollen": {
+        "perfekt": "gewollt",
+        "prateritum": "wollte los"
+    },
+    "loskratzen": {
+        "perfekt": "gekratzt",
+        "prateritum": "kratzte los"
+    },
+    "loskaufen": {
+        "perfekt": "gekauft",
+        "prateritum": "kaufte los"
+    },
+    "losbekommen": {
+        "perfekt": "bekommen",
+        "prateritum": "bekam los"
+    },
+    "losrudern": {
+        "perfekt": "losggerudert",
+        "prateritum": "ruderte los"
+    },
+    "losbeten": {
+        "perfekt": "losgebetet",
+        "prateritum": "betete los"
+    },
+    "losstürmen": {
+        "perfekt": "losgestürmt",
+        "prateritum": "stürmte los"
+    },
+    "loskriechen": {
+        "perfekt": "gekrochen",
+        "prateritum": "kroch los"
+    },
+    "losstürzen": {
+        "perfekt": "gestürzt",
+        "prateritum": "stürzte los"
+    },
+    "losstolpern": {
+        "perfekt": "losgestolpert",
+        "prateritum": "stolperte los"
+    },
+    "loswimmeln": {
+        "perfekt": "gewimmelt",
+        "prateritum": "wimmelte los"
+    },
+    "losknallen": {
+        "perfekt": "geknallt",
+        "prateritum": "knallte los"
+    },
+    "losplärren": {
+        "perfekt": "losgeplärrt",
+        "prateritum": "plärrte los"
+    },
+    "loswandern": {
+        "perfekt": "gewandert",
+        "prateritum": "wanderte los"
+    },
+    "lostraben": {
+        "perfekt": "losgestrabt",
+        "prateritum": "strabte los"
+    },
+    "losstampfen": {
+        "perfekt": "losgestampft",
+        "prateritum": "stampfte los"
+    },
+    "lossagen": {
+        "perfekt": "losgesagt",
+        "prateritum": "sagte los"
+    },
+    "losschreiten": {
+        "perfekt": "losgeschritten",
+        "prateritum": "schritt los"
+    },
+    "losschütten": {
+        "perfekt": "losgeschüttet",
+        "prateritum": "schüttete los"
+    },
+    "lossetzen": {
+        "perfekt": "losgesetzt",
+        "prateritum": "setzte los"
+    },
+    "lossingen": {
+        "perfekt": "losgesungen",
+        "prateritum": "sang los"
+    },
+    "lossinken": {
+        "perfekt": "losgesunken",
+        "prateritum": "sank los"
+    },
+    "lossitzen": {
+        "perfekt": "losgesessen",
+        "prateritum": "saß los"
+    },
+    "losstricken": {
+        "perfekt": "losgestrickt",
+        "prateritum": "strickte los"
+    },
+    "loswinken": {
+        "perfekt": "losgewinkt",
+        "prateritum": "winkte los"
+    },
+    "loswirbeln": {
+        "perfekt": "gewirbelt",
+        "prateritum": "wirbelte los"
+    },
+    "loszischen": {
+        "perfekt": "losgezischt",
+        "prateritum": "zischte los"
+    },
+    "loszucken": {
+        "perfekt": "losgezuckt",
+        "prateritum": "zuckte los"
+    },
+    "loszünden": {
+        "perfekt": "losgezündet",
+        "prateritum": "zündete los"
+    },
+    "loszwitschern": {
+        "perfekt": "gezwitschert",
+        "prateritum": "zwitscherte los"
+    },
+    "losleinen": {
+        "perfekt": "losgeleint",
+        "prateritum": "lein los"
+    },
+    "loslösen": {
+        "perfekt": "gelöst",
+        "prateritum": "löste los"
+    },
+    "losdiskutieren": {
+        "perfekt": "diskutiert",
+        "prateritum": "diskutierte los"
+    },
+    "losrufen": {
+        "perfekt": "gerufen",
+        "prateritum": "rief los"
+    },
+    "losmorden": {
+        "perfekt": "gemordet",
+        "prateritum": "mordete los"
+    },
+    "losverkaufen": {
+        "perfekt": "losverkauft",
+        "prateritum": "verkaufte los"
+    },
+    "losmusizieren": {
+        "perfekt": "losmusiziert",
+        "prateritum": "musizierte los"
+    },
+    "losplatzen": {
+        "perfekt": "losgeplatzt",
+        "prateritum": "platzte los"
+    },
+    "losradeln": {
+        "perfekt": "losgeradelt",
+        "prateritum": "radelte los"
+    },
+    "losreiben": {
+        "perfekt": "losgerieben",
+        "prateritum": "rieb los"
+    },
+    "lossausen": {
+        "perfekt": "lossausen",
+        "prateritum": "sause los"
+    },
+    "losschleichen": {
+        "perfekt": "geschlichen",
+        "prateritum": "schlich los"
+    },
+    "losschmeißen": {
+        "perfekt": "geschmissen",
+        "prateritum": "schmiss los"
+    },
+    "lossegeln": {
+        "perfekt": "lossegelte",
+        "prateritum": "segelte los"
+    },
+    "losspringen": {
+        "perfekt": "losgesprungen",
+        "prateritum": "sprang los"
+    },
+    "lossurfen": {
+        "perfekt": "lossgesurft",
+        "prateritum": "surfte los"
+    },
+    "loszählen": {
+        "perfekt": "losgezählt",
+        "prateritum": "zählte los"
+    },
+    "loszittern": {
+        "perfekt": "losgezittert",
+        "prateritum": "zitterte los"
+    },
+    "losschütteln": {
+        "perfekt": "losgeschüttelt",
+        "prateritum": "schüttelte los"
+    },
+    "losschweigen": {
+        "perfekt": "losgeschwiegen",
+        "prateritum": "schwieg los"
+    },
+    "losschwingen": {
+        "perfekt": "losschwungen",
+        "prateritum": "schwang los"
+    },
+    "lossehen": {
+        "perfekt": "losgesehen",
+        "prateritum": "sah los"
+    },
+    "losschneiden": {
+        "perfekt": "geschnitten",
+        "prateritum": "schnitt los"
+    },
+    "losschweifen": {
+        "perfekt": "losschweifte",
+        "prateritum": "schweifte los"
+    },
+    "losschwellen": {
+        "perfekt": "losschwoll",
+        "prateritum": "schwoll los"
+    },
+    "losschätzen": {
+        "perfekt": "losschätzte",
+        "prateritum": "schätzte los"
+    },
+    "losschürfen": {
+        "perfekt": "losgeschürft",
+        "prateritum": "schürfte los"
+    },
+    "lossprudeln": {
+        "perfekt": "lossprudelte",
+        "prateritum": "sprudelte los"
+    },
+    "losspuken": {
+        "perfekt": "losspukte",
+        "prateritum": "spukte los"
+    },
+    "lossputen": {
+        "perfekt": "lossputete",
+        "prateritum": "putete los"
+    },
+    "losschleifen": {
+        "perfekt": "losschleifte",
+        "prateritum": "schleifte los"
+    },
+    "losschleudern": {
+        "perfekt": "geschleudert",
+        "prateritum": "schleuderte los"
+    },
+    "losschlingen": {
+        "perfekt": "losschlang",
+        "prateritum": "schlang los"
+    },
+    "losschließen": {
+        "perfekt": "losschloss",
+        "prateritum": "schloss los"
+    },
+    "losschnallen": {
+        "perfekt": "losgeschnallt",
+        "prateritum": "schnallte los"
+    },
+    "losweinen": {
+        "perfekt": "losgeweint",
+        "prateritum": "weinte los"
+    },
+    "loswickeln": {
+        "perfekt": "losgewickelt",
+        "prateritum": "wickelte los"
+    },
+    "losächzen": {
+        "perfekt": "losgeächzt",
+        "prateritum": "ächzte los"
+    },
+    "losblasen": {
+        "perfekt": "losgeblasen",
+        "prateritum": "blies los"
+    },
+    "losbohren": {
+        "perfekt": "gebohrt",
+        "prateritum": "bohrte los"
+    },
+    "losdüsen": {
+        "perfekt": "losgedüst",
+        "prateritum": "düste los"
+    },
+    "loshacken": {
+        "perfekt": "losgeschackt",
+        "prateritum": "hackte los"
+    },
+    "losheulen": {
+        "perfekt": "geheult",
+        "prateritum": "heulte los"
+    },
+    "losjammern": {
+        "perfekt": "gejammert",
+        "prateritum": "jammerte los"
+    },
+    "loskauen": {
+        "perfekt": "losgekaut",
+        "prateritum": "kaute los"
+    },
+    "losknöpfen": {
+        "perfekt": "losgeknöpft",
+        "prateritum": "knöpfte los"
+    },
+    "loslatschen": {
+        "perfekt": "gelatscht",
+        "prateritum": "latschte los"
+    },
+    "losmarschieren": {
+        "perfekt": "losmarschiert",
+        "prateritum": "marschierte los"
+    },
+    "losmähen": {
+        "perfekt": "losgemäht",
+        "prateritum": "mähte los"
+    },
+    "losrollen": {
+        "perfekt": "losgerollt",
+        "prateritum": "rollte los"
+    },
+    "losrücken": {
+        "perfekt": "gerückt",
+        "prateritum": "rückte los"
+    },
+    "losschälen": {
+        "perfekt": "losschälte",
+        "prateritum": "schälte los"
+    },
+    "losschwänzen": {
+        "perfekt": "losschwänzte",
+        "prateritum": "schwänzte los"
+    },
+    "losschnüren": {
+        "perfekt": "losschnürte",
+        "prateritum": "schnürte los"
+    },
+    "losschwören": {
+        "perfekt": "losschwor",
+        "prateritum": "schwor los"
+    },
+    "losstolzieren": {
+        "perfekt": "losgestolziert",
+        "prateritum": "stolzierte los"
+    },
+    "losstottern": {
+        "perfekt": "losgestottert",
+        "prateritum": "stotterte los"
+    },
+    "losstrahlen": {
+        "perfekt": "losgestrahlt",
+        "prateritum": "strahlte los"
+    },
+    "losstreiten": {
+        "perfekt": "losgestritten",
+        "prateritum": "stritt los"
+    },
+    "lostrampeln": {
+        "perfekt": "losgestrampelt",
+        "prateritum": "trampelte los"
+    },
+    "losfegen": {
+        "perfekt": "gefegt",
+        "prateritum": "fegte los"
+    },
+    "losgrinsen": {
+        "perfekt": "gegrinst",
+        "prateritum": "grinste los"
+    },
+    "losregnen": {
+        "perfekt": "geregnet",
+        "prateritum": "regnete los"
+    },
+    "losrasen": {
+        "perfekt": "losggerast",
+        "prateritum": "raste los"
+    },
+    "loskichern": {
+        "perfekt": "gekichert",
+        "prateritum": "kicherte los"
+    },
+    "losgrüßen": {
+        "perfekt": "losggrüßt",
+        "prateritum": "grüßte los"
+    },
+    "loskrächzen": {
+        "perfekt": "gekrächzt",
+        "prateritum": "krächzte los"
+    },
+    "losblödeln": {
+        "perfekt": "geblödelt",
+        "prateritum": "blödelte los"
+    },
+    "losfeuern": {
+        "perfekt": "gefeuert",
+        "prateritum": "feuerte los"
+    },
+    "losflüstern": {
+        "perfekt": "geflüstert",
+        "prateritum": "flüsterte los"
+    },
+    "lostanzen": {
+        "perfekt": "losgelästert",
+        "prateritum": "lästerte los"
+    },
+    "lostauchen": {
+        "perfekt": "lostauchte",
+        "prateritum": "tauchte los"
+    },
+    "losstöbern": {
+        "perfekt": "gestöbert",
+        "prateritum": "stöberte los"
+    },
+    "lostscharren": {
+        "perfekt": "losgescharrt",
+        "prateritum": "scharrte los"
+    },
+    "lostarten": {
+        "perfekt": "losgestartet",
+        "prateritum": "startete los"
+    },
+    "lostasten": {
+        "perfekt": "losgestastet",
+        "prateritum": "tastete los"
+    },
+    "lostoben": {
+        "perfekt": "losgestobt",
+        "prateritum": "tobte los"
+    },
+    "lostragen": {
+        "perfekt": "losgestrangen",
+        "prateritum": "trug los"
+    },
+    "losbrutzeln": {
+        "perfekt": "gebrutzelt",
+        "prateritum": "brutzelte los"
+    },
+    "loswischen": {
+        "perfekt": "gewischt",
+        "prateritum": "wischte los"
+    },
+    "losplätschern": {
+        "perfekt": "geplätschert",
+        "prateritum": "plätscherte los"
+    },
+    "losknirschen": {
+        "perfekt": "geknirscht",
+        "prateritum": "knirschte los"
+    },
+    "loskochen": {
+        "perfekt": "gekocht",
+        "prateritum": "kochte los"
+    },
+    "loshüpfen": {
+        "perfekt": "losggehüpft",
+        "prateritum": "hüpfte los"
+    },
+    "losbaggern": {
+        "perfekt": "gebaggert",
+        "prateritum": "baggerte los"
+    },
+    "losplanken": {
+        "perfekt": "geplankt",
+        "prateritum": "plankte los"
+    },
+    "losschäumen": {
+        "perfekt": "geschäumt",
+        "prateritum": "schäumte los"
+    },
+    "losknabbern": {
+        "perfekt": "geknabbert",
+        "prateritum": "knabberte los"
+    },
+    "losscharren": {
+        "perfekt": "gescharrt",
+        "prateritum": "scharrte los"
+    },
+    "losnörgeln": {
+        "perfekt": "genörgelt",
+        "prateritum": "nörgelte los"
+    },
+    "losbrummen": {
+        "perfekt": "gebrummt",
+        "prateritum": "brummte los"
+    },
+    "loszotteln": {
+        "perfekt": "gezottelt",
+        "prateritum": "zottelte los"
+    },
+    "losmeckern": {
+        "perfekt": "gemeckert",
+        "prateritum": "meckerte los"
+    },
+    "losschnaufen": {
+        "perfekt": "geschnauft",
+        "prateritum": "schnaufte los"
+    },
+    "losflitzen": {
+        "perfekt": "geflitzt",
+        "prateritum": "flitzte los"
+    },
+    "loswatscheln": {
+        "perfekt": "gewatschelt",
+        "prateritum": "watschelte los"
+    },
+    "loslärmen": {
+        "perfekt": "gelärmt",
+        "prateritum": "lärmte los"
+    },
+    "losfluchen": {
+        "perfekt": "losggeflucht",
+        "prateritum": "fluchte los"
+    },
+    "losplündern": {
+        "perfekt": "geplündert",
+        "prateritum": "plünderte los"
+    },
+    "losstöhnen": {
+        "perfekt": "losgestöhnt",
+        "prateritum": "stöhnte los"
+    },
+    "losschimpfen": {
+        "perfekt": "geschimpft",
+        "prateritum": "schimpfte los"
+    },
+    "loshusten": {
+        "perfekt": "gehustet",
+        "prateritum": "hustete los"
+    },
+    "loskullern": {
+        "perfekt": "gekullert",
+        "prateritum": "kullerte los"
+    },
+    "loskraxeln": {
+        "perfekt": "losgkraxelt",
+        "prateritum": "kraxelte los"
+    },
+    "losjoggen": {
+        "perfekt": "losgjoggt",
+        "prateritum": "joggte los"
+    },
+    "loszocken": {
+        "perfekt": "losgezockt",
+        "prateritum": "zockte los"
+    },
+    "losbaden": {
+        "perfekt": "losggebadet",
+        "prateritum": "badete los"
+    },
+    "losnaschen": {
+        "perfekt": "losgenascht",
+        "prateritum": "naschte los"
+    },
+    "losrasieren": {
+        "perfekt": "losgerasiert",
+        "prateritum": "rasierte los"
+    },
+    "losküssen": {
+        "perfekt": "losgküsst",
+        "prateritum": "küsste los"
+    },
+    "loswürfeln": {
+        "perfekt": "losggewürfelt",
+        "prateritum": "würfelte los"
+    },
+    "losplanen": {
+        "perfekt": "losggeplant",
+        "prateritum": "plante los"
+    },
+    "losmurmeln": {
+        "perfekt": "losggemurmelt",
+        "prateritum": "murmelte los"
+    },
+    "losboxen": {
+        "perfekt": "losggeboxt",
+        "prateritum": "boxte los"
+    },
+    "losflattern": {
+        "perfekt": "geflattert",
+        "prateritum": "flatterte los"
+    },
+    "loszappeln": {
+        "perfekt": "gezappelt",
+        "prateritum": "zappelte los"
+    },
+    "losoffen": {
+        "perfekt": "losggeöffnet",
+        "prateritum": "öffnete los"
+    },
+    "losgraben": {
+        "perfekt": "losggegraben",
+        "prateritum": "grub los"
+    },
+    "losbeugen": {
+        "perfekt": "losggebeugt",
+        "prateritum": "beugte los"
+    },
+    "losfließen": {
+        "perfekt": "geflossen",
+        "prateritum": "floss los"
+    },
+    "losdonnern": {
+        "perfekt": "losgedonnert",
+        "prateritum": "donnerte los"
+    },
+    "losfuchteln": {
+        "perfekt": "losggefuchelt",
+        "prateritum": "fuchtelte los"
+    },
+    "losblubbern": {
+        "perfekt": "losggeblubbert",
+        "prateritum": "blubberte los"
+    },
+    "losklatschen": {
+        "perfekt": "losggeklatscht",
+        "prateritum": "klatschte los"
+    },
+    "losprahlen": {
+        "perfekt": "losggeprahlt",
+        "prateritum": "prahlte los"
+    },
+    "losschämen": {
+        "perfekt": "losggeschämt",
+        "prateritum": "schämte los"
+    },
+    "losstrampeln": {
+        "perfekt": "losgestrampelt",
+        "prateritum": "strampelte los"
+    },
+    "lostrotten": {
+        "perfekt": "losgestrampelt",
+        "prateritum": "strampelte los"
+    },
+    "loswalzen": {
+        "perfekt": "gewalzt",
+        "prateritum": "wälzte los"
+    },
+    "losgrübeln": {
+        "perfekt": "gegrübelt",
+        "prateritum": "grübelte los"
+    },
+    "losnagen": {
+        "perfekt": "genagt",
+        "prateritum": "nagte los"
+    },
+    "losstöckeln": {
+        "perfekt": "gestöckelt",
+        "prateritum": "stöckelte los"
+    },
+    "losblättern": {
+        "perfekt": "geblättert",
+        "prateritum": "blätterte los"
+    },
+    "loskaspern": {
+        "perfekt": "gekaspert",
+        "prateritum": "kasperte los"
+    },
+    "losfaxen": {
+        "perfekt": "gefaxt",
+        "prateritum": "faxte los"
+    },
+    "losfummeln": {
+        "perfekt": "gefummelt",
+        "prateritum": "fummelte los"
+    },
+    "losspulen": {
+        "perfekt": "gespult",
+        "prateritum": "spulte los"
+    },
+    "losfurzen": {
+        "perfekt": "gefurzt",
+        "prateritum": "furzte los"
+    },
+    "losschnarchen": {
+        "perfekt": "losgeschnarcht",
+        "prateritum": "schnarchte los"
+    },
+    "losschrubben": {
+        "perfekt": "geschrobben",
+        "prateritum": "schrubbte los"
+    },
+    "loskuscheln": {
+        "perfekt": "gekuschelt",
+        "prateritum": "kuschelte los"
+    },
+    "losmäandern": {
+        "perfekt": "gemäandert",
+        "prateritum": "mäanderte los"
+    },
+    "loswetzen": {
+        "perfekt": "gewetzt",
+        "prateritum": "wetzte los"
+    },
+    "losklopfen": {
+        "perfekt": "geklopft",
+        "prateritum": "klopfte los"
+    },
+    "losfetzen": {
+        "perfekt": "gefetzt",
+        "prateritum": "fetzte los"
+    },
+    "loswälzen": {
+        "perfekt": "gewälzt",
+        "prateritum": "wälzte los"
+    },
+    "losprügeln": {
+        "perfekt": "geprügelt",
+        "prateritum": "prügelte los"
+    },
+    "losmampfen": {
+        "perfekt": "gemampft",
+        "prateritum": "mampfte los"
+    },
+    "losdackeln": {
+        "perfekt": "gedackelt",
+        "prateritum": "dackelte los"
+    },
+    "losreiten": {
+        "perfekt": "geritten",
+        "prateritum": "ritt los"
+    },
+    "losschustern": {
+        "perfekt": "geschustert",
+        "prateritum": "schusterte los"
+    },
+    "loswühlen": {
+        "perfekt": "gewühlt",
+        "prateritum": "wühlte los"
+    },
+    "loswuseln": {
+        "perfekt": "gewuselt",
+        "prateritum": "wuselte los"
+    },
+    "losvergnügen": {
+        "perfekt": "vergnügt",
+        "prateritum": "vergnügte los"
+    },
+    "loswackeln": {
+        "perfekt": "gewackelt",
+        "prateritum": "wackelte los"
+    },
+    "losschmettern": {
+        "perfekt": "geschmettert",
+        "prateritum": "schmetterte los"
+    },
+    "losschlottern": {
+        "perfekt": "geschlottert",
+        "prateritum": "schlotterte los"
+    },
+    "losnerven": {
+        "perfekt": "losgenervt",
+        "prateritum": "nervte los"
+    },
+    "losgarantieren": {
+        "perfekt": "losgarantiert",
+        "prateritum": "garantierte los"
+    },
+    "losschießen": {
+        "perfekt": "losgeschossen",
+        "prateritum": "schoss los"
+    },
+    "losschrauben": {
+        "perfekt": "losgeschraubt",
+        "prateritum": "schraubte los"
+    },
+    "losschwatzen": {
+        "perfekt": "losgeschwatzt",
+        "prateritum": "schwatzte los"
+    },
+    "losseufzen": {
+        "perfekt": "losgeseufzt",
+        "prateritum": "seufzte los"
+    },
+    "losspielen": {
+        "perfekt": "losgespielt",
+        "prateritum": "spielte los"
+    },
+    "losstaunen": {
+        "perfekt": "gestaunt",
+        "prateritum": "staunte los"
+    },
+    "lossurren": {
+        "perfekt": "losgesurrt",
+        "prateritum": "surrte los"
+    },
+    "losvermieten": {
+        "perfekt": "losgvermietet",
+        "prateritum": "vermietete los"
+    },
+    "loswachsen": {
+        "perfekt": "losgewachsen",
+        "prateritum": "wuchs los"
+    },
+    "loswinseln": {
+        "perfekt": "losgewinselt",
+        "prateritum": "winselte los"
+    },
+    "losverstehen": {
+        "perfekt": "losverstanden",
+        "prateritum": "verstand los"
+    },
+    "losvertreiben": {
+        "perfekt": "losvertrieben",
+        "prateritum": "vertrieb los"
+    },
+    "losvorbeigehen": {
+        "perfekt": "losvorbeigegangen",
+        "prateritum": "ging los vorbei"
+    },
+    "losvoten": {
+        "perfekt": "losgevotet",
+        "prateritum": "votete los"
+    },
+    "loswanken": {
+        "perfekt": "losgewankt",
+        "prateritum": "wankte los"
+    },
+    "loswaschen": {
+        "perfekt": "losgewaschen",
+        "prateritum": "wusch los"
+    },
+    "loswingen": {
+        "perfekt": "losgeschwungen",
+        "prateritum": "schwang los"
+    },
+    "loswohnen": {
+        "perfekt": "losgewohnt",
+        "prateritum": "wohnte los"
+    },
+    "loszurren": {
+        "perfekt": "losgezurrt",
+        "prateritum": "zurrte los"
+    },
+    "losärgern": {
+        "perfekt": "losgeärgert",
+        "prateritum": "ärgerte los"
+    },
+    "losüben": {
+        "perfekt": "losgeübt",
+        "prateritum": "übte los"
+    },
+    "losrobben": {
+        "perfekt": "gerobbt",
+        "prateritum": "robbe los"
+    },
+    "losrumoren": {
+        "perfekt": "gerumort",
+        "prateritum": "rumorte los"
+    },
+    "losgeigen": {
+        "perfekt": "gegeigt",
+        "prateritum": "geigte los"
+    },
+    "losflöten": {
+        "perfekt": "geflötet",
+        "prateritum": "flötete los"
+    },
+    "losmurren": {
+        "perfekt": "gemurrt",
+        "prateritum": "murmelte los"
+    },
+    "losflimmern": {
+        "perfekt": "geflimmert",
+        "prateritum": "flimmerte los"
+    },
+    "losfechten": {
+        "perfekt": "gefochten",
+        "prateritum": "focht los"
+    },
+    "losspülen": {
+        "perfekt": "gespült",
+        "prateritum": "spülte los"
+    },
+    "losspucken": {
+        "perfekt": "gespuckt",
+        "prateritum": "spuckte los"
+    },
+    "loslächeln": {
+        "perfekt": "gelächelt",
+        "prateritum": "lächelte los"
+    },
+    "losknurren": {
+        "perfekt": "geknurrt",
+        "prateritum": "knurrte los"
+    },
+    "losstochern": {
+        "perfekt": "gestochert",
+        "prateritum": "stocherte los"
+    },
+    "losnicken": {
+        "perfekt": "genickt",
+        "prateritum": "nickte los"
+    },
+    "losglänzen": {
+        "perfekt": "geglänzt",
+        "prateritum": "glänzte los"
+    },
+    "losschleppen": {
+        "perfekt": "geschleppt",
+        "prateritum": "schleppte los"
+    },
+    "loswüten": {
+        "perfekt": "gewütet",
+        "prateritum": "wütete los"
+    },
+    "losströmen": {
+        "perfekt": "geströmt",
+        "prateritum": "strömte los"
+    },
+    "loshumpeln": {
+        "perfekt": "gehumpelt",
+        "prateritum": "humpelte los"
+    },
+    "losprasseln": {
+        "perfekt": "geprasselt",
+        "prateritum": "prasselte los"
+    },
+    "losrattern": {
+        "perfekt": "gerattert",
+        "prateritum": "ratterte los"
+    },
+    "loskreischen": {
+        "perfekt": "gekreischt",
+        "prateritum": "kreischte los"
     }
 }

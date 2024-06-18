@@ -140,7 +140,7 @@
         "prateritum": "hob ab"
     },
     "abhängen": {
-        "perfekt": "abgehangen",
+        "perfekt": "abgehängt",
         "prateritum": "hing ab"
     },
     "absagen": {
@@ -408,7 +408,7 @@
         "prateritum": "machte abschussbereit"
     },
     "absenden": {
-        "perfekt": "abgesandt",
+        "perfekt": "abgesendet",
         "prateritum": "sandte ab"
     },
     "abservieren": {
@@ -485,7 +485,7 @@
     },
     "abwenden": {
         "perfekt": "abgewendet",
-        "prateritum": "wendete ab"
+        "prateritum": "wandte ab"
     },
     "abwetzen": {
         "perfekt": "abgewetzt",
@@ -1200,7 +1200,7 @@
         "prateritum": "setzte aus"
     },
     "ausspähen": {
-        "perfekt": "ausgespäht",
+        "perfekt": "ausspäht",
         "prateritum": "spähte aus"
     },
     "ausstatten": {
@@ -2610,5 +2610,881 @@
     "anwinkeln": {
         "perfekt": "angewinkelt",
         "prateritum": "winkelte an"
+    },
+    "abbrennen": {
+        "perfekt": "abgebrannt",
+        "prateritum": "brannte ab"
+    },
+    "abbuchen": {
+        "perfekt": "abgebucht",
+        "prateritum": "buchte ab"
+    },
+    "abdichten": {
+        "perfekt": "abgedichtet",
+        "prateritum": "dichtete ab"
+    },
+    "abdrücken": {
+        "perfekt": "abgedrückt",
+        "prateritum": "drückte ab"
+    },
+    "abdunkeln": {
+        "perfekt": "abgedunkelt",
+        "prateritum": "dunkelte ab"
+    },
+    "aberkennen": {
+        "perfekt": "aberkannt",
+        "prateritum": "erkannte ab"
+    },
+    "abflachen": {
+        "perfekt": "abgeflacht",
+        "prateritum": "flachte ab"
+    },
+    "abhaken": {
+        "perfekt": "abgehakt",
+        "prateritum": "hakte ab"
+    },
+    "abklären": {
+        "perfekt": "abgeklärt",
+        "prateritum": "klärte ab"
+    },
+    "abkneifen": {
+        "perfekt": "abgekniffen",
+        "prateritum": "kniff ab"
+    },
+    "abmontieren": {
+        "perfekt": "abmontiert",
+        "prateritum": "montierte ab"
+    },
+    "abmurksen": {
+        "perfekt": "abgemurkst",
+        "prateritum": "murkste ab"
+    },
+    "abnagen": {
+        "perfekt": "abgenagt",
+        "prateritum": "nagte ab"
+    },
+    "abpfeifen": {
+        "perfekt": "abgepfiffen",
+        "prateritum": "pfiff ab"
+    },
+    "abpumpen": {
+        "perfekt": "abgepumpt",
+        "prateritum": "pumpte ab"
+    },
+    "abputzen": {
+        "perfekt": "abgeputzt",
+        "prateritum": "putzte ab"
+    },
+    "abregen": {
+        "perfekt": "abgeregt",
+        "prateritum": "regte ab"
+    },
+    "abrichten": {
+        "perfekt": "abgerichtet",
+        "prateritum": "richtete ab"
+    },
+    "abrunden": {
+        "perfekt": "abgerundet",
+        "prateritum": "rundete ab"
+    },
+    "abscheißen": {
+        "perfekt": "abgeschissen",
+        "prateritum": "schiss ab"
+    },
+    "abschnallen": {
+        "perfekt": "abgeschnallt",
+        "prateritum": "schnallte ab"
+    },
+    "abtauen": {
+        "perfekt": "abgetaut",
+        "prateritum": "taute ab"
+    },
+    "abtöten": {
+        "perfekt": "abgetötet",
+        "prateritum": "tötete ab"
+    },
+    "abtransportieren": {
+        "perfekt": "abtransportiert",
+        "prateritum": "transportierte ab"
+    },
+    "abarbeiten": {
+        "perfekt": "abgearbeitet",
+        "prateritum": "arbeitete ab"
+    },
+    "abbekommen": {
+        "perfekt": "abbekommen",
+        "prateritum": "bekam ab"
+    },
+    "abberufen": {
+        "perfekt": "abgerufen",
+        "prateritum": "berief ab"
+    },
+    "abdienen": {
+        "perfekt": "abgedient",
+        "prateritum": "diente ab"
+    },
+    "abessen": {
+        "perfekt": "abgegessen",
+        "prateritum": "aß ab"
+    },
+    "abgießen": {
+        "perfekt": "abgegossen",
+        "prateritum": "goss ab"
+    },
+    "abkochen": {
+        "perfekt": "abgekocht",
+        "prateritum": "kochte ab"
+    },
+    "abpflücken": {
+        "perfekt": "abgepflückt",
+        "prateritum": "pflückte ab"
+    },
+    "abschminken": {
+        "perfekt": "abgeschminkt",
+        "prateritum": "schminkte ab"
+    },
+    "abschranken": {
+        "perfekt": "abgeschrankt",
+        "prateritum": "schrankte ab"
+    },
+    "abspalten": {
+        "perfekt": "abgespalten",
+        "prateritum": "spaltete ab"
+    },
+    "abspannen": {
+        "perfekt": "abgespannt",
+        "prateritum": "spannte ab"
+    },
+    "abstehen": {
+        "perfekt": "abgestanden",
+        "prateritum": "stand ab"
+    },
+    "abstottern": {
+        "perfekt": "abgestottert",
+        "prateritum": "stotterte ab"
+    },
+    "abmildern": {
+        "perfekt": "abgemildert",
+        "prateritum": "milderte ab"
+    },
+    "abprallen": {
+        "perfekt": "abgeprallt",
+        "prateritum": "prallte ab"
+    },
+    "abschmecken": {
+        "perfekt": "abgeschmeckt",
+        "prateritum": "schmeckte ab"
+    },
+    "abschnüren": {
+        "perfekt": "abgeschnürt",
+        "prateritum": "schnürte ab"
+    },
+    "abschwächen": {
+        "perfekt": "abgeschwächt",
+        "prateritum": "schwächte ab"
+    },
+    "abschweifen": {
+        "perfekt": "abgeschweift",
+        "prateritum": "schweifte ab"
+    },
+    "abschwellen": {
+        "perfekt": "abgeschwollen",
+        "prateritum": "schwoll ab"
+    },
+    "abschwirren": {
+        "perfekt": "abgeschwirrt",
+        "prateritum": "schwirrte ab"
+    },
+    "abwandeln": {
+        "perfekt": "abgewandelt",
+        "prateritum": "wandelte ab"
+    },
+    "abwürgen": {
+        "perfekt": "abgewürgt",
+        "prateritum": "würgte ab"
+    },
+    "abbaumen": {
+        "perfekt": "abgebaumt",
+        "prateritum": "baumte ab"
+    },
+    "abblättern": {
+        "perfekt": "abgeblättert",
+        "prateritum": "blätterte ab"
+    },
+    "abbrausen": {
+        "perfekt": "abgebraust",
+        "prateritum": "brauste ab"
+    },
+    "abchecken": {
+        "perfekt": "abgecheckt",
+        "prateritum": "checkte ab"
+    },
+    "abdrosseln": {
+        "perfekt": "abgedrosselt",
+        "prateritum": "drosselte ab"
+    },
+    "abducken": {
+        "perfekt": "abgeduckt",
+        "prateritum": "duckte ab"
+    },
+    "abduschen": {
+        "perfekt": "abgeduscht",
+        "prateritum": "duschte ab"
+    },
+    "abernten": {
+        "perfekt": "abgeerntet",
+        "prateritum": "erntete ab"
+    },
+    "abfeilen": {
+        "perfekt": "abgefeilt",
+        "prateritum": "feilte ab"
+    },
+    "abgewöhnen": {
+        "perfekt": "abgewöhnt",
+        "prateritum": "gewöhnte ab"
+    },
+    "abhandeln": {
+        "perfekt": "abgehandelt",
+        "prateritum": "handelte ab"
+    },
+    "abjagen": {
+        "perfekt": "abgejagt",
+        "prateritum": "jagte ab"
+    },
+    "abkapseln": {
+        "perfekt": "abgekapselt",
+        "prateritum": "kapselte ab"
+    },
+    "abkehren": {
+        "perfekt": "abgekehrt",
+        "prateritum": "kehrte ab"
+    },
+    "abknicken": {
+        "perfekt": "abgeknickt",
+        "prateritum": "knickte ab"
+    },
+    "ableuchten": {
+        "perfekt": "abgeleuchtet",
+        "prateritum": "leuchtete ab"
+    },
+    "ableugnen": {
+        "perfekt": "abgeleugnet",
+        "prateritum": "leugnete ab"
+    },
+    "ablichten": {
+        "perfekt": "abgelichtet",
+        "prateritum": "lichtete ab"
+    },
+    "abmagern": {
+        "perfekt": "abgemagert",
+        "prateritum": "magerte ab"
+    },
+    "abmühen": {
+        "perfekt": "abgemüht",
+        "prateritum": "mühte ab"
+    },
+    "abreiben": {
+        "perfekt": "abgerieben",
+        "prateritum": "rieb ab"
+    },
+    "abfärben": {
+        "perfekt": "abgefärbt",
+        "prateritum": "färbte ab"
+    },
+    "abgleichen": {
+        "perfekt": "abgeglichen",
+        "prateritum": "glich ab"
+    },
+    "ablecken": {
+        "perfekt": "abgeleckt",
+        "prateritum": "leckte ab"
+    },
+    "absammeln": {
+        "perfekt": "abgesammelt",
+        "prateritum": "sammelte ab"
+    },
+    "absaugen": {
+        "perfekt": "abgesaugt",
+        "prateritum": "saugte ab"
+    },
+    "abtropfen": {
+        "perfekt": "abgetropft",
+        "prateritum": "tropfte ab"
+    },
+    "ausatmen": {
+        "perfekt": "ausgeatmet",
+        "prateritum": "atmete aus"
+    },
+    "ausbaggern": {
+        "perfekt": "ausgebaggert",
+        "prateritum": "baggerte aus"
+    },
+    "ausbalancieren": {
+        "perfekt": "ausgebalanciert",
+        "prateritum": "balancierte aus"
+    },
+    "ausbeinen": {
+        "perfekt": "ausgebeint",
+        "prateritum": "beinte aus"
+    },
+    "ausblasen": {
+        "perfekt": "ausgeblasen",
+        "prateritum": "blies aus"
+    },
+    "ausfeilen": {
+        "perfekt": "ausgefeilt",
+        "prateritum": "feilte aus"
+    },
+    "ausfragen": {
+        "perfekt": "ausgefragt",
+        "prateritum": "fragte aus"
+    },
+    "ausgleichen": {
+        "perfekt": "ausgeglichen",
+        "prateritum": "glich aus"
+    },
+    "ausheben": {
+        "perfekt": "ausgehoben",
+        "prateritum": "hob aus"
+    },
+    "aushelfen": {
+        "perfekt": "aushelfen",
+        "prateritum": "half aus"
+    },
+    "aushöhlen": {
+        "perfekt": "aushöhlen",
+        "prateritum": "hohlte aus"
+    },
+    "auskippen": {
+        "perfekt": "ausgekippt",
+        "prateritum": "kippte aus"
+    },
+    "auskleiden": {
+        "perfekt": "ausgekleidet",
+        "prateritum": "kleidete aus"
+    },
+    "auskochen": {
+        "perfekt": "ausgekocht",
+        "prateritum": "kochte aus"
+    },
+    "auslachen": {
+        "perfekt": "ausgelacht",
+        "prateritum": "lachte aus"
+    },
+    "ausmerzen": {
+        "perfekt": "ausgemerzt",
+        "prateritum": "merzte aus"
+    },
+    "ausplaudern": {
+        "perfekt": "ausgeplaudert",
+        "prateritum": "plauderte aus"
+    },
+    "auspressen": {
+        "perfekt": "ausgepresst",
+        "prateritum": "presste aus"
+    },
+    "ausquetschen": {
+        "perfekt": "ausgequetscht",
+        "prateritum": "quetschte aus"
+    },
+    "ausräumen": {
+        "perfekt": "ausgeräumt",
+        "prateritum": "räumte aus"
+    },
+    "ausrechnen": {
+        "perfekt": "ausgerechnet",
+        "prateritum": "rechnete aus"
+    },
+    "ausreden": {
+        "perfekt": "ausgeredet",
+        "prateritum": "redete aus"
+    },
+    "aussäen": {
+        "perfekt": "ausgesät",
+        "prateritum": "säte aus"
+    },
+    "ausscheiden": {
+        "perfekt": "ausgeschieden",
+        "prateritum": "schied aus"
+    },
+    "ausschlagen": {
+        "perfekt": "ausgeschlagen",
+        "prateritum": "schlug aus"
+    },
+    "ausschönen": {
+        "perfekt": "ausgeschönt",
+        "prateritum": "schönte aus"
+    },
+    "ausfegen": {
+        "perfekt": "ausgefegt",
+        "prateritum": "fegte aus"
+    },
+    "ausfinden": {
+        "perfekt": "ausgefunden",
+        "prateritum": "fand aus"
+    },
+    "ausfliegen": {
+        "perfekt": "ausgeflogen",
+        "prateritum": "flog aus"
+    },
+    "ausforschen": {
+        "perfekt": "ausgeforscht",
+        "prateritum": "forchte aus"
+    },
+    "ausgreifen": {
+        "perfekt": "ausgegriffen",
+        "prateritum": "griff aus"
+    },
+    "auskosten": {
+        "perfekt": "ausgekostet",
+        "prateritum": "kostete aus"
+    },
+    "ausleeren": {
+        "perfekt": "ausgeleert",
+        "prateritum": "leerte aus"
+    },
+    "ausliefern": {
+        "perfekt": "ausgeliefert",
+        "prateritum": "lieferte aus"
+    },
+    "ausreiten": {
+        "perfekt": "ausgeritten",
+        "prateritum": "ritt aus"
+    },
+    "ausrüsten": {
+        "perfekt": "ausgerüstet",
+        "prateritum": "rüstete aus"
+    },
+    "aussagen": {
+        "perfekt": "ausgesagt",
+        "prateritum": "sagte aus"
+    },
+    "ausschalten": {
+        "perfekt": "ausgeschaltet",
+        "prateritum": "schaltete aus"
+    },
+    "aussenden": {
+        "perfekt": "ausgesendet",
+        "prateritum": "sandte aus"
+    },
+    "aussöhnen": {
+        "perfekt": "ausgesöhnt",
+        "prateritum": "söhnte aus"
+    },
+    "aussterben": {
+        "perfekt": "ausgestorben",
+        "prateritum": "starb aus"
+    },
+    "ausströmen": {
+        "perfekt": "ausgeströmt",
+        "prateritum": "strömte aus"
+    },
+    "auswerfen": {
+        "perfekt": "ausgeworfen",
+        "prateritum": "warf aus"
+    },
+    "ausarbeiten": {
+        "perfekt": "ausgearbeitet",
+        "prateritum": "arbeitete aus"
+    },
+    "ausfechten": {
+        "perfekt": "ausgefochten",
+        "prateritum": "focht aus"
+    },
+    "ausgleiten": {
+        "perfekt": "ausgeglitten",
+        "prateritum": "glitt aus"
+    },
+    "aushalten": {
+        "perfekt": "ausgehalten",
+        "prateritum": "hielt aus"
+    },
+    "aushandeln": {
+        "perfekt": "aushandelt",
+        "prateritum": "handelte aus"
+    },
+    "ausharren": {
+        "perfekt": "ausgeharret",
+        "prateritum": "harrte aus"
+    },
+    "ausklappen": {
+        "perfekt": "ausgeklappt",
+        "prateritum": "klappte aus"
+    },
+    "auskratzen": {
+        "perfekt": "ausgekratzt",
+        "prateritum": "kratzte aus"
+    },
+    "ausmustern": {
+        "perfekt": "ausgemustert",
+        "prateritum": "musterte aus"
+    },
+    "ausschreiten": {
+        "perfekt": "ausgeschritten",
+        "prateritum": "schritt aus"
+    },
+    "aussiedeln": {
+        "perfekt": "ausgesiedelt",
+        "prateritum": "siedelte aus"
+    },
+    "aussitzen": {
+        "perfekt": "ausgesessen",
+        "prateritum": "saß aus"
+    },
+    "ausspannen": {
+        "perfekt": "ausgespannt",
+        "prateritum": "spannte aus"
+    },
+    "ausstopfen": {
+        "perfekt": "ausgestopft",
+        "prateritum": "stopfte aus"
+    },
+    "auswandern": {
+        "perfekt": "ausgewandert",
+        "prateritum": "wanderte aus"
+    },
+    "auswickeln": {
+        "perfekt": "ausgewickelt",
+        "prateritum": "wickelte aus"
+    },
+    "auswirken": {
+        "perfekt": "ausgewirkt",
+        "prateritum": "wirkte aus"
+    },
+    "aussortieren": {
+        "perfekt": "aussortiert",
+        "prateritum": "sortierte aus"
+    },
+    "ausspeien": {
+        "perfekt": "ausgespien",
+        "prateritum": "spie aus"
+    },
+    "aussuchen": {
+        "perfekt": "aussucht",
+        "prateritum": "suchte aus"
+    },
+    "austicken": {
+        "perfekt": "ausgetickt",
+        "prateritum": "tickte aus"
+    },
+    "austoben": {
+        "perfekt": "ausgetobt",
+        "prateritum": "tobte aus"
+    },
+    "austreiben": {
+        "perfekt": "ausgetrieben",
+        "prateritum": "trieb aus"
+    },
+    "auszahlen": {
+        "perfekt": "ausgezahlt",
+        "prateritum": "zahlte aus"
+    },
+    "auszeichnen": {
+        "perfekt": "ausgezeichnet",
+        "prateritum": "zeichnete aus"
+    },
+    "auszubilden": {
+        "perfekt": "ausgebildet",
+        "prateritum": "bildete aus"
+    },
+    "auszugeben": {
+        "perfekt": "ausgegeben",
+        "prateritum": "gab aus"
+    },
+    "auszulegen": {
+        "perfekt": "ausgelegt",
+        "prateritum": "legte aus"
+    },
+    "auszumerzen": {
+        "perfekt": "ausgemerzt",
+        "prateritum": "merzte aus"
+    },
+    "auszunutzen": {
+        "perfekt": "ausgenutzt",
+        "prateritum": "nutzte aus"
+    },
+    "auszupacken": {
+        "perfekt": "ausgepackt",
+        "prateritum": "packte aus"
+    },
+    "auszuprobieren": {
+        "perfekt": "ausprobiert",
+        "prateritum": "probierte aus"
+    },
+    "auszuscheiden": {
+        "perfekt": "ausgeschieden",
+        "prateritum": "schied aus"
+    },
+    "auszusprechen": {
+        "perfekt": "ausgesprochen",
+        "prateritum": "sprach aus"
+    },
+    "auszustatten": {
+        "perfekt": "ausgestattet",
+        "prateritum": "stattete aus"
+    },
+    "auszuteilen": {
+        "perfekt": "ausgeteilt",
+        "prateritum": "teilte aus"
+    },
+    "auszuwählen": {
+        "perfekt": "ausgewählt",
+        "prateritum": "wählte aus"
+    },
+    "auszuweichen": {
+        "perfekt": "ausgewichen",
+        "prateritum": "wich aus"
+    },
+    "auszuwerten": {
+        "perfekt": "ausgewertet",
+        "prateritum": "wertete aus"
+    },
+    "auszuziehen": {
+        "perfekt": "ausgezogen",
+        "prateritum": "zog aus"
+    },
+    "auszählen": {
+        "perfekt": "ausgezählt",
+        "prateritum": "zählte aus"
+    },
+    "auszehren": {
+        "perfekt": "ausgezehrt",
+        "prateritum": "zehrte aus"
+    },
+    "auszittern": {
+        "perfekt": "ausgezittert",
+        "prateritum": "zitterte aus"
+    },
+    "auszudehnen": {
+        "perfekt": "ausgedehnt",
+        "prateritum": "dehnte aus"
+    },
+    "auszuführen": {
+        "perfekt": "ausgeführt",
+        "prateritum": "führte aus"
+    },
+    "auszugehen": {
+        "perfekt": "ausgegangen",
+        "prateritum": "ging aus"
+    },
+    "auszuharren": {
+        "perfekt": "ausgeharret",
+        "prateritum": "harrte aus"
+    },
+    "auszumalen": {
+        "perfekt": "ausgemalt",
+        "prateritum": "malte aus"
+    },
+    "auszumisten": {
+        "perfekt": "ausgemistet",
+        "prateritum": "mistete aus"
+    },
+    "auszureichen": {
+        "perfekt": "ausgereicht",
+        "prateritum": "reichte aus"
+    },
+    "auszureisen": {
+        "perfekt": "ausgereist",
+        "prateritum": "reiste aus"
+    },
+    "auszuruhen": {
+        "perfekt": "ausgeruht",
+        "prateritum": "ruhte aus"
+    },
+    "auszuschalten": {
+        "perfekt": "ausgeschaltet",
+        "prateritum": "schaltete aus"
+    },
+    "auszusehen": {
+        "perfekt": "ausgesehen",
+        "prateritum": "sah aus"
+    },
+    "auszusondern": {
+        "perfekt": "ausgesondert",
+        "prateritum": "sonderte aus"
+    },
+    "auszustellen": {
+        "perfekt": "ausgestellt",
+        "prateritum": "stellte aus"
+    },
+    "auszusuchen": {
+        "perfekt": "ausgesucht",
+        "prateritum": "suchte aus"
+    },
+    "auszuüben": {
+        "perfekt": "ausgeübt",
+        "prateritum": "übte aus"
+    },
+    "auszuwandern": {
+        "perfekt": "ausgewandert",
+        "prateritum": "wanderte aus"
+    },
+    "auszweigen": {
+        "perfekt": "ausgezweigt",
+        "prateritum": "zweigte aus"
+    },
+    "auszusenden": {
+        "perfekt": "ausgesendet",
+        "prateritum": "sendete aus"
+    },
+    "auszuschlafen": {
+        "perfekt": "ausgeschlafen",
+        "prateritum": "schlief aus"
+    },
+    "auszutragen": {
+        "perfekt": "ausgetragen",
+        "prateritum": "trug aus"
+    },
+    "auszuleihen": {
+        "perfekt": "ausgeliehen",
+        "prateritum": "lieh aus"
+    },
+    "auszulösen": {
+        "perfekt": "ausgelöst",
+        "prateritum": "löste aus"
+    },
+    "auszuschließen": {
+        "perfekt": "ausgeschlossen",
+        "prateritum": "schloss aus"
+    },
+    "auszusetzen": {
+        "perfekt": "ausgesetzt",
+        "prateritum": "setzte aus"
+    },
+    "auszutauschen": {
+        "perfekt": "ausgetauscht",
+        "prateritum": "tauschte aus"
+    },
+    "ausspionieren": {
+        "perfekt": "ausspioniert",
+        "prateritum": "spionierte aus"
+    },
+    "auszwicken": {
+        "perfekt": "ausgezwickt",
+        "prateritum": "zwackte aus"
+    },
+    "auszwängen": {
+        "perfekt": "ausgezwungen",
+        "prateritum": "zwang aus"
+    },
+    "auszucken": {
+        "perfekt": "ausgezuckt",
+        "prateritum": "zuckte aus"
+    },
+    "auszögern": {
+        "perfekt": "ausgezögert",
+        "prateritum": "zögerte aus"
+    },
+    "auszuhöhlen": {
+        "perfekt": "ausgehöhlt",
+        "prateritum": "höhlte aus"
+    },
+    "auszurasten": {
+        "perfekt": "ausgerastet",
+        "prateritum": "rastete aus"
+    },
+    "auszurechnen": {
+        "perfekt": "ausgerechnet",
+        "prateritum": "rechnete aus"
+    },
+    "auszureden": {
+        "perfekt": "ausgeredet",
+        "prateritum": "redete aus"
+    },
+    "auszurichten": {
+        "perfekt": "ausgerichtet",
+        "prateritum": "richtete aus"
+    },
+    "auszuschneiden": {
+        "perfekt": "ausgeschnitten",
+        "prateritum": "schnitt aus"
+    },
+    "auszuspülen": {
+        "perfekt": "ausgespült",
+        "prateritum": "spülte aus"
+    },
+    "auszustrecken": {
+        "perfekt": "ausgestreckt",
+        "prateritum": "streckte aus"
+    },
+    "auszusäen": {
+        "perfekt": "ausgesät",
+        "prateritum": "säte aus"
+    },
+    "auszwingen": {
+        "perfekt": "ausgezwungen",
+        "prateritum": "zwang aus"
+    },
+    "ausbezahlen": {
+        "perfekt": "ausbezahlt",
+        "prateritum": "bezahlte aus"
+    },
+    "ausbohren": {
+        "perfekt": "ausgebohrt",
+        "prateritum": "bohrte aus"
+    },
+    "ausdampfen": {
+        "perfekt": "ausgedampft",
+        "prateritum": "dampfte aus"
+    },
+    "auskämmen": {
+        "perfekt": "ausgekämmt",
+        "prateritum": "kämmte aus"
+    },
+    "ausklingen": {
+        "perfekt": "ausgeklungen",
+        "prateritum": "klang aus"
+    },
+    "ausknipsen": {
+        "perfekt": "ausgeknipst",
+        "prateritum": "knipste aus"
+    },
+    "auskreisen": {
+        "perfekt": "auskreist",
+        "prateritum": "kreiste aus"
+    },
+    "ausweiten": {
+        "perfekt": "ausgeweitet",
+        "prateritum": "weitete aus"
+    },
+    "auswirbeln": {
+        "perfekt": "ausgewirbelt",
+        "prateritum": "wirbelte aus"
+    },
+    "auswischen": {
+        "perfekt": "ausgewischt",
+        "prateritum": "wischte aus"
+    },
+    "auswuchten": {
+        "perfekt": "ausgewuchtet",
+        "prateritum": "wuchtete aus"
+    },
+    "auszuweiten": {
+        "perfekt": "ausgeweitet",
+        "prateritum": "weitete aus"
+    },
+    "auszuhalten": {
+        "perfekt": "ausgehalten",
+        "prateritum": "hielt aus"
+    },
+    "ausloten": {
+        "perfekt": "ausgelotet",
+        "prateritum": "lotete aus"
+    },
+    "auspumpen": {
+        "perfekt": "ausgepumpt",
+        "prateritum": "pumpte aus"
+    },
+    "ausrasten": {
+        "perfekt": "ausgerastet",
+        "prateritum": "rastete aus"
+    },
+    "aussieben": {
+        "perfekt": "ausgesiebt",
+        "prateritum": "sievte aus"
+    },
+    "ausstaffieren": {
+        "perfekt": "ausstaffiert",
+        "prateritum": "staffierte aus"
     }
 }

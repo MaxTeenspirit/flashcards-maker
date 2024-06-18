@@ -1,11 +1,11 @@
 {
     "fallen": {
         "perfekt": "gefallen",
-        "prateritum": "fiel"
+        "prateritum": "fiel bei"
     },
     "fahren": {
         "perfekt": "gefahren",
-        "prateritum": "fuhr"
+        "prateritum": "fuhr bei"
     },
     "fangen": {
         "perfekt": "gefangen",
@@ -13,11 +13,11 @@
     },
     "finden": {
         "perfekt": "gefunden",
-        "prateritum": "fand"
+        "prateritum": "fand bei"
     },
     "fliegen": {
         "perfekt": "geflogen",
-        "prateritum": "flog"
+        "prateritum": "flog bei"
     },
     "fließen": {
         "perfekt": "geflossen",
@@ -29,7 +29,7 @@
     },
     "frieren": {
         "perfekt": "gefroren",
-        "prateritum": "fror"
+        "prateritum": "fror bei"
     },
     "fällen": {
         "perfekt": "gefällt",
@@ -37,7 +37,7 @@
     },
     "fliehen": {
         "perfekt": "geflohen",
-        "prateritum": "floh"
+        "prateritum": "floh bei"
     },
     "fluchen": {
         "perfekt": "geflucht",
@@ -45,19 +45,19 @@
     },
     "folgen": {
         "perfekt": "gefolgt",
-        "prateritum": "folgte"
+        "prateritum": "folgte bei"
     },
     "fechten": {
         "perfekt": "gefochten",
-        "prateritum": "focht"
+        "prateritum": "focht bei"
     },
     "fürchten": {
         "perfekt": "gefürchtet",
-        "prateritum": "fürchtete"
+        "prateritum": "fürchtete bei"
     },
     "fehlen": {
         "perfekt": "gefehlt",
-        "prateritum": "fehlte"
+        "prateritum": "fehlte bei"
     },
     "feststellen": {
         "perfekt": "festgestellt",
@@ -101,7 +101,7 @@
     },
     "festhalten": {
         "perfekt": "festgehalten",
-        "prateritum": "hielt fest"
+        "prateritum": "hielt bei"
     },
     "festigen": {
         "perfekt": "festigt",
@@ -261,7 +261,7 @@
     },
     "fassen": {
         "perfekt": "gefasst",
-        "prateritum": "fasste"
+        "prateritum": "fasste bei"
     },
     "fasten": {
         "perfekt": "gefastet",
@@ -278,5 +278,33 @@
     "fladen": {
         "perfekt": "gefladet",
         "prateritum": "fladete"
+    },
+    "fordern": {
+        "perfekt": "gefordert",
+        "prateritum": "forderte bei"
+    },
+    "formen": {
+        "perfekt": "geformt",
+        "prateritum": "formte bei"
+    },
+    "fragen": {
+        "perfekt": "gefragt",
+        "prateritum": "fragte bei"
+    },
+    "freigeben": {
+        "perfekt": "freigegeben",
+        "prateritum": "gab bei"
+    },
+    "freuen": {
+        "perfekt": "gefreut",
+        "prateritum": "freute bei"
+    },
+    "funkeln": {
+        "perfekt": "gefunkelt",
+        "prateritum": "funkelte bei"
+    },
+    "fürsorgen": {
+        "perfekt": "gefürsorgt",
+        "prateritum": "fürsorgte bei"
     }
 }

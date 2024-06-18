@@ -1,11 +1,11 @@
 {
     "bleiben": {
         "perfekt": "geblieben",
-        "prateritum": "blieb"
+        "prateritum": "blieb bei"
     },
     "bringen": {
         "perfekt": "gebracht",
-        "prateritum": "brachte"
+        "prateritum": "brachte bei"
     },
     "beginnen": {
         "perfekt": "begonnen",
@@ -40,7 +40,7 @@
         "prateritum": "begriff"
     },
     "bergen": {
-        "perfekt": "bergen",
+        "perfekt": "geborgen",
         "prateritum": "barg"
     },
     "bersten": {
@@ -57,19 +57,19 @@
     },
     "biegen": {
         "perfekt": "gebogen",
-        "prateritum": "bog"
+        "prateritum": "bog bei"
     },
     "bieten": {
         "perfekt": "geboten",
-        "prateritum": "bot"
+        "prateritum": "bot bei"
     },
     "binden": {
         "perfekt": "gebunden",
-        "prateritum": "band"
+        "prateritum": "band bei"
     },
     "brennen": {
         "perfekt": "gebrannt",
-        "prateritum": "brannte"
+        "prateritum": "brannte bei"
     },
     "beantworten": {
         "perfekt": "beantwortet",
@@ -88,7 +88,7 @@
         "prateritum": "besuchte"
     },
     "betreten": {
-        "perfekt": "betraten",
+        "perfekt": "betreten",
         "prateritum": "betrat"
     },
     "berichten": {
@@ -304,7 +304,7 @@
         "prateritum": "beichtete"
     },
     "beieinflussen": {
-        "perfekt": "beieinflusst",
+        "perfekt": "beeinflusst",
         "prateritum": "beeinflusste"
     },
     "beilegen": {
@@ -313,7 +313,7 @@
     },
     "beiliegen": {
         "perfekt": "beigelegen",
-        "prateritum": "beilag"
+        "prateritum": "lag bei"
     },
     "beimessen": {
         "perfekt": "beigemessen",
@@ -329,7 +329,7 @@
     },
     "beirren": {
         "perfekt": "beirrt",
-        "prateritum": "irrte bei"
+        "prateritum": "beirrte"
     },
     "beisammenhaben": {
         "perfekt": "beisammengehabt",
@@ -357,7 +357,7 @@
     },
     "bekennen": {
         "perfekt": "bekannt",
-        "prateritum": "bekennte"
+        "prateritum": "bekannte"
     },
     "beklauen": {
         "perfekt": "beklaut",
@@ -377,7 +377,7 @@
     },
     "belästigen": {
         "perfekt": "belästigt",
-        "prateritum": "belästigte"
+        "prateritum": "belästigte bei"
     },
     "beleben": {
         "perfekt": "belebt",
@@ -393,7 +393,7 @@
     },
     "belauschen": {
         "perfekt": "belauscht",
-        "prateritum": "belauschte"
+        "prateritum": "belauschte bei"
     },
     "beleuchten": {
         "perfekt": "beleuchtet",
@@ -473,7 +473,7 @@
     },
     "beschleunigen": {
         "perfekt": "beschleunigt",
-        "prateritum": "beschleunigte"
+        "prateritum": "beschleunigte bei"
     },
     "beschließen": {
         "perfekt": "beschlossen",
@@ -496,8 +496,8 @@
         "prateritum": "beschützte"
     },
     "beschweren": {
-        "perfekt": "beschwerten",
-        "prateritum": "beschwerte"
+        "perfekt": "beschwert",
+        "prateritum": "beschwerte bei"
     },
     "beißen": {
         "perfekt": "gebissen",
@@ -513,7 +513,7 @@
     },
     "berechnen": {
         "perfekt": "berechnet",
-        "prateritum": "berechnete"
+        "prateritum": "berechnete bei"
     },
     "bereiten": {
         "perfekt": "bereitet",
@@ -537,7 +537,7 @@
     },
     "beten": {
         "perfekt": "gebetet",
-        "prateritum": "betete"
+        "prateritum": "betete bei"
     },
     "betrachten": {
         "perfekt": "betrachtet",
@@ -561,7 +561,7 @@
     },
     "beweisen": {
         "perfekt": "bewiesen",
-        "prateritum": "bewies"
+        "prateritum": "bewies bei"
     },
     "bewerten": {
         "perfekt": "bewertet",
@@ -581,11 +581,11 @@
     },
     "blicken": {
         "perfekt": "geblickt",
-        "prateritum": "blickte"
+        "prateritum": "blickte bei"
     },
     "blinken": {
         "perfekt": "geblinkt",
-        "prateritum": "blinkte"
+        "prateritum": "blinkte bei"
     },
     "blühen": {
         "perfekt": "geblüht",
@@ -593,23 +593,23 @@
     },
     "bluten": {
         "perfekt": "geblutet",
-        "prateritum": "blutete"
+        "prateritum": "blutete bei"
     },
     "bohren": {
         "perfekt": "gebohrt",
-        "prateritum": "bohrte"
+        "prateritum": "bohrte bei"
     },
     "borgen": {
-        "perfekt": "geborgt",
-        "prateritum": "borgte"
+        "perfekt": "geborgen",
+        "prateritum": "borg bei"
     },
     "brauchen": {
         "perfekt": "gebraucht",
-        "prateritum": "brauchte"
+        "prateritum": "brauchte bei"
     },
     "brechen": {
         "perfekt": "gebrochen",
-        "prateritum": "brach"
+        "prateritum": "brach bei"
     },
     "brauen": {
         "perfekt": "gebraut",
@@ -621,7 +621,7 @@
     },
     "brüllen": {
         "perfekt": "gebrüllt",
-        "prateritum": "brüllte"
+        "prateritum": "brüllte bei"
     },
     "buchstabieren": {
         "perfekt": "buchstabiert",
@@ -629,11 +629,11 @@
     },
     "buchen": {
         "perfekt": "gebucht",
-        "prateritum": "buchte"
+        "prateritum": "buchte bei"
     },
     "bummeln": {
         "perfekt": "gebummelt",
-        "prateritum": "bummelte"
+        "prateritum": "bummelte bei"
     },
     "bürgen": {
         "perfekt": "gebürgt",
@@ -684,8 +684,8 @@
         "prateritum": "begünstigte"
     },
     "beharren": {
-        "perfekt": "beharrt",
-        "prateritum": "beharrte"
+        "perfekt": "beharret",
+        "prateritum": "beharret"
     },
     "behindern": {
         "perfekt": "behindert",
@@ -697,7 +697,7 @@
     },
     "besänftigen": {
         "perfekt": "besänftigt",
-        "prateritum": "besänftigte"
+        "prateritum": "besänftigte bei"
     },
     "bestätigen": {
         "perfekt": "bestätigt",
@@ -837,7 +837,7 @@
     },
     "bekehren": {
         "perfekt": "bekehrt",
-        "prateritum": "bekehrte"
+        "prateritum": "bekehrte bei"
     },
     "bellen": {
         "perfekt": "gebellt",
@@ -885,15 +885,15 @@
     },
     "beschmieren": {
         "perfekt": "beschmiert",
-        "prateritum": "beschmierte"
+        "prateritum": "beschmierte bei"
     },
     "beschmutzen": {
         "perfekt": "beschmutzt",
-        "prateritum": "beschmutzte"
+        "prateritum": "beschmutzte bei"
     },
     "beschneiden": {
         "perfekt": "beschnitten",
-        "prateritum": "beschnitt"
+        "prateritum": "beschnitt bei"
     },
     "beschwichtigen": {
         "perfekt": "beschwichtigt",
@@ -905,7 +905,7 @@
     },
     "besiedeln": {
         "perfekt": "besiedelt",
-        "prateritum": "besiedelte"
+        "prateritum": "besiedelte bei"
     },
     "besingen": {
         "perfekt": "besungen",
@@ -981,7 +981,7 @@
     },
     "bezaubern": {
         "perfekt": "bezaubert",
-        "prateritum": "bezauberte"
+        "prateritum": "bezauberte bei"
     },
     "bezeichnen": {
         "perfekt": "bezeichnet",
@@ -996,16 +996,16 @@
         "prateritum": "bildete"
     },
     "billigen": {
-        "perfekt": "gebilligt",
-        "prateritum": "billigte"
+        "perfekt": "billigt",
+        "prateritum": "billigte bei"
     },
     "blaffen": {
-        "perfekt": "gebläfft",
-        "prateritum": "bläffte"
+        "perfekt": "gebellt",
+        "prateritum": "bellte bei"
     },
     "blanken": {
-        "perfekt": "geblankt",
-        "prateritum": "blankte"
+        "perfekt": "geblinkt",
+        "prateritum": "blinkte bei"
     },
     "bleichen": {
         "perfekt": "gebleicht",
@@ -1021,15 +1021,15 @@
     },
     "bolzen": {
         "perfekt": "gebolzt",
-        "prateritum": "bolzte"
+        "prateritum": "bolzte bei"
     },
     "bombardieren": {
         "perfekt": "bombardiert",
-        "prateritum": "bombardierte"
+        "prateritum": "bombardierte bei"
     },
     "boxen": {
         "perfekt": "geboxt",
-        "prateritum": "boxte"
+        "prateritum": "boxte bei"
     },
     "brodeln": {
         "perfekt": "gebrodelt",
@@ -1041,7 +1041,7 @@
     },
     "buddeln": {
         "perfekt": "gebuddelt",
-        "prateritum": "buddelte"
+        "prateritum": "buddelte bei"
     },
     "bugsieren": {
         "perfekt": "bugsiert",
@@ -1049,7 +1049,7 @@
     },
     "buttern": {
         "perfekt": "gebuttert",
-        "prateritum": "butterte"
+        "prateritum": "butterte bei"
     },
     "bändigen": {
         "perfekt": "gebändigt",
@@ -1101,7 +1101,7 @@
     },
     "bereitstellen": {
         "perfekt": "bereitgestellt",
-        "prateritum": "bereitstellte"
+        "prateritum": "stellte bereit"
     },
     "beriechen": {
         "perfekt": "beriechen",
@@ -1133,11 +1133,11 @@
     },
     "bespritzen": {
         "perfekt": "bespritzt",
-        "prateritum": "bespritzte"
+        "prateritum": "bespritzte bei"
     },
     "bestechen": {
         "perfekt": "bestochen",
-        "prateritum": "bestach"
+        "prateritum": "bestach bei"
     },
     "baldern": {
         "perfekt": "gebaldert",
@@ -1171,8 +1171,660 @@
         "perfekt": "bezogen",
         "prateritum": "bezog"
     },
-    "dankbar sein": {
-        "perfekt": "gedankt",
-        "prateritum": "dankte"
+    "beifügen": {
+        "perfekt": "beigefügt",
+        "prateritum": "fügte bei"
+    },
+    "beikommen": {
+        "perfekt": "beigekommen",
+        "prateritum": "kam bei"
+    },
+    "beifallen": {
+        "perfekt": "beigefallen",
+        "prateritum": "gefiel bei"
+    },
+    "beimengen": {
+        "perfekt": "beigemengt",
+        "prateritum": "mengte bei"
+    },
+    "beisammenbleiben": {
+        "perfekt": "beisammengeblieben",
+        "prateritum": "blieb bei"
+    },
+    "beistehen": {
+        "perfekt": "beigestanden",
+        "prateritum": "stand bei"
+    },
+    "beitragen": {
+        "perfekt": "beigetragen",
+        "prateritum": "trug bei"
+    },
+    "beschleichen": {
+        "perfekt": "beschlichen",
+        "prateritum": "schlich bei"
+    },
+    "beschleifen": {
+        "perfekt": "beschliffen",
+        "prateritum": "schliff bei"
+    },
+    "beschlucken": {
+        "perfekt": "beschluckt",
+        "prateritum": "schluckte bei"
+    },
+    "beschlüpfen": {
+        "perfekt": "beschlupft",
+        "prateritum": "schlüpfte bei"
+    },
+    "beschlüsseln": {
+        "perfekt": "beschlüsselt",
+        "prateritum": "beschlüsselte bei"
+    },
+    "beschmusen": {
+        "perfekt": "beschmust",
+        "prateritum": "beschmuste bei"
+    },
+    "beschnuppern": {
+        "perfekt": "beschnuppert",
+        "prateritum": "beschnupperte bei"
+    },
+    "beschrauben": {
+        "perfekt": "beschraubt",
+        "prateritum": "beschraubte bei"
+    },
+    "beschreien": {
+        "perfekt": "beschrien",
+        "prateritum": "beschrie bei"
+    },
+    "beschreiten": {
+        "perfekt": "beschritten",
+        "prateritum": "beschritt bei"
+    },
+    "beschrumpfen": {
+        "perfekt": "beschrumpft",
+        "prateritum": "beschrumpfte bei"
+    },
+    "beschubsen": {
+        "perfekt": "beschubst",
+        "prateritum": "beschubste bei"
+    },
+    "beschummeln": {
+        "perfekt": "beschummelt",
+        "prateritum": "beschummelte bei"
+    },
+    "beschwatzen": {
+        "perfekt": "beschwatzet",
+        "prateritum": "beschwatzete bei"
+    },
+    "beschwindeln": {
+        "perfekt": "beschwunden",
+        "prateritum": "beschwand bei"
+    },
+    "beschwingen": {
+        "perfekt": "beschwungen",
+        "prateritum": "beschwang bei"
+    },
+    "beschwitzen": {
+        "perfekt": "beschwitzt",
+        "prateritum": "beschwitzte bei"
+    },
+    "beseeichnen": {
+        "perfekt": "beseeichnet",
+        "prateritum": "beseeichnete bei"
+    },
+    "besäen": {
+        "perfekt": "beseet",
+        "prateritum": "beseete bei"
+    },
+    "beseelen": {
+        "perfekt": "beseelt",
+        "prateritum": "beseelte bei"
+    },
+    "beseitigen": {
+        "perfekt": "beseitigt",
+        "prateritum": "beseitigte"
+    },
+    "beseligen": {
+        "perfekt": "beseligt",
+        "prateritum": "beseligte bei"
+    },
+    "besessen": {
+        "perfekt": "besessen",
+        "prateritum": "besaß bei"
+    },
+    "beseufzen": {
+        "perfekt": "beseufzt",
+        "prateritum": "beseufzte bei"
+    },
+    "bespaßen": {
+        "perfekt": "bespaßt",
+        "prateritum": "bespaßte bei"
+    },
+    "bespeien": {
+        "perfekt": "bespien",
+        "prateritum": "bespie bei"
+    },
+    "bespenden": {
+        "perfekt": "bespendet",
+        "prateritum": "bespendete bei"
+    },
+    "beigeben": {
+        "perfekt": "beigegeben",
+        "prateritum": "gab bei"
+    },
+    "beieinanderliegen": {
+        "perfekt": "beieinandergelegen",
+        "prateritum": "lagen bei"
+    },
+    "beisammenstehen": {
+        "perfekt": "beisammengestanden",
+        "prateritum": "stand bei"
+    },
+    "beiseitelegen": {
+        "perfekt": "beiseitegelegt",
+        "prateritum": "legte beiseite"
+    },
+    "beispringen": {
+        "perfekt": "beigesprungen",
+        "prateritum": "sprang bei"
+    },
+    "beiwachsen": {
+        "perfekt": "beigewachsen",
+        "prateritum": "wuchs bei"
+    },
+    "beiziehen": {
+        "perfekt": "beigezogen",
+        "prateritum": "zog bei"
+    },
+    "bezichtigen": {
+        "perfekt": "bezichtigt",
+        "prateritum": "bezichtigte"
+    },
+    "bezwingen": {
+        "perfekt": "bezwungen",
+        "prateritum": "besiegte bei"
+    },
+    "bekräftigen": {
+        "perfekt": "bekräftigt",
+        "prateritum": "bekräftigte"
+    },
+    "bemängeln": {
+        "perfekt": "bemängelt",
+        "prateritum": "bemängelte"
+    },
+    "benehmen": {
+        "perfekt": "benommen",
+        "prateritum": "benahm bei"
+    },
+    "beteiligen": {
+        "perfekt": "beteiligt",
+        "prateritum": "beteiligte bei"
+    },
+    "bewähren": {
+        "perfekt": "bewährt",
+        "prateritum": "bewährte bei"
+    },
+    "beiarbeiten": {
+        "perfekt": "bearbeitet",
+        "prateritum": "bearbeitete"
+    },
+    "beisteuern": {
+        "perfekt": "beigesteuert",
+        "prateritum": "steuerte bei"
+    },
+    "beiwirken": {
+        "perfekt": "beigewirkt",
+        "prateritum": "wirkte bei"
+    },
+    "bespicken": {
+        "perfekt": "bespickt",
+        "prateritum": "bespickte bei"
+    },
+    "bespiegeln": {
+        "perfekt": "bespiegelt",
+        "prateritum": "bespiegelte bei"
+    },
+    "bespitzen": {
+        "perfekt": "bespitzt",
+        "prateritum": "bespitzte bei"
+    },
+    "bessen": {
+        "perfekt": "bessen",
+        "prateritum": "bes bei"
+    },
+    "besteigen": {
+        "perfekt": "bestiegen",
+        "prateritum": "bestieg bei"
+    },
+    "besteuern": {
+        "perfekt": "besteuert",
+        "prateritum": "besteuerte bei"
+    },
+    "besticken": {
+        "perfekt": "bestickt",
+        "prateritum": "bestickte bei"
+    },
+    "bestiefeln": {
+        "perfekt": "bestiefelt",
+        "prateritum": "bestiefelte bei"
+    },
+    "bestreben": {
+        "perfekt": "bestrebt",
+        "prateritum": "bestrebte bei"
+    },
+    "bestreichen": {
+        "perfekt": "bestrichen",
+        "prateritum": "strich bei"
+    },
+    "bestücken": {
+        "perfekt": "bestückt",
+        "prateritum": "bestückte bei"
+    },
+    "betasten": {
+        "perfekt": "beteastet",
+        "prateritum": "betastete bei"
+    },
+    "betiteln": {
+        "perfekt": "betitelt",
+        "prateritum": "betitelte bei"
+    },
+    "betrauern": {
+        "perfekt": "beträuert",
+        "prateritum": "beträuerte bei"
+    },
+    "betten": {
+        "perfekt": "gebetet",
+        "prateritum": "bettete bei"
+    },
+    "bettigen": {
+        "perfekt": "betätigt",
+        "prateritum": "betätigte bei"
+    },
+    "beurkunden": {
+        "perfekt": "beurkundet",
+        "prateritum": "beurkundete bei"
+    },
+    "beurlauben": {
+        "perfekt": "beurlaubt",
+        "prateritum": "beurlaubte bei"
+    },
+    "beuteln": {
+        "perfekt": "beutelt",
+        "prateritum": "beutelte bei"
+    },
+    "bewahrheiten": {
+        "perfekt": "bewahrheitet",
+        "prateritum": "bewahrheitete bei"
+    },
+    "bewältigen": {
+        "perfekt": "bewältigt",
+        "prateritum": "bewältigte bei"
+    },
+    "bewässern": {
+        "perfekt": "bewässert",
+        "prateritum": "bewässerte bei"
+    },
+    "beweiden": {
+        "perfekt": "beweidet",
+        "prateritum": "beweidete bei"
+    },
+    "bewerben": {
+        "perfekt": "beworben",
+        "prateritum": "bewarb"
+    },
+    "bewirten": {
+        "perfekt": "bewirtet",
+        "prateritum": "bewirtete bei"
+    },
+    "bewölkern": {
+        "perfekt": "bewölkt",
+        "prateritum": "bewölkerte bei"
+    },
+    "bewürdigen": {
+        "perfekt": "bewürdigt",
+        "prateritum": "bewürdigte bei"
+    },
+    "bezähmen": {
+        "perfekt": "bezähmt",
+        "prateritum": "zähmte bei"
+    },
+    "bibbern": {
+        "perfekt": "gebibbert",
+        "prateritum": "bibberte"
+    },
+    "bippen": {
+        "perfekt": "gekippt",
+        "prateritum": "kipp bei"
+    },
+    "bittern": {
+        "perfekt": "gebitzert",
+        "prateritum": "bitzerte bei"
+    },
+    "blamieren": {
+        "perfekt": "blamiert",
+        "prateritum": "blamierte bei"
+    },
+    "blechen": {
+        "perfekt": "gebliecht",
+        "prateritum": "blich bei"
+    },
+    "blocken": {
+        "perfekt": "geblockt",
+        "prateritum": "blockte bei"
+    },
+    "bogen": {
+        "perfekt": "gebogen",
+        "prateritum": "bog bei"
+    },
+    "bordieren": {
+        "perfekt": "bordiert",
+        "prateritum": "bordierte bei"
+    },
+    "boren": {
+        "perfekt": "gebohrt",
+        "prateritum": "bohrte bei"
+    },
+    "borken": {
+        "perfekt": "geborsten",
+        "prateritum": "barst bei"
+    },
+    "bouldern": {
+        "perfekt": "gebouldert",
+        "prateritum": "boulderte bei"
+    },
+    "bräunen": {
+        "perfekt": "gebräunt",
+        "prateritum": "bräunte bei"
+    },
+    "briefen": {
+        "perfekt": "gebrieft",
+        "prateritum": "briefte bei"
+    },
+    "brillieren": {
+        "perfekt": "brilliert",
+        "prateritum": "brillierte bei"
+    },
+    "bröckeln": {
+        "perfekt": "gebröckelt",
+        "prateritum": "bröckelte bei"
+    },
+    "buckeln": {
+        "perfekt": "gebuckelt",
+        "prateritum": "buckelte bei"
+    },
+    "budern": {
+        "perfekt": "gebuht",
+        "prateritum": "buh bei"
+    },
+    "büffeln": {
+        "perfekt": "gebüffelt",
+        "prateritum": "büffelte bei"
+    },
+    "bügeln": {
+        "perfekt": "gebügelt",
+        "prateritum": "bügelte bei"
+    },
+    "bühnen": {
+        "perfekt": "gebühnt",
+        "prateritum": "buh bei"
+    },
+    "bukkantieren": {
+        "perfekt": "gebukkantiert",
+        "prateritum": "bukkantierte bei"
+    },
+    "büßen": {
+        "perfekt": "gebüßt",
+        "prateritum": "büßte bei"
+    },
+    "bullern": {
+        "perfekt": "gebullert",
+        "prateritum": "bullerte bei"
+    },
+    "bumerangieren": {
+        "perfekt": "gebumerangiert",
+        "prateritum": "bumerangierte bei"
+    },
+    "bunkern": {
+        "perfekt": "gebunkert",
+        "prateritum": "bunkerte bei"
+    },
+    "bußen": {
+        "perfekt": "gebüßt",
+        "prateritum": "büßte bei"
+    },
+    "busseln": {
+        "perfekt": "gebusselt",
+        "prateritum": "busselte bei"
+    },
+    "buzzerieren": {
+        "perfekt": "gebuzzeriert",
+        "prateritum": "buzzerierte bei"
+    },
+    "byzantinieren": {
+        "perfekt": "gebyzantiniert",
+        "prateritum": "byzantinierte bei"
+    },
+    "blenden": {
+        "perfekt": "geblendet",
+        "prateritum": "blendete bei"
+    },
+    "beigeistern": {
+        "perfekt": "beigeistert",
+        "prateritum": "begeisterte"
+    },
+    "beisitzen": {
+        "perfekt": "beigesessen",
+        "prateritum": "saß bei"
+    },
+    "beispielen": {
+        "perfekt": "beispielt",
+        "prateritum": "beispielte"
+    },
+    "beizuwohnen": {
+        "perfekt": "beigewohnt",
+        "prateritum": "wohnte bei"
+    },
+    "berichtigen": {
+        "perfekt": "berichtigt",
+        "prateritum": "berichtete"
+    },
+    "berieseln": {
+        "perfekt": "berieselt",
+        "prateritum": "berieselte"
+    },
+    "beschicken": {
+        "perfekt": "beschickt",
+        "prateritum": "beschickte"
+    },
+    "beseeeln": {
+        "perfekt": "beseelt",
+        "prateritum": "beseelte"
+    },
+    "besonderheit": {
+        "perfekt": "besonderheiten",
+        "prateritum": "besonderheit"
+    },
+    "bevorzugen": {
+        "perfekt": "bevorzugt",
+        "prateritum": "bevorzugte"
+    },
+    "belachen": {
+        "perfekt": "belacht",
+        "prateritum": "belachte"
+    },
+    "belichten": {
+        "perfekt": "belichtet",
+        "prateritum": "belichtete"
+    },
+    "begeistern": {
+        "perfekt": "begeistert",
+        "prateritum": "begeisterte"
+    },
+    "beiwohnen": {
+        "perfekt": "beigewohnt",
+        "prateritum": "wohnte bei"
+    },
+    "beibehalten": {
+        "perfekt": "beibehalten",
+        "prateritum": "behielt bei"
+    },
+    "beigehen": {
+        "perfekt": "beigegangen",
+        "prateritum": "ging bei"
+    },
+    "beihalten": {
+        "perfekt": "beigehalten",
+        "prateritum": "hielt bei"
+    },
+    "beiladen": {
+        "perfekt": "beigeladen",
+        "prateritum": "lud bei"
+    },
+    "beimischen": {
+        "perfekt": "beigemischt",
+        "prateritum": "mischte bei"
+    },
+    "beinahekommen": {
+        "perfekt": "beinahegekommen",
+        "prateritum": "kam beinahe"
+    },
+    "beinhaben": {
+        "perfekt": "beingehabt",
+        "prateritum": "hatte bei"
+    },
+    "beiräumen": {
+        "perfekt": "beigeräumt",
+        "prateritum": "räumte bei"
+    },
+    "beireden": {
+        "perfekt": "beigeredet",
+        "prateritum": "redete bei"
+    },
+    "beirufen": {
+        "perfekt": "beigerufen",
+        "prateritum": "rief bei"
+    },
+    "beischlafen": {
+        "perfekt": "beigeschlafen",
+        "prateritum": "schlief bei"
+    },
+    "beischließen": {
+        "perfekt": "beigeschlossen",
+        "prateritum": "schloss bei"
+    },
+    "beischreiben": {
+        "perfekt": "beigeschrieben",
+        "prateritum": "schrieb bei"
+    },
+    "beisellen": {
+        "perfekt": "beigesellt",
+        "prateritum": "sellte bei"
+    },
+    "beistellen": {
+        "perfekt": "beigestellt",
+        "prateritum": "stellte bei"
+    },
+    "beistimmen": {
+        "perfekt": "beigestimmt",
+        "prateritum": "stimmte bei"
+    },
+    "beistrafen": {
+        "perfekt": "beigestraft",
+        "prateritum": "strafte bei"
+    },
+    "beistreichen": {
+        "perfekt": "beigestreicht",
+        "prateritum": "strich bei"
+    },
+    "beistützen": {
+        "perfekt": "beigestützt",
+        "prateritum": "stützte bei"
+    },
+    "beifahren": {
+        "perfekt": "beigefahren",
+        "prateritum": "fuhr bei"
+    },
+    "bekunden": {
+        "perfekt": "bekundet",
+        "prateritum": "bekundete"
+    },
+    "bekümmern": {
+        "perfekt": "bekümmert",
+        "prateritum": "bekümmerte"
+    },
+    "bemannen": {
+        "perfekt": "bemannt",
+        "prateritum": "bemannte"
+    },
+    "benachteiligen": {
+        "perfekt": "benachteiligt",
+        "prateritum": "benachteiligte"
+    },
+    "beordern": {
+        "perfekt": "beordert",
+        "prateritum": "beorderte"
+    },
+    "bepflanzen": {
+        "perfekt": "bepflanzt",
+        "prateritum": "bepflanzte"
+    },
+    "beizen": {
+        "perfekt": "beizt",
+        "prateritum": "beizte"
+    },
+    "beizeiten": {
+        "perfekt": "beizeitigt",
+        "prateritum": "bezeitigte"
+    },
+    "bezirzen": {
+        "perfekt": "bezirzt",
+        "prateritum": "bezirzte"
+    },
+    "bejubeln": {
+        "perfekt": "bejubelt",
+        "prateritum": "bejubelte"
+    },
+    "bescheißen": {
+        "perfekt": "beschissen",
+        "prateritum": "beschiss"
+    },
+    "bevorteilen": {
+        "perfekt": "bevorteilt",
+        "prateritum": "bevorteilte"
+    },
+    "bewilligen": {
+        "perfekt": "bewilligt",
+        "prateritum": "bewilligte"
+    },
+    "bewusstmachen": {
+        "perfekt": "bewusstgemacht",
+        "prateritum": "machte bewusst"
+    },
+    "beiseitelassen": {
+        "perfekt": "beiseitegelassen",
+        "prateritum": "ließ beiseite"
+    },
+    "beiseitenehmen": {
+        "perfekt": "beiseitengenommen",
+        "prateritum": "nahm beiseite"
+    },
+    "beisteigen": {
+        "perfekt": "beigestiegen",
+        "prateritum": "stieg bei"
+    },
+    "beitreiben": {
+        "perfekt": "beigetrieben",
+        "prateritum": "trieb bei"
+    },
+    "beitrinken": {
+        "perfekt": "beigetrunken",
+        "prateritum": "trank bei"
+    },
+    "beiraten": {
+        "perfekt": "beiraten",
+        "prateritum": "beiratete"
+    },
+    "beistreiten": {
+        "perfekt": "beigestreitet",
+        "prateritum": "stritt bei"
     }
 }

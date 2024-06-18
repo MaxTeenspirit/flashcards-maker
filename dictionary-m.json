@@ -276,8 +276,8 @@
         "prateritum": "kam mit"
     },
     "mitkriegen": {
-        "perfekt": "mitgekriegt",
-        "prateritum": "kriegte mit"
+        "perfekt": "mitbekommen",
+        "prateritum": "bekam mit"
     },
     "mitküssen": {
         "perfekt": "mitgeküsst",
@@ -332,11 +332,11 @@
         "prateritum": "soff mit"
     },
     "mitschwimmen": {
-        "perfekt": "mitgeschwommen",
+        "perfekt": "mitschwommen",
         "prateritum": "schwamm mit"
     },
     "mitsingen": {
-        "perfekt": "mitgesungen",
+        "perfekt": "mitsingen",
         "prateritum": "sang mit"
     },
     "mitsitzen": {
@@ -1136,7 +1136,7 @@
         "prateritum": "schrieb mit"
     },
     "mitschwingen": {
-        "perfekt": "mitschwungen",
+        "perfekt": "mitgeschwungen",
         "prateritum": "schwang mit"
     },
     "mitsenken": {
@@ -1170,5 +1170,165 @@
     "mitzuvollziehen": {
         "perfekt": "mitvollzogen",
         "prateritum": "vollzog mit"
+    },
+    "mitbieten": {
+        "perfekt": "mitgeboten",
+        "prateritum": "bot mit"
+    },
+    "mitschmuggeln": {
+        "perfekt": "mitschmuggelt",
+        "prateritum": "schmuggelte mit"
+    },
+    "mitverantworten": {
+        "perfekt": "mitverantwortet",
+        "prateritum": "verantwortete mit"
+    },
+    "mitsenden": {
+        "perfekt": "mitgesendet",
+        "prateritum": "sandte mit"
+    },
+    "mitverdienen": {
+        "perfekt": "mitverdient",
+        "prateritum": "verdiente mit"
+    },
+    "mitbegründen": {
+        "perfekt": "mitbegründet",
+        "prateritum": "begründete mit"
+    },
+    "mitfiebern": {
+        "perfekt": "mitgefiebert",
+        "prateritum": "fieberte mit"
+    },
+    "mitsuchen": {
+        "perfekt": "mitsuchte",
+        "prateritum": "suchte mit"
+    },
+    "mitzocken": {
+        "perfekt": "mitgezockt",
+        "prateritum": "zockte mit"
+    },
+    "mithelfen": {
+        "perfekt": "mithelfen",
+        "prateritum": "half mit"
+    },
+    "mitführen": {
+        "perfekt": "mitgeführt",
+        "prateritum": "führte mit"
+    },
+    "mitorganisieren": {
+        "perfekt": "mitorganisiert",
+        "prateritum": "organisierte mit"
+    },
+    "mittrainieren": {
+        "perfekt": "mittrainiert",
+        "prateritum": "trainierte mit"
+    },
+    "mitbasteln": {
+        "perfekt": "mitgebastelt",
+        "prateritum": "bastelte mit"
+    },
+    "mitschauen": {
+        "perfekt": "mitschaut",
+        "prateritum": "schaut mit"
+    },
+    "mitanführen": {
+        "perfekt": "mitangeführt",
+        "prateritum": "führte mit an"
+    },
+    "mitdrehen": {
+        "perfekt": "mitgedreht",
+        "prateritum": "drehte mit"
+    },
+    "mitvoten": {
+        "perfekt": "mitgevotet",
+        "prateritum": "votete mit"
+    },
+    "mitverhandeln": {
+        "perfekt": "mitverhandelt",
+        "prateritum": "verhandelte mit"
+    },
+    "mitbegeistern": {
+        "perfekt": "mitbegeistert",
+        "prateritum": "begeisterte mit"
+    },
+    "mitraten": {
+        "perfekt": "mitgeraten",
+        "prateritum": "riet mit"
+    },
+    "mitbetreuen": {
+        "perfekt": "mitbetreut",
+        "prateritum": "betreute mit"
+    },
+    "mitgrübeln": {
+        "perfekt": "mitgegrübelt",
+        "prateritum": "grübelte mit"
+    },
+    "mitbeten": {
+        "perfekt": "mitgebetet",
+        "prateritum": "betete mit"
+    },
+    "mitwarten": {
+        "perfekt": "mitgewartet",
+        "prateritum": "wartete mit"
+    },
+    "mitduschen": {
+        "perfekt": "mitgeduscht",
+        "prateritum": "duschte mit"
+    },
+    "mitunterzeichnen": {
+        "perfekt": "mitunterzeichnet",
+        "prateritum": "unterzeichnete mit"
+    },
+    "mitfließen": {
+        "perfekt": "mitgeflossen",
+        "prateritum": "floss mit"
+    },
+    "mitjubeln": {
+        "perfekt": "mitgejubelt",
+        "prateritum": "jubelte mit"
+    },
+    "mitstudieren": {
+        "perfekt": "mitstudiert",
+        "prateritum": "studierte mit"
+    },
+    "mitbaden": {
+        "perfekt": "mitgebadet",
+        "prateritum": "badete mit"
+    },
+    "mitbacken": {
+        "perfekt": "mitgebacken",
+        "prateritum": "buk mit"
+    },
+    "mitbeleben": {
+        "perfekt": "miterlebt",
+        "prateritum": "erlebte mit"
+    },
+    "mitbestellen": {
+        "perfekt": "mitbestellt",
+        "prateritum": "bestellte mit"
+    },
+    "mitbilden": {
+        "perfekt": "mitgebildet",
+        "prateritum": "bildete mit"
+    },
+    "mitentwickeln": {
+        "perfekt": "mitentwickelt",
+        "prateritum": "entwickelte mit"
+    },
+    "mitmalen": {
+        "perfekt": "mitgemalt",
+        "prateritum": "malte mit"
+    },
+    "mitzaubern": {
+        "perfekt": "mitgezaubert",
+        "prateritum": "zauberte mit"
+    },
+    "mitsegeln": {
+        "perfekt": "mitgesegelt",
+        "prateritum": "segelte mit"
+    },
+    "mitversichern": {
+        "perfekt": "mitversichert",
+        "prateritum": "versicherte mit"
     }
 }
