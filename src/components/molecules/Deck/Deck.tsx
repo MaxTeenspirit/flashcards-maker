@@ -1,3 +1,4 @@
+import {memo} from 'react';
 import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery, useToast} from '@chakra-ui/react';
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
@@ -135,4 +136,4 @@ const Deck = ({deck}: IDeckProps) => {
 	);
 };
 
-export default Deck;
+export default memo(Deck);

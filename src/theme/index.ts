@@ -16,7 +16,7 @@ const components = {
 	Heading: {
 		baseStyle: {
 			color: '#20293C',
-			paddingBottom: ['1rem', '2rem', '3rem'],
+			paddingBottom: ['1rem', '1.5rem', '2rem'],
 			textAlign: 'center',
 			fontFamily: 'MRegular',
 		},

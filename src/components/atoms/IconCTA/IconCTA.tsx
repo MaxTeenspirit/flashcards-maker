@@ -39,7 +39,7 @@ const IconCTA = ({text, condition, iconName, margin, onClick}: IIconCTA) => {
 				transform={condition ? 'translate(0, -20px)' : 'translate(0, 0)'}
 				textAlign="center"
 				transition="transform 0.2s ease-in-out, opacity 0.2s ease-in-out"
-				color={isMobile ? '#20293C' : '#E0E0E0'}
+				color={isMobile ? '#142b49' : '#E0E0E0'}
 				padding={isMobile ? '15px 0 5px 24px' : ''}
 				fontSize={isMobile ? '1.4rem' : ''}
 			>

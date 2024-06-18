@@ -1,27 +1,35 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {Box, Heading, Link, Grid, GridItem} from '@chakra-ui/react';
-// import {useParams} from 'react-router-dom';
 import {useSelector} from 'react-redux';
-import {RootState} from '@redux';
 
+import {RootState} from '@redux';
+import {IDeck} from '@redux-types';
 import {NavLink, Pagination} from '@atoms';
 import {Deck} from '@molecules';
+import {Search} from '@organisms';
 
 const Decks = () => {
-	// const {deckId} = useParams();
 	const {decks} = useSelector((state: RootState) => state.decks);
 
 	const [currentPage, setCurrentPage] = useState(1);
+	const [decksToRender, setDecksToRender] = useState<IDeck[]>(decks);
+	const [searchValue, setSearchValue] = useState<string>('');
 
 	const isNoDecks = !decks || !decks.length;
 	const itemsPerPage = 6;
 	const totalPages = Math.ceil(decks.length / itemsPerPage);
 	const startIndex = (currentPage - 1) * itemsPerPage;
-	const currentDecks = decks.slice(startIndex, startIndex + itemsPerPage);
+	const currentDecks = decksToRender.slice(startIndex, startIndex + itemsPerPage);
 
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page);
 	};
+
+	useEffect(() => {
+		if (!decksToRender?.length && decks?.length && !searchValue) {
+			setDecksToRender(decks);
+		}
+	}, [decksToRender, decks, searchValue]);
 
 	if (isNoDecks) {
 		return (
@@ -39,6 +47,21 @@ const Decks = () => {
 	return (
 		<Box>
 			<Heading as="h1">Стеки</Heading>
+			<Search
+				entities={decks}
+				entityType="deck"
+				searchValue={searchValue}
+				setDecks={setDecksToRender}
+				setSearchValue={setSearchValue}
+			/>
+
+			{searchValue && !decksToRender?.length && decks?.length ? (
+				<Box>
+					<Heading as="h2" size="h2" mt="4rem">
+						Немає такого стеку
+					</Heading>
+				</Box>
+			) : null}
 
 			<Grid
 				mb="2rem"

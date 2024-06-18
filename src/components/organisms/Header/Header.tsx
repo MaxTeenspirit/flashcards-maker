@@ -40,10 +40,9 @@ const Header = () => {
 			align="center"
 			justify="space-between"
 			padding={['1rem', '1rem 1.6rem']}
-			borderBottom="1px solid #ccc"
 			height={isScrolled && !isMobile ? ['70px', '90px', '120px'] : ['80px', '110px', '130px']}
 			color="#E0E0E0"
-			bg="#20293C"
+			bg="#142b49"
 			position="fixed"
 			width="100%"
 			zIndex={9}

@@ -101,12 +101,10 @@ const LearnCards = memo(({words, isTranslationFirst}: ILearnCards) => {
 	};
 
 	const handlePrevWord = () => {
-		// If previous word was marked as learned and user wants to see it again
 		if (lastLearnedWordRef?.current && prevIndexRef.current === lastLearnedWordRef?.current?.index) {
 			const {index: lastLearnedIndex, ...rest} = lastLearnedWordRef.current;
 			const newWordsToLearn = [...wordsToLearn];
 
-			// Add the previously learned word back to its original position
 			newWordsToLearn.splice(lastLearnedIndex, 0, rest);
 
 			setWordsToLearn(newWordsToLearn);
@@ -116,14 +114,13 @@ const LearnCards = memo(({words, isTranslationFirst}: ILearnCards) => {
 			return;
 		}
 
-		// Otherwise, simply set the index to the previous index
 		setIndex(prevIndexRef.current);
 	};
 
 	return (
 		<Box className={styles['learned']}>
 			<Box className={styles['learned__button']}>
-				<LearnButton icon={<CheckIcon />} text="Вивчив" handleClick={handleLearned} />
+				<LearnButton icon={<CheckIcon />} text="Вивчено" handleClick={handleLearned} />
 				<LearnButton
 					icon={<GiAnticlockwiseRotation size={20} />}
 					text="Попереднє"

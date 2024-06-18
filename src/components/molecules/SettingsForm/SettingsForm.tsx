@@ -26,7 +26,7 @@ const SettingsForm = () => {
 	return (
 		<Box
 			as="form"
-			p={7}
+			p="1.2rem"
 			borderWidth={1}
 			backgroundColor="#FFFEED"
 			borderColor="#979DA8"
@@ -37,7 +37,14 @@ const SettingsForm = () => {
 			<Stack spacing={2}>
 				<FormControl>
 					<Flex alignItems="center" mb="0.6rem">
-						<Switch isChecked={settings.perfekt} id="perfekt" {...register('perfekt')} />
+						<Switch
+							isChecked={settings.perfekt}
+							id="perfekt"
+							sx={{
+								'.chakra-switch__track[data-checked]:not([data-theme])': {backgroundColor: '#FDAC04'},
+							}}
+							{...register('perfekt')}
+						/>
 						<FormLabel htmlFor="perfekt" m="0 0 0 1rem" cursor="pointer">
 							Відображати Partizip II
 						</FormLabel>
@@ -45,7 +52,14 @@ const SettingsForm = () => {
 				</FormControl>
 				<FormControl>
 					<Flex alignItems="center">
-						<Switch isChecked={settings.prateritum} id="prateritum" {...register('prateritum')} />
+						<Switch
+							isChecked={settings.prateritum}
+							id="prateritum"
+							{...register('prateritum')}
+							sx={{
+								'.chakra-switch__track[data-checked]:not([data-theme])': {backgroundColor: '#FDAC04'},
+							}}
+						/>
 						<FormLabel htmlFor="prateritum" m="0 0 0 1rem" cursor="pointer">
 							Відображати Präteritum
 						</FormLabel>

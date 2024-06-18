@@ -17,7 +17,7 @@ export default defineConfig({
 				name: 'FlashFluent DE',
 				short_name: 'FlashFluent DE',
 				description: 'Flashcards to learn German words',
-				theme_color: '#20293C',
+				theme_color: '#142b49',
 				background_color: '#F7FCFF',
 				display: 'standalone',
 				start_url: '.',

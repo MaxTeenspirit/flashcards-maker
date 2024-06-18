@@ -24,9 +24,9 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 
 	const wordType = watch('wordType');
 
-	useEffect(() => {
-		setValue('plural', '=');
-	}, [setValue]);
+	const scrollToTop = () => {
+		window?.scrollTo({top: 0, behavior: 'smooth'});
+	};
 
 	useEffect(() => {
 		if (cardToEdit && isEdit) {
@@ -64,6 +64,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 			});
 
 			reset();
+			scrollToTop();
 		} else if (isEdit && cardToEdit) {
 			dispatch(editCard({...data, id: cardToEdit.id}));
 
@@ -86,6 +87,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 			});
 
 			reset();
+			scrollToTop();
 		}
 	};
 
@@ -126,7 +128,10 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 
 				<FormControl isRequired>
 					<FormLabel>Слово</FormLabel>
-					<Input {...register('word', {required: true})} />
+					<Input
+						{...register('word', {required: true})}
+						autoCapitalize={wordType === 'verb' || wordType === 'adjective' ? 'false' : 'true'}
+					/>
 				</FormControl>
 
 				{wordType === 'noun' && (
@@ -138,7 +143,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 
 				<FormControl isRequired>
 					<FormLabel>Переклад</FormLabel>
-					<Input {...register('translation', {required: true})} />
+					<Input {...register('translation', {required: true})} autoCapitalize="false" />
 				</FormControl>
 
 				<FormControl isRequired>

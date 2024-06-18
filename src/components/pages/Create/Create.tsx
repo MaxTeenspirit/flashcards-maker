@@ -45,6 +45,7 @@ const Create = ({isEdit}: {isEdit?: boolean}) => {
 							WebkitFocusRingColor: 'transparent',
 							outline: 'none',
 						}}
+						_selected={{bg: '#FDAC04', color: '#20293C'}}
 					>
 						Картку
 					</Tab>
@@ -54,6 +55,7 @@ const Create = ({isEdit}: {isEdit?: boolean}) => {
 							WebkitFocusRingColor: 'transparent',
 							outline: 'none',
 						}}
+						_selected={{bg: '#FDAC04', color: '#20293C'}}
 					>
 						Стек карток
 					</Tab>

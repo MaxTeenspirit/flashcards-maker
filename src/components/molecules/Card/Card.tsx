@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState, memo} from 'react';
 import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery} from '@chakra-ui/react';
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
@@ -54,12 +54,12 @@ const Card = ({card}: ICardProps) => {
 			minHeight={['4rem', '6rem']}
 		>
 			<CardHeader
-				p={card?.wordType === 'adjective' ? '0.5rem 1rem 1.3rem 0.5rem' : '0.5rem 1rem 0rem 0.5rem'}
+				p={'0.2rem 1rem 0rem 0.5rem'}
 				fontSize={['2rem', '1.2rem']}
 				whiteSpace={isMobile ? '' : 'nowrap'}
 			>
 				<Flex width="100%" alignItems="center" justifyContent="space-between">
-					<Heading textAlign="left" fontSize={['1.2rem', '1.4rem', '1.6rem']} paddingBottom="0.5rem">
+					<Heading textAlign="left" fontSize={['1.2rem', '1.4rem', '1.6rem']} paddingBottom="0">
 						{card?.wordType === 'noun' ? card.article + ' ' : ''}
 						{card.word} -{' '}
 						<Text textAlign="left" as="span">
@@ -88,11 +88,7 @@ const Card = ({card}: ICardProps) => {
 			</CardHeader>
 			{card?.wordType === 'noun' ? (
 				<CardBody flexGrow="initial" p="0rem 1rem 0rem 0.5rem" fontSize={['1.1rem', '1.2rem']}>
-					{card?.plural && card?.plural !== '-' ? (
-						<Text textAlign="left">{`die ${card.plural}`}</Text>
-					) : (
-						<Text textAlign="left">-</Text>
-					)}
+					{card?.plural && card?.plural !== '-' ? <Text textAlign="left">{`die ${card.plural}`}</Text> : null}
 				</CardBody>
 			) : null}
 			{card?.wordType === 'verb' ? (
@@ -119,4 +115,4 @@ const Card = ({card}: ICardProps) => {
 	);
 };
 
-export default Card;
+export default memo(Card);
