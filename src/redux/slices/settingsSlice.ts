@@ -3,8 +3,8 @@ import {createSlice} from '@reduxjs/toolkit';
 import {ISettingsInitialState} from '@redux-types';
 
 const initialState: ISettingsInitialState = {
-	perfekt: false,
-	prateritum: false,
+	perfekt: true,
+	prateritum: true,
 };
 
 export const settingsSlice = createSlice({
