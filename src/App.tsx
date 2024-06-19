@@ -1,15 +1,30 @@
 import {useEffect} from 'react';
-import {Outlet, useLocation} from 'react-router-dom';
+import {Outlet, useLocation, useNavigate} from 'react-router-dom';
 import {Box} from '@chakra-ui/react';
 
 import {Wrapper, Header} from '@organisms';
 
 function App() {
-	const {pathname} = useLocation();
+	const location = useLocation();
+	const navigate = useNavigate();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, [pathname]);
+	}, [location?.pathname]);
+
+	useEffect(() => {
+		const urlParams = new URLSearchParams(window.location.search);
+		const redirect = urlParams.get('redirect');
+
+		if (redirect && location.pathname !== redirect) {
+			urlParams.delete('redirect');
+			const newUrl = `${window.location.pathname}${urlParams.toString() ? '?' + urlParams.toString() : ''}${
+				window.location.hash
+			}`;
+			window.history.replaceState(null, '', newUrl);
+			navigate(redirect, {replace: true});
+		}
+	}, [navigate, location]);
 
 	return (
 		<Box position="relative" minHeight="100vh" bg="#F7FCFF">
