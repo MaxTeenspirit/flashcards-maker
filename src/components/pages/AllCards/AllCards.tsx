@@ -19,7 +19,7 @@ const AllCards = () => {
 	const isNoCards = !cards || !cards.length;
 
 	const itemsPerPage = isMobile ? 4 : 6;
-	const totalPages = Math.ceil(cards.length / itemsPerPage);
+	const totalPages = Math.ceil(cardsToRender.length / itemsPerPage);
 	const startIndex = (currentPage - 1) * itemsPerPage;
 	const currentCards = cardsToRender.slice(startIndex, startIndex + itemsPerPage);
 
