@@ -130,7 +130,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 					<FormLabel>Слово</FormLabel>
 					<Input
 						{...register('word', {required: true})}
-						autoCapitalize={wordType === 'verb' || wordType === 'adjective' ? 'false' : 'true'}
+						autoCapitalize={wordType === 'verb' || wordType === 'adjective' ? 'none' : 'on'}
 					/>
 				</FormControl>
 
@@ -143,7 +143,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 
 				<FormControl isRequired>
 					<FormLabel>Переклад</FormLabel>
-					<Input {...register('translation', {required: true})} autoCapitalize="false" />
+					<Input {...register('translation', {required: true})} autoCapitalize="none" />
 				</FormControl>
 
 				<FormControl isRequired>
