@@ -8,4 +8,5 @@ export interface ISearch {
 	entityType: 'card' | 'deck';
 	setCards?: Dispatch<React.SetStateAction<ICard[]>>;
 	setDecks?: Dispatch<React.SetStateAction<IDeck[]>>;
+	handlePageChange: (page: number) => void;
 }

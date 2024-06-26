@@ -1,9 +1,9 @@
-import {InputGroup, InputRightElement, Input} from '@chakra-ui/react';
-import {SearchIcon} from '@chakra-ui/icons';
+import {InputGroup, InputRightElement, Input, Button} from '@chakra-ui/react';
+import {SearchIcon, CloseIcon} from '@chakra-ui/icons';
 
 import {ISearchInput} from './ISearchInput.ts';
 
-const SearchInput = ({value, setValue, placeholder}: ISearchInput) => {
+const SearchInput = ({value, setValue, clearInput, placeholder}: ISearchInput) => {
 	return (
 		<InputGroup>
 			<Input
@@ -15,8 +15,14 @@ const SearchInput = ({value, setValue, placeholder}: ISearchInput) => {
 				type="text"
 				placeholder={placeholder}
 			/>
-			<InputRightElement pointerEvents="none">
-				<SearchIcon color="#20293C" />
+			<InputRightElement>
+				{!value ? (
+					<SearchIcon color="#20293C" />
+				) : (
+					<Button variant="unstyled" onClick={clearInput}>
+						<CloseIcon color="#20293C" />
+					</Button>
+				)}
 			</InputRightElement>
 		</InputGroup>
 	);

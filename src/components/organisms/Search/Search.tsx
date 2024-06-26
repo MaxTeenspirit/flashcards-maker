@@ -8,7 +8,7 @@ import {ICard, IDeck} from '@redux-types';
 import {useDebounce} from '../../../hooks';
 import {ISearch} from './ISearch';
 
-const Search = ({entities, setCards, setDecks, entityType, searchValue, setSearchValue}: ISearch) => {
+const Search = ({entities, setCards, setDecks, entityType, searchValue, setSearchValue, handlePageChange}: ISearch) => {
 	const debouncedSearchValue = useDebounce(searchValue, 500);
 
 	const search = useCallback(() => {
@@ -56,11 +56,17 @@ const Search = ({entities, setCards, setDecks, entityType, searchValue, setSearc
 		setSearchValue(event.target.value);
 	};
 
+	const clearInput = () => {
+		setSearchValue('');
+		setTimeout(() => handlePageChange(1), 500);
+	};
+
 	return (
 		<Box mb={['1rem', '2rem', '2rem']}>
 			<SearchInput
 				value={searchValue}
 				setValue={handleChange}
+				clearInput={clearInput}
 				placeholder={entityType === 'card' ? 'Пошук картки' : 'Пошук стеку'}
 			/>
 		</Box>

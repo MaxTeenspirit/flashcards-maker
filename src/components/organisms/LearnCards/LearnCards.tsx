@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef, memo} from 'react';
 import {AnimatePresence, useAnimation, useMotionValue, PanInfo} from 'framer-motion';
-import {Box, Text, useToast} from '@chakra-ui/react';
+import {Box, useToast} from '@chakra-ui/react';
 import {CheckIcon} from '@chakra-ui/icons';
 import {GiAnticlockwiseRotation} from 'react-icons/gi';
 

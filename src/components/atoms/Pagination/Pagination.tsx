@@ -3,7 +3,7 @@ import {ChevronLeftIcon, ChevronRightIcon} from '@chakra-ui/icons';
 
 import {IPagination} from './IPagination.ts';
 
-const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
+const Pagination = ({totalPages, currentPage, handlePageChange}: IPagination) => {
 	const visiblePages = [];
 	const totalVisiblePages = 5;
 	let startPage = Math.max(1, currentPage - Math.floor(totalVisiblePages / 2));
@@ -27,13 +27,13 @@ const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
 	const isFirstPage = currentPage === 1;
 	const isLastPage = currentPage === totalPages;
 
-	const handlePageChange = (page: number) => {
+	const handlePage = (page: number) => {
 		if (page >= 1 && page <= totalPages) {
 			window.scrollTo({
 				top: 0,
 				behavior: 'smooth',
 			});
-			onPageChange(page);
+			handlePageChange(page);
 		}
 	};
 
@@ -49,7 +49,7 @@ const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
 			/>
 			{startPage > 1 && (
 				<>
-					<Button variant="ghost" onClick={() => handlePageChange(1)}>
+					<Button variant="ghost" onClick={() => handlePage(1)}>
 						1
 					</Button>
 					<Button variant="unstyled" disabled>
@@ -61,7 +61,7 @@ const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
 				<Button
 					key={page}
 					variant={page === currentPage ? 'outline' : 'ghost'}
-					onClick={() => handlePageChange(page)}
+					onClick={() => handlePage(page)}
 				>
 					{page}
 				</Button>
@@ -71,14 +71,14 @@ const Pagination = ({totalPages, currentPage, onPageChange}: IPagination) => {
 					<Button variant="unstyled" disabled>
 						...
 					</Button>
-					<Button variant="ghost" onClick={() => handlePageChange(totalPages)}>
+					<Button variant="ghost" onClick={() => handlePage(totalPages)}>
 						{totalPages}
 					</Button>
 				</>
 			)}
 			<IconButton
 				icon={<ChevronRightIcon />}
-				onClick={() => handlePageChange(currentPage + 1)}
+				onClick={() => handlePage(currentPage + 1)}
 				disabled={isLastPage}
 				aria-label="Next Page"
 				variant="ghost"

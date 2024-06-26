@@ -58,6 +58,7 @@ const AllCards = () => {
 				entities={cards}
 				entityType="card"
 				setCards={setCardsToRender}
+				handlePageChange={handlePageChange}
 			/>
 
 			{searchValue && !cardsToRender?.length && cards?.length ? (
@@ -100,12 +101,15 @@ const AllCards = () => {
 					</Grid>
 				</motion.div>
 			)}
-			<SwipeTip
-				style={{marginBottom: '2rem', position: 'relative', display: 'flex'}}
-				text="Свайп для наступної сторінки"
-			/>
+
 			{cardsToRender?.length > itemsPerPage ? (
-				<Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
+				<>
+					<SwipeTip
+						style={{marginBottom: '2rem', position: 'relative', display: 'flex'}}
+						text="Свайп для наступної сторінки"
+					/>
+					<Pagination totalPages={totalPages} currentPage={currentPage} handlePageChange={handlePageChange} />
+				</>
 			) : null}
 		</Box>
 	);
