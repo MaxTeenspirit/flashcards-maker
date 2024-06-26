@@ -53,6 +53,7 @@ const Decks = () => {
 				searchValue={searchValue}
 				setDecks={setDecksToRender}
 				setSearchValue={setSearchValue}
+				handlePageChange={handlePageChange}
 			/>
 
 			{searchValue && !decksToRender?.length && decks?.length ? (
@@ -81,7 +82,7 @@ const Decks = () => {
 				))}
 			</Grid>
 			{decks?.length > itemsPerPage ? (
-				<Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
+				<Pagination totalPages={totalPages} currentPage={currentPage} handlePageChange={handlePageChange} />
 			) : null}
 		</Box>
 	);
