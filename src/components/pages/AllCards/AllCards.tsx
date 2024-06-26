@@ -104,10 +104,17 @@ const AllCards = () => {
 
 			{cardsToRender?.length > itemsPerPage ? (
 				<>
-					<SwipeTip
-						style={{marginBottom: '2rem', position: 'relative', display: 'flex', justifyContent: 'center'}}
-						text="Свайп для наступної сторінки"
-					/>
+					{!!isMobile && (
+						<SwipeTip
+							style={{
+								marginBottom: '2rem',
+								position: 'relative',
+								display: 'flex',
+								justifyContent: 'center',
+							}}
+							text="Свайп для наступної сторінки"
+						/>
+					)}
 					<Pagination totalPages={totalPages} currentPage={currentPage} handlePageChange={handlePageChange} />
 				</>
 			) : null}
