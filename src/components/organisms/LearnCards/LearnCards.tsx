@@ -2,11 +2,10 @@ import {useState, useEffect, useRef, memo} from 'react';
 import {AnimatePresence, useAnimation, useMotionValue, PanInfo} from 'framer-motion';
 import {Box, Text, useToast} from '@chakra-ui/react';
 import {CheckIcon} from '@chakra-ui/icons';
-import {MdOutlineSwipeRight, MdOutlineSwipeLeft} from 'react-icons/md';
 import {GiAnticlockwiseRotation} from 'react-icons/gi';
 
 import {MotionBox, LearnButton} from '@atoms';
-import {FlipCard} from '@molecules';
+import {FlipCard, SwipeTip} from '@molecules';
 import {getRandomIndexFromArray} from '@helpers';
 import {IWord} from '@redux-types';
 
@@ -127,11 +126,7 @@ const LearnCards = memo(({words, isTranslationFirst}: ILearnCards) => {
 					handleClick={handlePrevWord}
 				/>
 			</Box>
-			<Box className={styles['learned__tips']}>
-				<MdOutlineSwipeLeft size={30} />
-				<Text as="p">свайп для наступного слова</Text>
-				<MdOutlineSwipeRight size={30} />
-			</Box>
+			<SwipeTip style={{bottom: '5%'}} text="свайп для наступного слова" />
 			<AnimatePresence>
 				<MotionBox
 					animate={controls}

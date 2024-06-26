@@ -1,16 +1,16 @@
 import {useState, useEffect} from 'react';
 import {Box, Heading, Link, Grid, GridItem, useMediaQuery} from '@chakra-ui/react';
 import {useSelector} from 'react-redux';
+import {motion} from 'framer-motion';
 
 import {RootState} from '@redux';
 import {NavLink, Pagination} from '@atoms';
-import {Card} from '@molecules';
+import {Card, SwipeTip} from '@molecules';
 import {Search} from '@organisms';
 import {ICard} from '@redux-types';
 
 const AllCards = () => {
 	const [isMobile] = useMediaQuery('(max-width: 768px)');
-
 	const {cards} = useSelector((state: RootState) => state.cards);
 	const [currentPage, setCurrentPage] = useState(1);
 	const [cardsToRender, setCardsToRender] = useState<ICard[]>(cards);
@@ -50,7 +50,7 @@ const AllCards = () => {
 	}
 
 	return (
-		<Box>
+		<Box sx={{overflow: 'hidden'}}>
 			<Heading as="h1">Всі картки</Heading>
 			<Search
 				searchValue={searchValue}
@@ -69,24 +69,41 @@ const AllCards = () => {
 			) : null}
 
 			{!!currentCards?.length && (
-				<Grid
-					mb="2rem"
-					templateColumns={{
-						base: 'repeat(1, 1fr)',
-						sm: 'repeat(1, 1fr)',
-						md: 'repeat(1, 1fr)',
-						lg: 'repeat(2, 1fr)',
-						xl: 'repeat(2, 1fr)',
+				<motion.div
+					drag="x"
+					dragConstraints={{left: 0, right: 0}}
+					dragElastic={0.1}
+					onDragEnd={(_, info) => {
+						if (info.offset.x < -50 && currentPage < totalPages) {
+							handlePageChange(currentPage + 1);
+						} else if (info.offset.x > 50 && currentPage > 1) {
+							handlePageChange(currentPage - 1);
+						}
 					}}
-					gap={6}
 				>
-					{currentCards.map((card) => (
-						<GridItem key={card?.id || card?.word}>
-							<Card card={card} />
-						</GridItem>
-					))}
-				</Grid>
+					<Grid
+						mb="2rem"
+						templateColumns={{
+							base: 'repeat(1, 1fr)',
+							sm: 'repeat(1, 1fr)',
+							md: 'repeat(1, 1fr)',
+							lg: 'repeat(2, 1fr)',
+							xl: 'repeat(2, 1fr)',
+						}}
+						gap={6}
+					>
+						{currentCards.map((card) => (
+							<GridItem key={card?.id || card?.word}>
+								<Card card={card} />
+							</GridItem>
+						))}
+					</Grid>
+				</motion.div>
 			)}
+			<SwipeTip
+				style={{marginBottom: '2rem', position: 'relative', display: 'flex'}}
+				text="Свайп для наступної сторінки"
+			/>
 			{cardsToRender?.length > itemsPerPage ? (
 				<Pagination totalPages={totalPages} currentPage={currentPage} onPageChange={handlePageChange} />
 			) : null}
