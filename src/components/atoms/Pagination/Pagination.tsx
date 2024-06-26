@@ -1,11 +1,13 @@
 import {Button, Flex, IconButton} from '@chakra-ui/react';
 import {ChevronLeftIcon, ChevronRightIcon} from '@chakra-ui/icons';
 
+import styles from './Pagination.module.scss';
 import {IPagination} from './IPagination.ts';
 
 const Pagination = ({totalPages, currentPage, handlePageChange}: IPagination) => {
 	const visiblePages = [];
-	const totalVisiblePages = 5;
+	const totalVisiblePages = 3;
+
 	let startPage = Math.max(1, currentPage - Math.floor(totalVisiblePages / 2));
 	let endPage = Math.min(totalPages, startPage + totalVisiblePages - 1);
 
@@ -38,27 +40,37 @@ const Pagination = ({totalPages, currentPage, handlePageChange}: IPagination) =>
 	};
 
 	return (
-		<Flex justify="center" align="center" marginBottom="2rem">
+		<Flex
+			justify="center"
+			align="center"
+			marginBottom="2rem"
+			maxWidth="360px"
+			mx="auto"
+			className={styles['pagination']}
+		>
 			<IconButton
 				icon={<ChevronLeftIcon />}
 				variant="ghost"
 				onClick={() => handlePageChange(currentPage - 1)}
 				disabled={isFirstPage}
 				aria-label="Previous Page"
-				mr={2}
+				className={styles['pagination__button']}
 			/>
 			{startPage > 1 && (
 				<>
-					<Button variant="ghost" onClick={() => handlePage(1)}>
+					<Button className={styles['pagination__button']} variant="ghost" onClick={() => handlePage(1)}>
 						1
 					</Button>
-					<Button variant="unstyled" disabled>
-						...
-					</Button>
+					{startPage > 2 && (
+						<Button className={styles['pagination__button']} variant="unstyled" disabled>
+							...
+						</Button>
+					)}
 				</>
 			)}
 			{visiblePages.map((page) => (
 				<Button
+					className={styles['pagination__button']}
 					key={page}
 					variant={page === currentPage ? 'outline' : 'ghost'}
 					onClick={() => handlePage(page)}
@@ -68,10 +80,16 @@ const Pagination = ({totalPages, currentPage, handlePageChange}: IPagination) =>
 			))}
 			{endPage < totalPages && (
 				<>
-					<Button variant="unstyled" disabled>
-						...
-					</Button>
-					<Button variant="ghost" onClick={() => handlePage(totalPages)}>
+					{endPage < totalPages - 1 && (
+						<Button className={styles['pagination__button']} variant="unstyled" disabled>
+							...
+						</Button>
+					)}
+					<Button
+						className={styles['pagination__button']}
+						variant="ghost"
+						onClick={() => handlePage(totalPages)}
+					>
 						{totalPages}
 					</Button>
 				</>
@@ -82,7 +100,7 @@ const Pagination = ({totalPages, currentPage, handlePageChange}: IPagination) =>
 				disabled={isLastPage}
 				aria-label="Next Page"
 				variant="ghost"
-				ml={2}
+				className={styles['pagination__button']}
 			/>
 		</Flex>
 	);

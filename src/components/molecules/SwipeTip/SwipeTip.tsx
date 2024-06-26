@@ -1,7 +1,7 @@
 import {Box, Text} from '@chakra-ui/react';
 import {MdOutlineSwipeRight, MdOutlineSwipeLeft} from 'react-icons/md';
 
-import styles from './styles.module.scss';
+import styles from './SwipeTip.module.scss';
 import {ISwipeTip} from './ISwipeTip.ts';
 
 const SwipeTip = ({style, text}: ISwipeTip) => {

@@ -105,7 +105,7 @@ const AllCards = () => {
 			{cardsToRender?.length > itemsPerPage ? (
 				<>
 					<SwipeTip
-						style={{marginBottom: '2rem', position: 'relative', display: 'flex'}}
+						style={{marginBottom: '2rem', position: 'relative', display: 'flex', justifyContent: 'center'}}
 						text="Свайп для наступної сторінки"
 					/>
 					<Pagination totalPages={totalPages} currentPage={currentPage} handlePageChange={handlePageChange} />
