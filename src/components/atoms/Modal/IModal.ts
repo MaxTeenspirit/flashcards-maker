@@ -13,5 +13,5 @@ export interface IModal {
 	isCloseButton?: boolean;
 	onApprove?: () => void;
 	onCancel?: () => void;
-	text: ITextProp;
+	text?: ITextProp;
 }

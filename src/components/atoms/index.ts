@@ -7,3 +7,4 @@ export {default as Title} from './Title';
 export {default as BackButton} from './BackButton';
 export {default as LearnButton} from './LearnButton';
 export {default as Modal} from './Modal';
+export {default as CardTableRow} from './CardTableRow';

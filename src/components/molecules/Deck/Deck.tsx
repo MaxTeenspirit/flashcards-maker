@@ -3,6 +3,7 @@ import {Card as CardUI, CardBody, CardHeader, Heading, Flex, Text, useMediaQuery
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 
+import {StackWordsModal} from '@organisms';
 import {deleteDeck, deleteCards, setDefaultCardsDeck} from '@slices';
 import {getRandomSubset} from '@helpers';
 import {RootState} from '@redux';
@@ -65,9 +66,11 @@ const Deck = ({deck}: IDeckProps) => {
 		<CardUI border="1px solid #42aaff">
 			<CardHeader p="0.5rem 1rem 0rem 1rem" fontSize={['2rem', '1.2rem']} whiteSpace={isMobile ? '' : 'nowrap'}>
 				<Flex width="100%" alignItems="center" justifyContent="space-between">
-					<Heading textAlign="left" size="h4">
-						{deck.name}
-					</Heading>
+					<StackWordsModal>
+						<Heading textAlign="left" size="h4" cursor="pointer">
+							{deck.name}
+						</Heading>
+					</StackWordsModal>
 					{deck.id !== 'all' && (
 						<CardMenu>
 							<CardMenu.Item

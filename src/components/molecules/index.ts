@@ -9,3 +9,4 @@ export {default as ModalMenu} from './ModalMenu';
 export {default as SettingsForm} from './SettingsForm';
 export { default as SearchInput } from './SearchInput';
 export { default as SwipeTip } from './SwipeTip';
+export { default as StackTable } from './StackTable';

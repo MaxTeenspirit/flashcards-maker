@@ -15,8 +15,6 @@ import {IModal} from './IModal.ts';
 const Modal = ({trigger, onApprove, children, isCloseButton, text}: IModal) => {
 	const {isOpen, onOpen, onClose} = useDisclosure();
 
-	const {title, message, cancel, approve} = text;
-
 	const handleApprove = () => {
 		if (typeof onApprove === 'function') {
 			onApprove();
@@ -29,21 +27,23 @@ const Modal = ({trigger, onApprove, children, isCloseButton, text}: IModal) => {
 		<>
 			<div onClick={onOpen}>{trigger}</div>
 
-			<ModalUI isOpen={isOpen} onClose={onClose} size={['xs', 'sm', 'md', 'xl']} isCentered>
+			<ModalUI isOpen={isOpen} onClose={onClose} size={['xs', 'sm', 'md', 'lg', 'xl']} isCentered>
 				<ModalOverlay backdropFilter="blur(2px)" />
 				<ModalContent>
-					{!!isCloseButton && <ModalCloseButton />}
-					{!!title && <ModalHeader fontSize={['1.2rem', '1.4rem']}>{title}</ModalHeader>}
-					<ModalBody>{children ? children : message ? message : null}</ModalBody>
+					{!!isCloseButton && <ModalCloseButton zIndex="9" backgroundColor="white" />}
+					{!!text?.title && <ModalHeader fontSize={['1.2rem', '1.4rem']}>{text.title}</ModalHeader>}
+					<ModalBody padding="0.5rem 0rem">
+						{children ? children : text?.message ? text.message : null}
+					</ModalBody>
 					<ModalFooter p="1rem 0.5rem">
-						{!!cancel && (
+						{!!text?.cancel && (
 							<Button variant="ghost" onClick={onClose} sx={{textWrap: 'wrap'}}>
-								{cancel}
+								{text.cancel}
 							</Button>
 						)}
-						{!!approve && (
+						{!!text?.approve && (
 							<Button colorScheme="red" onClick={handleApprove}>
-								{approve}
+								{text.approve}
 							</Button>
 						)}
 					</ModalFooter>
