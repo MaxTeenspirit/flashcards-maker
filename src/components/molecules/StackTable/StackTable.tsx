@@ -7,9 +7,9 @@ import {IStackTable} from './IStackTable.ts';
 const StackTable = ({cards}: IStackTable) => {
 	return (
 		<TableContainer>
-			<Box maxHeight="90vh" overflowY="auto">
+			<Box maxHeight={['75vh', '90vh', '90vh']} overflowY="auto">
 				<Table layout="fixed" width="100%">
-					<Thead position="sticky" top={0}>
+					<Thead position="sticky" top={0} backgroundColor="white">
 						<Tr backgroundColor="white">
 							<Th width="50%" fontSize="1rem" p={['0.5rem 0rem 0.8rem 1rem', '1rem 1rem 1rem 1.5rem']}>
 								Слово
