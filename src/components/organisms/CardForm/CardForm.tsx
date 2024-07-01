@@ -1,4 +1,4 @@
-import {useEffect, memo} from 'react';
+import {useEffect, useRef, memo} from 'react';
 import {useForm} from 'react-hook-form';
 import {useSelector, useDispatch} from 'react-redux';
 import {Box, Button, FormControl, FormLabel, Input, Select, Stack, useToast} from '@chakra-ui/react';
@@ -15,6 +15,8 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 	const dispatch = useDispatch();
 	const toast = useToast();
 
+	const prevDeckRef = useRef<string | null>(null);
+
 	const {register, handleSubmit, watch, reset, setValue} = useForm<ICard>();
 
 	const {decks} = useSelector((state: RootState) => state.decks);
@@ -23,6 +25,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 	const cardToEdit: ICard | undefined = cards.find((card) => card.id === cardId);
 
 	const wordType = watch('wordType');
+	const selectedDeck = watch('deck');
 
 	const scrollToTop = () => {
 		window?.scrollTo({top: 0, behavior: 'smooth'});
@@ -39,6 +42,12 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 			});
 		}
 	}, [isEdit, cardToEdit, setValue]);
+
+	useEffect(() => {
+		return () => {
+			prevDeckRef.current = null;
+		};
+	}, [setValue]);
 
 	const onSubmit = (data: ICard) => {
 		if (!isEdit) {
@@ -63,8 +72,11 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 				isClosable: true,
 			});
 
+			prevDeckRef.current = selectedDeck;
+
 			reset();
 			scrollToTop();
+			setValue('deck', prevDeckRef.current);
 		} else if (isEdit && cardToEdit) {
 			dispatch(editCard({...data, id: cardToEdit.id}));
 
