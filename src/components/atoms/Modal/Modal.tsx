@@ -13,7 +13,7 @@ import {
 
 import {IModal} from './IModal.ts';
 
-const Modal = ({trigger, onApprove, children, isCloseButton, text}: IModal) => {
+const Modal = ({trigger, onApprove, children, isCloseButton, isBackgroundClose, text}: IModal) => {
 	const {isOpen, onOpen, onClose} = useDisclosure();
 
 	const handleApprove = () => {
@@ -31,8 +31,14 @@ const Modal = ({trigger, onApprove, children, isCloseButton, text}: IModal) => {
 			<ModalUI isOpen={isOpen} onClose={onClose} size={'4xl'} isCentered>
 				<ModalOverlay backdropFilter="blur(2px)" />
 				<ModalContent width={['calc(100vw - 30px)', 'calc(100vw - 80px)']}>
-					{/* <ModalContent> */}
-					{!!isCloseButton && <ModalCloseButton top="0" right="0" zIndex="9" />}
+					{!!isCloseButton && (
+						<ModalCloseButton
+							top="0"
+							right="0"
+							zIndex="9"
+							backgroundColor={isBackgroundClose ? 'white' : 'transparent'}
+						/>
+					)}
 					{!!text?.title && <ModalHeader fontSize={['1.2rem', '1.4rem']}>{text.title}</ModalHeader>}
 					<ModalBody padding="0.5rem 0rem">
 						{children ? (

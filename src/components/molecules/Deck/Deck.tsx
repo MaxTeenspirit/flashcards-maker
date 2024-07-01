@@ -66,7 +66,7 @@ const Deck = ({deck}: IDeckProps) => {
 		<CardUI border="1px solid #42aaff">
 			<CardHeader p="0.5rem 1rem 0rem 1rem" fontSize={['2rem', '1.2rem']} whiteSpace={isMobile ? '' : 'nowrap'}>
 				<Flex width="100%" alignItems="center" justifyContent="space-between">
-					<StackWordsModal>
+					<StackWordsModal deck={deck}>
 						<Heading textAlign="left" size="h4" cursor="pointer">
 							{deck.name}
 						</Heading>

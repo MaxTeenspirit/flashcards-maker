@@ -10,6 +10,7 @@ export interface ITextProp {
 export interface IModal {
 	trigger: ReactNode;
 	children?: ReactNode | string;
+	isBackgroundClose?: boolean;
 	isCloseButton?: boolean;
 	onApprove?: () => void;
 	onCancel?: () => void;
