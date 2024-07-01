@@ -113,11 +113,7 @@ const Deck = ({deck}: IDeckProps) => {
 									approve: 'Видалити картки',
 								}}
 								onApprove={handleDeleteCards}
-								trigger={
-									<CardMenu.Item onClick={handleDeleteCards} fontSize={['1.6rem', '1.2rem']}>
-										Видалити картки
-									</CardMenu.Item>
-								}
+								trigger={<CardMenu.Item fontSize={['1.6rem', '1.2rem']}>Видалити картки</CardMenu.Item>}
 							/>
 						</CardMenu>
 					)}
