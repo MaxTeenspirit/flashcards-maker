@@ -4,4 +4,5 @@ export interface IIconCTA {
 	iconName: string;
 	margin?: string | string[];
 	onClick?: () => void;
+	isMobileMenu?: boolean;
 }

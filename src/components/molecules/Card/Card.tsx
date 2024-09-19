@@ -59,7 +59,12 @@ const Card = ({card}: ICardProps) => {
 				whiteSpace={isMobile ? '' : 'nowrap'}
 			>
 				<Flex width="100%" alignItems="center" justifyContent="space-between">
-					<Heading textAlign="left" fontSize={['1.2rem', '1.4rem', '1.6rem']} paddingBottom="0">
+					<Heading
+						textAlign="left"
+						fontSize={['1.2rem', '1.4rem', '1.6rem']}
+						paddingBottom="0"
+						whiteSpace="wrap"
+					>
 						{card?.wordType === 'noun' ? card.article + ' ' : ''}
 						{card.word} -{' '}
 						<Text textAlign="left" as="span">

@@ -4,7 +4,7 @@ import Icon from '../Icon/Icon.tsx';
 
 import {IIconCTA} from './IIconCTA.ts';
 
-const IconCTA = ({text, condition, iconName, margin, onClick}: IIconCTA) => {
+const IconCTA = ({text, condition, iconName, margin, onClick, isMobileMenu}: IIconCTA) => {
 	const basePath = import.meta.env.BASE_URL;
 
 	const [isMobile] = useMediaQuery('(max-width: 768px)');
@@ -29,7 +29,7 @@ const IconCTA = ({text, condition, iconName, margin, onClick}: IIconCTA) => {
 				srcSet={`${basePath}${iconName}-100.png 50w, ${basePath}${iconName}-140.png 70w, ${basePath}${iconName}-200.png 100w`}
 				sizes="(max-width: 425px) 50px, (max-width: 768px) 70px, 100px"
 				boxSize={condition ? ['25px', '35px', '50px'] : isMobile ? ['65px'] : ['35px', '50px', '60px']}
-				transition="height 0.2s ease-in-out, width 0.2s ease-in-out"
+				transition={isMobileMenu ? '' : 'height 0.2s ease-in-out, width 0.2s ease-in-out'}
 			/>
 			<Text
 				as="span"

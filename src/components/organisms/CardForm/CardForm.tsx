@@ -16,6 +16,8 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 	const toast = useToast();
 
 	const prevDeckRef = useRef<string | null>(null);
+	const prevArticleRef = useRef<string | undefined>();
+	const prevWordTypeRef = useRef<string | null>(null);
 
 	const {register, handleSubmit, watch, reset, setValue} = useForm<ICard>();
 
@@ -25,6 +27,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 	const cardToEdit: ICard | undefined = cards.find((card) => card.id === cardId);
 
 	const wordType = watch('wordType');
+	const article = watch('article');
 	const selectedDeck = watch('deck');
 
 	const scrollToTop = () => {
@@ -46,6 +49,8 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 	useEffect(() => {
 		return () => {
 			prevDeckRef.current = null;
+			prevArticleRef.current = undefined;
+			prevWordTypeRef.current = null;
 		};
 	}, [setValue]);
 
@@ -73,10 +78,14 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 			});
 
 			prevDeckRef.current = selectedDeck;
+			prevArticleRef.current = article;
+			prevWordTypeRef.current = wordType;
 
 			reset();
 			scrollToTop();
 			setValue('deck', prevDeckRef.current);
+			setValue('article', prevArticleRef.current);
+			setValue('wordType', prevWordTypeRef.current);
 		} else if (isEdit && cardToEdit) {
 			dispatch(editCard({...data, id: cardToEdit.id}));
 

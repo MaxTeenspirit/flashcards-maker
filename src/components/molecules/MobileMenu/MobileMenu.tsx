@@ -45,19 +45,43 @@ const MobileMenu = ({isOpen, toggleMenu}: IMobileMenu) => {
 				<DrawerBody>
 					<HStack display="flex" alignItems="start" flexDirection="column" marginTop="1rem">
 						<Link as={NavLink} to="/learn" sx={noTapColorSx}>
-							<IconCTA onClick={toggleMenu} margin="0 0 1.6rem 0" text="Вчити" iconName={'learn'} />
+							<IconCTA
+								isMobileMenu={true}
+								onClick={toggleMenu}
+								margin="0 0 1.6rem 0"
+								text="Вчити"
+								iconName={'learn'}
+							/>
 						</Link>
 						<Link as={NavLink} to="/allCards" sx={noTapColorSx}>
-							<IconCTA onClick={toggleMenu} margin="0 0 1.6rem 0" text="Всі картки" iconName={'all'} />
+							<IconCTA
+								isMobileMenu={true}
+								onClick={toggleMenu}
+								margin="0 0 1.6rem 0"
+								text="Всі картки"
+								iconName={'all'}
+							/>
 						</Link>
 						<Link as={NavLink} to="/decks" sx={noTapColorSx}>
-							<IconCTA onClick={toggleMenu} margin="0 0 1.6rem 0" text="Стеки" iconName={'piles'} />
+							<IconCTA
+								isMobileMenu={true}
+								onClick={toggleMenu}
+								margin="0 0 1.6rem 0"
+								text="Стеки"
+								iconName={'piles'}
+							/>
 						</Link>
 						<Link as={NavLink} to="/create" sx={noTapColorSx}>
-							<IconCTA onClick={toggleMenu} margin="0 0 1.6rem 0" text="Створити" iconName={'add'} />
+							<IconCTA
+								isMobileMenu={true}
+								onClick={toggleMenu}
+								margin="0 0 1.6rem 0"
+								text="Створити"
+								iconName={'add'}
+							/>
 						</Link>
 						<Flex>
-							<ModalMenu trigger={<IconCTA text="Опції" iconName={'settings'} />} />
+							<ModalMenu trigger={<IconCTA isMobileMenu={true} text="Опції" iconName={'settings'} />} />
 						</Flex>
 					</HStack>
 				</DrawerBody>

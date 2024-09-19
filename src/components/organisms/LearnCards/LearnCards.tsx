@@ -9,6 +9,8 @@ import {FlipCard, SwipeTip} from '@molecules';
 import {getRandomIndexFromArray} from '@helpers';
 import {IWord} from '@redux-types';
 
+import {useLastIndexes} from '../../../hooks';
+
 import styles from './LearnedCards.module.scss';
 
 import {ILearnCards} from './ILearnCards.ts';
@@ -17,6 +19,8 @@ const LearnCards = memo(({words, isTranslationFirst}: ILearnCards) => {
 	const [hidden, setHidden] = useState(false);
 	const [index, setIndex] = useState(0);
 	const [wordsToLearn, setWordsToLearn] = useState<IWord[]>(words);
+
+	const {lastIndexesRef, addIndexToLast} = useLastIndexes();
 
 	const prevIndexRef = useRef(0);
 	const lastLearnedWordRef = useRef<(IWord & {index: number}) | null>(null);
@@ -52,10 +56,11 @@ const LearnCards = memo(({words, isTranslationFirst}: ILearnCards) => {
 	};
 
 	const handleAnimationComplete = () => {
-		const randomIndex = getRandomIndexFromArray(wordsToLearn, index);
+		const randomIndex = getRandomIndexFromArray(wordsToLearn, lastIndexesRef.current, index);
 
 		prevIndexRef.current = index;
 		setHidden(true);
+		addIndexToLast(randomIndex);
 		setIndex(randomIndex);
 	};
 
@@ -92,9 +97,10 @@ const LearnCards = memo(({words, isTranslationFirst}: ILearnCards) => {
 		lastLearnedWordRef.current = {...wordsToLearn[index], index};
 
 		const newWords = wordsToLearn.filter((word) => word?.id !== wordsToLearn[index].id);
-		const randomIndex = getRandomIndexFromArray(newWords, index);
+		const randomIndex = getRandomIndexFromArray(newWords, lastIndexesRef.current, index);
 
 		prevIndexRef.current = index;
+		addIndexToLast(randomIndex);
 		setIndex(randomIndex);
 		setWordsToLearn(newWords);
 	};

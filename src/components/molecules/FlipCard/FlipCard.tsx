@@ -107,7 +107,14 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 							backfaceVisibility: 'hidden',
 						}}
 					>
-						<Text ref={wordRef} as="p" color="#20293C" fontSize="1.8rem">
+						<Text
+							ref={wordRef}
+							as="p"
+							color="#20293C"
+							fontSize="1.8rem"
+							whiteSpace="wrap"
+							textAlign="center"
+						>
 							{isTranslationFirst
 								? word.translation
 								: `${word?.article ? word?.article + ' ' : ''}${word?.word}`}
@@ -149,7 +156,7 @@ const FlipCard = ({word, isTranslationFirst}: IFlipCard) => {
 							borderRadius: 'lg',
 						}}
 					>
-						<Text ref={translationRef} as="p" fontSize="1.8rem">
+						<Text ref={translationRef} as="p" fontSize="1.8rem" whiteSpace="wrap" textAlign="center">
 							{isTranslationFirst
 								? `${word?.article ? word?.article + ' ' : ''}${word?.word}`
 								: word.translation}

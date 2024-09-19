@@ -90,7 +90,11 @@ export const getWordsFromDeck = (cards?: ICard[], deckId?: string): IWord[] => {
 	}));
 };
 
-export const getRandomIndexFromArray = <T>(array: Array<T> | null, prevIndex?: number): number => {
+export const getRandomIndexFromArray = <T>(
+	array: Array<T> | null,
+	lastIndexes: number[],
+	prevIndex?: number,
+): number => {
 	if (!array || !array.length || array.length <= 1) {
 		return 0;
 	}
@@ -100,7 +104,10 @@ export const getRandomIndexFromArray = <T>(array: Array<T> | null, prevIndex?: n
 
 	const newIndex = randomBytes[0] % array.length;
 
-	const randomIndex = newIndex === prevIndex ? getRandomIndexFromArray(array, newIndex) : newIndex;
+	const randomIndex =
+		newIndex === prevIndex || (lastIndexes.includes(newIndex) && array.length > 5)
+			? getRandomIndexFromArray(array, lastIndexes, newIndex)
+			: newIndex;
 
 	return randomIndex;
 };

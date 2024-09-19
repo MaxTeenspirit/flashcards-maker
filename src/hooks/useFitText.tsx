@@ -2,6 +2,7 @@ import {useEffect, useState, RefObject} from 'react';
 
 const useFitText = (ref: RefObject<HTMLElement>, initialFontSize: number, maxWidth: number): number => {
 	const [fontSize, setFontSize] = useState(initialFontSize);
+	const minFontSize = 19 / 16;
 
 	useEffect(() => {
 		const element = ref.current;
@@ -9,7 +10,7 @@ const useFitText = (ref: RefObject<HTMLElement>, initialFontSize: number, maxWid
 		const updateFontSize = () => {
 			if (element) {
 				let newFontSize = initialFontSize;
-				while (element.scrollWidth > maxWidth * 16 && newFontSize > 0) {
+				while (element.scrollWidth > maxWidth * 16 && newFontSize > minFontSize) {
 					newFontSize -= 0.1;
 					element.style.fontSize = `${newFontSize}rem`;
 				}
@@ -21,7 +22,7 @@ const useFitText = (ref: RefObject<HTMLElement>, initialFontSize: number, maxWid
 		window.addEventListener('resize', updateFontSize);
 
 		return () => window.removeEventListener('resize', updateFontSize);
-	}, [ref, initialFontSize, maxWidth]);
+	}, [ref, initialFontSize, maxWidth, minFontSize]);
 
 	return fontSize;
 };
