@@ -70,7 +70,7 @@ const CardForm = memo(({isEdit, cardId}: ICardForm) => {
 			dispatch(addCardToDeck({deckId: data.deck, cardId: id}));
 
 			toast({
-				title: `${data?.article ? data?.article + ' ' : ''}${data.word} картка створена!`,
+				title: `${data.wordType === 'noun'  ? data?.article + ' ' : ''}${data.word} картка створена!`,
 				description: 'Наші вітання! Ви щойно створили нову картку.',
 				status: 'success',
 				duration: 4000,
