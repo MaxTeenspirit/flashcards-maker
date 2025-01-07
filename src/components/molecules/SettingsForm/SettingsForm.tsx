@@ -4,7 +4,7 @@ import {useForm} from 'react-hook-form';
 import {useDispatch, useSelector} from 'react-redux';
 
 import {RootState} from '@redux';
-import {setPerfekt, setPrateritum} from '@slices';
+import {setPerfekt, setPrateritum, setA12} from '@slices';
 
 const SettingsForm = () => {
 	const {register, watch} = useForm();
@@ -14,14 +14,25 @@ const SettingsForm = () => {
 
 	const isPerfekt = watch('perfekt');
 	const isPrateritum = watch('prateritum');
+	const isA12 = watch('presetA12');
 
 	useEffect(() => {
-		dispatch(setPerfekt(isPerfekt));
+		if (typeof isPerfekt === 'boolean') {
+			dispatch(setPerfekt(isPerfekt));
+		}
 	}, [isPerfekt, dispatch]);
 
 	useEffect(() => {
-		dispatch(setPrateritum(isPrateritum));
+		if (typeof isPrateritum === 'boolean') {
+			dispatch(setPrateritum(isPrateritum));
+		}
 	}, [isPrateritum, dispatch]);
+
+	useEffect(() => {
+		if (typeof isA12 === 'boolean') {
+			dispatch(setA12(isA12));
+		}
+	}, [isA12, dispatch]);
 
 	return (
 		<Box
@@ -51,7 +62,7 @@ const SettingsForm = () => {
 					</Flex>
 				</FormControl>
 				<FormControl>
-					<Flex alignItems="center">
+					<Flex alignItems="center" mb="0.6rem">
 						<Switch
 							isChecked={settings.prateritum}
 							id="prateritum"
@@ -62,6 +73,21 @@ const SettingsForm = () => {
 						/>
 						<FormLabel htmlFor="prateritum" m="0 0 0 1rem" cursor="pointer">
 							Відображати Präteritum
+						</FormLabel>
+					</Flex>
+				</FormControl>
+				<FormControl>
+					<Flex alignItems="center">
+						<Switch
+							isChecked={settings.presetA12}
+							id="presetA12"
+							sx={{
+								'.chakra-switch__track[data-checked]:not([data-theme])': {backgroundColor: '#FDAC04'},
+							}}
+							{...register('presetA12')}
+						/>
+						<FormLabel htmlFor="presetA12" m="0 0 0 1rem" cursor="pointer">
+							Пресет-картки А1.2
 						</FormLabel>
 					</Flex>
 				</FormControl>

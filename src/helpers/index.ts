@@ -1,4 +1,4 @@
-import {ICard, IWord} from '@redux-types';
+import {ICard, IDeck, IWord} from '@redux-types';
 
 export const removeArticle = (word: string): string => {
 	if (!word) {
@@ -132,4 +132,17 @@ export const normalizeLetter = (letter: string): string => {
 		ä: 'a',
 	};
 	return letter.replace(/[öüä]/g, (match) => normalizationMap[match]);
+};
+
+export const getIsPresetDeck = (deck: IDeck) => {
+	const presetIds = ['A1.1', 'A1.2', 'B1.1', 'B1.2', 'C1.1', 'C1.2'];
+	let isPresetDeck = false;
+
+	for (let i = 0; i < presetIds.length; i++) {
+		if (!isPresetDeck) {
+			isPresetDeck = deck.id?.includes(presetIds[i]) || false;
+		}
+	}
+
+	return isPresetDeck;
 };

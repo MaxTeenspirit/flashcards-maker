@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom';
 
 import {StackWordsModal} from '@organisms';
 import {deleteDeck, deleteCards, setDefaultCardsDeck} from '@slices';
-import {getRandomSubset} from '@helpers';
+import {getRandomSubset, getIsPresetDeck} from '@helpers';
 import {RootState} from '@redux';
 
 import CardMenu from '../CardMenu';
@@ -21,8 +21,12 @@ const Deck = ({deck}: IDeckProps) => {
 
 	const {cards} = useSelector((state: RootState) => state.cards);
 
+	if (!deck) return;
+
 	const cardsInCurrentDeck = cards.filter((card) => card.deck === deck.id);
 	const cardsInCurrentDeckIds = cardsInCurrentDeck.map((card) => card.id);
+
+	const isPresetDeck = getIsPresetDeck(deck);
 
 	const showToast = (isCards?: boolean, allDelete?: boolean) =>
 		toast({
@@ -71,7 +75,7 @@ const Deck = ({deck}: IDeckProps) => {
 							{deck.name}
 						</Heading>
 					</StackWordsModal>
-					{deck.id !== 'all' && (
+					{deck.id !== 'all' && !isPresetDeck && (
 						<CardMenu>
 							<CardMenu.Item
 								onClick={() => navigate(`/edit-deck/${deck.id}`)}

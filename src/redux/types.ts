@@ -43,4 +43,5 @@ export interface IVerbData {
 export interface ISettingsInitialState {
 	perfekt: boolean;
 	prateritum: boolean;
+	presetA12: boolean;
 }

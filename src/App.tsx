@@ -1,12 +1,21 @@
 import {useEffect} from 'react';
 import {Outlet, useLocation, useNavigate} from 'react-router-dom';
 import {Box} from '@chakra-ui/react';
+import {useSelector} from 'react-redux';
 
+import {RootState} from '@redux';
 import {Wrapper, Header} from '@organisms';
+
+import {usePresetVocab} from './hooks';
 
 function App() {
 	const location = useLocation();
 	const navigate = useNavigate();
+
+	const settings = useSelector((state: RootState) => state.settings);
+	const {decks} = useSelector((state: RootState) => state.decks);
+
+	usePresetVocab(settings, decks);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
