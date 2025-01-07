@@ -19,7 +19,7 @@ const persistConfig = {
 
 const persistedCardsReducer = persistReducer({...persistConfig, key: 'cards'}, cardsReducer);
 const persistedDecksReducer = persistReducer({...persistConfig, key: 'decks'}, decksReducer);
-const persistedSettingsReducer = persistReducer({...persistConfig, key: 'decks'}, settingsReducer);
+const persistedSettingsReducer = persistReducer({...persistConfig, key: 'settings'}, settingsReducer);
 
 const rootReducer = combineReducers({
 	[filesSlice.reducerPath]: filesSlice.reducer, // No need to persist
